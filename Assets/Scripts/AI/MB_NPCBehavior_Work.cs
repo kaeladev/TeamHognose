@@ -28,6 +28,7 @@ public class MB_NPCBehavior_Work : MonoBehaviour
         }
 
         AnimController.SetBool("IsWorking", IsWorking);
+        // TODO: AnimController.SetFloat("WorkCompletion", WorkStation.GetWorkCompletionPercentage());
     }
 
     void OnMouseOver()

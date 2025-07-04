@@ -32,6 +32,7 @@ abstract public class MB_WorkStation : MonoBehaviour
     // Each station will display their completion differently
     abstract public void DisplayStationCompletion();
 
-    // 
+    public float GetWorkCompletionPercentage() { return WorkCompletionPercentage; }
+
     public bool HasAmount(float Amount) { return WorkCompletionPercentage >= Amount; }
 }
