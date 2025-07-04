@@ -1,19 +1,4 @@
-Once upon a time...
+Once upon a time... It was the first day. #all
 
-+ * There was tortilla
- ->tortilla
-
- * There were inky
- ->inky
- 
- == tortilla==
- tortilla is chilling, living his best life
+Nothing special happened except everyone talked!
 -> END
-
-
-==inky==
-inky are doing their best
-
-
-- They lived happily ever after.
-    -> END
