@@ -1,7 +1,9 @@
-Once upon a time...
+Holy molly, is the week over already?
 
- * There were two choices.
- * There were four lines of content.
+* Meet everyone!
 
-- They lived happily ever after.
+* You have no real choice, meet everyone!
+
+    #all
+    Nothing special happened except everyone talked!
     -> END
