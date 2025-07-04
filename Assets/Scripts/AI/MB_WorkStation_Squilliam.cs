@@ -4,6 +4,9 @@ public class MB_WorkStation_Squilliam : MB_WorkStation
 {
     public override void DisplayStationCompletion()
     {
-        Debug.Log("Squilliam Station Completion: " + WorkCompletionPercentage.ToString());
+        if (NPC.IsWorking)
+        {
+            Debug.Log("Squilliam Station Completion: " + WorkCompletionPercentage.ToString());
+        }
     }
 }

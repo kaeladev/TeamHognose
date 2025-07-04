@@ -2,6 +2,7 @@ using Ink.Runtime;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -49,16 +50,13 @@ public class StorySceneManager : MonoBehaviour
     private string          CurrentStoryText;
     private List<string>    CurrentStoryTags;
 
-    private void Awake()
+    void Awake()
     {
-        RemoveChildren();
-
-        Debug.Log("StorySceneManager Awake");
         if (PersistentInstance)
         {
             // A second StorySceneManager has attempted to create itself, so destroy
             Destroy(gameObject);
-            ResetForNewDay(); // TODO: Is this the best place for this logic?
+            PersistentInstance.ResetForNewDay();
             return;
         }
 
@@ -66,22 +64,9 @@ public class StorySceneManager : MonoBehaviour
         PersistentInstance = this;
         DontDestroyOnLoad(gameObject);
     }
-
-    void Start()    // Does this happen only once or every time level is loaded?
+    void Start() // First time startup of singleton instance
     {
-        RemoveChildren();
-
-        Debug.Log("StorySceneManager Start");
-
-        CurrentInkScript = WorkDayScenes[CurrentDay - 1];
-        CurrentStoryTags = new List<string>();
-        CurrentStory = new Story(CurrentInkScript.text);
-        ContinueStory();
-    }
-
-    void OnLevelWasLoaded(int level)
-    {
-        Debug.Log("StorySceneManager OnLevelWasLoaded");
+        ResetForNewDay();
     }
 
     void Update()
@@ -104,7 +89,7 @@ public class StorySceneManager : MonoBehaviour
 
             WaitingForChoiceInput = true;
         }
-        else if (Input.GetKeyDown(KeyCode.Space))
+        else if (Input.GetMouseButtonDown(0))
         {
             if (CurrentStory.canContinue)
             {
@@ -116,8 +101,7 @@ public class StorySceneManager : MonoBehaviour
             }
             else
             {
-                // TODO: Async load?
-                SceneManager.LoadScene(BakerySceneName);
+                GoToBakery();
             }
         }
     }
@@ -128,10 +112,15 @@ public class StorySceneManager : MonoBehaviour
         CurrentStoryTags = CurrentStory.currentTags;
         IncreaseScoresForTags();
 
-        // Update visuals
-        RemoveChildren();
+        RemoveExistingUI();
+
         CurrentStoryText = CurrentStoryText.Trim();
-        CreateContentView(CurrentStoryText); // Display the text on screen!
+        if (!CurrentStory.canContinue && CurrentStory.currentChoices.Count == 0)
+        {
+            CurrentStoryText += "\nScene Over; Press Anywhere to Return To Bakery";
+        }
+
+        DisplayStoryText(); // Display the text on screen!
     }
 
     void UpdateCharactersInScene() // This happens after the first choice in each scene, besides end
@@ -242,18 +231,6 @@ public class StorySceneManager : MonoBehaviour
         }
     }
 
-    void ResetForNewDay()
-    {
-        CurrentDay++;
-        HasFirstChoiceOccurred = false;
-
-    }
-
-    public void PetYuzu()
-    {
-        TimesYuzuPetted++;
-    }
-
     string GetNameForCharacterFlag(CharacterFlags Flag)
     {
         switch (Flag)
@@ -283,7 +260,34 @@ public class StorySceneManager : MonoBehaviour
         return CurrentDay == WorkDayScenes.Length;
     }
 
+    public void ResetForNewDay()
+    {
+        Debug.Log("StorySceneManager Resetting for New Day");
+
+        CurrentDay++;
+        HasFirstChoiceOccurred = false;
+
+        CurrentInkScript = WorkDayScenes[CurrentDay - 1];
+        CurrentStoryTags = new List<string>();
+        CurrentStory = new Story(CurrentInkScript.text);
+
+        RemoveExistingUI();
+        ContinueStory();
+    }
+
+    public void PetYuzu()
+    {
+        TimesYuzuPetted++;
+    }
+
+    void GoToBakery()
+    {
+        // TODO: Async load? Or fake loading screen for fun?
+        SceneManager.LoadScene(BakerySceneName);
+    }
+
     // TEMPORARY BASIC INK EXAMPLE FUNCTIONS FOR UI DISPLAY
+    // TODO: MAKE PRETTIER
 
     // When we click the choice button, tell the story to choose that choice!
     void OnClickChoiceButton(Choice choice)
@@ -299,10 +303,10 @@ public class StorySceneManager : MonoBehaviour
     }
 
     // Creates a textbox showing the the line of text
-    void CreateContentView(string text)
+    void DisplayStoryText()
     {
         Text storyText = Instantiate(textPrefab) as Text;
-        storyText.text = text;
+        storyText.text = CurrentStoryText;
         storyText.transform.SetParent(canvas.transform, false);
     }
 
@@ -324,8 +328,8 @@ public class StorySceneManager : MonoBehaviour
         return choice;
     }
 
-    // Destroys all the children of this gameobject (all the UI)
-    void RemoveChildren()
+    // Destroys all the children of this canvas gameobject (all the UI)
+    void RemoveExistingUI()
     {
         int childCount = canvas.transform.childCount;
         for (int i = childCount - 1; i >= 0; --i)
