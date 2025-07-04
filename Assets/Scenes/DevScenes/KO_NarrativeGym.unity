@@ -267,7 +267,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   YuzuPetsForSecretEnding: 10
-  WorkDayScenes:
+  GameIntroInkScene: {fileID: 4900000, guid: 9e33d83b1028cea4298023beb9c843be, type: 3}
+  WorkDayInkScenes:
   - {fileID: 4900000, guid: 65b60bb0e8cec344085233ddc275a7e1, type: 3}
   - {fileID: 4900000, guid: 1d55b3fa6c8536044b1a3ebc5c63fc63, type: 3}
   - {fileID: 4900000, guid: fa9e95be554e57844aaba56984c1aedb, type: 3}

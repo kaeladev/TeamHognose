@@ -30,12 +30,13 @@ public class StorySceneManager : MonoBehaviour
 
     // Public Data to set up pre-known start-of-day scenes
     public int              YuzuPetsForSecretEnding = 10;
-    public TextAsset[]      WorkDayScenes;
+    public TextAsset        GameIntroInkScene;
+    public TextAsset[]      WorkDayInkScenes;
     public string           BakerySceneName;
 
     // Persistent Data between scenes, for calculating ending
     private byte            PursuedCharacters = 0;
-    private int             CurrentDay = 1;
+    private int             CurrentDay = 0;
     private int             TimesYuzuPetted = 0;
     private int             TimesYuzuFedTreat = 0;
     private int             ScoreAffectingOptionsDiscovered = 0;
@@ -66,9 +67,8 @@ public class StorySceneManager : MonoBehaviour
             PersistentInstance = this;
             DontDestroyOnLoad(gameObject);
         }
-
-        Debug.Log("StorySceneManager: Starting Day " + PersistentInstance.CurrentDay.ToString());
     }
+
     void Start() // First time startup of singleton instance
     {
         ResetForNewDay();
@@ -153,7 +153,7 @@ public class StorySceneManager : MonoBehaviour
         byte CharactersFromPreviousScene = CharactersInCurrentScene;
         CharactersInCurrentScene = BuildCharacterListFromCurrentStory();
 
-        if (CurrentDay == WorkDayScenes.Length)
+        if (CurrentDay == WorkDayInkScenes.Length)
         {
             // On the final day, skip all of this
             return;
@@ -310,18 +310,19 @@ public class StorySceneManager : MonoBehaviour
 
     int GetAmountOfBranchingStoryDays()
     {
-        return WorkDayScenes.Length - 2;
+        return WorkDayInkScenes.Length - 2;
     }
 
     bool IsFinalWorkDay()
     {
-        return CurrentDay == WorkDayScenes.Length;
+        return CurrentDay == WorkDayInkScenes.Length;
     }
 
     public void ProgressToNewDay()
     {
         CurrentDay++;
         ResetForNewDay();
+        Debug.Log("StorySceneManager: Starting Day " + PersistentInstance.CurrentDay.ToString());
     }
 
     public void ResetForNewDay()
@@ -331,7 +332,8 @@ public class StorySceneManager : MonoBehaviour
         HasFirstChoiceOccurred = false;
 
         UICanvas = Camera.main.GetComponentInChildren<Canvas>();
-        CurrentInkScript = WorkDayScenes[CurrentDay - 1];
+
+        CurrentInkScript = CurrentDay == 0 ? GameIntroInkScene : WorkDayInkScenes[CurrentDay - 1];
         CurrentStoryTags = new List<string>();
         CurrentStory = new Story(CurrentInkScript.text);
 
