@@ -1137,6 +1137,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1573999741}
   - component: {fileID: 1573999740}
+  - component: {fileID: 1573999742}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1204,12 +1205,26 @@ Transform:
   m_GameObject: {fileID: 1573999738}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1573999742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1573999738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nonRigidbodyVelocity: 0
+  attenuationObject: {fileID: 0}
 --- !u!1 &1687088998
 GameObject:
   m_ObjectHideFlags: 0
@@ -1219,6 +1234,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1687088999}
+  - component: {fileID: 1687089000}
   m_Layer: 0
   m_Name: BakeryEcosystem
   m_TagString: Untagged
@@ -1250,6 +1266,37 @@ Transform:
   - {fileID: 1071119585}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1687089000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687088998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -756087888
+      Data2: 1181140553
+      Data3: -1523972425
+      Data4: -1795106527
+    Path: event:/MUSIC/MUS_MainMenu
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1782877204
 GameObject:
   m_ObjectHideFlags: 0
@@ -1503,6 +1550,42 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1829539868 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7908797984820268756, guid: 2abb164efe6c01a4abf6aaba2037b15b, type: 3}
+  m_PrefabInstance: {fileID: 3313238236143937700}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1829539869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829539868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1760348469
+      Data2: 1087737192
+      Data3: 1194405508
+      Data4: -1836858975
+    Path: event:/SFX/SFX_Yuzu_Arrival_01
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1891724375
 GameObject:
   m_ObjectHideFlags: 0
@@ -2283,7 +2366,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7908797984820268756, guid: 2abb164efe6c01a4abf6aaba2037b15b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1829539869}
   m_SourcePrefab: {fileID: 100100000, guid: 2abb164efe6c01a4abf6aaba2037b15b, type: 3}
 --- !u!1001 &8439488863709143734
 PrefabInstance:

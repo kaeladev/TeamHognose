@@ -1,3 +1,4 @@
+using FMODUnity;
 using UnityEditor;
 using UnityEngine;
 
@@ -20,11 +21,13 @@ public class MB_NPCBehavior_Deliver : MonoBehaviour
 
     private Animator AnimController;
     private SpriteRenderer SpriteRend;
+    private StudioEventEmitter SoundMaker;
 
     void Start()
     {
         AnimController = GetComponent<Animator>();
         SpriteRend = GetComponent<SpriteRenderer>();
+        SoundMaker = GetComponent<StudioEventEmitter>();
         gameObject.transform.position = DeliveryPickupLocation;
         PickUpDelivery();
     }
@@ -99,7 +102,7 @@ public class MB_NPCBehavior_Deliver : MonoBehaviour
     void EnterStore()
     {
         // Play door opening anim
-        // Play audio event for arrival
+        SoundMaker.Play();
         CurrentPathingGoal = DeliveryDropoffLocation;
         IsInStore = true;
         SpriteRend.sortingOrder = 3;
