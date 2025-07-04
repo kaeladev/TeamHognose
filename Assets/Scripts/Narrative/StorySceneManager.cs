@@ -8,13 +8,13 @@ using UnityEngine.UI;
 
 enum CharacterFlags: byte
 {
-    None = 0,
-    Inky = 1 << 0,
-    Squill = 1 << 1,
-    Soup = 1 << 2,
-    Tort = 1 << 3,
-    Yuzu = 1 << 4,
-    All = 1 << 5,
+    None    = 0,
+    Inky    = 1 << 0,
+    Squill  = 1 << 1,
+    Soup    = 1 << 2,
+    Tort    = 1 << 3,
+    Yuzu    = 1 << 4,
+    All     = Inky | Squill | Soup | Tort | Yuzu,
 }
 
 /*
@@ -67,7 +67,7 @@ public class StorySceneManager : MonoBehaviour
             DontDestroyOnLoad(gameObject);
         }
 
-        Debug.Log("StorySceneManager: Starting Day " + CurrentDay.ToString());
+        Debug.Log("StorySceneManager: Starting Day " + PersistentInstance.CurrentDay.ToString());
     }
     void Start() // First time startup of singleton instance
     {
@@ -84,7 +84,7 @@ public class StorySceneManager : MonoBehaviour
                 for (int i = 0; i < CurrentStory.currentChoices.Count; i++)
                 {
                     Choice choice = CurrentStory.currentChoices[i];
-                    Button button = CreateChoiceView(choice.text.Trim());
+                    Button button = DisplayChoices(choice.text.Trim());
                     // Tell the button what to do when we press it
                     button.onClick.AddListener(delegate {
                         OnClickChoiceButton(choice);
@@ -104,8 +104,9 @@ public class StorySceneManager : MonoBehaviour
             {
                 CalculateAndLoadFinalScene();
             }
-            else
+            else if (SceneManager.GetActiveScene().name != BakerySceneName)
             {
+                RemoveExistingUI();
                 GoToBakery();
             }
         }
@@ -117,7 +118,7 @@ public class StorySceneManager : MonoBehaviour
         CurrentStoryTags = CurrentStory.currentTags;
         IncreaseScoresForTags();
 
-        if (FromBranch &&!HasFirstChoiceOccurred)
+        if (FromBranch && !HasFirstChoiceOccurred)
         {
             HasFirstChoiceOccurred = true;
             UpdateCharactersInScene();
@@ -234,7 +235,7 @@ public class StorySceneManager : MonoBehaviour
         else if (PursuedCharacters != 0)
         {
             string PursuedCharacterName = GetNameForCharacterFlag((CharacterFlags)PursuedCharacters).ToUpper();
-            if (GoodScoreOptionsSelected == ScoreAffectingOptionsDiscovered)
+            if (GoodScoreOptionsSelected > 0 && GoodScoreOptionsSelected == ScoreAffectingOptionsDiscovered)
             {
                 // Max score reached for pursued character == Good Ending! Yay!
                 Debug.Log("ENDING: GOOD " + PursuedCharacterName);
@@ -298,10 +299,7 @@ public class StorySceneManager : MonoBehaviour
         {
             BuiltString += "Yuzu/";
         }
-        if ((PursuedCharacters & (byte)CharacterFlags.All) != 0)
-        {
-            BuiltString += "All/";
-        }
+        
         if (BuiltString.Length < 2)
         {
             BuiltString = "None";
@@ -332,6 +330,7 @@ public class StorySceneManager : MonoBehaviour
 
         HasFirstChoiceOccurred = false;
 
+        UICanvas = Camera.main.GetComponentInChildren<Canvas>();
         CurrentInkScript = WorkDayScenes[CurrentDay - 1];
         CurrentStoryTags = new List<string>();
         CurrentStory = new Story(CurrentInkScript.text);
@@ -367,15 +366,15 @@ public class StorySceneManager : MonoBehaviour
     {
         Text storyText = Instantiate(textPrefab) as Text;
         storyText.text = CurrentStoryText;
-        storyText.transform.SetParent(canvas.transform, false);
+        storyText.transform.SetParent(UICanvas.transform, false);
     }
 
     // Creates a button showing the choice text
-    Button CreateChoiceView(string text)
+    Button DisplayChoices(string text)
     {
         // Creates the button from a prefab
         Button choice = Instantiate(buttonPrefab) as Button;
-        choice.transform.SetParent(canvas.transform, false);
+        choice.transform.SetParent(UICanvas.transform, false);
 
         // Gets the text from the button prefab
         Text choiceText = choice.GetComponentInChildren<Text>();
@@ -391,15 +390,17 @@ public class StorySceneManager : MonoBehaviour
     // Destroys all the children of this canvas gameobject (all the UI)
     void RemoveExistingUI()
     {
-        int childCount = canvas.transform.childCount;
-        for (int i = childCount - 1; i >= 0; --i)
+        if (UICanvas)
         {
-            Destroy(canvas.transform.GetChild(i).gameObject);
+            int childCount = UICanvas.transform.childCount;
+            for (int i = childCount - 1; i >= 0; --i)
+            {
+                Destroy(UICanvas.transform.GetChild(i).gameObject);
+            }
         }
     }
 
-    [SerializeField]
-    private Canvas canvas = null;
+    private Canvas UICanvas = null;
 
     // UI Prefabs
     [SerializeField]

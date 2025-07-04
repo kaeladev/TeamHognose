@@ -16,7 +16,7 @@ You hung out with Tortilla.
 -> END
 
 == Group ==
-#inky #squilliam #yuzu
+#inky #squill #yuzu
 You hung out with the group.
 -> END
 
