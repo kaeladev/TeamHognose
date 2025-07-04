@@ -22,10 +22,10 @@ You hung out with Inky.
 
 == GoodHangout ==
 #score #good
-You had a good hangout session with Lil Soup, Tortilla, and Squilliam! Yay!!!
+You had a good hangout session with Lil Soup n Tortilla! Yay!!!
 -> END
 
 == BadHangout ==
 #score
-You had a boring hangout session with Lil Soup, Tortilla, and Squilliam. Boooo.
+You had a boring hangout session with Lil Soup n Tortilla. Boooo.
 -> END
