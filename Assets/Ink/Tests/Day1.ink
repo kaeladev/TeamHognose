@@ -1,17 +1,12 @@
 Once upon a time... It was the first day.
 
-* Meet everyone!
+* Meet everyone! #all
     -> ending
     
-* You have no real choice, meet everyone!
-
-    #all
+* You have no real choice, meet everyone! #all
     -> ending
 
     
     == ending ==
-    
-Nothing special happened except everyone talked!
-
+    Nothing special happened except everyone talked!
     -> END
-

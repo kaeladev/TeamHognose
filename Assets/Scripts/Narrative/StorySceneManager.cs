@@ -52,17 +52,22 @@ public class StorySceneManager : MonoBehaviour
 
     void Awake()
     {
-        if (PersistentInstance)
+        bool CreateStorySceneManagerSingleton = !PersistentInstance;
+
+        if (!CreateStorySceneManagerSingleton)
         {
             // A second StorySceneManager has attempted to create itself, so destroy
             Destroy(gameObject);
-            PersistentInstance.ResetForNewDay();
-            return;
+            PersistentInstance.ProgressToNewDay();
+        }
+        else
+        {
+            // The first time a StorySceneManager attempts to create itself, store as static instance
+            PersistentInstance = this;
+            DontDestroyOnLoad(gameObject);
         }
 
-        // The first time a StorySceneManager attempts to create itself, store as static instance
-        PersistentInstance = this;
-        DontDestroyOnLoad(gameObject);
+        Debug.Log("StorySceneManager: Starting Day " + CurrentDay.ToString());
     }
     void Start() // First time startup of singleton instance
     {
@@ -106,21 +111,40 @@ public class StorySceneManager : MonoBehaviour
         }
     }
 
-    void ContinueStory()
+    void ContinueStory(bool FromBranch = false)
     {
         CurrentStoryText = CurrentStory.Continue();
         CurrentStoryTags = CurrentStory.currentTags;
         IncreaseScoresForTags();
 
+        if (FromBranch &&!HasFirstChoiceOccurred)
+        {
+            HasFirstChoiceOccurred = true;
+            UpdateCharactersInScene();
+        }
+
         RemoveExistingUI();
 
         CurrentStoryText = CurrentStoryText.Trim();
-        if (!CurrentStory.canContinue && CurrentStory.currentChoices.Count == 0)
-        {
-            CurrentStoryText += "\nScene Over; Press Anywhere to Return To Bakery";
-        }
+        MarkEndOfSceneIfRelevant();
 
         DisplayStoryText(); // Display the text on screen!
+    }
+
+    void MarkEndOfSceneIfRelevant()
+    {
+        if (CurrentStory.canContinue || CurrentStory.currentChoices.Count > 0)
+        {
+            return;
+        }
+
+        CurrentStoryText += "\nScene Over; Press Anywhere to Return To Bakery";
+        Debug.Log("Story Stats after Day " + CurrentDay.ToString()
+                    + "\n\t Potential Pursued Characters: " + GetNamesForPotentíalPursuedCharacters()
+                    + "\n\t Total Score Options Discovered: " + ScoreAffectingOptionsDiscovered.ToString()
+                    + "\n\t Total Good Score Options Chosen: " + GoodScoreOptionsSelected.ToString()
+                    + "\n\t Yuzu Fed Treats: " + TimesYuzuFedTreat.ToString() + " Times"
+                    + "\n\t Yuzu Petted: " + TimesYuzuPetted.ToString() + "/" + YuzuPetsForSecretEnding.ToString() + " Times");
     }
 
     void UpdateCharactersInScene() // This happens after the first choice in each scene, besides end
@@ -250,6 +274,42 @@ public class StorySceneManager : MonoBehaviour
         }
     }
 
+    string GetNamesForPotentíalPursuedCharacters()
+    {
+        string BuiltString = "/";
+
+        if ((PursuedCharacters & (byte)CharacterFlags.Inky) != 0)
+        {
+            BuiltString += "Inky/";
+        }
+        if ((PursuedCharacters & (byte)CharacterFlags.Squill) != 0)
+        {
+            BuiltString += "Squilliam/";
+        }
+        if ((PursuedCharacters & (byte)CharacterFlags.Soup) != 0)
+        {
+            BuiltString += "Lil' Soup/";
+        }
+        if ((PursuedCharacters & (byte)CharacterFlags.Tort) != 0)
+        {
+            BuiltString += "Tortilla/";
+        }
+        if ((PursuedCharacters & (byte)CharacterFlags.Yuzu) != 0)
+        {
+            BuiltString += "Yuzu/";
+        }
+        if ((PursuedCharacters & (byte)CharacterFlags.All) != 0)
+        {
+            BuiltString += "All/";
+        }
+        if (BuiltString.Length < 2)
+        {
+            BuiltString = "None";
+        }
+
+        return BuiltString;
+    }
+
     int GetAmountOfBranchingStoryDays()
     {
         return WorkDayScenes.Length - 2;
@@ -260,11 +320,16 @@ public class StorySceneManager : MonoBehaviour
         return CurrentDay == WorkDayScenes.Length;
     }
 
+    public void ProgressToNewDay()
+    {
+        CurrentDay++;
+        ResetForNewDay();
+    }
+
     public void ResetForNewDay()
     {
         Debug.Log("StorySceneManager Resetting for New Day");
 
-        CurrentDay++;
         HasFirstChoiceOccurred = false;
 
         CurrentInkScript = WorkDayScenes[CurrentDay - 1];
@@ -293,12 +358,7 @@ public class StorySceneManager : MonoBehaviour
     void OnClickChoiceButton(Choice choice)
     {
         CurrentStory.ChooseChoiceIndex(choice.index);
-        ContinueStory();
-        if (!HasFirstChoiceOccurred)
-        {
-            HasFirstChoiceOccurred = true;
-            UpdateCharactersInScene();
-        }
+        ContinueStory(true);
         WaitingForChoiceInput = false;
     }
 
