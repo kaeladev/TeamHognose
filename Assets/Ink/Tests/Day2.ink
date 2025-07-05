@@ -207,7 +207,7 @@ We need help... #tort
 Working is hard... #tort
 LET'S UNWORK Y'ALL! #soup
 *Alright then, see ya!
--> ending
+-> END
 
 == Squilliam ==
 
@@ -300,17 +300,17 @@ the one right before nuclear winter? #squill
 #score #good
 
 Tonight the night's... (sob), let's live it up... #squill
-*let's live it up! #squill
+* let's live it up! #squill
 - i got my money, snif, let's spend it up... #squill
 * let's spend it up! #squill
 - go out and smash it, like omg... #squill
-*like OMG! #squill
+* like OMG! #squill
 - jump out that sofa, let's kick it #squill
-*OFF!!! #squill
+* OFF!!! #squill
 - fill up my cup??? ;) #squill
-*DRINK!!! #squill
+* DRINK!!! #squill
 - mazel tov!!! #squill
-*l'chaim??? #squill
+* l'chaim??? #squill
 - look at her dancing, just take it #squill
 * OFF! #squill
 - let's paint the town, we'll shut it down #squill
@@ -333,19 +333,67 @@ thank you so much babes. i love you. take very good care of you.
 -> END
 == Inky ==
 #inky
-You hung out with Inky.
--> END
+hmm hmm hmmm... #inky
+this goes there... #inky
+... #inky
+whatever that means uh... #inky
+* uh, Hello Inky ?
+- WAHH!! Sorry I got scared, I was very focused in my paperwork. How is it going? #inky
+* Better than you it appears, I'm not too good with paperwork...
+- Heh, me neither, but we have to do what we have to do to comply with the local laws. #inky
+It's the thing we do right... To keep this beautiful bakery operating. #inky
+Do you like working there so far? #inky
+* I like working at the bakery. ->bakerylove
+* I expected to do bakery things but this work is quite different from what I expected... ->bakeryplush
+* My dream is to become a baker, not a plushie-scratcher. When the internship is over, I will probably find one in a more realistic bakery. ->realbakery
 
-== GoodHangout ==
-#score #good
-You had a good hangout session with Lil Soup, Tortilla, and Squilliam! Yay!!!
--> END
+== bakerylove ==
+Nice, nice. #inky 
+I figured you enjoyed your time here! #inky
+I mean it's not so bad: the shop smells good, the workers are nice, labour conditions are alright... #inky
+I wish we were doing more recipes. #inky
+But, you know, learning new recipes take time and skills we probably lack of... #inky
+So we do our best to become cinnamon rolls experts at least! #inky
+-> inky2
 
-== BadHangout ==
-#score
-You had a boring hangout session with Lil Soup, Tortilla, and Squilliam. Boooo.
+== bakeryplush ==
+Ah, right haha. #inky
+I must say that this was not what I expected either when I got in this bakery... #inky
+I really love eating snacks and I figured this was a great place to learn new recipes. #inky
+Unfortunately, my coworkers... fall in the lazy side of the coworkers spectrum I guess... #inky
+So at the end of the day, I feel like I'm doing most of the things we need to do to keep this sweet business running. #inky
+I'm not complaining though: at least I know the work is done is qualitative. #inky
+And I like the slimy texture of the dough... Feels kind of nice under the tentacles... #inky
+-> inky2
 
--> END
+== realbakery ==
+I mean, I get you. #inky
+Being a plushie scratcher sounds like a nice activity though. #inky
+Labour is tough in general. #inky
+I guess many people would give a lot to work at such a position, where the air smells like vanilla and the most we ask from you is to tickle plushies awake... #inky
+Have you ever actually worked or..? #inky
+You know this is cozier than actual labour right? #inky
+-> inky2
 
-==ending==
+== inky2 ==
+* You must be proud of your shop!
+- Ah ah, unfortunately it's not my shop. #inky
+* What do you mean? Aren't you the boss around here??
+- Alas no, I'm just a normal worker.
+We do have a CEO though. We don't see him much.
+Kind of evil in my opinion but... I mean... CEO life must be hard right..?
+*Are you sure though?
+- I mean, we are the ones working all day, tentacles in the batter, trying to keep things running and cash flowing in...
+But there must be some difficulty in being CEO right?
+* ...
+- Right??
+Anyway, haha. I might become manager someday, who knows?
+At least there's that.
+If I work hard, comply, put a lot of efforts into it and keep smiling, I guess I could become at least a store manager or something.
+That could be nice. I would add new items on the menu. Change the decoration a little bit.
+* I wish you the best in pursuing your dream career.
+- That's very nice of you. Thank you for that. Once I'm manager, who knows, I might promote you to happiness-and-store-running co-lead or something, haha.
+* Thank you Inky, see you tomorrow.
+- See you tomorrow, fresh as a daisy!
+
 -> END
