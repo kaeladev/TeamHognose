@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{5829a1d3-92ec-42e4-973f-b32f125014e4}">
+		<property name="assetPath">
+			<value>DLG_Squilliam_Tired.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.3456458333333334</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{63f759f7-e124-48b6-a7fc-47e1bb9d76bf}</destination>
+		</relationship>
+	</object>
+</objects>
