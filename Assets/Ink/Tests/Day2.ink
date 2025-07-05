@@ -1,13 +1,13 @@
-*skip day 2 here
+*skip day 2 here #all
 -> END
 
 Another day went by at the bakery. I need to clean my hands and grab my stuff. The soap is vanilla scented. I might be turning into a cinnamon roll... Anyway, I go to the break room. There is some noise there. What should I do?
 
-* LIL'SOUP, Tortilla and Yuzu are chatting together
+* LIL'SOUP, Tortilla and Yuzu are chatting together #soup #tort #yuzu
 -> Group
-* Squilliam looks nervously at her phone
+* Squilliam looks nervously at her phone #squill
 -> Squilliam
-* Inky is doing some paperwork
+* Inky is doing some paperwork #inky
 -> Inky
 
 == Group ==

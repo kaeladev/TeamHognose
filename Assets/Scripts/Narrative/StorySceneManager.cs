@@ -275,37 +275,42 @@ public class StorySceneManager : MonoBehaviour
         }
     }
 
-    string GetNamesForPotentíalPursuedCharacters()
+    string GetNamesForCharacterFlags(byte CharacterFlagsByte)
     {
         string BuiltString = "/";
 
-        if ((PursuedCharacters & (byte)CharacterFlags.Inky) != 0)
+        if ((CharacterFlagsByte & (byte)CharacterFlags.Inky) != 0)
         {
             BuiltString += "Inky/";
         }
-        if ((PursuedCharacters & (byte)CharacterFlags.Squill) != 0)
+        if ((CharacterFlagsByte & (byte)CharacterFlags.Squill) != 0)
         {
             BuiltString += "Squilliam/";
         }
-        if ((PursuedCharacters & (byte)CharacterFlags.Soup) != 0)
+        if ((CharacterFlagsByte & (byte)CharacterFlags.Soup) != 0)
         {
             BuiltString += "Lil' Soup/";
         }
-        if ((PursuedCharacters & (byte)CharacterFlags.Tort) != 0)
+        if ((CharacterFlagsByte & (byte)CharacterFlags.Tort) != 0)
         {
             BuiltString += "Tortilla/";
         }
-        if ((PursuedCharacters & (byte)CharacterFlags.Yuzu) != 0)
+        if ((CharacterFlagsByte & (byte)CharacterFlags.Yuzu) != 0)
         {
             BuiltString += "Yuzu/";
         }
-        
+
         if (BuiltString.Length < 2)
         {
             BuiltString = "None";
         }
 
         return BuiltString;
+    }
+
+    string GetNamesForPotentíalPursuedCharacters()
+    {
+        return GetNamesForCharacterFlags(PursuedCharacters);
     }
 
     int GetAmountOfBranchingStoryDays()
@@ -332,6 +337,8 @@ public class StorySceneManager : MonoBehaviour
         HasFirstChoiceOccurred = false;
 
         UICanvas = Camera.main.GetComponentInChildren<Canvas>();
+
+        PortraitCanvas = GetComponentInChildren<Canvas>();
 
         CurrentInkScript = CurrentDay == 0 ? GameIntroInkScene : WorkDayInkScenes[CurrentDay - 1];
         CurrentStoryTags = new List<string>();
@@ -369,6 +376,8 @@ public class StorySceneManager : MonoBehaviour
         Text storyText = Instantiate(textPrefab) as Text;
         storyText.text = CurrentStoryText;
         storyText.transform.SetParent(UICanvas.transform, false);
+
+        UpdatePortraitCanvas(false);
     }
 
     // Creates a button showing the choice text
@@ -389,6 +398,39 @@ public class StorySceneManager : MonoBehaviour
         return choice;
     }
 
+    void UpdatePortraitCanvas(bool Deactivate)
+    {
+        Color Visible = Color.white;
+        Color Invisible = Color.white;
+        Invisible.a = 0;
+
+        if (PortraitCanvas)
+        {
+            byte CharactersSpeaking = BuildCharacterListFromCurrentStory();
+            string CharacterNamesInScene = GetNamesForCharacterFlags(CharactersSpeaking);
+            Image[] Images = PortraitCanvas.GetComponentsInChildren<Image>();
+            foreach (Image i in Images)
+            {
+                if (Deactivate || !HasFirstChoiceOccurred)
+                {
+                    i.color = Invisible;
+                }
+                else if (i.tag == "All")
+                {
+                    i.color = Visible;
+                }
+                else if (CharacterNamesInScene.Contains(i.tag))
+                {
+                    i.color = Visible;
+                }
+                else
+                {
+                    i.color = Invisible;
+                }
+            }
+        }
+    }
+
     // Destroys all the children of this canvas gameobject (all the UI)
     void RemoveExistingUI()
     {
@@ -400,9 +442,12 @@ public class StorySceneManager : MonoBehaviour
                 Destroy(UICanvas.transform.GetChild(i).gameObject);
             }
         }
+
+        UpdatePortraitCanvas(true);
     }
 
     private Canvas UICanvas = null;
+    private Canvas PortraitCanvas = null;
 
     // UI Prefabs
     [SerializeField]

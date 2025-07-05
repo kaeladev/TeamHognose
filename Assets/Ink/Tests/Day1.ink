@@ -1,11 +1,11 @@
 Pheww, what a day... Time to pack my stuff and go!
-*skip day 1 here
+*skip day 1 here #all
 -> END
 
-* Take a look at the shop
+* Take a look at the shop #all
     -> look
     
-* Go to the break room
+* Go to the break room #all
     -> breakroom
 
     == look ==
