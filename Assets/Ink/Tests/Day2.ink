@@ -1,5 +1,5 @@
-*skip day 2 here #all
--> END
+*skip day 2 here
+-> ending
 
 Another day went by at the bakery. I need to clean my hands and grab my stuff. The soap is vanilla scented. I might be turning into a cinnamon roll... Anyway, I go to the break room. There is some noise there. What should I do?
 
@@ -207,7 +207,7 @@ We need help... #tort
 Working is hard... #tort
 LET'S UNWORK Y'ALL! #soup
 *Alright then, see ya!
--> END
+->ending
 
 == Squilliam ==
 
@@ -329,8 +329,8 @@ OOPSIE i kinda trauma dumped on a stranger again ;o) ??
 anyway i guess it's time to head home.
 thank you so much babes. i love you. take very good care of you.
 * Take care Squilliam.
+-> ending
 
--> END
 == Inky ==
 #inky
 hmm hmm hmmm... #inky
@@ -395,5 +395,17 @@ That could be nice. I would add new items on the menu. Change the decoration a l
 - That's very nice of you. Thank you for that. Once I'm manager, who knows, I might promote you to happiness-and-store-running co-lead or something, haha.
 * Thank you Inky, see you tomorrow.
 - See you tomorrow, fresh as a daisy!
+-> ending
 
+== ending ==
+As everyone leaves the shop for the evening, you notice some leftover treats behind the counter... Leave them for Yuzu the Delivery Dog to find tomorrow morning? Or throw them out?
+* Leave Yuzu a treat. -> treat
+* Throw them out. -> trash
+
+== trash ==
+It's good to clean up.
+-> END
+
+== treat ==
+Yuzu will remember that! #treat
 -> END

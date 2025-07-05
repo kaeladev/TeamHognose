@@ -1,13 +1,13 @@
 + Skip day 3 here
--> END
+-> ending
 
 Another day at the factory is coming to an end. It's already the middle of the week, and so much has already happened... I'm looking forward a nice week-end hopefully! Time to pack my stuff and head home.
 
-* You see LIL'SOUP deep in a book.
+* You see LIL'SOUP deep in a book. #soup
 -> soup1
-* Tortilla sits silently on the counter.
+* Tortilla sits silently on the counter. #tort
 -> tort1
-* Inky and Squilliam are talking about today in front of the lockers.
+* Inky and Squilliam are talking about today in front of the lockers. #inky #squill
 -> group1
 
 == soup1 ==
@@ -91,7 +91,7 @@ SEE YOU TOMORROW FRIEND!! #soup
 THANKS FOR CHATTING!!! #soup
 NIGHT NIGHT SLEEP TIGHT! #soup
 
--> END
+-> ending
 
 == thankslore ==
 #score #good
@@ -119,7 +119,7 @@ TIME TO BOUNCE THOUGH #soup
 SEE YA LATER ALLIGATOR!! #soup
 * Bye-bye LIL'SOUP!!
 
--> END
+-> ending
 
 == tonightsoup ==
 #score
@@ -134,7 +134,7 @@ AND ESPECIALLY NOT A ZORKING DAY LIKE THURSDAY FOR INSTANCE!!!! #soup
 I HOPE YOU HAVE FUN TONIGHT TOO!! #soup
 SEE YA LATER ALLIGATOR! #soup
 
--> END
+-> ending
 
 == tort1 ==
 ... #tort
@@ -173,12 +173,21 @@ Anyway, there is a lot to think about.
 -> tort2 
 == tort2==
 
--> END
+-> ending
 
 == group1 ==
 
--> group2
+-> ending
 
-== group2 ==
+== ending ==
+As everyone leaves the shop for the evening, you notice some leftover treats behind the counter... Leave them for Yuzu the Delivery Dog to find tomorrow morning? Or throw them out?
+* Leave Yuzu a treat. -> treat
+* Throw them out. -> trash
 
+== trash ==
+It's good to clean up.
+-> END
+
+== treat ==
+Yuzu will remember that! #treat
 -> END
