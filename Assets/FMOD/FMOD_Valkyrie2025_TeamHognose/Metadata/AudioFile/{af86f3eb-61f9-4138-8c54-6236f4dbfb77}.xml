@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{af86f3eb-61f9-4138-8c54-6236f4dbfb77}">
+		<property name="assetPath">
+			<value>DLG_LilSoup_Bye.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.62543749999999998</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{63f759f7-e124-48b6-a7fc-47e1bb9d76bf}</destination>
+		</relationship>
+	</object>
+</objects>
