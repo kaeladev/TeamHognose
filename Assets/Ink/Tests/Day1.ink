@@ -90,7 +90,7 @@ Pheww, what a day... Time to pack my stuff and go!
      ... #tort
      INSPIRATIONAL!!! #soup
      You don't really look like a lion... #tort
-     In fact I hope you will feel concerned about the respect of deadlines and safety measures. Or else, you can't really work here... #inky
+     In fact you do have to feel concerned about the respect of deadlines and safety measures. Or else, you can't really work here... #inky
      * No worries, I was just joking. I will respect deadlines and safety measures.
          ->ending
          
