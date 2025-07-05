@@ -120,6 +120,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{f039a63c-7910-4c37-8fbc-0efb92cd2470}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>1</value>
 		</property>
@@ -128,6 +131,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{c5bc8d0b-d29d-4192-bfb3-9b6a15497d94}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>2</value>
 		</property>
@@ -136,6 +142,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{43f38413-7a93-4f4b-9f8b-acbb3029a703}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>3</value>
 		</property>
@@ -144,6 +153,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{d2b0613c-9c77-417c-bdf4-3c5df00226bc}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>4</value>
 		</property>
@@ -152,6 +164,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{3624a501-13fb-4bf0-abf6-f918e84c0e10}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>5</value>
 		</property>
@@ -160,6 +175,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{67060b2c-ae59-4e49-a39c-abb7afec0763}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>6</value>
 		</property>
@@ -168,6 +186,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{5e718c92-1bc0-430b-9219-431645fa2a01}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>7</value>
 		</property>
@@ -176,6 +197,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{7bf920ca-ba18-4708-b407-b53130dd0d48}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>8</value>
 		</property>
@@ -184,6 +208,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{ab4a3155-067c-4e52-b961-f346ff4c2448}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>9</value>
 		</property>
@@ -192,6 +219,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{1c06d27a-91a5-4a64-9588-5e51e7d0579d}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>10</value>
 		</property>
@@ -200,6 +230,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{8884c25d-8122-447a-ab83-827adcfcb17d}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>11</value>
 		</property>
@@ -208,6 +241,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{db1fd2c4-75aa-44d0-8252-c0b2263b9860}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>12</value>
 		</property>
@@ -216,8 +252,14 @@
 		</relationship>
 	</object>
 	<object class="MultiSound" id="{db35879d-fd7a-4f37-9b3e-14a119e35b3e}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>13</value>
+		</property>
+		<property name="playlistMode">
+			<value>1</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{ecbb37b2-18d2-4fb5-a31d-d7644d8bb5dc}</destination>
