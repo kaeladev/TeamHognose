@@ -1,4 +1,6 @@
 Pheww, what a day... Time to pack my stuff and go!
+*skip day 1 here
+-> END
 
 * Take a look at the shop
     -> look

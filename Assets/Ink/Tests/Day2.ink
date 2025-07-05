@@ -1,3 +1,6 @@
+*skip day 2 here
+-> END
+
 Another day went by at the bakery. I need to clean my hands and grab my stuff. The soap is vanilla scented. I might be turning into a cinnamon roll... Anyway, I go to the break room. There is some noise there. What should I do?
 
 * LIL'SOUP, Tortilla and Yuzu are chatting together
