@@ -1,10 +1,11 @@
 using FMODUnity;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.Events;
 
-// This should be Yuzu pathing to the door, waiting for Inky to grab ingredients/open door, 
+// This should be Yuzu (+ any other deliverers) pathing to the door, dropping off delivery inside,
 // then walking off screen and waiting a few seconds before repeating process
-public class MB_NPCBehavior_Deliver : MonoBehaviour
+public class MB_NPCBehavior_Deliver : MB_NPCBehavior
 {
     public float WalkingSpeed = 2.0f;
     public float RunningSpeed = 5.0f;
@@ -14,25 +15,27 @@ public class MB_NPCBehavior_Deliver : MonoBehaviour
     public Vector2 StoreDoorLocation;
     public Vector2 DeliveryDropoffLocation;
 
+    public string ArrivalSoundPath = "event:/SFX/SFX_Yuzu_Arrival_01";
+    public string LeaveSoundPath = "event:/SFX/SFX_Yuzu_Leaving";
+
     private bool HasDelivery = true;
     private bool IsInStore = false;
     private float WaitInStoreTime = 0.0f;
     private Vector2 CurrentPathingGoal;
+    private int RenderLayerOutsideStore;
 
-    private Animator AnimController;
-    private SpriteRenderer SpriteRend;
-    private StudioEventEmitter SoundMaker;
+    [HideInInspector]
+    public UnityEvent<Vector2> DeliverAtLocation;
 
-    void Start()
+    public override void Start()
     {
-        AnimController = GetComponent<Animator>();
-        SpriteRend = GetComponent<SpriteRenderer>();
-        SoundMaker = GetComponent<StudioEventEmitter>();
+        base.Start();
+        RenderLayerOutsideStore = SpriteRend.sortingOrder;
         gameObject.transform.position = DeliveryPickupLocation;
         PickUpDelivery();
     }
 
-    void Update()
+    public override void Update()
     {
         bool IsIdling = WaitInStoreTime > 0;
 
@@ -102,32 +105,35 @@ public class MB_NPCBehavior_Deliver : MonoBehaviour
     void EnterStore()
     {
         // Play door opening anim
-        SoundMaker.Play();
+        FMODUnity.RuntimeManager.PlayOneShot(ArrivalSoundPath, CurrentPathingGoal);
         CurrentPathingGoal = DeliveryDropoffLocation;
         IsInStore = true;
-        SpriteRend.sortingOrder = 3;
+        SpriteRend.sortingOrder = RenderLayerOutsideStore + 4;
     }
 
     void ExitStore()
     {
         // Play door opening anim
-        // Play audio event for leaving
+        FMODUnity.RuntimeManager.PlayOneShot(LeaveSoundPath, CurrentPathingGoal);
         CurrentPathingGoal = DeliveryPickupLocation;
         IsInStore = false;
-        SpriteRend.sortingOrder = 0;
+        SpriteRend.sortingOrder = RenderLayerOutsideStore;
     }
 
-    void OnMouseOver()
+    public override void OnMouseOver()
     {
-        if (IsInStore && Input.GetMouseButtonDown(0))
+        if (IsInStore)
         {
-            PetNPC();
+            base.OnMouseOver();
+            if (Input.GetMouseButtonDown(0))
+            {
+                PetNPC();
+            }
         }
     }
 
     void PetNPC()
     {
-        // Play audio event for pet reaction
         // Play reaction anim or VFX
 
         if (!StorySceneManager.PersistentInstance)
@@ -136,5 +142,6 @@ public class MB_NPCBehavior_Deliver : MonoBehaviour
             return;
         }
         StorySceneManager.PersistentInstance.PetYuzu();
+        Debug.Log("YUZU HAS BEEN PETTED!!! ;D");
     }
 }

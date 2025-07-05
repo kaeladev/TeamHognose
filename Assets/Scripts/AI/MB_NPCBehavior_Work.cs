@@ -1,22 +1,15 @@
 using UnityEngine;
 
-// This is the behavior only for in-bakery, not for post-shift
-public class MB_NPCBehavior_Work : MonoBehaviour
+// All plush with work stations use this class
+public class MB_NPCBehavior_Work : MB_NPCBehavior
 {
     public bool IsWorking = false;
 
     float TimeToIdle = 0.0f;
 
-    Animator AnimController;
-
     MB_WorkStation WorkStation;
-    
-    void Start()
-    {
-        AnimController = GetComponent<Animator>();
-    }
 
-    void Update()
+    public override void Update()
     {
         if (TimeToIdle > 0)
         {
@@ -31,8 +24,9 @@ public class MB_NPCBehavior_Work : MonoBehaviour
         // TODO: AnimController.SetFloat("WorkCompletion", WorkStation.GetWorkCompletionPercentage());
     }
 
-    void OnMouseOver()
+    public override void OnMouseOver()
     {
+        base.OnMouseOver();
         if (Input.GetMouseButtonDown(0))
         {
             IsWorking = true;

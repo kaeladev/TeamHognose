@@ -9,7 +9,7 @@ public class MB_WorkStation_LilSoup : MB_WorkStation
     {
         if (NPC.IsWorking)
         {
-            Debug.Log("Lil Soup Station Completion: " + WorkCompletionPercentage.ToString());
+            Debug.Log("Lil Soup Station Completion: " + ProductionPercentage.ToString());
         }
     }
 }

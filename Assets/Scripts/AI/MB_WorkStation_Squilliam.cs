@@ -6,7 +6,7 @@ public class MB_WorkStation_Squilliam : MB_WorkStation
     {
         if (NPC.IsWorking)
         {
-            Debug.Log("Squilliam Station Completion: " + WorkCompletionPercentage.ToString());
+            Debug.Log("Squilliam Station Completion: " + ProductionPercentage.ToString());
         }
     }
 }

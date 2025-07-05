@@ -1,8 +1,7 @@
+using FMOD.Studio;
 using Ink.Runtime;
-using System;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -15,6 +14,24 @@ enum CharacterFlags: byte
     Tort    = 1 << 3,
     Yuzu    = 1 << 4,
     All     = Inky | Squill | Soup | Tort | Yuzu,
+}
+
+enum EmotionFlags : int
+{
+    happy = 0,
+    sad = 1,
+    question = 2,
+    sassy = 3, 
+    hello = 4,
+    bye = 5,
+    alerted = 6,
+    answer = 7,
+    tired = 8,
+    angry = 9,
+    relief = 10,
+    surprise = 11,
+    sleeping = 12,
+    dialogue = 13
 }
 
 /*
@@ -33,6 +50,7 @@ public class StorySceneManager : MonoBehaviour
     public TextAsset        GameIntroInkScene;
     public TextAsset[]      WorkDayInkScenes;
     public string           BakerySceneName;
+    public string           FMODDialogueEventPaths = "event:/DLG/DLG_";
 
     // Persistent Data between scenes, for calculating ending
     private byte            PursuedCharacters = 0;
@@ -224,6 +242,59 @@ public class StorySceneManager : MonoBehaviour
         }
     }
 
+    int FindEmotionValueInTags()
+    {
+        EmotionFlags EmotionFound = EmotionFlags.dialogue;
+
+        foreach (string Tag in CurrentStoryTags)
+        {
+            switch (Tag.ToLower())
+            {
+                case "happy":
+                    EmotionFound = EmotionFlags.dialogue;
+                    break;
+                case "sad":
+                    EmotionFound = EmotionFlags.sad;
+                    break;
+                case "question":
+                    EmotionFound = EmotionFlags.question;
+                    break;
+                case "sassy":
+                    EmotionFound = EmotionFlags.sassy;
+                    break;
+                case "bye":
+                    EmotionFound = EmotionFlags.bye;
+                    break;
+                case "alerted":
+                    EmotionFound = EmotionFlags.alerted;
+                    break;
+                case "answer":
+                    EmotionFound = EmotionFlags.answer;
+                    break;
+                case "tired":
+                    EmotionFound = EmotionFlags.tired;
+                    break;
+                case "angry":
+                    EmotionFound = EmotionFlags.angry;
+                    break;
+                case "relief":
+                    EmotionFound = EmotionFlags.relief;
+                    break;
+                case "surprise":
+                    EmotionFound = EmotionFlags.surprise;
+                    break;
+                case "sleeping":
+                    EmotionFound = EmotionFlags.sleeping;
+                    break;
+                default:
+                    // If any other tags found, stick with existing tag
+                    break;
+            }
+        }
+
+        return (int)EmotionFound;
+    }
+
     void CalculateAndLoadFinalScene()
     {
         if (TimesYuzuPetted >= YuzuPetsForSecretEnding && TimesYuzuFedTreat == GetAmountOfBranchingStoryDays())
@@ -378,6 +449,7 @@ public class StorySceneManager : MonoBehaviour
         storyText.transform.SetParent(UICanvas.transform, false);
 
         UpdatePortraitCanvas(false);
+        PlayDialogueSounds();
     }
 
     // Creates a button showing the choice text
@@ -407,7 +479,13 @@ public class StorySceneManager : MonoBehaviour
         if (PortraitCanvas)
         {
             byte CharactersSpeaking = BuildCharacterListFromCurrentStory();
+            if (CharactersSpeaking == 0)
+            {
+                return;
+            }
+
             string CharacterNamesInScene = GetNamesForCharacterFlags(CharactersSpeaking);
+            
             Image[] Images = PortraitCanvas.GetComponentsInChildren<Image>();
             foreach (Image i in Images)
             {
@@ -426,6 +504,34 @@ public class StorySceneManager : MonoBehaviour
                 else
                 {
                     i.color = Invisible;
+                }
+            }
+        }
+    }
+
+    void PlayDialogueSounds()
+    {
+        if (PortraitCanvas)
+        {
+            byte CharactersSpeaking = BuildCharacterListFromCurrentStory();
+            if (CharactersSpeaking == 0 || CharactersSpeaking == 31)
+            {
+                return;
+            }
+
+            string CharacterNamesInScene = GetNamesForCharacterFlags(CharactersSpeaking);
+
+            Image[] Images = PortraitCanvas.GetComponentsInChildren<Image>();
+            foreach (Image i in Images)
+            {
+                if (CharacterNamesInScene.Contains(i.tag))
+                {
+                    string CharacterDialogueEventPath = FMODDialogueEventPaths + i.tag;
+                    EventInstance instance = FMODUnity.RuntimeManager.CreateInstance(CharacterDialogueEventPath);
+                    FMOD.RESULT Result = instance.setParameterByName("Emotion", FindEmotionValueInTags());
+
+                    instance.start();
+                    instance.release();
                 }
             }
         }

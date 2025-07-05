@@ -16,12 +16,10 @@ public class BakeryManager : MonoBehaviour
 
     private float IngredientsAvailable = 1;
 
+    public MB_WorkStation[] WorkStations;
     public MB_NPCBehavior_Work Squilliam;
-    private MB_WorkStation_Squilliam SquilliamStation;
     public MB_NPCBehavior_Work LilSoup;
-    private MB_WorkStation_LilSoup LilSoupStation;
     public MB_NPCBehavior_Work Tortilla;
-    private MB_WorkStation_Tortilla TortillaStation;
 
     void Start()
     {
@@ -32,6 +30,23 @@ public class BakeryManager : MonoBehaviour
        
         RandomizeTimeForNextCustomerEntry();
         Debug.Log("First Customer Arriving in " + TimeUntilNextCustomer.ToString() + " Seconds");
+
+        foreach (MB_WorkStation WorkStation in WorkStations)
+        {
+            WorkStation.ProductionReadyAtLocation.AddListener(OnInkyFetch);
+            if (WorkStation is MB_WorkStation_Squilliam)
+            {
+                WorkStation.NPC = Squilliam;
+            }
+            else if (WorkStation is MB_WorkStation_Tortilla)
+            {
+                WorkStation.NPC = Tortilla;
+            }
+            else if (WorkStation is MB_WorkStation_LilSoup)
+            {
+                WorkStation.NPC = LilSoup;
+            }
+        }
     }
 
     void Update()
@@ -78,6 +93,7 @@ public class BakeryManager : MonoBehaviour
        // if ()
        // { 
        // }
+
     }
 
     void OnMouseOver()  // Add collision to an exit door; for skipping work/speedrunning story
@@ -97,5 +113,10 @@ public class BakeryManager : MonoBehaviour
     {
         // TODO: Async load? Or fake loading screen for fun?
         SceneManager.LoadScene(StorySceneName);
+    }
+
+    void OnInkyFetch(Vector2 FetchLocation)
+    {
+        // Send Inky to look like theyre fetching from location
     }
 }
