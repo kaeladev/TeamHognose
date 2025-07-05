@@ -18,6 +18,7 @@ public class MB_NPCBehavior_Deliver : MonoBehaviour
     private bool IsInStore = false;
     private float WaitInStoreTime = 0.0f;
     private Vector2 CurrentPathingGoal;
+    private int RenderLayerOutsideStore;
 
     private Animator AnimController;
     private SpriteRenderer SpriteRend;
@@ -28,6 +29,7 @@ public class MB_NPCBehavior_Deliver : MonoBehaviour
         AnimController = GetComponent<Animator>();
         SpriteRend = GetComponent<SpriteRenderer>();
         SoundMaker = GetComponent<StudioEventEmitter>();
+        RenderLayerOutsideStore = SpriteRend.sortingOrder;
         gameObject.transform.position = DeliveryPickupLocation;
         PickUpDelivery();
     }
@@ -105,7 +107,7 @@ public class MB_NPCBehavior_Deliver : MonoBehaviour
         SoundMaker.Play();
         CurrentPathingGoal = DeliveryDropoffLocation;
         IsInStore = true;
-        SpriteRend.sortingOrder = 3;
+        SpriteRend.sortingOrder = RenderLayerOutsideStore + 4;
     }
 
     void ExitStore()
@@ -114,7 +116,7 @@ public class MB_NPCBehavior_Deliver : MonoBehaviour
         // Play audio event for leaving
         CurrentPathingGoal = DeliveryPickupLocation;
         IsInStore = false;
-        SpriteRend.sortingOrder = 0;
+        SpriteRend.sortingOrder = RenderLayerOutsideStore;
     }
 
     void OnMouseOver()
@@ -136,5 +138,6 @@ public class MB_NPCBehavior_Deliver : MonoBehaviour
             return;
         }
         StorySceneManager.PersistentInstance.PetYuzu();
+        Debug.Log("YUZU HAS BEEN PETTED!!! ;D");
     }
 }
