@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{caeca151-7ad4-4a9f-91ab-0c8be4f2aa01}">
 		<property name="name">
-			<value>SFX_Inky_Reaction</value>
+			<value>DLG_Inky_Reaction</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>
 		</property>
 		<relationship name="folder">
-			<destination>{8854388a-c481-4379-ab97-295e842207d1}</destination>
+			<destination>{eddb981b-20ce-4c4e-b167-a5f65dbb2821}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{f0c57950-43f4-4a13-87ca-c87cbd7a77f8}</destination>
@@ -27,6 +27,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{6fb2fbbc-5df9-4c03-bd5e-974ea3867ba4}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{d8ee84d1-54c9-409e-99df-4eb0e20f11f9}</destination>
+			<destination>{54111928-bd7e-43b1-8dc5-a85276c1a829}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{f0c57950-43f4-4a13-87ca-c87cbd7a77f8}">

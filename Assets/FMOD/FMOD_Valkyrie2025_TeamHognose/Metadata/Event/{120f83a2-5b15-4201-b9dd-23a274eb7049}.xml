@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{120f83a2-5b15-4201-b9dd-23a274eb7049}">
 		<property name="name">
-			<value>SFX_Yuzu_Reaction</value>
+			<value>DLG_Yuzu_Reaction</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>
 		</property>
 		<relationship name="folder">
-			<destination>{8854388a-c481-4379-ab97-295e842207d1}</destination>
+			<destination>{eddb981b-20ce-4c4e-b167-a5f65dbb2821}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{469c7d7d-2b63-42d2-9214-a3c276e9e935}</destination>
@@ -27,6 +27,10 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{2a8a4f6b-9598-47b3-94de-49b5709a7745}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{d8ee84d1-54c9-409e-99df-4eb0e20f11f9}</destination>
+			<destination>{54111928-bd7e-43b1-8dc5-a85276c1a829}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{469c7d7d-2b63-42d2-9214-a3c276e9e935}">

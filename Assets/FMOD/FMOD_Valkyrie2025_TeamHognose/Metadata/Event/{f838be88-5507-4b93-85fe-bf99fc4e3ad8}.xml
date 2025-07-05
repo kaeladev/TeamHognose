@@ -5,10 +5,10 @@
 			<value>UI_Click_Cancel</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{2db23b20-3d47-4ae5-bb33-0a5440b9cbf4}</destination>
+			<destination>{fe87076d-c79d-4ff3-af62-779d62381bb5}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{af08dd73-317c-4f4a-84cb-852073c44fb6}</destination>
@@ -30,6 +30,9 @@
 		</relationship>
 		<relationship name="parameters">
 			<destination>{27d4b597-3f79-412c-9cdb-9d4bf404c431}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{0938374a-12bc-4d24-b97d-5f9204e631fb}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{af08dd73-317c-4f4a-84cb-852073c44fb6}">
@@ -81,7 +84,7 @@
 	</object>
 	<object class="MultiSound" id="{ad04fd38-874e-4709-88af-13daf2b71ec5}">
 		<relationship name="sounds">
-			<destination>{6df3faa4-0d7d-4441-949a-bf8a923b6ac5}</destination>
+			<destination>{047925b4-68ee-41e9-a66c-1e35e4f5d046}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{22440721-1f8a-42d7-89c2-1092cd0237b1}">
@@ -93,10 +96,20 @@
 	<object class="MixerBusEffectChain" id="{cab17a90-8f4e-4e0c-87b2-429efc7705bc}">
 		<relationship name="effects">
 			<destination>{345ca7f7-960d-4205-889e-7ebde94e7725}</destination>
+			<destination>{84f72737-f003-4710-8773-f350a5446670}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e1606220-d6f5-4e7b-b043-7715ddb536dc}" />
-	<object class="SingleSound" id="{6df3faa4-0d7d-4441-949a-bf8a923b6ac5}" />
+	<object class="SingleSound" id="{047925b4-68ee-41e9-a66c-1e35e4f5d046}">
+		<relationship name="audioFile">
+			<destination>{44fab6fd-16e7-48df-a866-18886db8808d}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{a4f12900-8b22-4fc8-9d72-137fdda049cf}" />
 	<object class="MixerBusFader" id="{345ca7f7-960d-4205-889e-7ebde94e7725}" />
+	<object class="LimiterEffect" id="{84f72737-f003-4710-8773-f350a5446670}">
+		<property name="ceiling">
+			<value>-1</value>
+		</property>
+	</object>
 </objects>
