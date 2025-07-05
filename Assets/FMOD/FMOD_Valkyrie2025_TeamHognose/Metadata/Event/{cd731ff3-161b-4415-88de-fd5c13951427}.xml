@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{cd731ff3-161b-4415-88de-fd5c13951427}">
 		<property name="name">
-			<value>DLG_LilSoup_Reaction</value>
+			<value>DLG_Lil' Soup_Reaction</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>

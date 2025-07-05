@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{9a222faf-6728-4d7a-888e-3bfe058afd3f}">
 		<property name="name">
-			<value>DLG_BigSoup</value>
+			<value>DLG_Big Soup</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>

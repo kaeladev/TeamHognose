@@ -199,7 +199,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: d4e233c4dd18aca4ab560d9f5cb62035, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -982,42 +982,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1829539868 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7908797984820268756, guid: 2abb164efe6c01a4abf6aaba2037b15b, type: 3}
-  m_PrefabInstance: {fileID: 3313238236143937700}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1829539869
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1829539868}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 1760348469
-      Data2: 1087737192
-      Data3: 1194405508
-      Data4: -1836858975
-    Path: event:/SFX/SFX_Yuzu_Arrival_01
-  Event: 
-  EventPlayTrigger: 0
-  EventStopTrigger: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1 &2035036552
 GameObject:
   m_ObjectHideFlags: 0
@@ -1281,7 +1245,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3050116552962692802, guid: 61a58bf7412649a488ff8f63fc83aef9, type: 3}
       propertyPath: m_SortingOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3050116552962692802, guid: 61a58bf7412649a488ff8f63fc83aef9, type: 3}
       propertyPath: m_SortingLayerID
@@ -1430,6 +1394,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 719595134370382332, guid: 6bca85f5ffab1ad4d9568dd164211a4b, type: 3}
+      propertyPath: EventReference.Path
+      value: event:/DLG/DLG_Squilliam_Reaction
+      objectReference: {fileID: 0}
+    - target: {fileID: 719595134370382332, guid: 6bca85f5ffab1ad4d9568dd164211a4b, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 719595134370382332, guid: 6bca85f5ffab1ad4d9568dd164211a4b, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 719595134370382332, guid: 6bca85f5ffab1ad4d9568dd164211a4b, type: 3}
+      propertyPath: EventReference.Guid.Data1
+      value: -2033139425
+      objectReference: {fileID: 0}
+    - target: {fileID: 719595134370382332, guid: 6bca85f5ffab1ad4d9568dd164211a4b, type: 3}
+      propertyPath: EventReference.Guid.Data2
+      value: 1275095213
+      objectReference: {fileID: 0}
+    - target: {fileID: 719595134370382332, guid: 6bca85f5ffab1ad4d9568dd164211a4b, type: 3}
+      propertyPath: EventReference.Guid.Data3
+      value: 297950619
+      objectReference: {fileID: 0}
+    - target: {fileID: 719595134370382332, guid: 6bca85f5ffab1ad4d9568dd164211a4b, type: 3}
+      propertyPath: EventReference.Guid.Data4
+      value: -1767373993
+      objectReference: {fileID: 0}
     - target: {fileID: 4580777198674567148, guid: 6bca85f5ffab1ad4d9568dd164211a4b, type: 3}
       propertyPath: m_Name
       value: Squilliam
@@ -1440,7 +1432,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8086684761272692250, guid: 6bca85f5ffab1ad4d9568dd164211a4b, type: 3}
       propertyPath: m_SortingOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8086684761272692250, guid: 6bca85f5ffab1ad4d9568dd164211a4b, type: 3}
       propertyPath: m_SortingLayerID
@@ -1459,6 +1451,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1687088999}
     m_Modifications:
+    - target: {fileID: 1693572380768573596, guid: bd8e8e2ab06b2c14cac66560914391c6, type: 3}
+      propertyPath: EventReference.Path
+      value: event:/DLG/DLG_Tortilla_Reaction
+      objectReference: {fileID: 0}
+    - target: {fileID: 1693572380768573596, guid: bd8e8e2ab06b2c14cac66560914391c6, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1693572380768573596, guid: bd8e8e2ab06b2c14cac66560914391c6, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1693572380768573596, guid: bd8e8e2ab06b2c14cac66560914391c6, type: 3}
+      propertyPath: EventReference.Guid.Data1
+      value: -313418736
+      objectReference: {fileID: 0}
+    - target: {fileID: 1693572380768573596, guid: bd8e8e2ab06b2c14cac66560914391c6, type: 3}
+      propertyPath: EventReference.Guid.Data2
+      value: 1307192586
+      objectReference: {fileID: 0}
+    - target: {fileID: 1693572380768573596, guid: bd8e8e2ab06b2c14cac66560914391c6, type: 3}
+      propertyPath: EventReference.Guid.Data3
+      value: -90862948
+      objectReference: {fileID: 0}
+    - target: {fileID: 1693572380768573596, guid: bd8e8e2ab06b2c14cac66560914391c6, type: 3}
+      propertyPath: EventReference.Guid.Data4
+      value: -221292637
+      objectReference: {fileID: 0}
     - target: {fileID: 2215858515827176899, guid: bd8e8e2ab06b2c14cac66560914391c6, type: 3}
       propertyPath: m_LocalScale.x
       value: -0.7955
@@ -1598,7 +1618,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6859116500299673901, guid: 7ec3d839f743b6940a0c53140690dcac, type: 3}
       propertyPath: m_SortingOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6859116500299673901, guid: 7ec3d839f743b6940a0c53140690dcac, type: 3}
       propertyPath: m_SortingLayerID
@@ -1681,6 +1701,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6543507217075083118, guid: 2abb164efe6c01a4abf6aaba2037b15b, type: 3}
+      propertyPath: EventReference.Path
+      value: event:/DLG/DLG_Yuzu_Reaction
+      objectReference: {fileID: 0}
+    - target: {fileID: 6543507217075083118, guid: 2abb164efe6c01a4abf6aaba2037b15b, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6543507217075083118, guid: 2abb164efe6c01a4abf6aaba2037b15b, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6543507217075083118, guid: 2abb164efe6c01a4abf6aaba2037b15b, type: 3}
+      propertyPath: EventReference.Guid.Data1
+      value: 303006626
+      objectReference: {fileID: 0}
+    - target: {fileID: 6543507217075083118, guid: 2abb164efe6c01a4abf6aaba2037b15b, type: 3}
+      propertyPath: EventReference.Guid.Data2
+      value: 1107385109
+      objectReference: {fileID: 0}
+    - target: {fileID: 6543507217075083118, guid: 2abb164efe6c01a4abf6aaba2037b15b, type: 3}
+      propertyPath: EventReference.Guid.Data3
+      value: -1574707783
+      objectReference: {fileID: 0}
+    - target: {fileID: 6543507217075083118, guid: 2abb164efe6c01a4abf6aaba2037b15b, type: 3}
+      propertyPath: EventReference.Guid.Data4
+      value: 1232137076
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597091529950585418, guid: 2abb164efe6c01a4abf6aaba2037b15b, type: 3}
+      propertyPath: LeaveSoundPath
+      value: event:/SFX/SFX_Yuzu_Leaving
+      objectReference: {fileID: 0}
     - target: {fileID: 6597091529950585418, guid: 2abb164efe6c01a4abf6aaba2037b15b, type: 3}
       propertyPath: StoreDoorLocation.x
       value: -0.87
@@ -1716,10 +1768,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7908797984820268756, guid: 2abb164efe6c01a4abf6aaba2037b15b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1829539869}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2abb164efe6c01a4abf6aaba2037b15b, type: 3}
 --- !u!1001 &8439488863709143734
 PrefabInstance:
@@ -1735,7 +1784,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1524616060199282760, guid: a6cf2b82133b6344780fe944b062ac42, type: 3}
       propertyPath: m_SortingOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1524616060199282760, guid: a6cf2b82133b6344780fe944b062ac42, type: 3}
       propertyPath: m_SortingLayerID
@@ -1792,6 +1841,34 @@ PrefabInstance:
     - target: {fileID: 7326549217969056497, guid: a6cf2b82133b6344780fe944b062ac42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7849115805824223150, guid: a6cf2b82133b6344780fe944b062ac42, type: 3}
+      propertyPath: EventReference.Path
+      value: event:/DLG/DLG_Lil' Soup_Reaction
+      objectReference: {fileID: 0}
+    - target: {fileID: 7849115805824223150, guid: a6cf2b82133b6344780fe944b062ac42, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7849115805824223150, guid: a6cf2b82133b6344780fe944b062ac42, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7849115805824223150, guid: a6cf2b82133b6344780fe944b062ac42, type: 3}
+      propertyPath: EventReference.Guid.Data1
+      value: -848093197
+      objectReference: {fileID: 0}
+    - target: {fileID: 7849115805824223150, guid: a6cf2b82133b6344780fe944b062ac42, type: 3}
+      propertyPath: EventReference.Guid.Data2
+      value: 1142232603
+      objectReference: {fileID: 0}
+    - target: {fileID: 7849115805824223150, guid: a6cf2b82133b6344780fe944b062ac42, type: 3}
+      propertyPath: EventReference.Guid.Data3
+      value: 1560141448
+      objectReference: {fileID: 0}
+    - target: {fileID: 7849115805824223150, guid: a6cf2b82133b6344780fe944b062ac42, type: 3}
+      propertyPath: EventReference.Guid.Data4
+      value: 655660307
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
