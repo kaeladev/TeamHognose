@@ -3,15 +3,34 @@ using UnityEngine;
 // For Inky only :3 All hail The Void
 public class MB_NPCBehavior_Inky : MB_NPCBehavior
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    // TODO: TEMP - replace with tentacles and actual anims
+    private Color CurrentColor = Color.white;
+    private float InkyAppearanceTimeRemaining = 0;
+
     public override void Start()
     {
-        
+        base.Start();
     }
 
-    // Update is called once per frame
     public override void Update()
     {
-        
+        InkyAppearanceTimeRemaining -= Time.deltaTime;
+
+        if (InkyAppearanceTimeRemaining < 0)
+        {
+            CurrentColor.a = 0;
+        }
+
+        SpriteRend.color = CurrentColor;
+    }
+
+    // TODO: For now just have Inky pop up in the location
+    public void OnInkyFetch(Vector2 FetchLocation)
+    {
+        // TODO: Send Inky to look like theyre fetching from location
+        PlayReaction();
+        InkyAppearanceTimeRemaining = 2.0f;
+        CurrentColor.a = 255;
+        gameObject.transform.position = FetchLocation;
     }
 }

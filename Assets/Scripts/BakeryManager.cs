@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 // As well as allow Inky and Yuzu to interact with the scene without a work station
 public class BakeryManager : MonoBehaviour
 {
+    public static BakeryManager CurrentBakeryInstance;
+
     // TODO: Eventually the trigger for the workday ending should be the final customer getting served
     public int CustomersPerDay = 3;
     public Vector2 TimeRangeBetweenCustomerEntry;
@@ -14,37 +16,38 @@ public class BakeryManager : MonoBehaviour
     private int CustomersServedToday = 0;
     private float TimeUntilNextCustomer;
 
-    private float IngredientsAvailable = 1;
+    [HideInInspector]
+    public float StoredIngredients = 1;
 
-    public MB_WorkStation[] WorkStations;
-    public MB_NPCBehavior_Work Squilliam;
-    public MB_NPCBehavior_Work LilSoup;
-    public MB_NPCBehavior_Work Tortilla;
+    private MB_WorkStation[] WorkStations;
+    private MB_NPCBehavior[] WorkingNPCs;
+    public MB_NPCBehavior_Inky Inky;
 
     void Start()
     {
+        CurrentBakeryInstance = this;
+
         if (TimeRangeBetweenCustomerEntry == Vector2.zero)
         {
             TimeRangeBetweenCustomerEntry = new Vector2(5, 10);
         }
-       
+
+        WorkStations = GetComponentsInChildren<MB_WorkStation>();
+        WorkingNPCs = GetComponentsInChildren<MB_NPCBehavior>();
+
         RandomizeTimeForNextCustomerEntry();
         Debug.Log("First Customer Arriving in " + TimeUntilNextCustomer.ToString() + " Seconds");
 
-        foreach (MB_WorkStation WorkStation in WorkStations)
+        foreach (MB_NPCBehavior NPC in WorkingNPCs)
         {
-            WorkStation.ProductionReadyAtLocation.AddListener(OnInkyFetch);
-            if (WorkStation is MB_WorkStation_Squilliam)
+            NPC.ProductionComplete.AddListener(Inky.OnInkyFetch);
+
+            foreach (MB_WorkStation WorkStation in WorkStations)
             {
-                WorkStation.NPC = Squilliam;
-            }
-            else if (WorkStation is MB_WorkStation_Tortilla)
-            {
-                WorkStation.NPC = Tortilla;
-            }
-            else if (WorkStation is MB_WorkStation_LilSoup)
-            {
-                WorkStation.NPC = LilSoup;
+                if (NPC.tag == WorkStation.tag)
+                {
+                    WorkStation.NPC = (MB_NPCBehavior_Work)NPC;
+                }
             }
         }
     }
@@ -96,6 +99,23 @@ public class BakeryManager : MonoBehaviour
 
     }
 
+    public int GrabIngredients()
+    {
+        if (StoredIngredients == 0)
+        {
+            return 0;
+        }
+
+        if (StoredIngredients > 1)
+        {
+            StoredIngredients -= 2;
+            return 2;
+        }
+
+        StoredIngredients--;
+        return 1;
+    }
+
     void OnMouseOver()  // Add collision to an exit door; for skipping work/speedrunning story
     {
         if (Input.GetMouseButtonDown(0))
@@ -113,10 +133,5 @@ public class BakeryManager : MonoBehaviour
     {
         // TODO: Async load? Or fake loading screen for fun?
         SceneManager.LoadScene(StorySceneName);
-    }
-
-    void OnInkyFetch(Vector2 FetchLocation)
-    {
-        // Send Inky to look like theyre fetching from location
     }
 }

@@ -24,9 +24,6 @@ public class MB_NPCBehavior_Deliver : MB_NPCBehavior
     private Vector2 CurrentPathingGoal;
     private int RenderLayerOutsideStore;
 
-    [HideInInspector]
-    public UnityEvent<Vector2> DeliverAtLocation;
-
     public override void Start()
     {
         base.Start();
@@ -49,6 +46,11 @@ public class MB_NPCBehavior_Deliver : MB_NPCBehavior
         {
             if (HasDelivery && !IsInStore)
             {
+                if (BakeryManager.CurrentBakeryInstance && BakeryManager.CurrentBakeryInstance.StoredIngredients == 3)
+                {
+                    // Yuzu will chill offscreen until she needs to deliver again
+                    return;
+                }
                 EnterStore();
             }
             else if (HasDelivery && IsInStore)
@@ -96,7 +98,8 @@ public class MB_NPCBehavior_Deliver : MB_NPCBehavior
 
     void DropOffDelivery()
     {
-        // Alert Inky to tentacle over, add to ingredients
+        ProductionComplete.Invoke(CurrentPathingGoal);
+        BakeryManager.CurrentBakeryInstance.StoredIngredients++;
         HasDelivery = false;
         CurrentPathingGoal = StoreDoorLocation;
         WaitInStoreTime = 3.0f;
@@ -136,12 +139,12 @@ public class MB_NPCBehavior_Deliver : MB_NPCBehavior
     {
         // Play reaction anim or VFX
 
-        if (!StorySceneManager.PersistentInstance)
+        if (!StorySceneManager.PersistentStoryInstance)
         {
             Debug.Log("StorySceneManager cannot increase pets because no persistent instance has been created");
             return;
         }
-        StorySceneManager.PersistentInstance.PetYuzu();
+        StorySceneManager.PersistentStoryInstance.PetYuzu();
         Debug.Log("YUZU HAS BEEN PETTED!!! ;D");
     }
 }

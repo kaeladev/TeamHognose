@@ -1,14 +1,16 @@
 using FMODUnity;
 using UnityEngine;
+using UnityEngine.Events;
 
 [RequireComponent(typeof(StudioEventEmitter))]
 abstract public class MB_NPCBehavior : MonoBehaviour
 {
-    public string ReactionSoundPath;
-
     protected Animator AnimController;
     protected SpriteRenderer SpriteRend;
     protected StudioEventEmitter ReactionSoundMaker;
+
+    [HideInInspector]
+    public UnityEvent<Vector2> ProductionComplete;
 
     public virtual void Start()
     {
@@ -24,9 +26,14 @@ abstract public class MB_NPCBehavior : MonoBehaviour
 
     public virtual void OnMouseOver()
     {
-        if (Input.GetMouseButtonDown(0) && ReactionSoundPath.Length != 0)
+        if (Input.GetMouseButtonDown(0))
         {
-            ReactionSoundMaker.Play();
+            PlayReaction();
         }
+    }
+
+    protected virtual void PlayReaction()
+    {
+        ReactionSoundMaker.Play();
     }
 }

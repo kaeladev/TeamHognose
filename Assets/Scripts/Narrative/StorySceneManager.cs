@@ -43,7 +43,7 @@ This manager class should:
 public class StorySceneManager : MonoBehaviour
 {
     // StorySceneManager Singleton
-    public static StorySceneManager PersistentInstance;
+    public static StorySceneManager PersistentStoryInstance;
 
     // Public Data to set up pre-known start-of-day scenes
     public int              YuzuPetsForSecretEnding = 10;
@@ -71,18 +71,18 @@ public class StorySceneManager : MonoBehaviour
 
     void Awake()
     {
-        bool CreateStorySceneManagerSingleton = !PersistentInstance;
+        bool CreateStorySceneManagerSingleton = !PersistentStoryInstance;
 
         if (!CreateStorySceneManagerSingleton)
         {
             // A second StorySceneManager has attempted to create itself, so destroy
             Destroy(gameObject);
-            PersistentInstance.ProgressToNewDay();
+            PersistentStoryInstance.ProgressToNewDay();
         }
         else
         {
             // The first time a StorySceneManager attempts to create itself, store as static instance
-            PersistentInstance = this;
+            PersistentStoryInstance = this;
             DontDestroyOnLoad(gameObject);
         }
     }
@@ -398,7 +398,7 @@ public class StorySceneManager : MonoBehaviour
     {
         CurrentDay++;
         ResetForNewDay();
-        Debug.Log("StorySceneManager: Starting Day " + PersistentInstance.CurrentDay.ToString());
+        Debug.Log("StorySceneManager: Starting Day " + PersistentStoryInstance.CurrentDay.ToString());
     }
 
     public void ResetForNewDay()
@@ -479,7 +479,7 @@ public class StorySceneManager : MonoBehaviour
         if (PortraitCanvas)
         {
             byte CharactersSpeaking = BuildCharacterListFromCurrentStory();
-            if (CharactersSpeaking == 0)
+            if (CharactersSpeaking == 0 && !Deactivate)
             {
                 return;
             }
