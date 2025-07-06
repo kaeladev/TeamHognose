@@ -5,7 +5,7 @@
 			<value>DLG_Squilliam_Reaction</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{eddb981b-20ce-4c4e-b167-a5f65dbb2821}</destination>
@@ -96,7 +96,6 @@
 		<relationship name="effects">
 			<destination>{c50f5531-8c5a-4a93-8ecf-5b5b424ed7fe}</destination>
 			<destination>{3468252e-9ee9-4e9a-bf3a-a76b55eaebbf}</destination>
-			<destination>{5f8ff4a9-f5c3-46e6-95a7-76af73742634}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{bcb0851e-4ca2-4399-b0c9-54236ee638d7}" />
@@ -107,5 +106,4 @@
 			<value>-1</value>
 		</property>
 	</object>
-	<object class="SpatialiserEffect" id="{5f8ff4a9-f5c3-46e6-95a7-76af73742634}" />
 </objects>

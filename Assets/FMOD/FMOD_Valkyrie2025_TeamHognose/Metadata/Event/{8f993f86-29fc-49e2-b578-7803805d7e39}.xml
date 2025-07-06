@@ -5,7 +5,7 @@
 			<value>DLG_Tortilla</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{eddb981b-20ce-4c4e-b167-a5f65dbb2821}</destination>
@@ -116,7 +116,6 @@
 		<relationship name="effects">
 			<destination>{0c26180f-783c-472f-971a-88cc5aa823dd}</destination>
 			<destination>{404f5c53-424e-4972-9edb-746b013fbeb6}</destination>
-			<destination>{fd48f59f-2fca-4e95-b859-b28b7e6c7167}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b53fdce9-afd5-489e-b802-1b363b4c5398}" />
@@ -127,5 +126,4 @@
 			<value>-1</value>
 		</property>
 	</object>
-	<object class="SpatialiserEffect" id="{fd48f59f-2fca-4e95-b859-b28b7e6c7167}" />
 </objects>

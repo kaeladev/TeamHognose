@@ -5,7 +5,7 @@
 			<value>DLG_Inky_Reaction</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{eddb981b-20ce-4c4e-b167-a5f65dbb2821}</destination>
@@ -96,7 +96,6 @@
 		<relationship name="effects">
 			<destination>{7f06e2ea-3b0a-43c3-98d8-f622f4c1f91e}</destination>
 			<destination>{f65c0ea3-f698-435c-a501-67bc35973409}</destination>
-			<destination>{0b645248-c4ca-417e-82ab-30737e76a5db}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{5ccc701f-1a2a-485d-9428-0cbe353b1d03}" />
@@ -107,5 +106,4 @@
 			<value>-1</value>
 		</property>
 	</object>
-	<object class="SpatialiserEffect" id="{0b645248-c4ca-417e-82ab-30737e76a5db}" />
 </objects>

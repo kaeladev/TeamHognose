@@ -5,7 +5,7 @@
 			<value>DLG_Big Soup</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{eddb981b-20ce-4c4e-b167-a5f65dbb2821}</destination>
@@ -133,7 +133,6 @@
 		<relationship name="effects">
 			<destination>{e4495dc0-86d1-4e90-bdf0-850d53168378}</destination>
 			<destination>{8c8c081f-d6cc-4918-a22e-54ebf23bf59e}</destination>
-			<destination>{77760d27-9bd1-4a17-9731-f4a4fc95854a}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{43f14294-ec3a-40e0-a11d-639b3640547d}" />
@@ -144,5 +143,4 @@
 			<value>5</value>
 		</property>
 	</object>
-	<object class="SpatialiserEffect" id="{77760d27-9bd1-4a17-9731-f4a4fc95854a}" />
 </objects>

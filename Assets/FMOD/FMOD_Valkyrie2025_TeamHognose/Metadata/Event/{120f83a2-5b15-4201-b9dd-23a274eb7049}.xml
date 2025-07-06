@@ -5,7 +5,7 @@
 			<value>DLG_Yuzu_Reaction</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{eddb981b-20ce-4c4e-b167-a5f65dbb2821}</destination>
@@ -101,7 +101,6 @@
 		<relationship name="effects">
 			<destination>{c8cfde3d-c5e7-4b1c-bec2-c55419b49948}</destination>
 			<destination>{9daf3494-a25e-4cdf-9644-b4b0740ba8b5}</destination>
-			<destination>{e90d777f-f79d-43b5-b638-0511df6007a0}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ea4ac0ff-c602-4260-8ec7-5a2870d3139a}" />
@@ -127,5 +126,4 @@
 			<value>-1</value>
 		</property>
 	</object>
-	<object class="SpatialiserEffect" id="{e90d777f-f79d-43b5-b638-0511df6007a0}" />
 </objects>

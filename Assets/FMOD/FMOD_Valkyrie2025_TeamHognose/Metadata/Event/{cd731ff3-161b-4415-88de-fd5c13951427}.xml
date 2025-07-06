@@ -5,7 +5,7 @@
 			<value>DLG_Lil' Soup_Reaction</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{eddb981b-20ce-4c4e-b167-a5f65dbb2821}</destination>
@@ -78,7 +78,6 @@
 		<relationship name="effects">
 			<destination>{c771b1c6-4ed8-4a36-838f-abf2e3577e04}</destination>
 			<destination>{9ae84d21-4700-4655-a8c5-79870abf442c}</destination>
-			<destination>{510efcd2-ae0e-4a0f-8966-a13a70efa4aa}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e14b3e07-b0e5-4acd-92ed-0739aa0fec59}" />
@@ -89,5 +88,4 @@
 			<value>-1</value>
 		</property>
 	</object>
-	<object class="SpatialiserEffect" id="{510efcd2-ae0e-4a0f-8966-a13a70efa4aa}" />
 </objects>
