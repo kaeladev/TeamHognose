@@ -54,7 +54,7 @@ public class StorySceneManager : MonoBehaviour
     public string           BakerySceneName;
     public string           FMODDialogueEventPaths = "event:/DLG/DLG_";
 
-    // Text boxes to set in editor
+    // UI Stuff.....
     public TextMeshProUGUI NameText;
     public TextMeshProUGUI DialogueText;
 
@@ -67,12 +67,15 @@ public class StorySceneManager : MonoBehaviour
     public TextMeshProUGUI      OptionText_3_ChoiceB;
     public TextMeshProUGUI      OptionText_3_ChoiceC;
 
-    private TMP_FontAsset       DefaultFont;
     public TMP_FontAsset        FontForInky;
     public TMP_FontAsset        FontForSquilliam;
     public TMP_FontAsset        FontForSoup;
     public TMP_FontAsset        FontForTortilla;
     public TMP_FontAsset        FontForYuzu;
+
+    private TMP_FontAsset       DefaultFont;
+    private Canvas              UICanvas = null;
+    private Canvas              PortraitCanvas = null;
 
     // Persistent Data between scenes, for calculating ending
     private byte            PursuedCharacters = 0;
@@ -712,13 +715,4 @@ public class StorySceneManager : MonoBehaviour
         }
         return DefaultFont;
     }
-
-    private Canvas UICanvas = null;
-    private Canvas PortraitCanvas = null;
-
-    // UI Prefabs
-    [SerializeField]
-    private Text textPrefab = null;
-    [SerializeField]
-    private Button buttonPrefab = null;
 }
