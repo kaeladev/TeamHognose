@@ -11,12 +11,12 @@ Another day at the factory is coming to an end. It's already the middle of the w
 -> group1
 
 == soup1 ==
-*Hello LIL'SOUP, any good book?
--HELL YEAH HELLO!! READING SOME SKILLMAXXING THING!! #soup
-*What's that, "Swedish 101"? Are you going to Sweden?
-- NO... BUT I WISH I COULD!! #soup
-* Why is that?
-- LONG STORY BUDDY, ARE YOU INTO SOUPLORE? #soup
+Hello LIL'SOUP, any good book?
+HELL YEAH HELLO!! READING SOME SKILLMAXXING THING!! #soup
+What's that, "Swedish 101"? Are you going to Sweden?
+NO... BUT I WISH I COULD!! #soup
+Why is that?
+LONG STORY BUDDY, ARE YOU INTO SOUPLORE? #soup
 * I guess I can be!
 -> lore
 * Uh... How long can that be? 
@@ -68,8 +68,8 @@ SPEEDRUN SOUPLORE ANYPERCENT!!! #soup
 -> soup2
 
 == soup2 ==
-* Woah, I guess that's quite a lot! What a life you have. 
-- HELL YEAH, GOOD SOUP!! #soup
+Woah, I guess that's quite a lot! What a life you have. 
+HELL YEAH, GOOD SOUP!! #soup
 * That was good soup (lore) indeed, thanks a lot!
 -> thankssoup
 * So um, what are you doing tonight?
@@ -94,8 +94,8 @@ NIGHT NIGHT SLEEP TIGHT! #soup
 == thankslore ==
 
 thank you, I really liked talking to you #soup #score #good
-* I'm surprised you stopped um, capslocking?
-- i'm surprised you interested in LIL'SOUP
+I'm surprised you stopped um, capslocking?
+i'm surprised you interested in LIL'SOUP
 usually i talk super fast #soup
 WORLD CLASS YAPPER #soup
 because it's not super interesting right #soup
@@ -135,25 +135,25 @@ SEE YA LATER ALLIGATOR! #soup
 == tort1 ==
 ... #tort
 ... #tort
-* Hello Tortilla!
-- ... #tort
+Hello Tortilla!
+... #tort
 [Grunts]
-* It's nice to see you. Doing good?
-- ... #tort
+It's nice to see you. Doing good?
+... #tort
 Ah, yes. #tort
 I am reflecting. #tort
-* Nice...
-- Yes, sure is...
-...
-[Grunts]
-Anyway, there is a lot to think about.
-* And what is it you think about ?
-- Life and what's in it. Also my mommies. 
+Nice...
+Yes, sure is... #tort
+... #tort
+[Grunts] #tort
+Anyway, there is a lot to think about. #tort
+And what is it you think about?
+Life and what's in it. Also my mommies. #tort
 * Mommies? How cute of you to have mommies!
 -> mommies
 * What do you mean by mommies?
 -> whatmommies
-* Can two female dinosaurs even...?
+* Can two female dinosaurs...?
 -> lesbians
 
 == mommies ==
@@ -198,8 +198,8 @@ Why not after all...
 #tort
 
 Some big rock came and then everything disappeared.
-Still I laid.
-And got back.
+Still I rise.
+I got back.
 And some millions years after that, I found my mommies.
 They're my family.
 In my heart, they always were by my side.
@@ -266,30 +266,30 @@ and Tortilla chose {result}.
         Hihi, I guess we both got lucky then hehe. We both lost... Or we both won!
 }
 
-* You're a nice rock paper scissors player for sure. #score #good
-- Thank you, I appreciate.
-...
-I guess I had time to train, lol.
-Anyway, it's getting late.
-But I'm happy I got to know you better.
-You are kind. And you too are lucky.
-Our fate lie in the stars.
-It's about the place and about the time.
-And I'm sure someday, somewhere, you will figure it all out.
-Take good care my friend!
+You're a nice rock paper scissors player for sure. #score #good
+Thank you, I appreciate. #tort
+... #tort
+I guess I had time to train, lol. #tort
+Anyway, it's getting late. #tort
+But I'm happy I got to know you better. #tort
+You are kind. And you too are lucky. #tort
+Our fate lie in the stars. #tort
+It's about the place and about the time. #tort 
+And I'm sure someday, somewhere, you will figure it all out. #tort
+Take good care my friend! #tort
 * I appreciate Tortilla, thank you so much. Have a nice evening.
 
 -> ending
 
 == norps==
-
+#tort
 Alright, then we don't play. #score
 It's okay, I understand.
 Luck is a very special gift.
 Sometimes we don't want to use it too much, because we're afraid we'll waste it.
 But worry not my friend, fate wipes the slate clean every time.
 I wish we could have played, I hope some other time and place, we will.
-And if it's meant to be, it will.
+And if it is meant to be, we will.
 I'm gonna go back home now.
 Enjoy your evening!
 * Thanks a lot Tortilla, goodbye!
@@ -298,15 +298,122 @@ Enjoy your evening!
 
 == group1 ==
 
+Sugar? #inky
+check!! #squill
+Soap? #inky
+check!!! #squill
+Cinnamon? #inky
+check!!!! #squill
+Flower...? Flour? #inky
+omg yes check!!!! yes bestie we have all this!!!!! chill out!! #squill
+Inventory is painful to make, but it's important.
+- damn right bestie!! #squill
+Wise observation for an apprentice. I am sure you will do well working in the bakey business. #inky
+i always like to help with inventory business, tough work makes besties closer!! #squill
+* I mean, working together is a great place to start bonding with someone.
+-> bakeryfriends
+* Work makes besties closer, but I believe true friendships are built outside from work. 
+-> truefriendships
 
+== bakeryfriends ==
+Work is for work before all. #inky
+Befriending coworkers can happen but is it really out of shared interests? Would you have befriend this person if you met them at some party? #inky
+i... i'd love to befriend you inky!! #squill #score
+work is only bearable if we have friends to share with!! #squill
+good news, bad days, awkward social interactions!! #squill
+Don't you share all that with friends outside from work? #inky
+sure, i have a lot!!! like my roomates for instance!! i have so many of them i have many ways to blow off some steam!! #squill
+but... it's just that... they're not there you know... #squill
+it's not the same to share with besties from afar! #squill
 
--> ending
+-> group2
+
+== truefriendships ==
+oh you think so? #squill #score #good
+interesting point of view bestie!! #squill
+i always try my best for people to like me at work #squill
+i want to go to the water machine and people be like 'omg yes time for a break!!!' #squill
+i want them to be happy to see me when i arrive at work #squill
+not only workmate but also... #squill
+heartmate #squill
+that's my biggest dream #squill
+is it something doable outside from work... #squill
+i'm not sure anyone would want to see me outside of work #squill
+at least someone has to, right? hahahah ;o) #squill
+i come here, i work, i come home #squill
+do i even do things aside from working? #squill 
+lol, crazy, right bestie?? #squill
+-> group2
 
 == group2 ==
 
+A tough subject, friendships... #inky
+Finding your people is difficult. #inky
+Sometimes you just meet someone and it's an evidence. #inky
+Some other times, sharing the same joys or burdens bring people closer. #inky
+So I understand what you mean Squill. #inky
+And I'm quite happy to have you as a coworker. #inky
+omg thxxxx bestie!!! #squill
+i'm happy to work with you too #squill
+and maybe we could hang outside of work too #squill
+Sure, maybe! But I have so many work to do. #inky
+* You're always hard at work. Don't you think you deserve a pause? #inky
+-> clients
+* I try being hard at work too, but it's tiring... Sometimes I work so much, it feels like I don't have the energy to exist aside from work anymore. #inky
+-> tired
+
+== clients ==
+
+A proper shop requires a solid team and good products to sell. #inky
+It's not only about the clients, it's also about the culture. #inky
+Bringing people together, sharing things they love and that are relevant to them. #inky
+This is what I aspire to and why I work so hard. #inky
+I want to bring something to the community. #inky
+And by doing so, contribute directly to its shaping. #inky
+The bakery becomes its own community, as a sub-part of a bigger community. #inky
+A place where peace, snacks and good will prevail. #inky
+A place we can call our own, for us. #inky
+well said bestie!!! #squill #score #good
+i hope i can be part of that community too #squill
+i want to do something that matters. #squill
+i also think pauses are important!! #squill
+so inky, if you want a coffee break, come see me alright? #inky
+That's nice, thank you Squilliam. #inky
+Though I'm more into cocoa, we could share coffee breaks occasionally. #inky
+Speaking of break... #inky
+I think it's time for us to leave. #inky
+It was a lovely discussion but I need my alone time to relax. #inky
+And my beauty sleep also. #inky
+hiyaaa sure thing bestie!! #squill
+it was a nice bestie talk, i love you two!! #squill
+can't wait to see you tomorrow at the bakery!!! #squill
+buh-byeeee #squill
+Take care you two!
 
 -> ending
 
+== tired ==
+
+don't burn yourself out bestie #squill #score
+there's work and there's friends #squill
+some people have fun in the week-end to be better rested for the coming week #squill 
+i work in the week in order to have fun in the week-end #squill
+carpe diem is the motto!!! #squill
+i wish you can find the energy to balance your life with intention #squill
+manifesting happy times and relaxing breaks for you bestie!!! #squill
+Also being burnt out is the result of bad management in the workspace. #inky
+And it has real consequences on your health. #inky
+So please, take care, and tell us if you feel like you're under pressure. #inky
+We must fix that. #inky
+Heads and hearts first. #inky
+Then delicious baked goods. #inky
+Speaking of... #inky 
+It's about time to leave to our relaxing homes. #inky
+I wish you a lovely evening. #inky
+right, bye-bye besties!!!! #squill
+Thanks a lot little ones, see you tomorrow!!
+
+-> ending
 
 == ending ==
 As everyone leaves the shop for the evening, you notice some leftover treats behind the counter... Leave them for Yuzu the Delivery Dog to find tomorrow morning? Or throw them out?

@@ -9,6 +9,10 @@ TagManager:
   - Squilliam
   - Lil' Soup
   - Tortilla
+  - Dialogue
+  - Question_2
+  - Question_3
+  - UI
   layers:
   - Default
   - TransparentFX

@@ -1,6 +1,7 @@
 using FMOD.Studio;
 using Ink.Runtime;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -14,6 +15,7 @@ enum CharacterFlags: byte
     Tort    = 1 << 3,
     Yuzu    = 1 << 4,
     All     = Inky | Squill | Soup | Tort | Yuzu,
+    Big     = 1 << 5,
 }
 
 enum EmotionFlags : int
@@ -52,6 +54,26 @@ public class StorySceneManager : MonoBehaviour
     public string           BakerySceneName;
     public string           FMODDialogueEventPaths = "event:/DLG/DLG_";
 
+    // Text boxes to set in editor
+    public TextMeshProUGUI NameText;
+    public TextMeshProUGUI DialogueText;
+
+    public TextMeshProUGUI      OptionText_2;
+    public TextMeshProUGUI      OptionText_2_ChoiceA;
+    public TextMeshProUGUI      OptionText_2_ChoiceB;
+
+    public TextMeshProUGUI      OptionText_3;
+    public TextMeshProUGUI      OptionText_3_ChoiceA;
+    public TextMeshProUGUI      OptionText_3_ChoiceB;
+    public TextMeshProUGUI      OptionText_3_ChoiceC;
+
+    private TMP_FontAsset       DefaultFont;
+    public TMP_FontAsset        FontForInky;
+    public TMP_FontAsset        FontForSquilliam;
+    public TMP_FontAsset        FontForSoup;
+    public TMP_FontAsset        FontForTortilla;
+    public TMP_FontAsset        FontForYuzu;
+
     // Persistent Data between scenes, for calculating ending
     private byte            PursuedCharacters = 0;
     private int             CurrentDay = 0;
@@ -64,6 +86,7 @@ public class StorySceneManager : MonoBehaviour
     private bool            HasFirstChoiceOccurred = false;
     private bool            WaitingForChoiceInput = false;
     private byte            CharactersInCurrentScene = 0;
+    private byte            CharactersSpeaking = 0;
     private TextAsset       CurrentInkScript;
     private Story           CurrentStory;
     private string          CurrentStoryText;
@@ -89,6 +112,7 @@ public class StorySceneManager : MonoBehaviour
 
     void Start() // First time startup of singleton instance
     {
+        DefaultFont = DialogueText.font;
         ResetForNewDay();
     }
 
@@ -98,16 +122,7 @@ public class StorySceneManager : MonoBehaviour
         {
             if (!WaitingForChoiceInput)
             {
-                // Display all the choices, if there are any!
-                for (int i = 0; i < CurrentStory.currentChoices.Count; i++)
-                {
-                    Choice choice = CurrentStory.currentChoices[i];
-                    Button button = DisplayChoices(choice.text.Trim());
-                    // Tell the button what to do when we press it
-                    button.onClick.AddListener(delegate {
-                        OnClickChoiceButton(choice);
-                    });
-                }
+                DisplayChoices();
             }
 
             WaitingForChoiceInput = true;
@@ -124,7 +139,7 @@ public class StorySceneManager : MonoBehaviour
             }
             else if (SceneManager.GetActiveScene().name != BakerySceneName)
             {
-                RemoveExistingUI();
+                DeactivateExistingUI();
                 GoToBakery();
             }
         }
@@ -136,13 +151,15 @@ public class StorySceneManager : MonoBehaviour
         CurrentStoryTags = CurrentStory.currentTags;
         IncreaseScoresForTags();
 
+        CharactersSpeaking = BuildCharacterListFromCurrentStory();
+
         if (FromBranch && !HasFirstChoiceOccurred)
         {
             HasFirstChoiceOccurred = true;
             UpdateCharactersInScene();
         }
 
-        RemoveExistingUI();
+        DeactivateExistingUI();
 
         CurrentStoryText = CurrentStoryText.Trim();
         MarkEndOfSceneIfRelevant();
@@ -157,7 +174,7 @@ public class StorySceneManager : MonoBehaviour
             return;
         }
 
-        CurrentStoryText += "\nScene Over; Press Anywhere to Return To Bakery";
+        CurrentStoryText += "\n Press Anywhere to Return To Bakery";
         Debug.Log("Story Stats after Day " + CurrentDay.ToString()
                     + "\n\t Potential Pursued Characters: " + GetNamesForPotentíalPursuedCharacters()
                     + "\n\t Total Score Options Discovered: " + ScoreAffectingOptionsDiscovered.ToString()
@@ -169,7 +186,7 @@ public class StorySceneManager : MonoBehaviour
     void UpdateCharactersInScene() // This happens after the first choice in each scene, besides end
     {
         byte CharactersFromPreviousScene = CharactersInCurrentScene;
-        CharactersInCurrentScene = BuildCharacterListFromCurrentStory();
+        CharactersInCurrentScene = CharactersSpeaking;
 
         if (CurrentDay == WorkDayInkScenes.Length)
         {
@@ -341,6 +358,8 @@ public class StorySceneManager : MonoBehaviour
                 return "Tortilla";
             case CharacterFlags.Yuzu:
                 return "Yuzu";
+            case CharacterFlags.Big:
+                return "Big Soup";
             default:
                 return "None";
         }
@@ -348,7 +367,7 @@ public class StorySceneManager : MonoBehaviour
 
     string GetNamesForCharacterFlags(byte CharacterFlagsByte)
     {
-        string BuiltString = "/";
+        string BuiltString = "";
 
         if ((CharacterFlagsByte & (byte)CharacterFlags.Inky) != 0)
         {
@@ -374,6 +393,10 @@ public class StorySceneManager : MonoBehaviour
         if (BuiltString.Length < 2)
         {
             BuiltString = "None";
+        }
+        else
+        {
+            BuiltString = BuiltString.Remove(BuiltString.Length - 1);
         }
 
         return BuiltString;
@@ -407,15 +430,24 @@ public class StorySceneManager : MonoBehaviour
 
         HasFirstChoiceOccurred = false;
 
-        UICanvas = Camera.main.GetComponentInChildren<Canvas>();
-
-        PortraitCanvas = GetComponentInChildren<Canvas>();
+        Canvas[] Canvases = GetComponentsInChildren<Canvas>();
+        foreach (Canvas i in Canvases)
+        {
+            if (i.gameObject.tag == "UI")
+            {
+                UICanvas = i;
+            }
+            else
+            {
+                PortraitCanvas = i;
+            }
+        }
 
         CurrentInkScript = CurrentDay == 0 ? GameIntroInkScene : WorkDayInkScenes[CurrentDay - 1];
         CurrentStoryTags = new List<string>();
         CurrentStory = new Story(CurrentInkScript.text);
 
-        RemoveExistingUI();
+        DeactivateExistingUI();
         ContinueStory();
     }
 
@@ -430,9 +462,6 @@ public class StorySceneManager : MonoBehaviour
         SceneManager.LoadScene(BakerySceneName);
     }
 
-    // TEMPORARY BASIC INK EXAMPLE FUNCTIONS FOR UI DISPLAY
-    // TODO: MAKE PRETTIER
-
     // When we click the choice button, tell the story to choose that choice!
     void OnClickChoiceButton(Choice choice)
     {
@@ -444,30 +473,119 @@ public class StorySceneManager : MonoBehaviour
     // Creates a textbox showing the the line of text
     void DisplayStoryText()
     {
-        Text storyText = Instantiate(textPrefab) as Text;
-        storyText.text = CurrentStoryText;
-        storyText.transform.SetParent(UICanvas.transform, false);
+        TextMeshProUGUI DialogueBoxToUse;
+
+        if (!IsStoryAtBranch())
+        {
+            DialogueBoxToUse = DialogueText;
+        }
+        else
+        {
+            if (CurrentStory.currentChoices.Count == 2)
+            {
+                DialogueBoxToUse = OptionText_2;
+            }
+            else
+            {
+                DialogueBoxToUse = OptionText_3;
+            }
+        }
+
+        TMP_FontAsset FontToUse = GetFontForCurrentSpeaker();
+
+        if (DialogueBoxToUse)
+        {
+            DialogueBoxToUse.font = FontToUse;
+            DialogueBoxToUse.SetText(CurrentStoryText);
+        }
+
+        if (NameText && !IsStoryAtBranch())
+        {
+            if (CharactersSpeaking == 0)
+            {
+                NameText.SetText("You");
+            }
+            else
+            {
+                string[] CharacterNamesInScene = GetNamesForCharacterFlags(CharactersSpeaking).Split('/');
+                if (CharacterNamesInScene.Length == 1)
+                {
+                    NameText.SetText(CharacterNamesInScene[0]);
+                }
+                else
+                {
+                    NameText.SetText("Group");
+                }
+            }
+
+            NameText.font = FontToUse;
+            ActivateExistingUIForTag("Dialogue");
+        }
 
         UpdatePortraitCanvas(false);
         PlayDialogueSounds();
     }
 
-    // Creates a button showing the choice text
-    Button DisplayChoices(string text)
+    void DisplayChoices()
     {
-        // Creates the button from a prefab
-        Button choice = Instantiate(buttonPrefab) as Button;
-        choice.transform.SetParent(UICanvas.transform, false);
+        if (CurrentStory.currentChoices.Count == 2)
+        {
+            ActivateExistingUIForTag("Question_2");
 
-        // Gets the text from the button prefab
-        Text choiceText = choice.GetComponentInChildren<Text>();
-        choiceText.text = text;
+            Choice ChoiceA = CurrentStory.currentChoices[0];
+            Choice ChoiceB = CurrentStory.currentChoices[1];
 
-        // Make the button expand to fit the text
-        HorizontalLayoutGroup layoutGroup = choice.GetComponent<HorizontalLayoutGroup>();
-        layoutGroup.childForceExpandHeight = false;
+            Button ButtonA = OptionText_2_ChoiceA.gameObject.GetComponentInParent<Button>();
+            Button ButtonB = OptionText_2_ChoiceB.gameObject.GetComponentInParent<Button>();
 
-        return choice;
+            ButtonA.GetComponentInChildren<TextMeshProUGUI>().SetText(ChoiceA.text.Trim());
+            ButtonB.GetComponentInChildren<TextMeshProUGUI>().SetText(ChoiceB.text.Trim());
+
+            // Tell the buttons what to do when we press it
+            ButtonA.onClick.AddListener(delegate {
+                OnClickChoiceButton(ChoiceA);
+            });
+
+            ButtonB.onClick.AddListener(delegate {
+                OnClickChoiceButton(ChoiceB);
+            });
+
+            return;
+        }
+
+        if (CurrentStory.currentChoices.Count == 3)
+        {
+            ActivateExistingUIForTag("Question_3");
+
+            Choice ChoiceA = CurrentStory.currentChoices[0];
+            Choice ChoiceB = CurrentStory.currentChoices[1];
+            Choice ChoiceC = CurrentStory.currentChoices[2];
+
+            Button ButtonA = OptionText_3_ChoiceA.gameObject.GetComponentInParent<Button>();
+            Button ButtonB = OptionText_3_ChoiceB.gameObject.GetComponentInParent<Button>();
+            Button ButtonC = OptionText_3_ChoiceC.gameObject.GetComponentInParent<Button>();
+
+            ButtonA.GetComponentInChildren<TextMeshProUGUI>(true).SetText(ChoiceA.text.Trim());
+            ButtonB.GetComponentInChildren<TextMeshProUGUI>(true).SetText(ChoiceB.text.Trim());
+            ButtonC.GetComponentInChildren<TextMeshProUGUI>(true).SetText(ChoiceC.text.Trim());
+
+            // Tell the buttons what to do when we press it
+            ButtonA.onClick.AddListener(delegate {
+                OnClickChoiceButton(ChoiceA);
+            });
+
+            ButtonB.onClick.AddListener(delegate {
+                OnClickChoiceButton(ChoiceB);
+            });
+
+            ButtonC.onClick.AddListener(delegate {
+                OnClickChoiceButton(ChoiceC);
+            });
+
+            return;
+        }
+
+        Debug.Log("Unsupported number of choices in StorySceneManager::DisplayChoices() : " + CurrentStory.currentChoices.Count);
     }
 
     void UpdatePortraitCanvas(bool Deactivate)
@@ -478,7 +596,6 @@ public class StorySceneManager : MonoBehaviour
 
         if (PortraitCanvas)
         {
-            byte CharactersSpeaking = BuildCharacterListFromCurrentStory();
             if (CharactersSpeaking == 0 && !Deactivate)
             {
                 return;
@@ -489,7 +606,7 @@ public class StorySceneManager : MonoBehaviour
             Image[] Images = PortraitCanvas.GetComponentsInChildren<Image>();
             foreach (Image i in Images)
             {
-                if (Deactivate || !HasFirstChoiceOccurred)
+                if (Deactivate || !HasFirstChoiceOccurred || IsStoryAtBranch())
                 {
                     i.color = Invisible;
                 }
@@ -513,8 +630,7 @@ public class StorySceneManager : MonoBehaviour
     {
         if (PortraitCanvas)
         {
-            byte CharactersSpeaking = BuildCharacterListFromCurrentStory();
-            if (CharactersSpeaking == 0 || CharactersSpeaking == 31)
+            if (CharactersSpeaking == 0 || CharactersSpeaking == (byte)CharacterFlags.All)
             {
                 return;
             }
@@ -537,19 +653,64 @@ public class StorySceneManager : MonoBehaviour
         }
     }
 
-    // Destroys all the children of this canvas gameobject (all the UI)
-    void RemoveExistingUI()
+    // Deactivates all the children of this canvas gameobject (all the UI)
+    void DeactivateExistingUI()
     {
         if (UICanvas)
         {
-            int childCount = UICanvas.transform.childCount;
-            for (int i = childCount - 1; i >= 0; --i)
+            Image[] Images = UICanvas.GetComponentsInChildren<Image>();
+            foreach (Image i in Images)
             {
-                Destroy(UICanvas.transform.GetChild(i).gameObject);
+                i.gameObject.SetActive(false);
             }
         }
 
         UpdatePortraitCanvas(true);
+    }
+
+    void ActivateExistingUIForTag(string UITag)
+    {
+        Image[] Images = UICanvas.GetComponentsInChildren<Image>(true);
+        foreach (Image i in Images)
+        {
+            if (i.gameObject.tag == UITag)
+            {
+                i.gameObject.SetActive(true);
+            }
+        }
+    }
+
+    bool IsStoryAtBranch()
+    {
+        return CurrentStory.currentChoices.Count > 0;
+    }
+
+    TMP_FontAsset GetFontForCurrentSpeaker()
+    {
+        if (CharactersSpeaking > 0)
+        {
+            string[] CharacterNamesInScene = GetNamesForCharacterFlags(CharactersSpeaking).Split('/');
+            if (CharacterNamesInScene.Length == 1)
+            {
+                switch ((CharacterFlags)CharactersSpeaking)
+                {
+                    case CharacterFlags.Inky:
+                        return FontForInky;
+                    case CharacterFlags.Squill:
+                        return FontForSquilliam;
+                    case CharacterFlags.Soup:
+                    case CharacterFlags.Big:
+                        return FontForSoup;
+                    case CharacterFlags.Tort:
+                        return FontForInky;
+                    case CharacterFlags.Yuzu:
+                        return FontForInky;
+                    default:
+                        break;
+                }
+            }
+        }
+        return DefaultFont;
     }
 
     private Canvas UICanvas = null;

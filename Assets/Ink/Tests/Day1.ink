@@ -10,7 +10,6 @@ Pheww, what a day... Time to pack my stuff and go!
 
     == look ==
     We finally finished cleaning the store. It still smells like hot cinnamon buns in here... Reminds me of my mom's. I'm lucky I landed this internship ! But I should be going now. Time to pack my stuff and go.
-    +Go to break room
         -> breakroom
     == breakroom ==
     HELLO!!!! #all
@@ -36,7 +35,7 @@ Pheww, what a day... Time to pack my stuff and go!
     ==dubious==
     uh-oh, i think i smell massive WEIRD vibes over here :o) #squill
     Come on Squill, not cool. There's already a lot to unpack here. Also, you're scaring the intern. We need their help... or else we will never deliver our delicious snacks on time. #inky
-    + I don't think I've seen a time limit there. Customers just love seeing you wiggling around to bake some snacks. It's very cute to watch.
+    * I don't think I've seen a time limit there. Customers just love seeing you wiggling around to bake some snacks. It's very cute to watch.
     ->breakroom2
     ==cute==
     well thaaank you ;) #squill
@@ -44,7 +43,7 @@ Pheww, what a day... Time to pack my stuff and go!
     Do you even... work here? Most of you fall asleep all the time anyway... #inky
    INKY AT BAT AND STRIKES AGAIN, SAVING US FROM BANKRUPTCY!! LEZZZZGO INK-DAWGGG! #soup
     .... [grateful grunt] #tort
-    + You are too cute I can't.... </3
+    You are too cute I can't.... </3
     ->breakroom2
     
     == breakroom2==
@@ -55,7 +54,6 @@ Pheww, what a day... Time to pack my stuff and go!
     
     * Dedication matters more than the results. -> dedication
     * The true bakery is the friends we made along the way. -> friends
-    * "Don't lower your expectations to meet your performance. Raise your level of performance to meet your expectations. Expect the best of yourself, and then do what is necessary to make it a reality." Ralph Marston -> ralph
     * The lion doesn't concern himself with the respect of deadlines or safety measures. -> lion
     
     == dedication ==
@@ -64,7 +62,7 @@ Pheww, what a day... Time to pack my stuff and go!
     COMMITMENT BABYYY!! #soup
     Sure, sure, dedication, hard-work, organization, communication skills, clean hands, face moisturizer and a million bucks sure make the dream work... #inky
      [Grunts] #tort
-     *[You nod with pensively, reflecting on the lifestyle you could have had if you were not an intern at a bakery...]
+    You nod with pensively, reflecting on the lifestyle you could have had if you were not an intern at a bakery...
      -> ending
      
      == friends ==
@@ -73,19 +71,7 @@ Pheww, what a day... Time to pack my stuff and go!
      ALL MY HOMIES LOVE WORKING AT THE BAKERY!! #soup
      b-squaaaad yooo!!! #squill
      [Grunts] #tort
-     *[You flex your biceps in a totally cool and socially acceptable way.]
-     -> ending
-     
-     == ralph ==
-    
-     uhh... #inky
-     is ralph a bestie of yours or? #squill
-     GRINDSET MINDSET!! OBJECTIVE QUADRILLIONNAIRE DAMN RIGHT! #soup
-     ... #tort
-     ... Cringe... #tort
-     ... #tort
-     ... [Grunts] #tort
-     * [You repress from grunting.]
+[You flex your biceps in a totally cool and socially acceptable way.]
      -> ending
      
      == lion ==
@@ -93,7 +79,7 @@ Pheww, what a day... Time to pack my stuff and go!
      INSPIRATIONAL!!! #soup
      You don't really look like a lion... #tort
      In fact you do have to feel concerned about the respect of deadlines and safety measures. Or else, you can't really work here... #inky
-     * No worries, I was just joking. I will respect deadlines and safety measures.
+   No worries, I was just joking. I will respect deadlines and safety measures.
          ->ending
          
       == ending == 

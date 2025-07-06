@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: 61bbffa42300cb949b5d0679c934424b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 968794928036825351
+    second: noun-open-hand-126274_0
+  - first:
+      213: -4101453324538815382
+    second: noun-open-hand-126274_1
+  - first:
+      213: 9075476350622071882
+    second: noun-open-hand-126274_2
+  - first:
+      213: 5460025990979571266
+    second: noun-open-hand-126274_3
+  - first:
+      213: -9217861848112870762
+    second: noun-open-hand-126274_4
+  - first:
+      213: -4745489650174769382
+    second: noun-open-hand-126274_5
+  - first:
+      213: -8914927126838714188
+    second: noun-open-hand-126274_6
+  - first:
+      213: -1113866492464019987
+    second: noun-open-hand-126274_7
+  - first:
+      213: 6429462047945952308
+    second: noun-open-hand-126274_8
+  - first:
+      213: 3489700285181266671
+    second: noun-open-hand-126274_9
+  - first:
+      213: -720531898081034892
+    second: noun-open-hand-126274_10
+  - first:
+      213: 7940217076463993085
+    second: noun-open-hand-126274_11
+  - first:
+      213: -3524015431562495277
+    second: noun-open-hand-126274_12
+  - first:
+      213: -7683647197306355601
+    second: noun-open-hand-126274_13
+  - first:
+      213: 2359819104444509894
+    second: noun-open-hand-126274_14
+  - first:
+      213: 5323505786191436280
+    second: noun-open-hand-126274_15
+  - first:
+      213: -3254874155004738269
+    second: noun-open-hand-126274_16
+  - first:
+      213: -2160862605804770223
+    second: noun-open-hand-126274_17
+  - first:
+      213: -578081645833347951
+    second: noun-open-hand-126274_18
+  - first:
+      213: -7833835569039790512
+    second: noun-open-hand-126274_19
+  - first:
+      213: -1854542469244547373
+    second: noun-open-hand-126274_20
+  - first:
+      213: 1030477781622191279
+    second: noun-open-hand-126274_21
+  - first:
+      213: 389064051677321031
+    second: noun-open-hand-126274_22
+  - first:
+      213: -1162404797625721236
+    second: noun-open-hand-126274_23
+  - first:
+      213: 4651254552175853012
+    second: noun-open-hand-126274_24
+  - first:
+      213: 2256750014705102518
+    second: noun-open-hand-126274_25
+  - first:
+      213: -2512922757396359171
+    second: noun-open-hand-126274_26
+  - first:
+      213: 506962858944045758
+    second: noun-open-hand-126274_27
+  - first:
+      213: -9176266792697114708
+    second: noun-open-hand-126274_28
+  - first:
+      213: 1154686467370378122
+    second: noun-open-hand-126274_29
+  - first:
+      213: -25887705944044283
+    second: noun-open-hand-126274_30
+  - first:
+      213: 3256367609067370247
+    second: noun-open-hand-126274_31
+  - first:
+      213: -1373437514257193936
+    second: noun-open-hand-126274_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: noun-open-hand-126274_0
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 159
+        width: 482
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709c5d9aad9d17d00800000000000000
+      internalID: 968794928036825351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-open-hand-126274_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 67
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6cd4088ee5b417c0800000000000000
+      internalID: -4101453324538815382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-open-hand-126274_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 67
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c794e28a192fd70800000000000000
+      internalID: 9075476350622071882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-open-hand-126274_3
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 67
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24eccb8d5b8e5cb40800000000000000
+      internalID: 5460025990979571266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-open-hand-126274_4
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 67
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a4b9acc73931080800000000000000
+      internalID: -9217861848112870762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-open-hand-126274_5
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 67
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a174a0c4e42a42eb0800000000000000
+      internalID: -4745489650174769382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-open-hand-126274_6
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 67
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b0e84ee201d74480800000000000000
+      internalID: -8914927126838714188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-open-hand-126274_7
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 67
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de5c87d9350ca80f0800000000000000
+      internalID: -1113866492464019987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-open-hand-126274_8
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 62
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c8ca8faa90a3950800000000000000
+      internalID: 6429462047945952308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-open-hand-126274_9
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 65
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea0fce8be7ed6030800000000000000
+      internalID: 3489700285181266671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-open-hand-126274_10
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 67
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47dba856e082006f0800000000000000
+      internalID: -720531898081034892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-open-hand-126274_11
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 67
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df0802aac51513e60800000000000000
+      internalID: 7940217076463993085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-open-hand-126274_12
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 67
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3daf8b2d2ae281fc0800000000000000
+      internalID: -3524015431562495277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-open-hand-126274_13
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 67
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f60012175933e5590800000000000000
+      internalID: -7683647197306355601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-open-hand-126274_14
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 67
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce689ef8f2cfb020800000000000000
+      internalID: 2359819104444509894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-open-hand-126274_15
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 67
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f95da1be44e0e940800000000000000
+      internalID: 5323505786191436280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-open-hand-126274_16
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 67
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325c75a733d54d2d0800000000000000
+      internalID: -3254874155004738269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-open-hand-126274_17
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 67
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ce494a8e21302e0800000000000000
+      internalID: -2160862605804770223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-open-hand-126274_18
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 67
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19c1ee05ecd3af7f0800000000000000
+      internalID: -578081645833347951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-open-hand-126274_19
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 62
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e209e2e00a84390800000000000000
+      internalID: -7833835569039790512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-open-hand-126274_20
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 41
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3de8dc333775346e0800000000000000
+      internalID: -1854542469244547373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-open-hand-126274_21
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 41
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa4f58a251efc4e00800000000000000
+      internalID: 1030477781622191279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-open-hand-126274_22
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 41
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 747d91391bb366500800000000000000
+      internalID: 389064051677321031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-open-hand-126274_23
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 41
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e1f48cefe4edfe0800000000000000
+      internalID: -1162404797625721236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-open-hand-126274_24
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 41
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dd3c5e2f539c8040800000000000000
+      internalID: 4651254552175853012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-open-hand-126274_25
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 41
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6beea5d7e26915f10800000000000000
+      internalID: 2256750014705102518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-open-hand-126274_26
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 41
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df71561f01e402dd0800000000000000
+      internalID: -2512922757396359171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-open-hand-126274_27
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 41
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb22da1c808190700800000000000000
+      internalID: 506962858944045758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-open-hand-126274_28
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 41
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf431158f957a080800000000000000
+      internalID: -9176266792697114708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-open-hand-126274_29
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 36
+        width: 7
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a83ef8a6935460010800000000000000
+      internalID: 1154686467370378122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-open-hand-126274_30
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 41
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50dc723c44704aff0800000000000000
+      internalID: -25887705944044283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-open-hand-126274_31
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 41
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7077c846611f03d20800000000000000
+      internalID: 3256367609067370247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noun-open-hand-126274_32
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 41
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03421898bd190fce0800000000000000
+      internalID: -1373437514257193936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      noun-open-hand-126274_0: 968794928036825351
+      noun-open-hand-126274_1: -4101453324538815382
+      noun-open-hand-126274_10: -720531898081034892
+      noun-open-hand-126274_11: 7940217076463993085
+      noun-open-hand-126274_12: -3524015431562495277
+      noun-open-hand-126274_13: -7683647197306355601
+      noun-open-hand-126274_14: 2359819104444509894
+      noun-open-hand-126274_15: 5323505786191436280
+      noun-open-hand-126274_16: -3254874155004738269
+      noun-open-hand-126274_17: -2160862605804770223
+      noun-open-hand-126274_18: -578081645833347951
+      noun-open-hand-126274_19: -7833835569039790512
+      noun-open-hand-126274_2: 9075476350622071882
+      noun-open-hand-126274_20: -1854542469244547373
+      noun-open-hand-126274_21: 1030477781622191279
+      noun-open-hand-126274_22: 389064051677321031
+      noun-open-hand-126274_23: -1162404797625721236
+      noun-open-hand-126274_24: 4651254552175853012
+      noun-open-hand-126274_25: 2256750014705102518
+      noun-open-hand-126274_26: -2512922757396359171
+      noun-open-hand-126274_27: 506962858944045758
+      noun-open-hand-126274_28: -9176266792697114708
+      noun-open-hand-126274_29: 1154686467370378122
+      noun-open-hand-126274_3: 5460025990979571266
+      noun-open-hand-126274_30: -25887705944044283
+      noun-open-hand-126274_31: 3256367609067370247
+      noun-open-hand-126274_32: -1373437514257193936
+      noun-open-hand-126274_4: -9217861848112870762
+      noun-open-hand-126274_5: -4745489650174769382
+      noun-open-hand-126274_6: -8914927126838714188
+      noun-open-hand-126274_7: -1113866492464019987
+      noun-open-hand-126274_8: 6429462047945952308
+      noun-open-hand-126274_9: 3489700285181266671
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
