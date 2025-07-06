@@ -36,7 +36,7 @@ Pheww, what a day... Time to pack my stuff and go!
     ==dubious==
     uh-oh, i think i smell massive WEIRD vibes over here :o) #squill
     Come on Squill, not cool. There's already a lot to unpack here. Also, you're scaring the intern. We need their help... or else we will never deliver our delicious snacks on time. #inky
-    + I don't think I've seen a time limit there. Customers just love seeing you wiggling around to bake some snacks. It's very cute to watch.
+    * I don't think I've seen a time limit there. Customers just love seeing you wiggling around to bake some snacks. It's very cute to watch.
     ->breakroom2
     ==cute==
     well thaaank you ;) #squill
@@ -55,7 +55,7 @@ Pheww, what a day... Time to pack my stuff and go!
     
     * Dedication matters more than the results. -> dedication
     * The true bakery is the friends we made along the way. -> friends
-    * "Don't lower your expectations to meet your performance. Raise your level of performance to meet your expectations. Expect the best of yourself, and then do what is necessary to make it a reality." Ralph Marston -> ralph
+    * "Don't lower your expectations to meet your performance. Raise your level of performance to meet your expectations." Ralph Marston -> ralph
     * The lion doesn't concern himself with the respect of deadlines or safety measures. -> lion
     
     == dedication ==
