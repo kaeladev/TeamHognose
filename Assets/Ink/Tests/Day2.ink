@@ -50,9 +50,8 @@ WHAT DO YOU THINK ABOUT THE LATEST TURNSTILE ALBUM??? #soup
 -> curious
 
  ==turnstilelove==
- #score #good
- 
- LEZZZZGO!!!! #soup
+
+ LEZZZZGO!!!! #soup #score #good
  EARLY DAWN AFTER PARTY OST-TYPE SHxT!!! #soup
  Woof! #yuzu
  MAD RESPECT FOR FINDING NEW AUDIENCES!! #soup
@@ -64,9 +63,8 @@ Never enough! #tort
 ->Group2
 
 == turnstilehatred ==
-#score
 
-Interesting point of view. #tort
+Interesting point of view. #tort #score
 GATEKEEPER BEHAVIOR!!! #soup
 BANDS CHANGE WHY DON'T YOU??? #soup
 SKILL ISSUE!!! #soup
@@ -77,14 +75,14 @@ WELL SAID BUDDY!
 ->Group2
 
 == curious ==
-#score #good
 
-They are a popular punk hardcore band at the moment. #tort
+They are a popular punk hardcore band at the moment. #tort #score #good
 They are softening up a bit, if you don't know much of hardcore you could still give it a try and like it. #tort
 HELL YEAH, CURIOSITY!!! OPENING UP TO NEW THINGS!!! #soup
 OPEN-MAXEDNESS!!!!! #soup
 Zoof! #yuzu
  ->Group2
+ 
 == Astro ==
 Once I looked at the stars and some big one fell and then it felt bad, and then bad things happened. #tort
 Some 60 millions years ago... #tort
@@ -105,9 +103,8 @@ What is that sign of yours? #tort
 -> NoAstro
 
 == MyAstro ==
-#score #good
 
-FIRST TIME ENCOUNTERER!!! #soup
+FIRST TIME ENCOUNTERER!!! #soup #score #good
 NEW FAV STAR SIGN!!!! #soup
 Woof! #yuzu
 Is that a nice sign? It must be! #tort
@@ -115,9 +112,8 @@ You're not a star... Yet! But I bet you'll be a star someday. #tort
 -> Group2
 
 == IdkAstro ==
-#score #good
 
-Interesting, not to know your sign. #tort
+Interesting, not to know your sign. #tort #score #good
 EMBRACE MINIMALISM!!! NON-BIRTHDAYED BADDIE!!! #soup
 Impressive of you not to have a birthday. Mine was so long ago... You look younger. #tort
 Maybe you have forgotten your birth date. I hope you can ask someone to help you. #tort
@@ -126,9 +122,8 @@ MORE LIKE PAPERBEURK!!! #soup
 -> Group2
 
 == NoAstro ==
-#score
 
-Yes it does. That's why it's good. #tort
+Yes it does. That's why it's good. #tort #score
 My problems are the same as yours. My joys are the same as yours. My fears are the same as yours. #tort
 It's a comforting feeling. #tort
 It's the same reason why I can be friend with LIL'SOUP and Yuzu. We are different and we are the same at the same time. Relieving. #tort
@@ -162,9 +157,8 @@ Jurassic Park 2 #tort
 -> HardTruth
 
 == Movie ==
-#score
 
-... #tort
+... #tort #score
 Aren't there tons of Jurassic Park movies? #tort
 I think at least two or three of them are sorts of Jurassic Park 2. #tort
 CINEPHILE GANG!! #soup
@@ -175,9 +169,8 @@ Woooof ! #yuzu
 ->Group2
 
 == ThemePark==
-#score #good
 
-Hey... #tort
+Hey... #tort #score #good
 ... #tort
 ... #tort
 I had no clue what I meant but this is a good idea... #tort
@@ -186,9 +179,8 @@ Woof !! #yuzu
 -> Group2
 
 ==HardTruth==
-#score #good
 
-BRO... FAIR POINT! #soup
+BRO... FAIR POINT! #soup #score #good
 I mean... #tort
 ... #tort
 ... #tort
@@ -222,7 +214,7 @@ oh hiyaa, didn't see you coming, what's good???? #squill
 - omg yes i'm sorry bestie my nerves are a WRECK uhhhhh
 * [You watch Squilliam blow her nose]
 Okay, tell me what's wrong.
-- so, so, so the day was long, i'm drenching in sweat, and my feet hurt, also some clients are the worst like litteraly someone said i look like a mario blooper!!!
+- so, so, so the day was long, i was drenched in sweat, and my feet hurt, also some clients are the worst like litteraly someone said i look like a blooper from mario!!!
 * It sounds like you have a lot on your plate, I am very sorry.
 -> sorry
 * What did you answer to them?
@@ -231,17 +223,16 @@ Okay, tell me what's wrong.
 -> blooper
 
 == sorry ==
-#score #good
 
-[Squilliam burst into tears in such a strong way, you don't even dare to pat her shoulder. Instead you just look at her with an embarassed smile:] #squill
+[Squilliam burst into tears in such a strong way, you don't even dare to pat her shoulder. Instead you just look at her with an embarassed smile:] #squill #score #good
 ahahaaahaha, so sorry bestie #squill
 some emotions you just gotta get out right ;o) ? #squill
 [Squilliam blows her nose in a very loud way) #squill
 -> Squilliam2
 
 == answer ==
-#score
-ahaha RIGHT bestie it's obviously about what I answer and not about what THEY say to me #squill
+
+ahaha RIGHT bestie it's obviously about what I answer and not about what THEY say to me #squill #score
 [Squilliam blows her nose very loudly] #squill
 thanks for the victim blaming!!!! #squill
 ...
@@ -249,9 +240,8 @@ aaaaahahah just kidding bestie don't look at me like that i love you #squill
 -> Squilliam2
 
 == blooper ==
-#score
 
-ahahha... #squill
+ahahha... #squill #score
 hahahahahahah... #squill
 but sexier right? ;o) #squill
 ahahah #squill
@@ -273,9 +263,8 @@ please sing me something to help me catch my breath or else i will die!!!!
 -> bep
 
 == toxic ==
-#score #good
 
-ahahaaaha... right... #squill
+ahahaaaha... right... #squill #score #good
 i'm sorry for the zoomies, i'm all over the place at the moment... #squill
 it's been difficult lately because i'm not in a gang, see what i mean? #squill
 everyone's in a gang!! #squill
@@ -286,9 +275,8 @@ thanks for being honest and telling me bestie. that's not how i'll settle things
 -> SquilliamEnding
 
 == charlixcx ==
-#score
 
-hahaha, trying to be flirty bestie? ;o) #squill
+hahaha, trying to be flirty bestie? ;o) #squill #score
 maybe now's NOT the right time..... #squill
 really love that for charlie and billie though #squill
 unfortunately brat summer is over, did you know they call it mid-summer now? #squill
@@ -297,9 +285,8 @@ the one right before nuclear winter? #squill
 -> SquilliamEnding
 
 == bep ==
-#score #good
 
-Tonight the night's... (sob), let's live it up... #squill
+Tonight the night's... (sob), let's live it up... #squill #score #good
 * let's live it up! #squill
 - i got my money, snif, let's spend it up... #squill
 * let's spend it up! #squill
