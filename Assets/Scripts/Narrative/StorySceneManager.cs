@@ -433,14 +433,14 @@ public class StorySceneManager : MonoBehaviour
 
         HasFirstChoiceOccurred = false;
 
-        Canvas[] Canvases = GetComponentsInChildren<Canvas>();
+        Canvas[] Canvases = GetComponentsInChildren<Canvas>(true);
         foreach (Canvas i in Canvases)
         {
             if (i.gameObject.tag == "UI")
             {
                 UICanvas = i;
             }
-            else
+            else if (i.gameObject.tag == "Portraits")
             {
                 PortraitCanvas = i;
             }
@@ -452,6 +452,7 @@ public class StorySceneManager : MonoBehaviour
 
         DeactivateExistingUI();
         ContinueStory();
+        SetAllCanvasActive(true);
     }
 
     public void PetYuzu()
@@ -462,6 +463,7 @@ public class StorySceneManager : MonoBehaviour
     void GoToBakery()
     {
         // TODO: Async load? Or fake loading screen for fun?
+        SetAllCanvasActive(false);
         SceneManager.LoadScene(BakerySceneName);
     }
 
@@ -606,7 +608,7 @@ public class StorySceneManager : MonoBehaviour
 
             string CharacterNamesInScene = GetNamesForCharacterFlags(CharactersSpeaking);
             
-            Image[] Images = PortraitCanvas.GetComponentsInChildren<Image>();
+            Image[] Images = PortraitCanvas.GetComponentsInChildren<Image>(true);
             foreach (Image i in Images)
             {
                 if (Deactivate || !HasFirstChoiceOccurred || IsStoryAtBranch())
@@ -640,7 +642,7 @@ public class StorySceneManager : MonoBehaviour
 
             string CharacterNamesInScene = GetNamesForCharacterFlags(CharactersSpeaking);
 
-            Image[] Images = PortraitCanvas.GetComponentsInChildren<Image>();
+            Image[] Images = PortraitCanvas.GetComponentsInChildren<Image>(true);
             foreach (Image i in Images)
             {
                 if (CharacterNamesInScene.Contains(i.tag))
@@ -656,12 +658,21 @@ public class StorySceneManager : MonoBehaviour
         }
     }
 
+    void SetAllCanvasActive(bool ShouldBeActive)
+    {
+        Canvas[] Canvasses = gameObject.GetComponentsInChildren<Canvas>(true);
+        foreach (Canvas c in Canvasses) 
+        {
+            c.gameObject.SetActive(ShouldBeActive);
+        }
+    }
+
     // Deactivates all the children of this canvas gameobject (all the UI)
     void DeactivateExistingUI()
     {
         if (UICanvas)
         {
-            Image[] Images = UICanvas.GetComponentsInChildren<Image>();
+            Image[] Images = UICanvas.GetComponentsInChildren<Image>(true);
             foreach (Image i in Images)
             {
                 i.gameObject.SetActive(false);
