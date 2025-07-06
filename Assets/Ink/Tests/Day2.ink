@@ -14,8 +14,8 @@ Another day went by at the bakery. I need to clean my hands and grab my stuff. T
 Hello hello!! #soup #tort
 Woof! #yuzu
 What's up? #tort
-*Not much, I heard you chatting from the other side of the room. All good?
-- Yes, we were discussing about coming options for our menu. I think savory options could be interesting for our customers. #tort
+Not much, I heard you chatting from the other side of the room. All good?
+Yes, we were discussing about coming options for our menu. I think savory options could be interesting for our customers. #tort
 MAXIMUM GLUCOSE LEVELS LADS!!! #soup
 Woof! #yuzu
 How do you feel about savory options? #tort
@@ -26,8 +26,8 @@ How do you feel about savory options? #tort
 Woof! #yuzu
 Discussing options are what friends do. What do you want to discuss with us? #tort
 
-*That's a good opportunity to bond with them... What should I ask ?
-- BUDDY LET'S CHAT!!!!
+(That's a good opportunity to bond with them... What should I ask ?)
+BUDDY LET'S CHAT!!!!
 * What music are you into?
 -> Music
 * What is your astrological sign?
@@ -59,7 +59,7 @@ WHAT DO YOU THINK ABOUT THE LATEST TURNSTILE ALBUM??? #soup
 ... #tort
 Never enough! #tort
 [Grunts] #tort
-* [pretends to do the angry hardcore walkie]
+[pretends to do the angry hardcore walkie]
 ->Group2
 
 == turnstilehatred ==
@@ -71,7 +71,7 @@ SKILL ISSUE!!! #soup
 Is 'real hardcore' real or is it a fond memory of yours? #tort
 Artistic nostalgia is both a memory and realness at the same time. #tort
 [Wisely] Woof! #yuzu
-WELL SAID BUDDY!
+WELL SAID BUDDY! #soup
 ->Group2
 
 == curious ==
@@ -129,9 +129,9 @@ It's a comforting feeling. #tort
 It's the same reason why I can be friend with LIL'SOUP and Yuzu. We are different and we are the same at the same time. Relieving. #tort
 Woof! #yuzu
 YOU'RE SO UNIQUE NOBODY FEELS THE SAME YOU DO? I PITY YOU! #soup
-TEAM HUMANITY, TEAM GROUP, TEAM SAMENESS!!! #soup
-INDIVIDUAL-HATER!! #soup
-Come on SOUP, our hearts so little and still you fill it with hatred. Reflect. #tort
+TEAM HUMANITY, TEAM GROUP, GO SAMENESS!!! #soup
+INDIVIDUALITY-HATER!! #soup
+Come on SOUP, our hearts so little and still you fill it with hatred. You should reflect. #tort
 ->Group2
 
 == Money ==
@@ -198,28 +198,28 @@ See you tomorrow... Right? #tort
 We need help... #tort
 Working is hard... #tort
 LET'S UNWORK Y'ALL! #soup
-*Alright then, see ya!
+Alright then, see ya!
 ->ending
 
 == Squilliam ==
 
 oh hiyaa, didn't see you coming, what's good???? #squill
-*Hey Squilliam, I'm good thanks! You seem a bit tense though. Is there something zrong?
-- something.... wrong??? hhaahahahahahhaha nothing!!!#squill
-*..... 
-- .... everything's fineee lmaooo!!! #squill
-*.....
--it's ALL good i swear!!!!
-*... Do you need a tissue?
-- omg yes i'm sorry bestie my nerves are a WRECK uhhhhh
-* [You watch Squilliam blow her nose]
+Hey Squilliam, I'm good thanks! You seem a bit tense though. Is there something wrong?
+something.... wrong??? hhaahahahahahhaha nothing!!!#squill
+..... 
+.... everything's fineee lmaooo!!! #squill
+.....
+it's ALL good i swear!!!! #squill
+... Do you need a tissue?
+- omg yes i'm sorry bestie my nerves are a WRECK uhhhhh #squill
+[You watch Squilliam blow her nose] #squill
 Okay, tell me what's wrong.
-- so, so, so the day was long, i was drenched in sweat, and my feet hurt, also some clients are the worst like litteraly someone said i look like a blooper from mario!!!
+so, so, so the day was long, i was drenched in sweat, and my feet hurt, also some clients are the worst like litteraly someone said i look like a blooper from mario!!! #squill
 * It sounds like you have a lot on your plate, I am very sorry.
 -> sorry
 * What did you answer to them?
 -> answer
-* Bestie I'm sorry but you kinda do like a blooper...
+* Bestie I'm sorry but you kinda look like a Blooper from Mario...
 -> blooper
 
 == sorry ==
@@ -287,47 +287,47 @@ the one right before nuclear winter? #squill
 == bep ==
 
 Tonight the night's... (sob), let's live it up... #squill #score #good
-* let's live it up! #squill
-- i got my money, snif, let's spend it up... #squill
-* let's spend it up! #squill
-- go out and smash it, like omg... #squill
-* like OMG! #squill
-- jump out that sofa, let's kick it #squill
-* OFF!!! #squill
-- fill up my cup??? ;) #squill
-* DRINK!!! #squill
-- mazel tov!!! #squill
-* l'chaim??? #squill
-- look at her dancing, just take it #squill
-* OFF! #squill
-- let's paint the town, we'll shut it down #squill
-* let's burn the roof, and then we'll do it again #squill
-- ahaha, thanks bestie, you're the bestest <3 [Squilliam gives you a warm hug] #squill
+let's live it up!
+i got my money, snif, let's spend it up... #squill
+let's spend it up!
+go out and smash it, like omg... #squill
+like OMG!
+jump out that sofa, let's kick it #squill
+OFF!!!
+fill up my cup??? ;) #squill
+DRINK!!!
+mazel tov!!! #squill
+l'chaim???
+look at her dancing, just take it #squill
+OFF!
+let's paint the town, we'll shut it down #squill
+let's burn the roof, and then we'll do it again
+ahaha, thanks bestie, you're the bestest <3 [Squilliam gives you a warm hug] #squill
 
 -> SquilliamEnding
 
 == SquilliamEnding==
 
-* I can see that you are struggling and I wanted to let you know that there is much more to you than you think there is. #squill
-- thank you so much boo, i really appreciate.
-i'm so sorry i messed this up...
-kind of OVERSHARING to someone i barely know hahaahaha
-OOPSIE i kinda trauma dumped on a stranger again ;o) ??
-anyway i guess it's time to head home.
-thank you so much babes. i love you. take very good care of you.
-* Take care Squilliam.
+I can see that you are struggling and I wanted to let you know that there is much more to you than you think there is.
+thank you so much boo, i really appreciate.  #squill
+i'm so sorry i messed this up...  #squill
+kind of OVERSHARING to someone i barely know hahaahaha  #squill
+OOPSIE i kinda trauma dumped on a stranger again ;o) ??  #squill
+anyway i guess it's time to head home.  #squill
+thank you so much babes. i love you. take very good care of you.  #squill
+Take care Squilliam.
 -> ending
 
 == Inky ==
-#inky
+
 hmm hmm hmmm... #inky
 this goes there... #inky
 ... #inky
 whatever that means uh... #inky
-* uh, Hello Inky ?
-- WAHH!! Sorry I got scared, I was very focused in my paperwork. How is it going? #inky
-* Better than you it appears, I'm not too good with paperwork...
-- Heh, me neither, but we have to do what we have to do to comply with the local laws. #inky
+uh, Hello Inky ?
+WAHH!! Sorry I got scared, I was very focused in my paperwork. How is it going? #inky
+Better than you it appears, I'm not too good with paperwork...
+Heh, me neither, but we have to do what we have to do to comply with the local laws. #inky
 It's the thing we do right... To keep this beautiful bakery operating. #inky
 Do you like working there so far? #inky
 * I like working at the bakery. ->bakerylove
@@ -363,25 +363,25 @@ You know this is cozier than actual labour right? #inky
 -> inky2
 
 == inky2 ==
-* You must be proud of your shop!
-- Ah ah, unfortunately it's not my shop. #inky
-* What do you mean? Aren't you the boss around here??
-- Alas no, I'm just a normal worker.
-We do have a CEO though. We don't see him much.
-Kind of evil in my opinion but... I mean... CEO life must be hard right..?
-*Are you sure though?
-- I mean, we are the ones working all day, tentacles in the batter, trying to keep things running and cash flowing in...
-But there must be some difficulty in being CEO right?
-* ...
-- Right??
-Anyway, haha. I might become manager someday, who knows?
-At least there's that.
-If I work hard, comply, put a lot of efforts into it and keep smiling, I guess I could become at least a store manager or something.
-That could be nice. I would add new items on the menu. Change the decoration a little bit.
-* I wish you the best in pursuing your dream career.
-- That's very nice of you. Thank you for that. Once I'm manager, who knows, I might promote you to happiness-and-store-running co-lead or something, haha.
-* Thank you Inky, see you tomorrow.
-- See you tomorrow, fresh as a daisy!
+You must be proud of your shop!
+Ah ah, unfortunately it's not my shop. #inky
+What do you mean? Aren't you the boss around here??
+Alas no, I'm just a normal worker. #inky
+We do have a CEO though. We don't see him much. #inky
+Kind of evil in my opinion but... I mean... CEO life must be hard right..? #inky
+Are you sure though?
+I mean, we are the ones working all day, tentacles in the batter, trying to keep things running and cash flowing in... #inky
+But there must be some difficulty in being CEO right? #inky
+... #inky
+Right?? #inky
+Anyway, haha. I might become manager someday, who knows? #inky
+At least there's that. #inky
+If I work hard, comply, put a lot of efforts into it and keep smiling, I guess I could become at least a store manager or something. #inky
+That could be nice. I would add new items on the menu. Change the decoration a little bit. #inky
+I wish you the best in pursuing your dream career.
+That's very nice of you. Thank you for that. Once I'm manager, who knows, I might promote you to happiness-and-store-running co-lead or something, haha. #inky
+Thank you Inky, see you tomorrow.
+See you tomorrow, fresh as a daisy! #inky
 -> ending
 
 == ending ==
