@@ -5,7 +5,7 @@
 			<value>DLG_Tortilla</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{eddb981b-20ce-4c4e-b167-a5f65dbb2821}</destination>
@@ -41,6 +41,10 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{bb7ea0c4-2087-4d47-a8c3-76ed7cd6e573}">
+		<relationship name="modules">
+			<destination>{ebc4468f-8a03-472f-9e8b-2e4d4deb67cf}</destination>
+			<destination>{3c87264a-fd87-4a4b-bcf5-226cadae3582}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{601b5e72-51f7-458a-8ea3-79bb5db9295c}</destination>
 		</relationship>
@@ -64,6 +68,10 @@
 		</property>
 	</object>
 	<object class="ParameterProxy" id="{436f5dd3-0fcd-4de1-b9d1-5627c2ca7d9a}">
+		<relationship name="modules">
+			<destination>{ebc4468f-8a03-472f-9e8b-2e4d4deb67cf}</destination>
+			<destination>{3c87264a-fd87-4a4b-bcf5-226cadae3582}</destination>
+		</relationship>
 		<relationship name="preset">
 			<destination>{ecc1ec6b-ae26-4817-8f05-dd4e815874be}</destination>
 		</relationship>
@@ -79,6 +87,25 @@
 			<destination>{75ac24ce-312a-4816-9d0d-28cd3891d8fe}</destination>
 		</relationship>
 	</object>
+	<object class="SingleSound" id="{ebc4468f-8a03-472f-9e8b-2e4d4deb67cf}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{cf91b03f-e3d3-4a78-85a9-13fc4fd3a556}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{3c87264a-fd87-4a4b-bcf5-226cadae3582}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
+		<property name="start">
+			<value>7</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{daa841c7-4356-4ca1-9bd1-2b430555b725}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{9347bc6c-a798-49c2-8b01-15d8db26d09b}">
 		<relationship name="effects">
 			<destination>{e9087ceb-15f3-412e-b34c-b5bb03e53cf2}</destination>
@@ -88,9 +115,17 @@
 	<object class="MixerBusEffectChain" id="{2e2c7b21-05e7-415c-a23e-085a4d271ffc}">
 		<relationship name="effects">
 			<destination>{0c26180f-783c-472f-971a-88cc5aa823dd}</destination>
+			<destination>{404f5c53-424e-4972-9edb-746b013fbeb6}</destination>
+			<destination>{fd48f59f-2fca-4e95-b859-b28b7e6c7167}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b53fdce9-afd5-489e-b802-1b363b4c5398}" />
 	<object class="MixerBusFader" id="{e9087ceb-15f3-412e-b34c-b5bb03e53cf2}" />
 	<object class="MixerBusFader" id="{0c26180f-783c-472f-971a-88cc5aa823dd}" />
+	<object class="LimiterEffect" id="{404f5c53-424e-4972-9edb-746b013fbeb6}">
+		<property name="ceiling">
+			<value>-1</value>
+		</property>
+	</object>
+	<object class="SpatialiserEffect" id="{fd48f59f-2fca-4e95-b859-b28b7e6c7167}" />
 </objects>
