@@ -71,7 +71,7 @@ Pheww, what a day... Time to pack my stuff and go!
      ALL MY HOMIES LOVE WORKING AT THE BAKERY!! #soup
      b-squaaaad yooo!!! #squill
      [Grunts] #tort
-     You flex your biceps in a totally cool and socially acceptable way.
+[You flex your biceps in a totally cool and socially acceptable way.]
      -> ending
      
      == lion ==
