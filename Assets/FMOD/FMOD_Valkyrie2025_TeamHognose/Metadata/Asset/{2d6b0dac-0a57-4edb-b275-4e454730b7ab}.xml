@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{2d6b0dac-0a57-4edb-b275-4e454730b7ab}">
+		<property name="assetPath">
+			<value>DLG_LilSoup/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{63f759f7-e124-48b6-a7fc-47e1bb9d76bf}</destination>
+		</relationship>
+	</object>
+</objects>

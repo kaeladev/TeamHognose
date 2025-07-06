@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{09bf949c-cf63-4429-8c6e-bc496c8f1db6}">
+		<property name="assetPath">
+			<value>DLG_Inky/DLG_Inky_Relief.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.68787500000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{63f759f7-e124-48b6-a7fc-47e1bb9d76bf}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{4dbb81f4-ee55-4ab8-9e4c-1d37883e557b}">
 		<property name="assetPath">
-			<value>DLG_LilSoup_Dialogue.wav</value>
+			<value>DLG_LilSoup/DLG_LilSoup_Dialogue.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

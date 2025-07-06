@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{baf9c9c6-b4d7-475e-92b6-01a32e9f9ccc}">
 		<property name="assetPath">
-			<value>DLG_Squilliam_Surprise.wav</value>
+			<value>DLG_Squilliam/DLG_Squilliam_Surprise.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

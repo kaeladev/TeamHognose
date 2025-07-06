@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{3790a8b6-cd59-4693-ac24-6ef44357c958}">
+		<property name="assetPath">
+			<value>DLG_Squilliam/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{63f759f7-e124-48b6-a7fc-47e1bb9d76bf}</destination>
+		</relationship>
+	</object>
+</objects>

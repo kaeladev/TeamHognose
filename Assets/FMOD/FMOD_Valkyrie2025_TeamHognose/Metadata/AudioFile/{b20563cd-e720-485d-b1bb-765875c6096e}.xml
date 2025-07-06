@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{b20563cd-e720-485d-b1bb-765875c6096e}">
 		<property name="assetPath">
-			<value>SFX_Yuzu_Arrival_01.wav</value>
+			<value>SFX/SFX_Yuzu_Arrival_01.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
