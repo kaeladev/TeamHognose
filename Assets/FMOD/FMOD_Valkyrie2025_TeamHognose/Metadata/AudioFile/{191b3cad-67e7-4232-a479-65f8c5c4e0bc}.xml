@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{191b3cad-67e7-4232-a479-65f8c5c4e0bc}">
 		<property name="assetPath">
-			<value>DLG_SoupSong.wav</value>
+			<value>DLG_LilSoup/DLG_SoupSong.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
