@@ -5,7 +5,7 @@
 			<value>DLG_Squilliam_Reaction</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{eddb981b-20ce-4c4e-b167-a5f65dbb2821}</destination>
@@ -39,6 +39,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{d9ec55cc-882c-4529-80ee-8db91a0f0f43}">
+		<relationship name="modules">
+			<destination>{1acd2912-9da6-449d-8bdd-028ef7b984c2}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{09b3848f-6462-4790-851d-267c2386dc39}</destination>
 		</relationship>
@@ -57,9 +60,9 @@
 	<object class="EventAutomatableProperties" id="{c4f84740-1723-4b6d-8838-e0650f691c6a}" />
 	<object class="MarkerTrack" id="{ab4393a4-7bf6-4a25-88f1-838e15806082}" />
 	<object class="Timeline" id="{fe780987-41d5-4390-9755-2a7f34009b1e}">
-		<property name="isProxyEnabled">
-			<value>false</value>
-		</property>
+		<relationship name="modules">
+			<destination>{1acd2912-9da6-449d-8bdd-028ef7b984c2}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{09b3848f-6462-4790-851d-267c2386dc39}">
 		<relationship name="effectChain">
@@ -72,6 +75,17 @@
 			<destination>{e645201a-443a-4bf0-9543-8bfde688b07e}</destination>
 		</relationship>
 	</object>
+	<object class="SingleSound" id="{1acd2912-9da6-449d-8bdd-028ef7b984c2}">
+		<property name="length">
+			<value>1.1165416666666668</value>
+		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{bbfbe1d7-8f34-4e51-b100-888b5ba12760}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{7d6e60c7-5da6-4afb-8427-0c9d12db744b}">
 		<relationship name="effects">
 			<destination>{3869c3cf-eabe-4365-b48e-a6be80291406}</destination>
@@ -81,9 +95,15 @@
 	<object class="MixerBusEffectChain" id="{0a457104-e0ee-4a0f-8f2a-76616f211971}">
 		<relationship name="effects">
 			<destination>{c50f5531-8c5a-4a93-8ecf-5b5b424ed7fe}</destination>
+			<destination>{3468252e-9ee9-4e9a-bf3a-a76b55eaebbf}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{bcb0851e-4ca2-4399-b0c9-54236ee638d7}" />
 	<object class="MixerBusFader" id="{3869c3cf-eabe-4365-b48e-a6be80291406}" />
 	<object class="MixerBusFader" id="{c50f5531-8c5a-4a93-8ecf-5b5b424ed7fe}" />
+	<object class="LimiterEffect" id="{3468252e-9ee9-4e9a-bf3a-a76b55eaebbf}">
+		<property name="ceiling">
+			<value>-1</value>
+		</property>
+	</object>
 </objects>

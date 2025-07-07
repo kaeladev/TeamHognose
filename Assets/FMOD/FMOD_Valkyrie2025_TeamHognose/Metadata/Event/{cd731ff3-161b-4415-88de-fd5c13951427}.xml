@@ -56,11 +56,7 @@
 	</object>
 	<object class="EventAutomatableProperties" id="{56e61e7b-51d4-400b-a525-30edd1294b8c}" />
 	<object class="MarkerTrack" id="{051c9d62-1cda-46d2-b707-f5c6591927eb}" />
-	<object class="Timeline" id="{17cb11bc-bfd4-4a2b-88d4-727e4eb7f34a}">
-		<property name="isProxyEnabled">
-			<value>false</value>
-		</property>
-	</object>
+	<object class="Timeline" id="{17cb11bc-bfd4-4a2b-88d4-727e4eb7f34a}" />
 	<object class="EventMixerMaster" id="{23e08558-f8e5-4014-bbec-d7b76b4b13df}">
 		<relationship name="effectChain">
 			<destination>{c061c95a-8718-42cb-a29c-2d143af8d0b6}</destination>
@@ -81,9 +77,15 @@
 	<object class="MixerBusEffectChain" id="{c061c95a-8718-42cb-a29c-2d143af8d0b6}">
 		<relationship name="effects">
 			<destination>{c771b1c6-4ed8-4a36-838f-abf2e3577e04}</destination>
+			<destination>{9ae84d21-4700-4655-a8c5-79870abf442c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e14b3e07-b0e5-4acd-92ed-0739aa0fec59}" />
 	<object class="MixerBusFader" id="{1c92d9e7-d7b4-4768-a2b7-6278d7c6fed3}" />
 	<object class="MixerBusFader" id="{c771b1c6-4ed8-4a36-838f-abf2e3577e04}" />
+	<object class="LimiterEffect" id="{9ae84d21-4700-4655-a8c5-79870abf442c}">
+		<property name="ceiling">
+			<value>-1</value>
+		</property>
+	</object>
 </objects>

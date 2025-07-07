@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{6d25f394-ceb6-4691-8a3c-aaca170f9d42}">
+		<property name="name">
+			<value>BreakRoom</value>
+		</property>
+		<relationship name="folder">
+			<destination>{5b74cba3-498d-4af0-b386-0b24a3ef52ab}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{77c1d53b-8ef6-4277-a02c-c81c19cf9660}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{77c1d53b-8ef6-4277-a02c-c81c19cf9660}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Song1</value>
+			<value>Song2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
