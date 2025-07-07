@@ -3,9 +3,13 @@ using UnityEngine;
 // All plush with work stations use this class
 public class MB_NPCBehavior_Work : MB_NPCBehavior
 {
+    public Texture2D HoverCursorTexture = null;
+    public Texture2D InteractCursorTexture = null;
+
+    [HideInInspector]
     public bool IsWorking = false;
 
-    float TimeToIdle = 0.0f;
+    private float TimeToIdle = 0.0f;
 
     MB_WorkStation WorkStation;
 
@@ -24,13 +28,17 @@ public class MB_NPCBehavior_Work : MB_NPCBehavior
         // TODO: AnimController.SetFloat("WorkCompletion", WorkStation.GetWorkCompletionPercentage());
     }
 
-    public override void OnMouseOver()
+    protected override void OnMouseOver()
     {
         base.OnMouseOver();
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButton(0))
         {
             IsWorking = true;
             TimeToIdle = 5.0f;
         }
+    }
+    protected override Texture2D GetCustomCursor()
+    {
+        return Input.GetMouseButton(0) ? InteractCursorTexture : HoverCursorTexture;
     }
 }

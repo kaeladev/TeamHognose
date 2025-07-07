@@ -8,6 +8,7 @@ abstract public class MB_NPCBehavior : MonoBehaviour
     protected Animator AnimController;
     protected SpriteRenderer SpriteRend;
     protected StudioEventEmitter ReactionSoundMaker;
+    protected bool IsPlayerHovering = false;
 
     [HideInInspector]
     public UnityEvent<Vector2> ProductionComplete;
@@ -21,19 +22,37 @@ abstract public class MB_NPCBehavior : MonoBehaviour
 
     public virtual void Update()
     {
-        
-    }
 
-    public virtual void OnMouseOver()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            PlayReaction();
-        }
     }
 
     protected virtual void PlayReaction()
     {
         ReactionSoundMaker.Play();
+    }
+
+    protected virtual Texture2D GetCustomCursor()
+    {
+        return null;
+    }
+
+    protected virtual void OnMouseEnter()
+    {
+        IsPlayerHovering = true;
+    }
+
+    protected virtual void OnMouseExit()
+    {
+        IsPlayerHovering = false;
+        Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
+    }
+
+    protected virtual void OnMouseOver()
+    {
+        if (Input.GetMouseButtonDown(0)) // Only true for first frame of press
+        {
+            PlayReaction();
+        }
+
+        Cursor.SetCursor(GetCustomCursor(), Vector2.zero, CursorMode.Auto);
     }
 }
