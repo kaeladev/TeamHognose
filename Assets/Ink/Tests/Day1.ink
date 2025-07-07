@@ -50,7 +50,7 @@ Phewww, what a day... Time to pack my stuff and go!
     -> breakroom2
     
     == breakroom2==
-    
+
     Right, anyway, it's very nice to have you here to help us with our bakery business. #inky
     ... Sometimes we struggle a little I must admit... #tort
     UNDERPERFORMING!!! LOWERMAXINGGGG!!!! #soup
@@ -71,7 +71,7 @@ Phewww, what a day... Time to pack my stuff and go!
      -> ending
      
     == friends ==
-    
+
     omg right!! #squill
     WOOF! #yuzu
     ALL MY HOMIES LOVE WORKING AT THE BAKERY!! #soup
@@ -81,7 +81,7 @@ Phewww, what a day... Time to pack my stuff and go!
      -> ending
      
     == lion ==
-    
+
     ... #tort
     INSPIRATIONAL!!! #soup
     You don't really look like a lion... #tort
