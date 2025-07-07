@@ -3081,7 +3081,7 @@ MonoBehaviour:
   FontForInky: {fileID: 11400000, guid: 43502abf3ae10474aa563bc1107746b3, type: 2}
   FontForSquilliam: {fileID: 11400000, guid: 0fd5f8ade00f71d499519977c219297b, type: 2}
   FontForSoup: {fileID: 11400000, guid: 267ff0c43f129c64ea9add7ad07de9a7, type: 2}
-  FontForTortilla: {fileID: 11400000, guid: 0d5fd391a90cc4d46becf3d871c75cdc, type: 2}
+  FontForTortilla: {fileID: 11400000, guid: 9fff420a09237f14f8c6c5b43ce79e02, type: 2}
   FontForYuzu: {fileID: 11400000, guid: 571b65265c168824f9ddac10538e1ef1, type: 2}
 --- !u!224 &1731920601
 RectTransform:

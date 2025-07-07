@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: aef44e71fac6f8b439cc106746d03dc9
+guid: cda8843d00d214146964aa4bfdc0527a
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Cute Aurora
+  - Script Soft
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0

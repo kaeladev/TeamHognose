@@ -731,9 +731,9 @@ public class StorySceneManager : MonoBehaviour
                     case CharacterFlags.Big:
                         return FontForSoup;
                     case CharacterFlags.Tort:
-                        return FontForInky;
+                        return FontForTortilla;
                     case CharacterFlags.Yuzu:
-                        return FontForInky;
+                        return FontForYuzu;
                     default:
                         break;
                 }
