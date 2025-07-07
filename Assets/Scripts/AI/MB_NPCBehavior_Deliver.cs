@@ -125,7 +125,7 @@ public class MB_NPCBehavior_Deliver : MB_NPCBehavior
         SpriteRend.sortingOrder = RenderLayerOutsideStore;
     }
 
-    void PetNPC()
+    protected override void PetNPC()
     {
         // Play reaction anim or VFX
 
@@ -135,7 +135,6 @@ public class MB_NPCBehavior_Deliver : MB_NPCBehavior
             return;
         }
         StorySceneManager.PersistentStoryInstance.PetYuzu();
-        Debug.Log("YUZU HAS BEEN PETTED!!! ;D");
     }
 
     protected override void OnMouseOver()
@@ -143,7 +142,7 @@ public class MB_NPCBehavior_Deliver : MB_NPCBehavior
         if (IsInStore)
         {
             base.OnMouseOver();
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButton(0))
             {
                 PetNPC();
             }

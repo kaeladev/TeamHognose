@@ -342,7 +342,6 @@ GameObject:
   - component: {fileID: 89952224}
   - component: {fileID: 89952223}
   - component: {fileID: 89952222}
-  - component: {fileID: 89952221}
   m_Layer: 5
   m_Name: OptionC
   m_TagString: Question_3
@@ -370,37 +369,6 @@ RectTransform:
   m_AnchoredPosition: {x: -960, y: 200}
   m_SizeDelta: {x: 612, y: 170}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &89952221
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 89952219}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 2142563532
-      Data2: 1210471378
-      Data3: 1416142476
-      Data4: 2120860087
-    Path: event:/UI/UI_Click_Confirm
-  Event: 
-  EventPlayTrigger: 19
-  EventStopTrigger: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!114 &89952222
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -626,7 +594,6 @@ GameObject:
   - component: {fileID: 118926504}
   - component: {fileID: 118926503}
   - component: {fileID: 118926502}
-  - component: {fileID: 118926501}
   m_Layer: 5
   m_Name: OptionA
   m_TagString: Question_3
@@ -654,37 +621,6 @@ RectTransform:
   m_AnchoredPosition: {x: 536, y: 484}
   m_SizeDelta: {x: 612, y: 170}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &118926501
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 118926499}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 2142563532
-      Data2: 1210471378
-      Data3: 1416142476
-      Data4: 2120860087
-    Path: event:/UI/UI_Click_Confirm
-  Event: 
-  EventPlayTrigger: 19
-  EventStopTrigger: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!114 &118926502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -779,7 +715,6 @@ GameObject:
   - component: {fileID: 205895589}
   - component: {fileID: 205895588}
   - component: {fileID: 205895587}
-  - component: {fileID: 205895586}
   m_Layer: 5
   m_Name: OptionB
   m_TagString: Question_2
@@ -807,37 +742,6 @@ RectTransform:
   m_AnchoredPosition: {x: -520, y: 366}
   m_SizeDelta: {x: 612, y: 170}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &205895586
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 205895584}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 2142563532
-      Data2: 1210471378
-      Data3: 1416142476
-      Data4: 2120860087
-    Path: event:/UI/UI_Click_Confirm
-  Event: 
-  EventPlayTrigger: 19
-  EventStopTrigger: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!114 &205895587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -932,7 +836,6 @@ GameObject:
   - component: {fileID: 214094952}
   - component: {fileID: 214094951}
   - component: {fileID: 214094950}
-  - component: {fileID: 214094949}
   m_Layer: 5
   m_Name: OptionB
   m_TagString: Question_3
@@ -960,37 +863,6 @@ RectTransform:
   m_AnchoredPosition: {x: -536, y: 484}
   m_SizeDelta: {x: 612, y: 170}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &214094949
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 214094947}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 2142563532
-      Data2: 1210471378
-      Data3: 1416142476
-      Data4: 2120860087
-    Path: event:/UI/UI_Click_Confirm
-  Event: 
-  EventPlayTrigger: 19
-  EventStopTrigger: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!114 &214094950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2738,7 +2610,6 @@ GameObject:
   - component: {fileID: 1591851723}
   - component: {fileID: 1591851722}
   - component: {fileID: 1591851721}
-  - component: {fileID: 1591851720}
   m_Layer: 5
   m_Name: OptionA
   m_TagString: Question_2
@@ -2766,37 +2637,6 @@ RectTransform:
   m_AnchoredPosition: {x: 520, y: 366}
   m_SizeDelta: {x: 612, y: 170}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1591851720
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1591851718}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 2142563532
-      Data2: 1210471378
-      Data3: 1416142476
-      Data4: 2120860087
-    Path: event:/UI/UI_Click_Confirm
-  Event: 
-  EventPlayTrigger: 0
-  EventStopTrigger: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!114 &1591851721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3039,7 +2879,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1731920601}
   - component: {fileID: 1731920600}
-  - component: {fileID: 1731920602}
   m_Layer: 0
   m_Name: NarrativeManager
   m_TagString: Untagged
@@ -3106,37 +2945,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1156, y: 526}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1731920602
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1731920599}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 2142563532
-      Data2: 1210471378
-      Data3: 1416142476
-      Data4: 2120860087
-    Path: event:/UI/UI_Click_Confirm
-  Event: 
-  EventPlayTrigger: 19
-  EventStopTrigger: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1 &1829225331
 GameObject:
   m_ObjectHideFlags: 0

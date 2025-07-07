@@ -25,6 +25,10 @@ abstract public class MB_NPCBehavior : MonoBehaviour
 
     }
 
+    protected virtual void PetNPC()
+    {
+    }
+
     protected virtual void PlayReaction()
     {
         ReactionSoundMaker.Play();
@@ -51,6 +55,11 @@ abstract public class MB_NPCBehavior : MonoBehaviour
         if (Input.GetMouseButtonDown(0)) // Only true for first frame of press
         {
             PlayReaction();
+        }
+
+        if (Input.GetMouseButton(0))
+        {
+            PetNPC();
         }
 
         Cursor.SetCursor(GetCustomCursor(), Vector2.zero, CursorMode.Auto);

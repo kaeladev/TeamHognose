@@ -1850,6 +1850,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1687088999}
     m_Modifications:
     - target: {fileID: 1857883106416935956, guid: 2abb164efe6c01a4abf6aaba2037b15b, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1857883106416935956, guid: 2abb164efe6c01a4abf6aaba2037b15b, type: 3}
       propertyPath: m_SortingLayer
       value: 0
       objectReference: {fileID: 0}

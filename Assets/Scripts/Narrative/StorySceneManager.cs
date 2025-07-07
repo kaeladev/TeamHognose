@@ -48,15 +48,15 @@ public class StorySceneManager : MonoBehaviour
     public static StorySceneManager PersistentStoryInstance;
 
     // Public Data to set up pre-known start-of-day scenes
-    public int              YuzuPetsForSecretEnding = 10;
-    public TextAsset        GameIntroInkScene;
-    public TextAsset[]      WorkDayInkScenes;
-    public string           BakerySceneName;
-    public string           FMODDialogueEventPaths = "event:/DLG/DLG_";
+    public float                YuzuPetTimeForSecretEnding = 10.0f;
+    public TextAsset            GameIntroInkScene;
+    public TextAsset[]          WorkDayInkScenes;
+    public string               BakerySceneName;
+    public string               FMODDialogueEventPaths = "event:/DLG/DLG_";
 
     // UI Stuff.....
-    public TextMeshProUGUI NameText;
-    public TextMeshProUGUI DialogueText;
+    public TextMeshProUGUI      NameText;
+    public TextMeshProUGUI      DialogueText;
 
     public TextMeshProUGUI      OptionText_2;
     public TextMeshProUGUI      OptionText_2_ChoiceA;
@@ -79,25 +79,26 @@ public class StorySceneManager : MonoBehaviour
     private Canvas              BGCanvas = null;
 
     // Persistent Data between scenes, for calculating ending
-    private byte            PursuedCharacters = 0;
-    private int             CurrentDay = 0;
-    private int             TimesYuzuPetted = 0;
-    private int             TimesYuzuFedTreat = 0;
-    private int             ScoreAffectingOptionsDiscovered = 0;
-    private int             GoodScoreOptionsSelected = 0;
-    private Color           Visible = Color.white;
-    private Color           GreyedOut = Color.gray;
-    private Color           Invisible = new Color(255, 255, 255, 0);
+    private byte                PursuedCharacters = 0;
+    private int                 CurrentDay = 0;
+    private int                 ScoreAffectingOptionsDiscovered = 0;
+    private int                 GoodScoreOptionsSelected = 0;
+    private int                 TimesYuzuFedTreat = 0;
+    private float               TimeYuzuPetted = 0;
+    private Color               Visible = Color.white;
+    private Color               GreyedOut = Color.gray;
+    private Color               Invisible = new Color(255, 255, 255, 0);
 
     // Current Scene Data, to be loaded at runtime per day
-    private bool            HasFirstChoiceOccurred = false;
-    private bool            WaitingForChoiceInput = false;
-    private byte            CharactersInCurrentScene = 0;
-    private byte            CharactersSpeaking = 0;
-    private TextAsset       CurrentInkScript;
-    private Story           CurrentStory;
-    private string          CurrentStoryText;
-    private List<string>    CurrentStoryTags;
+    private bool                HasFirstChoiceOccurred = false;
+    private bool                WaitingForChoiceInput = false;
+    private byte                CharactersInCurrentScene = 0;
+    private byte                CharactersSpeaking = 0;
+    private TextAsset           CurrentInkScript;
+    private Story               CurrentStory;
+    private string              CurrentStoryText;
+    private List<string>        CurrentStoryTags;
+    private EventInstance       DialogueInstance;
 
     void Awake()
     {
@@ -136,6 +137,8 @@ public class StorySceneManager : MonoBehaviour
         }
         else if (Input.GetMouseButtonDown(0))
         {
+            PlayStoryContinuationAudio();
+
             if (CurrentStory.canContinue)
             {
                 ContinueStory();
@@ -172,22 +175,6 @@ public class StorySceneManager : MonoBehaviour
         MarkEndOfSceneIfRelevant();
 
         DisplayStoryText(); // Display the text on screen!
-    }
-
-    void MarkEndOfSceneIfRelevant()
-    {
-        if (CurrentStory.canContinue || CurrentStory.currentChoices.Count > 0)
-        {
-            return;
-        }
-
-        CurrentStoryText += "\n Press Anywhere to Return To Bakery";
-        Debug.Log("Story Stats after Day " + CurrentDay.ToString()
-                    + "\n\t Potential Pursued Characters: " + GetNamesForPotentíalPursuedCharacters()
-                    + "\n\t Total Score Options Discovered: " + ScoreAffectingOptionsDiscovered.ToString()
-                    + "\n\t Total Good Score Options Chosen: " + GoodScoreOptionsSelected.ToString()
-                    + "\n\t Yuzu Fed Treats: " + TimesYuzuFedTreat.ToString() + " Times"
-                    + "\n\t Yuzu Petted: " + TimesYuzuPetted.ToString() + "/" + YuzuPetsForSecretEnding.ToString() + " Times");
     }
 
     void UpdateCharactersInScene() // This happens after the first choice in each scene, besides end
@@ -319,9 +306,25 @@ public class StorySceneManager : MonoBehaviour
         return (int)EmotionFound;
     }
 
+    void MarkEndOfSceneIfRelevant()
+    {
+        if (CurrentStory.canContinue || CurrentStory.currentChoices.Count > 0)
+        {
+            return;
+        }
+
+        CurrentStoryText += "\n Press Anywhere to Return To Bakery";
+        Debug.Log("Story Stats after Day " + CurrentDay.ToString()
+                    + "\n\t Potential Pursued Characters: " + GetNamesForPotentíalPursuedCharacters()
+                    + "\n\t Total Score Options Discovered: " + ScoreAffectingOptionsDiscovered.ToString()
+                    + "\n\t Total Good Score Options Chosen: " + GoodScoreOptionsSelected.ToString()
+                    + "\n\t Yuzu Fed Treats: " + TimesYuzuFedTreat.ToString() + " Times"
+                    + "\n\t Yuzu Petted For : " + TimeYuzuPetted.ToString() + "/" + YuzuPetTimeForSecretEnding.ToString() + " Seconds");
+    }
+
     void CalculateAndLoadFinalScene()
     {
-        if (TimesYuzuPetted >= YuzuPetsForSecretEnding && TimesYuzuFedTreat == GetAmountOfBranchingStoryDays())
+        if (TimeYuzuPetted >= YuzuPetTimeForSecretEnding && TimesYuzuFedTreat == GetAmountOfBranchingStoryDays())
         {
             // Secret Yuzu Ending always takes highest prio
             Debug.Log("ENDING: SECRET");
@@ -350,6 +353,8 @@ public class StorySceneManager : MonoBehaviour
             // CurrentInkScript = ;
         }
     }
+
+    // ----------------------------------------- UTILITY -------------------------
 
     string GetNameForCharacterFlag(CharacterFlags Flag)
     {
@@ -424,6 +429,23 @@ public class StorySceneManager : MonoBehaviour
         return CurrentDay == WorkDayInkScenes.Length;
     }
 
+    bool IsStoryAtBranch()
+    {
+        return CurrentStory.currentChoices.Count > 0;
+    }
+
+    public void PetYuzu()
+    {
+        TimeYuzuPetted += Time.deltaTime;
+    }
+
+    void GoToBakery()
+    {
+        // TODO: Async load? Or fake loading screen for fun?
+        SetAllCanvasActive(false);
+        SceneManager.LoadScene(BakerySceneName);
+    }
+
     public void ProgressToNewDay()
     {
         CurrentDay++;
@@ -463,27 +485,8 @@ public class StorySceneManager : MonoBehaviour
         SetAllCanvasActive(true);
     }
 
-    public void PetYuzu()
-    {
-        TimesYuzuPetted++;
-    }
+    // ----------------------------------------- UI DIALOGUE -------------------------
 
-    void GoToBakery()
-    {
-        // TODO: Async load? Or fake loading screen for fun?
-        SetAllCanvasActive(false);
-        SceneManager.LoadScene(BakerySceneName);
-    }
-
-    // When we click the choice button, tell the story to choose that choice!
-    void OnClickChoiceButton(Choice choice)
-    {
-        CurrentStory.ChooseChoiceIndex(choice.index);
-        ContinueStory(true);
-        WaitingForChoiceInput = false;
-    }
-
-    // Creates a textbox showing the the line of text
     void DisplayStoryText()
     {
         TextMeshProUGUI DialogueBoxToUse;
@@ -537,6 +540,65 @@ public class StorySceneManager : MonoBehaviour
 
         UpdatePortraitCanvas(false);
         PlayDialogueSounds();
+    }
+
+    void UpdatePortraitCanvas(bool Deactivate)
+    {
+        if (PortraitCanvas)
+        {
+            string CharacterNamesSpeaking = GetNamesForCharacterFlags(CharactersSpeaking);
+            string CharacterNamesInScene = GetNamesForCharacterFlags(CharactersInCurrentScene);
+
+            if (CharacterNamesSpeaking == "None")
+            {
+                BGCanvas.GetComponentInChildren<Image>(true).color = GreyedOut;
+            }
+            else
+            {
+                BGCanvas.GetComponentInChildren<Image>(true).color = Visible;
+            }
+
+            Image[] Images = PortraitCanvas.GetComponentsInChildren<Image>(true);
+            foreach (Image i in Images)
+            {
+                if (Deactivate || !HasFirstChoiceOccurred || IsStoryAtBranch())
+                {
+                    i.color = Invisible;
+                }
+                else if (i.tag == "All")
+                {
+                    i.color = Visible;
+                }
+                else if (CharacterNamesSpeaking.Contains(i.tag))
+                {
+                    i.color = Visible; // Actively speaking character should be highlighted
+                }
+                else if (CharacterNamesInScene.Contains(i.tag))
+                {
+                    i.color = GreyedOut; // Characters involved but not speaking are greyed out
+                }
+                else if (CurrentDay >= 2 && CurrentDay < 5)
+                {
+                    i.color = Invisible;    // Characters not involved leave the room these days
+                }
+                else // On Day 1 and 5, whole group hangs around for the whole scene
+                {
+                    i.color = GreyedOut;
+                }
+            }
+        }
+    }
+
+    // ----------------------------------------- UI CHOICES -------------------------
+
+    // When we click the choice button, tell the story to choose that choice!
+    void OnClickChoiceButton(Choice choice)
+    {
+        CurrentStory.ChooseChoiceIndex(choice.index);
+        ContinueStory(true);
+        WaitingForChoiceInput = false;
+
+        PlayChoiceSelectionAudio();
     }
 
     void DisplayChoices()
@@ -601,79 +663,7 @@ public class StorySceneManager : MonoBehaviour
         Debug.Log("Unsupported number of choices in StorySceneManager::DisplayChoices() : " + CurrentStory.currentChoices.Count);
     }
 
-    void UpdatePortraitCanvas(bool Deactivate)
-    {
-        if (PortraitCanvas)
-        {
-            string CharacterNamesSpeaking = GetNamesForCharacterFlags(CharactersSpeaking);
-            string CharacterNamesInScene = GetNamesForCharacterFlags(CharactersInCurrentScene);
-
-            if (CharacterNamesSpeaking == "None")
-            {
-                BGCanvas.GetComponentInChildren<Image>(true).color = GreyedOut;
-            }
-            else
-            {
-                BGCanvas.GetComponentInChildren<Image>(true).color = Visible;
-            }
-
-            Image[] Images = PortraitCanvas.GetComponentsInChildren<Image>(true);
-            foreach (Image i in Images)
-            {
-                if (Deactivate || !HasFirstChoiceOccurred || IsStoryAtBranch())
-                {
-                    i.color = Invisible;
-                }
-                else if (i.tag == "All")
-                {
-                    i.color = Visible;
-                }
-                else if (CharacterNamesSpeaking.Contains(i.tag))
-                {
-                    i.color = Visible; // Actively speaking character should be highlighted
-                }
-                else if (CharacterNamesInScene.Contains(i.tag))
-                {
-                    i.color = GreyedOut; // Characters involved but not speaking are greyed out
-                }
-                else if (CurrentDay >= 2 && CurrentDay < 5)
-                {
-                    i.color = Invisible;    // Characters not involved leave the room these days
-                }
-                else // On Day 1 and 5, whole group hangs around for the whole scene
-                {
-                    i.color = GreyedOut;
-                }
-            }
-        }
-    }
-
-    void PlayDialogueSounds()
-    {
-        if (PortraitCanvas)
-        {
-            if (CharactersSpeaking == 0 || CharactersSpeaking == (byte)CharacterFlags.All)
-            {
-                return;
-            }
-
-            string CharacterNamesInScene = GetNamesForCharacterFlags(CharactersSpeaking);
-
-            Image[] Images = PortraitCanvas.GetComponentsInChildren<Image>(true);
-            foreach (Image i in Images)
-            {
-                if (CharacterNamesInScene.Contains(i.tag))
-                {
-                    string CharacterDialogueEventPath = FMODDialogueEventPaths + i.tag;
-                    EventInstance instance = FMODUnity.RuntimeManager.CreateInstance(CharacterDialogueEventPath);
-                    FMOD.RESULT Result = instance.setParameterByName("Emotion", FindEmotionValueInTags());
-
-                    instance.start();
-                    instance.release();
-                }
-            }
-        }
-    }
+    // ----------------------------------------- UI GENERAL -------------------------
 
     void SetAllCanvasActive(bool ShouldBeActive)
     {
@@ -715,11 +705,6 @@ public class StorySceneManager : MonoBehaviour
         }
     }
 
-    bool IsStoryAtBranch()
-    {
-        return CurrentStory.currentChoices.Count > 0;
-    }
-
     TMP_FontAsset GetFontForCurrentSpeaker()
     {
         if (CharactersSpeaking > 0)
@@ -746,5 +731,51 @@ public class StorySceneManager : MonoBehaviour
             }
         }
         return DefaultFont;
+    }
+
+    // ----------------------------------------- AUDIO -------------------------
+
+    void PlayDialogueSounds()
+    {
+        if (PortraitCanvas)
+        {
+            if (CharactersSpeaking == 0 || CharactersSpeaking == (byte)CharacterFlags.All)
+            {
+                return;
+            }
+
+            string SpeakingCharacterName = GetNamesForCharacterFlags(CharactersSpeaking);
+            string CharacterDialogueEventPath = FMODDialogueEventPaths + SpeakingCharacterName;
+            
+            DialogueInstance = FMODUnity.RuntimeManager.CreateInstance(CharacterDialogueEventPath);
+            DialogueInstance.setParameterByName("Emotion", FindEmotionValueInTags());
+            DialogueInstance.start();
+        }
+    }
+
+    void StopDialogueSound()
+    {
+        DialogueInstance.stop(STOP_MODE.ALLOWFADEOUT);
+        DialogueInstance.release();
+    }
+
+    void PlayStoryContinuationAudio()
+    {
+        StopDialogueSound();
+
+        EventInstance instance = FMODUnity.RuntimeManager.CreateInstance("event:/UI/UI_Click_Confirm");
+
+        instance.start();
+        instance.release();
+    }
+
+    void PlayChoiceSelectionAudio()
+    {
+        StopDialogueSound();
+
+        EventInstance instance = FMODUnity.RuntimeManager.CreateInstance("event:/UI/UI_Click_Confirm");
+
+        instance.start();
+        instance.release();
     }
 }
