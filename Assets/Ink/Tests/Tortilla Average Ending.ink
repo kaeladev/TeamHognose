@@ -6,7 +6,7 @@ I am happy to share some with my best friends. #tort
 Thanks for coming with us. #tort
 * I am very happy to join you for tacos!
 * It's nice seeing you in a relaxed atmosphere after working so hard at the bakery.
-AMIGOSMAXXING LEZZZGO!! #soup
+- AMIGOSMAXXING LEZZZGO!! #soup
 Woof! #yuzu
 I like that tacos crunch and so does the lettuce. #tort
 I like my life a little crunchy. #tort

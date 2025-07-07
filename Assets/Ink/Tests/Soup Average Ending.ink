@@ -20,7 +20,7 @@ PRAYING FOR bigsoup TO BE BACK SOON!!! #soup
 I wish you to see your big brother very soon.
 * May you see bigsoup soon.
 * I wish I could meet bigsoup someday!
-bigsoup IS THE NICEST. #soup
+-bigsoup IS THE NICEST. #soup
 BUT IN THE MEANTIME I HAVE YOU #soup
 Woof! #yuzu
 SOME FAMILY WE HAVE #soup
@@ -37,6 +37,6 @@ for talking to me #soup
 please come back #soup
 * I will come back LIL'SOUP.
 * I love you LIL'SOUP.
-HEARTFELT EXPLOSION!!! #soup
+-HEARTFELT EXPLOSION!!! #soup
 FRIENDMAXXING!!! #soup
 FRIENDS TIL THE END AND SOME MORE AFTER!!! #soup
