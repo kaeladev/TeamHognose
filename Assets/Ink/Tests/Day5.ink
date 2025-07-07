@@ -19,9 +19,52 @@ A CLOSING SPEECH NOW!!! #soup
 CLOSING SPEECH!! CLOSING SPEECH!!! #all
 * I had the best time at the bakery. Thank you so much for welcoming me!
 * I'm very glad for all the plushies I met here. You will remain in my heart forever.
-* Even though my week of internship is over, I will definitely come back.
+* Even though my week of internship is over, I can't wait come back and see you all.
 - WOO-HOOOO!!!! #all
 (Everybody gives you another round of applause) #all
+Now, now. There is a tradition to celebrate the ends of internships. #inky
+Right!!! #all
+Oh yes, right.
+I want to challenge you to rock paper scissors.
+Do you agree?
+* Yes!
+-> rps
+* Hit me with your best shot!
+-> rps
+
+== rps== 
+VAR choice = ""
+LIST options = (Rock),(Paper),(Scissor)
+VAR result = ""
+
+Okay so, close your eyes and make a choice.
+ + [Rock]
+    ~ choice = "Rock"
+ + [Paper]
+    ~ choice = "Paper"
+ + [Scissor]
+    ~ choice = "Scissor"
+
+- You chose {choice} 
+~ result = LIST_RANDOM(options)
+and Tortilla chose {result}.
+{
+    - choice == "Rock" && result == Scissor:
+        Oh, well played, you beat me! Very lucky! Good omen for the future.
+    - choice == "Rock" && result == Paper:
+        Oopsie I'm sorry, I guess I won this time! Oopsie I'm sorry, I guess I won this time! I will consider this a good omen.
+    - choice == "Scissor" && result == Rock:
+        Oopsie I'm sorry, I guess I won this time! Oopsie I'm sorry, I guess I won this time! I will consider this a good omen.
+    - choice == "Scissor" && result == Paper:
+        Oh, well played, you beat me! Very lucky! Good omen for the future.
+    - choice == "Paper" && result == Rock:
+        Oh, well played, you beat me! Very lucky! Good omen for the future.
+    - choice == "Paper" && result == Scissor:
+        Oopsie I'm sorry, I guess I won this time! I will consider this a good omen.
+    - else:
+        Hihi, I guess we both got lucky then hehe. We both lost... Or we both won! I think it means we will meet again in the future.
+}
+
 Please come back. #tort
 We will miss you. #tort
 do not forget about us!!!! #squill
@@ -45,3 +88,4 @@ All right then... I guess that's a wrap. #Inky
 From the bottom of our hearts, many thanks! #all
 AND HAVE A NICE WEEK-END!!! #all
 PLÛSH BRÛLÉE - AWAY!!! #all
+-> END

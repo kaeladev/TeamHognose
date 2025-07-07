@@ -1,4 +1,4 @@
-Hello, and welcome to the Plûsh Brûlée!  #inky
+Hello and welcome to the Plûsh Brûlée!  #inky
 My name is Inky. #inky
 Very nice to meet you! #inky
 I'm sorry but we don't have too much time to discuss because the bakery will open in 5 minutes and we still need to get ready. #inky
