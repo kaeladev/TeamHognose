@@ -17,6 +17,8 @@ public class MB_NPCBehavior_Deliver : MB_NPCBehavior
 
     public string ArrivalSoundPath = "event:/SFX/SFX_Yuzu_Arrival_01";
     public string LeaveSoundPath = "event:/SFX/SFX_Yuzu_Leaving";
+    public Texture2D HoverCursorTexture = null;
+    public Texture2D InteractCursorTexture = null;
 
     private bool HasDelivery = true;
     private bool IsInStore = false;
@@ -123,18 +125,6 @@ public class MB_NPCBehavior_Deliver : MB_NPCBehavior
         SpriteRend.sortingOrder = RenderLayerOutsideStore;
     }
 
-    public override void OnMouseOver()
-    {
-        if (IsInStore)
-        {
-            base.OnMouseOver();
-            if (Input.GetMouseButtonDown(0))
-            {
-                PetNPC();
-            }
-        }
-    }
-
     void PetNPC()
     {
         // Play reaction anim or VFX
@@ -146,5 +136,26 @@ public class MB_NPCBehavior_Deliver : MB_NPCBehavior
         }
         StorySceneManager.PersistentStoryInstance.PetYuzu();
         Debug.Log("YUZU HAS BEEN PETTED!!! ;D");
+    }
+
+    protected override void OnMouseOver()
+    {
+        if (IsInStore)
+        {
+            base.OnMouseOver();
+            if (Input.GetMouseButtonDown(0))
+            {
+                PetNPC();
+            }
+        }
+    }
+    protected override Texture2D GetCustomCursor()
+    {
+        if (!IsInStore)
+        {
+            return null;
+        }
+
+        return Input.GetMouseButton(0) ? InteractCursorTexture : HoverCursorTexture;
     }
 }
