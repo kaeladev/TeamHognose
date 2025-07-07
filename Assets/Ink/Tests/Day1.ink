@@ -1,9 +1,9 @@
 Phewww, what a day... Time to pack my stuff and go!
 
-* Take a look at the shop #all
+* [Take a look at the shop]
     -> look
     
-* Go to the break room #all
+* [Go to the break room]
     -> breakroom
 
     == look ==
