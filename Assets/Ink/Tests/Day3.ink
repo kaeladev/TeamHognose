@@ -413,17 +413,15 @@ Thanks a lot, little ones, see you tomorrow!!
 -> ending
 
 == ending ==
-
-As everyone leaves the shop for the evening, you notice some leftover treats behind the counter... Leave them for Yuzu the Delivery Dog to find tomorrow morning? Or throw them out?
-* Leave Yuzu a treat. -> treat
-* Throw them out. -> trash
+As everyone leaves the shop for the evening, you notice some leftover treats behind the counter...
+Should you leave treats for Yuzu the Delivery Dog to find tomorrow morning? Or throw them out?
+* [Leave Yuzu a treat.] -> treat
+* [Throw them out.] -> trash
 
 == trash ==
-
-It's good to clean up.
+You throw them out. It's good to clean up.
 -> END
 
 == treat ==
-
-Yuzu will remember that! #treat
+You leave some for Yuzu. She will remember that! #treat
 -> END

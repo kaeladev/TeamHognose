@@ -386,7 +386,7 @@ See you tomorrow, fresh as a daisy! #inky
 
 == ending ==
 As everyone leaves the shop for the evening, you notice some leftover treats behind the counter...
-Leave them for Yuzu the Delivery Dog to find tomorrow morning? Or throw them out?
+Should you leave treats for Yuzu the Delivery Dog to find tomorrow morning? Or throw them out?
 * [Leave Yuzu a treat.] -> treat
 * [Throw them out.] -> trash
 
