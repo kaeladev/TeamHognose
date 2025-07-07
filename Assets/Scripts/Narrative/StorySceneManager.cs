@@ -76,6 +76,7 @@ public class StorySceneManager : MonoBehaviour
     private TMP_FontAsset       DefaultFont;
     private Canvas              UICanvas = null;
     private Canvas              PortraitCanvas = null;
+    private Canvas              BGCanvas = null;
 
     // Persistent Data between scenes, for calculating ending
     private byte            PursuedCharacters = 0;
@@ -84,6 +85,9 @@ public class StorySceneManager : MonoBehaviour
     private int             TimesYuzuFedTreat = 0;
     private int             ScoreAffectingOptionsDiscovered = 0;
     private int             GoodScoreOptionsSelected = 0;
+    private Color           Visible = Color.white;
+    private Color           GreyedOut = Color.gray;
+    private Color           Invisible = new Color(255, 255, 255, 0);
 
     // Current Scene Data, to be loaded at runtime per day
     private bool            HasFirstChoiceOccurred = false;
@@ -189,7 +193,7 @@ public class StorySceneManager : MonoBehaviour
     void UpdateCharactersInScene() // This happens after the first choice in each scene, besides end
     {
         byte CharactersFromPreviousScene = CharactersInCurrentScene;
-        CharactersInCurrentScene = CharactersSpeaking;
+        CharactersInCurrentScene = BuildCharacterListFromCurrentStory();
 
         if (CurrentDay == WorkDayInkScenes.Length)
         {
@@ -444,6 +448,10 @@ public class StorySceneManager : MonoBehaviour
             {
                 PortraitCanvas = i;
             }
+            else
+            {
+                BGCanvas = i;
+            }
         }
 
         CurrentInkScript = CurrentDay == 0 ? GameIntroInkScene : WorkDayInkScenes[CurrentDay - 1];
@@ -595,19 +603,20 @@ public class StorySceneManager : MonoBehaviour
 
     void UpdatePortraitCanvas(bool Deactivate)
     {
-        Color Visible = Color.white;
-        Color Invisible = Color.white;
-        Invisible.a = 0;
-
         if (PortraitCanvas)
         {
-            if (CharactersSpeaking == 0 && !Deactivate)
+            string CharacterNamesSpeaking = GetNamesForCharacterFlags(CharactersSpeaking);
+            string CharacterNamesInScene = GetNamesForCharacterFlags(CharactersInCurrentScene);
+
+            if (CharacterNamesSpeaking == "None")
             {
-                return;
+                BGCanvas.GetComponentInChildren<Image>(true).color = GreyedOut;
+            }
+            else
+            {
+                BGCanvas.GetComponentInChildren<Image>(true).color = Visible;
             }
 
-            string CharacterNamesInScene = GetNamesForCharacterFlags(CharactersSpeaking);
-            
             Image[] Images = PortraitCanvas.GetComponentsInChildren<Image>(true);
             foreach (Image i in Images)
             {
@@ -619,13 +628,21 @@ public class StorySceneManager : MonoBehaviour
                 {
                     i.color = Visible;
                 }
+                else if (CharacterNamesSpeaking.Contains(i.tag))
+                {
+                    i.color = Visible; // Actively speaking character should be highlighted
+                }
                 else if (CharacterNamesInScene.Contains(i.tag))
                 {
-                    i.color = Visible;
+                    i.color = GreyedOut; // Characters involved but not speaking are greyed out
                 }
-                else
+                else if (CurrentDay >= 2 && CurrentDay < 5)
                 {
-                    i.color = Invisible;
+                    i.color = Invisible;    // Characters not involved leave the room these days
+                }
+                else // On Day 1 and 5, whole group hangs around for the whole scene
+                {
+                    i.color = GreyedOut;
                 }
             }
         }
@@ -660,11 +677,9 @@ public class StorySceneManager : MonoBehaviour
 
     void SetAllCanvasActive(bool ShouldBeActive)
     {
-        Canvas[] Canvasses = gameObject.GetComponentsInChildren<Canvas>(true);
-        foreach (Canvas c in Canvasses) 
-        {
-            c.gameObject.SetActive(ShouldBeActive);
-        }
+        BGCanvas.gameObject.SetActive(ShouldBeActive);
+        PortraitCanvas.gameObject.SetActive(ShouldBeActive);
+        UICanvas.gameObject.SetActive(ShouldBeActive);
     }
 
     // Deactivates all the children of this canvas gameobject (all the UI)

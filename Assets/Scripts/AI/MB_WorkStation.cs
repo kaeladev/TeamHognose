@@ -12,14 +12,6 @@ abstract public class MB_WorkStation : MonoBehaviour
     [HideInInspector]
     public MB_NPCBehavior_Work NPC;
 
-    void Start()
-    {
-        if (!NPC)
-        {
-            Debug.Log("Did not find NPC in WorkStation: " + this.ToString());
-        }
-    }
-
     public virtual void Update()
     {
         if (ProductionPercentage >= 1)

@@ -36,7 +36,7 @@ Pheww, what a day... Time to pack my stuff and go!
     uh-oh, i think i smell massive WEIRD vibes over here :o) #squill
     Come on Squill, not cool. There's already a lot to unpack here. Also, you're scaring the intern. We need their help... or else we will never deliver our delicious snacks on time. #inky
     I don't think I've seen a time limit there. Customers just love seeing you wiggling around to bake some snacks. It's very cute to watch.
-    ->breakroom2
+    -> breakroom2
     ==cute==
     well thaaank you ;) #squill
     to be fair, i can't believe it either! why we do have to work instead of living like the cutesies we are?? unfair! booo capitalism!! #squill
@@ -44,7 +44,7 @@ Pheww, what a day... Time to pack my stuff and go!
    INKY AT BAT AND STRIKES AGAIN, SAVING US FROM BANKRUPTCY!! LEZZZZGO INK-DAWGGG! #soup
     .... [grateful grunt] #tort
     You are too cute I can't.... </3
-    ->breakroom2
+    -> breakroom2
     
     == breakroom2==
     Hehe right, anyway it's very nice to have you here and help us with our bakery business. #inky
@@ -80,7 +80,7 @@ Pheww, what a day... Time to pack my stuff and go!
      You don't really look like a lion... #tort
      In fact you do have to feel concerned about the respect of deadlines and safety measures. Or else, you can't really work here... #inky
    No worries, I was just joking. I will respect deadlines and safety measures.
-         ->ending
+         -> ending
          
       == ending == 
    Alright folks, I guess that's all for tonight. If everyone is done, we can head home! #inky

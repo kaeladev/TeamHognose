@@ -1,6 +1,3 @@
-* Skip day 3 here
--> ending
-
 Another day at the factory is coming to an end. It's already the middle of the week, and so much has already happened... I'm looking forward a nice week-end hopefully! Time to pack my stuff and head home.
 
 * You see LIL'SOUP deep in a book. #soup
