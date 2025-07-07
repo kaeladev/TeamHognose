@@ -685,6 +685,12 @@ public class StorySceneManager : MonoBehaviour
     // Deactivates all the children of this canvas gameobject (all the UI)
     void DeactivateExistingUI()
     {
+        OptionText_2_ChoiceA.gameObject.GetComponentInParent<Button>(true).onClick.RemoveAllListeners();
+        OptionText_2_ChoiceB.gameObject.GetComponentInParent<Button>(true).onClick.RemoveAllListeners();
+        OptionText_3_ChoiceB.gameObject.GetComponentInParent<Button>(true).onClick.RemoveAllListeners();
+        OptionText_3_ChoiceB.gameObject.GetComponentInParent<Button>(true).onClick.RemoveAllListeners();
+        OptionText_3_ChoiceC.gameObject.GetComponentInParent<Button>(true).onClick.RemoveAllListeners();
+        
         if (UICanvas)
         {
             Image[] Images = UICanvas.GetComponentsInChildren<Image>(true);
