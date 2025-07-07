@@ -16,6 +16,8 @@ enum CharacterFlags: byte
     Yuzu    = 1 << 4,
     All     = Inky | Squill | Soup | Tort | Yuzu,
     Big     = 1 << 5,
+    Mommy   = 1 << 6,
+    Mummy   = 1 << 7
 }
 
 enum EmotionFlags : int
@@ -163,7 +165,7 @@ public class StorySceneManager : MonoBehaviour
 
         CharactersSpeaking = BuildCharacterListFromCurrentStory();
 
-        if (FromBranch && !HasFirstChoiceOccurred)
+        if (!HasFirstChoiceOccurred && (FromBranch || IsIntroductionDay()))
         {
             HasFirstChoiceOccurred = true;
             UpdateCharactersInScene();
@@ -182,9 +184,9 @@ public class StorySceneManager : MonoBehaviour
         byte CharactersFromPreviousScene = CharactersInCurrentScene;
         CharactersInCurrentScene = BuildCharacterListFromCurrentStory();
 
-        if (CurrentDay == WorkDayInkScenes.Length)
+        if (IsIntroductionDay() || IsFinalWorkDay())
         {
-            // On the final day, skip all of this
+            // On the introduction and final day, skip all of this
             return;
         }
         else if (CurrentDay == 1)
@@ -313,7 +315,7 @@ public class StorySceneManager : MonoBehaviour
             return;
         }
 
-        CurrentStoryText += "\n Press Anywhere to Return To Bakery";
+        CurrentStoryText += "\n\n Press anywhere to begin Day " + (CurrentDay + 1) + "!";
         Debug.Log("Story Stats after Day " + CurrentDay.ToString()
                     + "\n\t Potential Pursued Characters: " + GetNamesForPotentíalPursuedCharacters()
                     + "\n\t Total Score Options Discovered: " + ScoreAffectingOptionsDiscovered.ToString()
@@ -372,6 +374,10 @@ public class StorySceneManager : MonoBehaviour
                 return "Yuzu";
             case CharacterFlags.Big:
                 return "Big Soup";
+            case CharacterFlags.Mommy:
+                return "Mommy";
+            case CharacterFlags.Mummy:
+                return "Mummy";
             default:
                 return "None";
         }
@@ -401,6 +407,18 @@ public class StorySceneManager : MonoBehaviour
         {
             BuiltString += "Yuzu/";
         }
+        if ((CharacterFlagsByte & (byte)CharacterFlags.Big) != 0)
+        {
+            BuiltString += "Big Soup/";
+        }
+        if ((CharacterFlagsByte & (byte)CharacterFlags.Mommy) != 0)
+        {
+            BuiltString += "Mommy/";
+        }
+        if ((CharacterFlagsByte & (byte)CharacterFlags.Mummy) != 0)
+        {
+            BuiltString += "Mummy/";
+        }
 
         if (BuiltString.Length < 2)
         {
@@ -422,6 +440,11 @@ public class StorySceneManager : MonoBehaviour
     int GetAmountOfBranchingStoryDays()
     {
         return WorkDayInkScenes.Length - 2;
+    }
+
+    bool IsIntroductionDay()
+    {
+        return CurrentDay == 0;
     }
 
     bool IsFinalWorkDay()
@@ -476,7 +499,7 @@ public class StorySceneManager : MonoBehaviour
             }
         }
 
-        CurrentInkScript = CurrentDay == 0 ? GameIntroInkScene : WorkDayInkScenes[CurrentDay - 1];
+        CurrentInkScript = IsIntroductionDay() ? GameIntroInkScene : WorkDayInkScenes[CurrentDay - 1];
         CurrentStoryTags = new List<string>();
         CurrentStory = new Story(CurrentInkScript.text);
 
@@ -577,7 +600,7 @@ public class StorySceneManager : MonoBehaviour
                 {
                     i.color = GreyedOut; // Characters involved but not speaking are greyed out
                 }
-                else if (CurrentDay >= 2 && CurrentDay < 5)
+                else if (IsIntroductionDay() || (CurrentDay >= 2 && CurrentDay < 5))
                 {
                     i.color = Invisible;    // Characters not involved leave the room these days
                 }
@@ -744,9 +767,9 @@ public class StorySceneManager : MonoBehaviour
                 return;
             }
 
-            string SpeakingCharacterName = GetNamesForCharacterFlags(CharactersSpeaking);
-            string CharacterDialogueEventPath = FMODDialogueEventPaths + SpeakingCharacterName;
-            
+            string FirstSpeakingCharacterName = GetNamesForCharacterFlags(CharactersSpeaking).Split('/')[0];
+            string CharacterDialogueEventPath = FMODDialogueEventPaths + FirstSpeakingCharacterName;
+
             DialogueInstance = FMODUnity.RuntimeManager.CreateInstance(CharacterDialogueEventPath);
             DialogueInstance.setParameterByName("Emotion", FindEmotionValueInTags());
             DialogueInstance.start();
@@ -773,7 +796,7 @@ public class StorySceneManager : MonoBehaviour
     {
         StopDialogueSound();
 
-        EventInstance instance = FMODUnity.RuntimeManager.CreateInstance("event:/UI/UI_Click_Confirm");
+        EventInstance instance = FMODUnity.RuntimeManager.CreateInstance("event:/UI/UI_Button_Choice");
 
         instance.start();
         instance.release();

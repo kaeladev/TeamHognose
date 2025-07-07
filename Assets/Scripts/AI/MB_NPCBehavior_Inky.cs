@@ -27,10 +27,11 @@ public class MB_NPCBehavior_Inky : MB_NPCBehavior
     // TODO: For now just have Inky pop up in the location
     public void OnInkyFetch(Vector2 FetchLocation)
     {
-        // TODO: Send Inky to look like theyre fetching from location
         PlayReaction();
         InkyAppearanceTimeRemaining = 2.0f;
         CurrentColor.a = 255;
+
+        // TODO: Make Inky look like theyre actually fetching from location
         gameObject.transform.position = FetchLocation;
     }
 }
