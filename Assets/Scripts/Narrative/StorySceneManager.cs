@@ -744,9 +744,9 @@ public class StorySceneManager : MonoBehaviour
                 return;
             }
 
-            string SpeakingCharacterName = GetNamesForCharacterFlags(CharactersSpeaking);
-            string CharacterDialogueEventPath = FMODDialogueEventPaths + SpeakingCharacterName;
-            
+            string FirstSpeakingCharacterName = GetNamesForCharacterFlags(CharactersSpeaking).Split('/')[0];
+            string CharacterDialogueEventPath = FMODDialogueEventPaths + FirstSpeakingCharacterName;
+
             DialogueInstance = FMODUnity.RuntimeManager.CreateInstance(CharacterDialogueEventPath);
             DialogueInstance.setParameterByName("Emotion", FindEmotionValueInTags());
             DialogueInstance.start();
