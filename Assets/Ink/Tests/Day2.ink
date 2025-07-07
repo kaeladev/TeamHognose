@@ -83,7 +83,7 @@ Zoof! #yuzu
 == Astro ==
 Once I looked at the stars, and some big ones fell, and then bad things happened. #tort
 Some 60 millions years ago... #tort
-I guess CONSTancer is similar to me, big shell kinda thingy. #tort
+I guess Cancer is similar to me, big shell kinda thingy. #tort
 TEAM SCORPIO WHAT'S GOOD??? #soup
 GOOD FACES BAD REPUTATIONS!! #soup
 CHOP-CHOPPING #soup
