@@ -16,7 +16,7 @@ For the pets and treats. #yuzu
 That's very nice of you, I appreciate. #yuzu
 * Well um, sure, my pleasure!
 * Who wouldn't pet and treat a dog?
-Hehe, nice... #yuzu
+- Hehe, nice... #yuzu
 So hey. #yuzu
 Now that you know my little secret. #yuzu
 I can tell you some more... #yuzu
