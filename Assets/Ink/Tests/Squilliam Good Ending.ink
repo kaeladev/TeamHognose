@@ -2,7 +2,7 @@ hello bestie!! #squill
 running a little late right? ;o) #squill
 * I'm so sorry I'm late
 * I had an emergency I'm very sorry!!
-no worries bestie!! #squill
+- no worries bestie!! #squill
 see, everyone is already there! #squill
 Oh hello, nice to see you!! #inky
 OH HEY BUDDY YOU'RE HERE!!!!!!! #soup
@@ -13,7 +13,7 @@ Hiya! #tort
 so, anyway, we were about to do this hula hoop contest, you're in? #squill
 * It's so nice to see you surrounded by good friends!
 * I'm happy everybody came!
-hell yeah bestie!! #squill
+- hell yeah bestie!! #squill
 friendship is magic, right? ;o) #squill
 thank you so much for your words bestie #squill
 without your help i guess i'd simply hang around by myself #squill

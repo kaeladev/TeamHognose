@@ -27,7 +27,7 @@ The deliveries, right? #yuzu
 I never delivered any. #yuzu
 * ???
 * EXCUSE ME???
-No hehe. #yuzu
+- No hehe. #yuzu
 No snacks for customers. #yuzu
 All for me baby. #yuzu
 Nobody asks what happen to them... #yuzu
