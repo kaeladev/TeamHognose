@@ -16,6 +16,8 @@ enum CharacterFlags: byte
     Yuzu    = 1 << 4,
     All     = Inky | Squill | Soup | Tort | Yuzu,
     Big     = 1 << 5,
+    Mommy   = 1 << 6,
+    Mummy   = 1 << 7
 }
 
 enum EmotionFlags : int
@@ -51,7 +53,8 @@ public class StorySceneManager : MonoBehaviour
     public float                YuzuPetTimeForSecretEnding = 10.0f;
     public TextAsset            GameIntroInkScene;
     public TextAsset[]          WorkDayInkScenes;
-    public string               BakerySceneName;
+    public TextAsset[]          FinalScenes_Average;
+    public TextAsset[]          FinalScenes_Good;
     public string               FMODDialogueEventPaths = "event:/DLG/DLG_";
 
     // UI Stuff.....
@@ -121,12 +124,35 @@ public class StorySceneManager : MonoBehaviour
     void Start() // First time startup of singleton instance
     {
         DefaultFont = DialogueText.font;
-        ResetForNewDay();
+
+        Canvas[] Canvases = GetComponentsInChildren<Canvas>(true);
+        foreach (Canvas i in Canvases)
+        {
+            if (i.gameObject.tag == "UI")
+            {
+                UICanvas = i;
+            }
+            else if (i.gameObject.tag == "Portraits")
+            {
+                PortraitCanvas = i;
+            }
+            else
+            {
+                BGCanvas = i;
+            }
+        }
+
+        ResetForNewGame();
     }
 
     void Update()
     {
-        if (CurrentStory.currentChoices.Count > 0)
+        if (SceneManager.GetActiveScene().name != MenuManager.BreakroomSceneName)
+        {
+            return;
+        }
+
+        if (CurrentStory.currentChoices.Count > 1)
         {
             if (!WaitingForChoiceInput)
             {
@@ -139,31 +165,43 @@ public class StorySceneManager : MonoBehaviour
         {
             PlayStoryContinuationAudio();
 
-            if (CurrentStory.canContinue)
+            if (CurrentStory.canContinue || CurrentStory.currentChoices.Count == 1)
             {
                 ContinueStory();
             }
             else if (IsFinalWorkDay())
             {
-                CalculateAndLoadFinalScene();
+                ProgressToNewDay();
             }
-            else if (SceneManager.GetActiveScene().name != BakerySceneName)
+            else if (IsWeekend())
             {
                 DeactivateExistingUI();
-                GoToBakery();
+                ResetForNewGame();
+                MenuManager.LoadCreditsScene();
+            }
+            else
+            {
+                MenuManager.LoadBakeryScene();
+                DeactivateExistingUI();
+                SetAllCanvasActive(false);
             }
         }
     }
 
     void ContinueStory(bool FromBranch = false)
     {
+        if (CurrentStory.currentChoices.Count == 1)
+        {
+            CurrentStory.ChooseChoiceIndex(0);
+        }
+
         CurrentStoryText = CurrentStory.Continue();
         CurrentStoryTags = CurrentStory.currentTags;
         IncreaseScoresForTags();
 
         CharactersSpeaking = BuildCharacterListFromCurrentStory();
 
-        if (FromBranch && !HasFirstChoiceOccurred)
+        if (!HasFirstChoiceOccurred && (FromBranch || IsNotWorkDay()))
         {
             HasFirstChoiceOccurred = true;
             UpdateCharactersInScene();
@@ -182,9 +220,9 @@ public class StorySceneManager : MonoBehaviour
         byte CharactersFromPreviousScene = CharactersInCurrentScene;
         CharactersInCurrentScene = BuildCharacterListFromCurrentStory();
 
-        if (CurrentDay == WorkDayInkScenes.Length)
+        if (IsNotWorkDay()|| IsFinalWorkDay())
         {
-            // On the final day, skip all of this
+            // On the introduction and final day, skip all of this
             return;
         }
         else if (CurrentDay == 1)
@@ -313,7 +351,15 @@ public class StorySceneManager : MonoBehaviour
             return;
         }
 
-        CurrentStoryText += "\n Press Anywhere to Return To Bakery";
+        if (CurrentDay < WorkDayInkScenes.Length)
+        {
+            CurrentStoryText += "\n\nPress anywhere to begin Day " + (CurrentDay + 1) + "!";
+        }
+        else if (IsFinalWorkDay())
+        {
+            CurrentStoryText += "\n\nPress anywhere to enjoy the weekend!";
+        }
+        
         Debug.Log("Story Stats after Day " + CurrentDay.ToString()
                     + "\n\t Potential Pursued Characters: " + GetNamesForPotentíalPursuedCharacters()
                     + "\n\t Total Score Options Discovered: " + ScoreAffectingOptionsDiscovered.ToString()
@@ -328,29 +374,36 @@ public class StorySceneManager : MonoBehaviour
         {
             // Secret Yuzu Ending always takes highest prio
             Debug.Log("ENDING: SECRET");
-            // CurrentInkScript = ;
+            CurrentInkScript = FinalScenes_Good[4];
         }
         else if (PursuedCharacters != 0)
         {
             string PursuedCharacterName = GetNameForCharacterFlag((CharacterFlags)PursuedCharacters).ToUpper();
+            int PursuedCharacterIndex = GetIndexForCharacterFlag((CharacterFlags)PursuedCharacters);
+            if (PursuedCharacterIndex == -1)
+            {
+                Debug.Log("No appropriate ending found for pursued character");
+                return;
+            }
+
             if (GoodScoreOptionsSelected > 0 && GoodScoreOptionsSelected == ScoreAffectingOptionsDiscovered)
             {
                 // Max score reached for pursued character == Good Ending! Yay!
                 Debug.Log("ENDING: GOOD " + PursuedCharacterName);
-                // CurrentInkScript = ;
+                CurrentInkScript = FinalScenes_Good[PursuedCharacterIndex];
             }
             else
             {
                 // Average Ending for pursued character
                 Debug.Log("ENDING: AVERAGE " + PursuedCharacterName);
-                // CurrentInkScript = ;
+                CurrentInkScript = FinalScenes_Average[PursuedCharacterIndex];
             }
         }
         else
         {
             // No specific character was pursued; default to Average Ending for Inky
             Debug.Log("ENDING: DEFAULT");
-            // CurrentInkScript = ;
+            CurrentInkScript = FinalScenes_Average[0];
         }
     }
 
@@ -372,8 +425,31 @@ public class StorySceneManager : MonoBehaviour
                 return "Yuzu";
             case CharacterFlags.Big:
                 return "Big Soup";
+            case CharacterFlags.Mommy:
+                return "Mommy";
+            case CharacterFlags.Mummy:
+                return "Mummy";
             default:
                 return "None";
+        }
+    }
+
+    int GetIndexForCharacterFlag(CharacterFlags Flag)
+    {
+        switch (Flag)
+        {
+            case CharacterFlags.Inky:
+                return 0;
+            case CharacterFlags.Squill:
+                return 1;
+            case CharacterFlags.Soup:
+                return 2;
+            case CharacterFlags.Tort:
+                return 3;
+            case CharacterFlags.Yuzu:
+                return 4;
+            default:
+                return -1;
         }
     }
 
@@ -401,6 +477,18 @@ public class StorySceneManager : MonoBehaviour
         {
             BuiltString += "Yuzu/";
         }
+        if ((CharacterFlagsByte & (byte)CharacterFlags.Big) != 0)
+        {
+            BuiltString += "Big Soup/";
+        }
+        if ((CharacterFlagsByte & (byte)CharacterFlags.Mommy) != 0)
+        {
+            BuiltString += "Mommy/";
+        }
+        if ((CharacterFlagsByte & (byte)CharacterFlags.Mummy) != 0)
+        {
+            BuiltString += "Mummy/";
+        }
 
         if (BuiltString.Length < 2)
         {
@@ -424,26 +512,34 @@ public class StorySceneManager : MonoBehaviour
         return WorkDayInkScenes.Length - 2;
     }
 
+    bool IsIntroductionDay()
+    {
+        return CurrentDay == 0;
+    }
+
     bool IsFinalWorkDay()
     {
         return CurrentDay == WorkDayInkScenes.Length;
     }
 
+    bool IsWeekend()
+    {
+        return CurrentDay > WorkDayInkScenes.Length;
+    }
+
+    bool IsNotWorkDay()
+    {
+        return IsIntroductionDay() || IsWeekend();
+    }
+
     bool IsStoryAtBranch()
     {
-        return CurrentStory.currentChoices.Count > 0;
+        return CurrentStory.currentChoices.Count > 1;
     }
 
     public void PetYuzu()
     {
         TimeYuzuPetted += Time.deltaTime;
-    }
-
-    void GoToBakery()
-    {
-        // TODO: Async load? Or fake loading screen for fun?
-        SetAllCanvasActive(false);
-        SceneManager.LoadScene(BakerySceneName);
     }
 
     public void ProgressToNewDay()
@@ -459,30 +555,34 @@ public class StorySceneManager : MonoBehaviour
 
         HasFirstChoiceOccurred = false;
 
-        Canvas[] Canvases = GetComponentsInChildren<Canvas>(true);
-        foreach (Canvas i in Canvases)
+        if (IsIntroductionDay())
         {
-            if (i.gameObject.tag == "UI")
-            {
-                UICanvas = i;
-            }
-            else if (i.gameObject.tag == "Portraits")
-            {
-                PortraitCanvas = i;
-            }
-            else
-            {
-                BGCanvas = i;
-            }
+            CurrentInkScript = GameIntroInkScene;
+        }
+        else if (IsWeekend())
+        {
+            CalculateAndLoadFinalScene();
+        }
+        else
+        {
+            CurrentInkScript = WorkDayInkScenes[CurrentDay - 1];
         }
 
-        CurrentInkScript = CurrentDay == 0 ? GameIntroInkScene : WorkDayInkScenes[CurrentDay - 1];
-        CurrentStoryTags = new List<string>();
         CurrentStory = new Story(CurrentInkScript.text);
 
         DeactivateExistingUI();
         ContinueStory();
         SetAllCanvasActive(true);
+    }
+
+    public void ResetForNewGame()
+    {
+        Debug.Log("StorySceneManager Resetting for New Game");
+
+        CurrentDay = 0;
+        CurrentStoryTags = new List<string>();
+
+        ResetForNewDay();
     }
 
     // ----------------------------------------- UI DIALOGUE -------------------------
@@ -577,7 +677,7 @@ public class StorySceneManager : MonoBehaviour
                 {
                     i.color = GreyedOut; // Characters involved but not speaking are greyed out
                 }
-                else if (CurrentDay >= 2 && CurrentDay < 5)
+                else if (IsNotWorkDay() || (CurrentDay >= 2 && CurrentDay < 5))
                 {
                     i.color = Invisible;    // Characters not involved leave the room these days
                 }
@@ -773,7 +873,7 @@ public class StorySceneManager : MonoBehaviour
     {
         StopDialogueSound();
 
-        EventInstance instance = FMODUnity.RuntimeManager.CreateInstance("event:/UI/UI_Click_Confirm");
+        EventInstance instance = FMODUnity.RuntimeManager.CreateInstance("event:/UI/UI_Button_Choice");
 
         instance.start();
         instance.release();
