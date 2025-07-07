@@ -6,8 +6,166 @@ It's almost the end of the week. I wonder what I'll do this week-end... Anyway, 
 * Inky stares blankly in an ominous way -> Inky
 
 == Duo ==
-#soup #tort
-There was one branching option in the group hangout. 
+I understand Soup. I couldn't get away from it either. #tort
+RIGHT?? SUPER SCARY MOMENT!!! PEAK HEART-RACING!!! #soup
+It sticks to me. #tort
+What's wrong buddies? What happened? 
+MASSIVE NIGHTMARES AT NIGHT!!  #soup
+CRAZY SCARY #soup
+We had nightmares and woke up quite scared. #tort
+* What did you dream about Lil'Soup?
+-> lilsoup
+* What did you dream about Tortilla?
+-> tortilla
+
+== lilsoup==
+
+LIL'SOUP DREAM TIME Y'ALL
+i had this very realistic dream #soup
+i dreamt that bigsoup died #soup
+all of a sudden #soup
+life in shambles #soup
+subway works weird #soup
+i do work lunch and it sucks #soup
+all i wanna do is be in my bed #soup
+cry a lot #soup
+A LOTTA OF TEARS!!! #soup
+MAXIMUM SADNESS #soup
+CALLED BIGSOUP IN A HURRY AS EARLY AS I GOT UP #soup
+BIGSOUP IS FINE #soup
+OOF!!! #soup
+I LOVE YOU BIGSOUP I'M SORRY #soup
+BIGSOUP SAYS GOOD OMEN FROM DREAMS OF DEATH #soup
+BUT STILL IT'S SCARY YO!!!! #soup
+{tortilla: -> group2 | -> tortilla}
+
+== tortilla ==
+
+My dream was weird... #tort
+Very strange indeed. #tort
+I was working in a bakery right.#tort
+A giant one. #tort
+As if the whole Earth was the bakery. #tort
+A gigantic factory. #tort
+To feed who knows what extraterrestrial life... #tort
+So anyway. #tort
+Big big factory. #tort
+And Tortilla makes a mistake. #tort
+I push the wrong lever. #tort
+And all of a sudden... #tort
+Everything is crumbling. #tort
+It's like the oven is extremely hot. #tort
+Workers faces starts melting. #tort
+Eyes out of the socket. #tort
+Weird right? #tort
+It was just a dream, luckily. #tort
+
+{lilsoup: -> group2 | -> lilsoup}
+
+== group2 ==
+
+* My god, the both of you had difficult nights from what I can see... I'm sorry you had nightmares. It's very scary.
+-> difficult
+* Good things they were just dreams.
+-> dreams
+
+== difficult ==
+
+thank you #soup #tort #score #good
+BRAIN WENT FULL TRAUMA MODE!!! #soup
+INCREASE PAIN!!! #soup
+It's a pity we have to dream about scary things. #tort
+I wish dreams were always non-scary. #tort
+I wish I could go to sleep and sleep like a baby every time. #tort
+But where is sleep, there is uncertainty. #tort
+As waking up can vary in difficulty. #tort
+LAY IN BED FOR HOURS AND CRY!!!! #soup
+SUMMERTIME SADNESS!!! #soup
+
+-> group3
+
+== dreams ==
+
+kind of... #lilsoup #tort #score
+What are dreams if not true? #tort
+They just happen. #tort
+And we witness. #tort
+Some of them disappear as the day goes on. #tort
+Drawings in the sand washed away by the sea. #tort
+Some others stick. #tort
+Are they less real than reality? #tort
+They are still something I experience. #tort
+A piece of me, more abstract than others. #tort
+DREAMS ARE A ME-THINGY!! #soup
+DREAMHOAXING!!! #soup
+HACKING REALITY!!!! #soup
+SHOW ME SOMETHING NICE BRAIN I BEG YOU!!! #soup
+
+-> group3
+
+== group3 ==
+
+Sometimes I have a tough time going to bed you, I feel you. #tort
+It's funny because I didn't know plushies could dream... #tort
+That makes sense though? #tort
+Why would you sleep and dream and we would not? #tort
+HUMANS BE GATEKEEPING DREAMING LMAO #soup
+SOLITARY SOLO-SLEEPER-STAR!!! #soup
+* What do you usually dream about?
+-> whatdream
+* I feel like you plushies already have a dream life.
+-> dreamlife
+
+== whatdream ==
+
+dreams... #score #good #soup #tort
+I DREAM OF SOUP #soup
+SOUP ADVENTURES #soup
+THOUSANDS OF SOUPS ALL AROUND THE WORLD #soup
+SPEAK ALL LANGUAGES #soup
+ALL SUPER KIND #soup
+SOUPWORLD LEZZZGO #soup
+SOUPMAXXING BABYYY #soup
+I usually dream of things I likey. #tort
+Tacos. #tort
+And lettuce. #tort
+And big stars. #tort
+Friends in the universe. Living far. #tort
+Little friends I don't know yet on some other planets. #tort
+And playing rock paper scissors. #tort
+Sometimes I win, sometimes I lose. #tort
+I win all the time in this world. #tort
+In dream world I lose at times. #tort
+Also I dream of my mommies. #tort
+Mommies huggies are the best. #tort
+By the way I want to see them so I'm gonna leave for today. #tort
+It was nice chatting, thank you very much. #tort
+LEZZZGO TORTILLA!! #soup
+MOMMYMAXXING #soup
+IMMA HEAD TO BED TOO #soup
+BYE-BYE NEWBIE!!!! #soup
+Ahaha how cute, see you tomorrow guys!
+-> ending
+
+== dreamlife ==
+
+sure #score #tort #soup
+WORK ALL DAY #soup
+BAKERY WORK #soup
+SUPER WARM AND TIRING #soup
+CUSTOMER SERVICING #soup
+THEN GO TO BED #soup
+DREAM LIFE LEZZZGO!!! #soup
+I agree that we could use some easier life than this... #tort
+All I want to do is stay with my friends. #tort
+And mommies. #tort
+By the way, I want to go home and see them. #tort
+My mommies... #tort
+MOMMYMAXXING!!! #soup
+GOOD FOR YOU BUDDY!!! #soup
+I'LL GO HOME AND SLEEP!!! #soup
+HONKKKK MIMIMI!!!! #soup
+Hahaha, alright, see you tomorrow guys!
 -> ending
 
 == Squilliam ==
@@ -118,75 +276,94 @@ Have a nice evening Squilliam!
 
 == Inky ==
 
-...
-...
+... #inky
+... #inky
 Are you okay Inky? You seem... very focused...
-I see things. So many things. All happening at once. Like in a perfect circle.
-I see the moon hidden by purple cloudes.
-I see the sun as its own entity, pursuing an endless race against a clock ticking at every seconds that passes.
-I see the essence of matter.
-I feel the purpose of solidity, the roughness of air, and the fresh crisp of leaves I'd be walking on if I had feet.
-I see chaos as the one true thing reuniting us, for only the tumult can both hold and release what it takes for life to occur, for the world to be, and for all its beings to be at the same time.
+I see things. So many things. All happening at once. Like in a perfect circle. #inky
+I see the moon hidden by purple cloudes. #inky
+I see the sun as its own entity, pursuing an endless race against a clock ticking at every seconds that passes. #inky
+I see the essence of matter. #inky
+I feel the purpose of solidity, the roughness of air, and the fresh crisp of leaves I'd be walking on if I had feet. #inky
+I see chaos as the one true thing reuniting us, for only the tumult can both hold and release what it takes for life to occur, for the world to be, and for all its beings to be at the same time. #inky
 * Okay, I'd say that's quite... intense.
 -> intense
 * Omg and is it... bad for us??
 -> omen
-* Have you sniffed some flour or?
+* You might have gotten a little too hard on the sniffy thing right..?
 -> sniffy
 
 == intense ==
 
-Intensity and perplexity.
-All working hand in hand.
-Each hand at the end of each arm.
-Each arms reaching for air.
-So many, many arms.
-Like an octopus scooping around.
-In the Void... the mighty Void!!!
+Intensity and perplexity. #inky
+All working hand in hand. #inky
+Each hand at the end of each arm. #inky
+Each arms reaching for air. #inky
+So many, many arms. #inky 
+Like an octopus scooping around. #inky
+In the Void... the mighty Void!!! #inky
 -> inky2
 
 == omen ==
 
-What is good and bad.
-There is square and round.
-There is one and many.
-There is silence and chaos.
-There is purple, red, blue, black.
-A mix of colors all resulting in darkness.
-And finally the Void...
-The mighty Void...
+What is good and bad. #inky
+There is square and round. #inky 
+There is one and many. #inky
+There is silence and chaos. #inky
+There is purple, red, blue, black. #inky
+A mix of colors all resulting in darkness. #inky
+And finally the Void... #inky
+The mighty Void... #inky
 -> inky2
 
 == sniffy ==
 
-What is sniffing.
-What is smell.
-What is taste.
-What is outside that tries to reach within.
-What is in realms I can't perceive.
-All I do is hear it.
-The Void.
+What is sniffing. #inky
+What is smell. #inky 
+What is taste. #inky
+What is outside that tries to reach within. #inky
+What is in realms I can't perceive. #inky
+All I do is hear it. #inky
+The Void. #inky
 
 -> inky2
 
 == inky2 ==
-What is this Void you're mentionning? 
-It's nothing and everything at the same time.
-It's where I come from.
-I guess I got a little homesick, I'm sorry.
+What is this Void you're mentionning? #inky 
+It's nothing and everything at the same time. #inky
+It's where I come from. #inky
+I guess I got a little homesick, I'm sorry. #inky
 * Even though I come from a normal place and not The Void, homesickness is a feeling I can relate to.
 -> homesick
 * The Void sounds like a cool concept!
 -> coolvoid
 
 == homesick ==
-
+You can miss your home. #inky
+Or miss a place that felt like home. #inky
+Or even miss a place where you felt like a complete stranger. #inky
+As long as there was life... #inky
+There are emotions to be felt. #inky
+And missed. #inky
+I am happy we share that feeling, as beings from different worlds merging into one. #inky
+Maybe someday I will bring goods from this world into mine. #inky
+Like cinnamon rolls maybe? Who knows? #inky
+So tomorrow is your last day right? #inky
+We will hold a special goodbye session in the working room. #inky
+It is time to leave I think. #inky
+I wish you a delightful night. #inky
 -> ending
 
 == coolvoid == 
-
-
-
+The Void is a very cool place yes. #inky
+Lacks baked goods, definitely. #inky
+But maybe, someday maybe... #inky
+I could bring some recipe back to my homevoid. #inky
+That would be great. #inky 
+I'm looking forward to it. #inky
+Tomorrow is your last day right? #inky
+We will hold a special goodbye session in the working room. #inky
+It is time to leave I think. #inky
+I wish you a delightful night. #inky
 -> ending
 
 
