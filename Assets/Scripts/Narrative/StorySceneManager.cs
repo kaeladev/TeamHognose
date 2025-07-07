@@ -111,6 +111,7 @@ public class StorySceneManager : MonoBehaviour
         {
             // A second StorySceneManager has attempted to create itself, so destroy
             Destroy(gameObject);
+
             PersistentStoryInstance.ProgressToNewDay();
         }
         else
@@ -143,6 +144,7 @@ public class StorySceneManager : MonoBehaviour
         }
 
         ResetForNewGame();
+        ProgressToNewDay();
     }
 
     void Update()
@@ -176,14 +178,14 @@ public class StorySceneManager : MonoBehaviour
             else if (IsWeekend())
             {
                 DeactivateExistingUI();
-                ResetForNewGame();
+                SetAllCanvasActive(false);
                 MenuManager.LoadCreditsScene();
             }
             else
             {
-                MenuManager.LoadBakeryScene();
                 DeactivateExistingUI();
                 SetAllCanvasActive(false);
+                MenuManager.LoadBakeryScene();
             }
         }
     }
@@ -579,10 +581,8 @@ public class StorySceneManager : MonoBehaviour
     {
         Debug.Log("StorySceneManager Resetting for New Game");
 
-        CurrentDay = 0;
+        CurrentDay = -1;
         CurrentStoryTags = new List<string>();
-
-        ResetForNewDay();
     }
 
     // ----------------------------------------- UI DIALOGUE -------------------------
@@ -677,11 +677,11 @@ public class StorySceneManager : MonoBehaviour
                 {
                     i.color = GreyedOut; // Characters involved but not speaking are greyed out
                 }
-                else if (IsNotWorkDay() || (CurrentDay >= 2 && CurrentDay < 5))
+                else if (IsIntroductionDay() || (CurrentDay >= 2 && CurrentDay < 5))
                 {
                     i.color = Invisible;    // Characters not involved leave the room these days
                 }
-                else // On Day 1 and 5, whole group hangs around for the whole scene
+                else // On Day 0, 1, and 5, whole group hangs around for the whole scene
                 {
                     i.color = GreyedOut;
                 }

@@ -54,6 +54,7 @@ public class BakeryManager : MonoBehaviour
 
     void OnMouseOver()  // Add collision to an exit door; for skipping work/speedrunning story
     {
+        // TODO: Add confirmation display first
         if (Input.GetMouseButtonDown(0))
         {
             MenuManager.LoadBreakroomScene();

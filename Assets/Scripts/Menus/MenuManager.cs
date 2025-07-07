@@ -22,9 +22,14 @@ public class MenuManager : MonoBehaviour
         SceneManager.LoadScene(BakerySceneName);
     }
 
-    public static void LoadBreakroomScene()
+    public static void LoadBreakroomScene(bool RestartGame = false)
     {
         SceneManager.LoadScene(BreakroomSceneName);
+
+        if (RestartGame && StorySceneManager.PersistentStoryInstance)
+        {
+            StorySceneManager.PersistentStoryInstance.ResetForNewGame();
+        }
     }
 
     public static void QuitGame()

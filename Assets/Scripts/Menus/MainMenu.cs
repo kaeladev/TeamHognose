@@ -23,7 +23,7 @@ public class MainMenu : MonoBehaviour
 
     void PlayGame()
     {
-        MenuManager.LoadBreakroomScene();
+        MenuManager.LoadBreakroomScene(true);
     }
 
     void SeeCredits()
