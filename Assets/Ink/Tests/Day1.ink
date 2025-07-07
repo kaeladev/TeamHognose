@@ -7,7 +7,8 @@ Phewww, what a day... Time to pack my stuff and go!
     -> breakroom
 
     == look ==
-    We finally finished cleaning the store. It still smells like hot cinnamon buns in here... Reminds me of my mom's. I'm lucky I landed this internship! But I should be going now. Time to pack my stuff and go.
+    We finally finished cleaning the store. It still smells like hot cinnamon buns in here... Reminds me of my mom's. 
+    I'm lucky I landed this internship! But I should be going now. Time to pack my stuff and go.
         -> breakroom
     == breakroom ==
     
@@ -35,14 +36,17 @@ Phewww, what a day... Time to pack my stuff and go!
     == dubious==
     
     uh-oh, i think i smell massive WEIRD vibes over here :o) #squill
-    Come on Squill, not cool. There's already a lot to unpack here. Also, you're scaring the intern. We need their help... or else we will never deliver our delicious snacks on time. #inky
-    I don't think I've seen a time limit there. Customers just love seeing you wiggling around to bake some snacks. It's very cute to watch.
+    Come on Squill, not cool. There's already a lot to unpack here. Also, you're scaring the intern. #inky
+    We need their help... or else we will never serve our delicious snacks. #inky
+    I don't think I've seen anyone get upset about waiting. 
+    Customers just love seeing you wiggling around to bake some snacks. It's very cute to watch.
     -> breakroom2
     
     == cute==
     
     well thaaank you ;) #squill
-    to be fair, i can't believe it either! why we do have to work instead of living like the cutesies we are?? unfair! booo capitalism!! #squill
+    to be fair, i can't believe it either! why we do have to work instead of living like the cutesies we are?? #squill
+    unfair! booo capitalism!! #squill
     Do you even... work here? Most of you fall asleep all the time anyway... #inky
    INKY AT BAT AND HITS A HOMERUN AGAIN, SAVING US FROM BANKRUPTCY!! LEZZZZGO INK-DAWGGG! #soup
     .... [grateful grunt] #tort
@@ -65,9 +69,10 @@ Phewww, what a day... Time to pack my stuff and go!
     eight-five bestie!!! #squill
     uhhh... Wait, what ? #tort
     COMMITMENT BABYYY!! #soup
-    Sure, sure, dedication, hard-work, organization, communication skills, clean hands, tentacle moisturizer, and a million bucks makes the dream work... #inky
+    Sure, sure, dedication, hard-work, organization, communication skills... #inky
+    ... clean hands, tentacle moisturizer, and a million bucks makes the dream work... #inky
      [Grunts] #tort
-    You nod pensively, reflecting on the lifestyle you could have had if you were not an intern at a bakery...
+    You nod pensively, reflecting on the lifestyle you could have had if you were not a bakery intern...
      -> ending
      
     == friends ==

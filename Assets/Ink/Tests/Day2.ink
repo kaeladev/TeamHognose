@@ -212,8 +212,8 @@ it's ALL good i swear!!!! #squill
 - omg yes i'm sorry bestie my nerves are a WRECK uhhhhh #squill
 [You watch Squilliam blow her nose] #squill
 Okay, tell me what's wrong.
-so, so, so the day was long, i was drenched in sweat, and my feet hurt, also!!! #squill
-some clients are the worst like litteraly someone said i look like a blooper from mario!!! #squill
+so, so, so the day was long, i was drenched in sweat, and my feet hurt, and also!!! #squill
+some clients are so mean. like, someone literally said i look like a blooper from mario!!! #squill
 * It sounds like you have a lot on your plate, I am very sorry.
 -> sorry
 * What did you answer to them?
@@ -252,7 +252,7 @@ no worries bestie, i guess it's true... #squill
 == Squilliam2 ==
 
 okay phew, i need to breathe and to focus on what i see to ground myself in my own surroundings or something. #squill
-please sing me something to help me catch my breath, or else i will die!!!! #squill
+please sing me something to help me catch my breath, or i will die!!!! #squill
 
 * I'm sorry to be so blunt, but this is getting kind of toxic.
 -> toxic
@@ -267,7 +267,7 @@ ahahaaaha... right... #squill #score #good
 i'm sorry for the zoomies, i'm all over the place at the moment... #squill
 it's been difficult lately because i'm not in a gang, see what i mean? #squill
 everyone's in a gang!! #squill
-i love to be friends with everyone, but i'm a replaceable part of every group i try to get in. #squill
+i love to be friends with everyone, but i'm a replacable part of every group i try to get in. #squill
 it's like, i'm more of a 'nice to have' than a 'must-have'. #squill
 thanks for being honest, bestie. i need to settle down. #squill
 
@@ -330,8 +330,8 @@ Heh, me neither, but we have to do what we have to do to comply with the local l
 We do what we must... To keep this beautiful bakery operating. #inky
 Do you like working here so far? #inky
 * I like working at the bakery. ->bakerylove
-* I expected to do bakery things but this work is quite different from what I expected... ->bakeryplush
-* My dream is to become a baker, not a plushie-scratcher. I will probably find a job in a more realistic bakery. ->realbakery
+* This work is quite... different... from what I expected... ->bakeryplush
+* My dream is to become a baker. I need to find a job in a more realistic bakery. ->realbakery
 
 == bakerylove ==
 Nice, nice. #inky 

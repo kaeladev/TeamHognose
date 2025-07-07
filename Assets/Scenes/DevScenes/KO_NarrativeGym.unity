@@ -1502,8 +1502,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 48
-  m_fontSizeBase: 48
+  m_fontSize: 54
+  m_fontSizeBase: 54
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1787,8 +1787,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 48
-  m_fontSizeBase: 48
+  m_fontSize: 54
+  m_fontSizeBase: 54
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1998,8 +1998,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 48
-  m_fontSizeBase: 48
+  m_fontSize: 54
+  m_fontSizeBase: 54
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2898,15 +2898,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 509c682fcae755e45a18c48ca5806d24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  YuzuPetsForSecretEnding: 10
-  GameIntroInkScene: {fileID: 4900000, guid: 9e33d83b1028cea4298023beb9c843be, type: 3}
+  YuzuPetTimeForSecretEnding: 10
+  GameIntroInkScene: {fileID: 4900000, guid: ff8dfe54b94ee7f4eac114e0f97901e0, type: 3}
   WorkDayInkScenes:
   - {fileID: 4900000, guid: 65b60bb0e8cec344085233ddc275a7e1, type: 3}
   - {fileID: 4900000, guid: 1d55b3fa6c8536044b1a3ebc5c63fc63, type: 3}
   - {fileID: 4900000, guid: fa9e95be554e57844aaba56984c1aedb, type: 3}
   - {fileID: 4900000, guid: 74504c2f17b6e10499996d46cd8e7c4c, type: 3}
   - {fileID: 4900000, guid: 0ff9d03215ff4c242923007dfe391d09, type: 3}
-  BakerySceneName: KO_GameplayGym
+  FinalScenes_Average:
+  - {fileID: 4900000, guid: 38752022e14f9d1479ef1d859610fcd8, type: 3}
+  - {fileID: 4900000, guid: a65c2a0e377ecbd49b93633f00a7572b, type: 3}
+  - {fileID: 4900000, guid: c0ec21fccd509ce4282c537ff2dd31e4, type: 3}
+  - {fileID: 4900000, guid: 0e3115370162d3c4f8d084cd83857d1c, type: 3}
+  FinalScenes_Good:
+  - {fileID: 4900000, guid: 0afdc1fd07f6578469973ac49b431cad, type: 3}
+  - {fileID: 4900000, guid: 6d4423cd2e2513e438efca9e8144cb37, type: 3}
+  - {fileID: 4900000, guid: c5aec732a6e76fb4aa1908bc2c05a683, type: 3}
+  - {fileID: 4900000, guid: 140c26dc1bea4e94ba49dad9b8e9efcf, type: 3}
+  - {fileID: 4900000, guid: 0c698d3ec81e5d94096f90600e69c235, type: 3}
   FMODDialogueEventPaths: event:/DLG/DLG_
   NameText: {fileID: 9736267}
   DialogueText: {fileID: 547553645}

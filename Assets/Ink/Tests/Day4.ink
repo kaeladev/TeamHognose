@@ -1,12 +1,12 @@
 It's almost the end of the week. I wonder what I'll do this week-end... Anyway, as usual, it's time to pack and go!
 
-* LilSoup and Tortilla are talking by the water dispenser
--> Duo
-* Squilliam pep-talks herself -> Squilliam
-* Inky stares blankly in an ominous way -> Inky
+* LilSoup and Tortilla are talking by the water dispenser #tort #soup
+-> Duo 
+* Squilliam pep-talks herself #squill -> Squilliam
+* Inky stares blankly in an ominous way #inky -> Inky
 
 == Duo == 
-#tort #soup
+
 I understand Soup. I couldn't get away from it either. #tort
 RIGHT?? SUPER SCARY MOMENT!!! PEAK HEART-RACING!!! #soup
 It sticks to me. #tort
@@ -203,7 +203,8 @@ i stay alone at the beach? #squill
 everybody thinks i'm so awkward? #squill
 as i'm sunburning myself, waiting for a hypothetical bestie to show up? #squill
 having to walk back to the break room on monday? #squill
-be like "oh hey, nice, what were you plans for this weekend?" knowing that they had something better to do than my party? #squill
+be like "oh hey, nice, what were you plans for this weekend?" #squill
+knowing that they had something better to do than my party? #squill
 my reputation ruined forever? #squill
 as everyone acknowledged my lack of social skills?? #squill
 and furthermore the genuine disinterest people feel in my company??? #squill
@@ -229,26 +230,29 @@ Grasp the nettle Bestie!! uh, Squilliam!! I'm sure you've got this!
 -> squilliam2
 
 == squilliam2 ==
-#squill
+
 no but bestie, hear me out. #squill
 self-pep-talks are super important. #squill
 but for this once i feel like i need the support of a super strong and independent bestie like you. #squill
 could you do that for me? pretty please??? i'm literally begging right now lmaooo #squill
-[Squilliam looks at you with a pityful grim and her eyes have never looked so round and wet]
-* Squilliam, you are enough. It's not about the power to convince, it's about the good heart you put into things.
+[Squilliam looks at you with a pityful grim]
+[Her eyes have never looked so round and wet]
+* Squilliam, you are enough. It's not about convincing, it's about your good heart.
 ->heart
-* Squilliam, you are beautiful. Stop worrying. I am sure everyone will want to come at your party.
+* Squilliam, you are beautiful. Stop worrying. Everyone will come to your party.
 -> prep
 
 == heart ==
-#squill
-If you put your heart into things, no matter how good or bad things turn out, you will have something precious to hold onto.
-Nobody can take the good will you put in things away from you, and this is more important than friends showing up or not at a party.
+
+If you put your heart into things, no matter how good or bad things turn out...
+you will have something precious to hold onto.
+Nobody can take the good will you put in things away from you. 
+This is more important than friends showing up or not at a party. 
 It's about trusting yourself first, and using your values as your own compass.
-You don't need to show off I promise.
+You don't need to show off I promise. 
 ... wow.... #score #good #squill
 thank you bestie #squill
-i #squilliam
+i... #squill
 i guess you are right #squill
 i'm feeling very emotional right now #squill
 SENSITIVE ME am i right?? ;o) #squill

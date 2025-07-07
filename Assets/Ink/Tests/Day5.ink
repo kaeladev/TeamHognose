@@ -1,7 +1,15 @@
 Holy molly, is the week over already?
-Time to head to the break room for the last time...
-I can't believe this is over.
 
+* Time to head to the break room...
+ -> finalday
+* Reflect
+I can't believe this is over.
+Even if I didn't learn about baking, I still learned from my new friends.
+They taught me about friendship and plushie culture.
+What a great internship experience!
+-> finalday
+
+== finalday== 
 HELLO!!!! #all
 omg i can't believe this is happening #squill
 beware i WILL cry!!!! #squill

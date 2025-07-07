@@ -4,12 +4,13 @@ I'm looking forward a nice weekend hopefully! Time to pack my stuff and head hom
 
 * You see LIL'SOUP deep in a book. #soup
 -> soup1
-* Tortilla sits silently on the counter. #tort
+* Tortilla sits silently on the table. #tort
 -> tort1
 * Inky and Squilliam are talking about today in front of the lockers. #inky #squill
 -> group1
 
 == soup1 ==
+
 Hello LIL'SOUP, is that a good book?
 HELL YEAH HELLO!! READING SOME SKILLMAXXING THING!! #soup
 What's that, "Swedish 101"? Are you going to Sweden?
@@ -67,6 +68,7 @@ SPEEDRUN SOUPLORE ANYPERCENT!!! #soup
 -> soup2
 
 == soup2 ==
+
 Woah, I guess that's quite a lot! What a life you have. 
 HELL YEAH, GOOD SOUP!! #soup
 * That was good soup (lore) indeed, thanks a lot!
@@ -132,6 +134,7 @@ SEE YA LATER ALLIGATOR! #soup
 -> ending
 
 == tort1 ==
+
 ... #tort
 ... #tort
 Hello Tortilla!
@@ -156,7 +159,6 @@ Life and what's in it. Also my mommies. #tort
 -> lesbians
 
 == mommies ==
-#tort
 
 Ohhh thank you I love them! :3 #score #good #tort
 We do tons of things together.  #tort
@@ -171,7 +173,6 @@ I live a happy life. #tort
 -> tort2
 
 == whatmommies ==
- #tort
 
 I mean I have two mommies. #score #tort
 Both take really good care of me. #tort
@@ -183,7 +184,7 @@ We play rock paper scissors all the time, and usually I win. #tort
 -> tort2
 
 == lesbians ==
-#tort
+
 ... #score #tort
 ... #tort
 You mean, lesbian dinosaurs? #tort
@@ -193,7 +194,6 @@ Why not after all...? #tort
 -> tort2
 
 == tort2==
-#tort
 
 Some big rock came and then everything disappeared. #tort
 Still I rise. #tort
@@ -212,7 +212,6 @@ Do you want to play with me? #tort
 -> rules
 
 == rules ==
-#tort 
 
 Easy. #tort
 Paper is cut by scissors. #tort
@@ -230,7 +229,6 @@ Anyway, do you want to play now? #tort
 -> norps
 
 == rockpaperscissors ==
- #tort
 
 VAR choice = ""
 LIST options = (Rock),(Paper),(Scissor)
@@ -275,12 +273,11 @@ Our fate lie in the stars. #tort
 It's about the place and about the time. #tort 
 And I'm sure someday, somewhere, you will figure it all out. #tort
 Take good care my friend! #tort
-* I appreciate Tortilla, thank you so much. Have a nice evening.
-
+I appreciate it Tortilla, thank you so much. Have a nice evening.
 -> ending
 
 == norps==
-#tort
+
 Alright, then we don't play. #score #tort
 It's okay, I understand. #tort
 Luck is a very special gift. #tort
@@ -308,12 +305,11 @@ Inventory is an annoying chore, but it's important.
 - damn right bestie!! #squill
 Wise observation for an intern. You will do well in the bakery business. #inky
 i always like to help with inventory business, tough work makes besties closer!! #squill
-* I mean, working together is a great place to start bonding with someone.
--> bakeryfriends
-* Work makes besties closer, but I believe true friendships are built outside from work. 
--> truefriendships
+* I mean, working together is a great place to start bonding with someone. -> bakeryfriends
+* Work makes besties closer, but I believe true friendships are built outside from work. -> truefriendships
 
 == bakeryfriends ==
+
 Work is for work, first and foremost. #inky #score
 Befriending coworkers can happen, but is it really out of shared interests? #inky
 Would you have befriended this person if you met them at some party? #inky
@@ -328,6 +324,7 @@ it's not the same to share with besties from afar! #squill
 -> group2
 
 == truefriendships ==
+
 oh you think so? #squill #score #good
 interesting point of view bestie!! #squill
 i always try my best for people to like me at work #squill
@@ -355,10 +352,11 @@ And I'm quite happy to have you as a coworker. #inky
 omg thxxxx bestie!!! #squill
 i'm happy to work with you too #squill
 and maybe we could hang outside of work too #squill
-Sure, maybe! But I have so many work to do. #inky
-* You're always hard at work. Don't you think you deserve a pause? #inky
+Sure, maybe! But I have so much work to do. #inky
+* You're always hard at work. Don't you think you deserve a pause?
 -> clients
-* I try being hard at work too, but it's tiring... Sometimes I work so much, it feels like I don't have the energy to exist aside from work anymore. #inky
+
+* I try being hard at work too, but it's tiring... Sometimes I don't have the energy.
 -> tired
 
 == clients ==
@@ -410,19 +408,22 @@ Speaking of... #inky
 It's about time to leave to our relaxing homes. #inky
 I wish you a lovely evening. #inky
 right, bye-bye besties!!!! #squill
-Thanks a lot little ones, see you tomorrow!!
+Thanks a lot, little ones, see you tomorrow!!
 
 -> ending
 
 == ending ==
+
 As everyone leaves the shop for the evening, you notice some leftover treats behind the counter... Leave them for Yuzu the Delivery Dog to find tomorrow morning? Or throw them out?
 * Leave Yuzu a treat. -> treat
 * Throw them out. -> trash
 
 == trash ==
+
 It's good to clean up.
 -> END
 
 == treat ==
+
 Yuzu will remember that! #treat
 -> END
