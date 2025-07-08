@@ -6,7 +6,7 @@ public class MB_WorkStation_Squilliam : MB_WorkStation
 
     public override void DisplayStationCompletion()
     {
-        if (NPC.IsWorking)
+        if (IsMakingProgress())
         {
             Debug.Log("Squilliam Station Completion: " + ProductionPercentage.ToString());
         }
@@ -53,7 +53,7 @@ public class MB_WorkStation_Squilliam : MB_WorkStation
         ProductionPercentage = Mathf.Min(ProductionPercentage, 1.0f);
     }
 
-    protected override bool CanWork()
+    public override bool CanWork()
     {
         return base.CanWork() && ProductionPercentage < 1 && RawIngredients > 0;
     }

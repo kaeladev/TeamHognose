@@ -70,7 +70,17 @@ public class MB_NPCBehavior_Deliver : MB_NPCBehavior
         }
         else
         {
-            gameObject.transform.position += (Vector3)(GetNormalizedDirectionTowardsPathingGoal() * GetMovementSpeed() * Time.deltaTime);
+            Vector3 SwappedXTransform = SpriteRend.transform.localScale;
+            Vector3 NormalizedDirection = GetNormalizedDirectionTowardsPathingGoal();
+            
+            // Moving also may mean swapping sprite directions
+            if ((Vector3.Dot(NormalizedDirection, new Vector3(1, 0, 0)) > 0 && SpriteRend.transform.localScale.x > 0)
+                || (Vector3.Dot(NormalizedDirection, new Vector3(1, 0, 0)) < 0 && SpriteRend.transform.localScale.x < 0))
+            {
+                SwappedXTransform.x *= -1;
+                SpriteRend.transform.localScale = SwappedXTransform;
+            }
+            gameObject.transform.position += (Vector3)(NormalizedDirection * GetMovementSpeed() * Time.deltaTime);
         }
 
         AnimController.SetBool("IsIdling", IsIdling);

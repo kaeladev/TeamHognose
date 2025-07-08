@@ -30,7 +30,7 @@ abstract public class MB_WorkStation : MonoBehaviour
     // Each station will display their completion differently
     public abstract void DisplayStationCompletion();
 
-    protected virtual bool CanWork()
+    public virtual bool CanWork()
     {
         return NPC;
     }

@@ -8,10 +8,10 @@ public class MB_NPCBehavior_Work : MB_NPCBehavior
 
     [HideInInspector]
     public bool IsWorking = false;
+    [HideInInspector]
+    public MB_WorkStation WorkStation;
 
     private float TimeToIdle = 0.0f;
-
-    MB_WorkStation WorkStation;
 
     public override void Update()
     {
@@ -19,22 +19,30 @@ public class MB_NPCBehavior_Work : MB_NPCBehavior
         {
             TimeToIdle -= Time.deltaTime;
         }
-        else
+        else if (IsWorking)
         {
             IsWorking = false;
+            AnimController.SetBool("IsWorking", IsWorking);
         }
 
-        AnimController.SetBool("IsWorking", IsWorking);
+        AnimController.SetBool("IsWorking", WorkStation.IsMakingProgress());
+
         // TODO: AnimController.SetFloat("WorkCompletion", WorkStation.GetWorkCompletionPercentage());
     }
 
     protected override void OnMouseOver()
     {
         base.OnMouseOver();
+
         if (Input.GetMouseButton(0))
         {
             IsWorking = true;
             TimeToIdle = 5.0f;
+        }
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            AnimController.SetBool("IsWorking", IsWorking);
         }
     }
     protected override Texture2D GetCustomCursor()

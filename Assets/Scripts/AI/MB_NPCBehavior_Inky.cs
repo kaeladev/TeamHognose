@@ -6,10 +6,12 @@ public class MB_NPCBehavior_Inky : MB_NPCBehavior
     // TODO: TEMP - replace with tentacles and actual anims
     private Color CurrentColor = Color.white;
     private float InkyAppearanceTimeRemaining = 0;
+    private Vector3 OriginalLocation;
 
     public override void Start()
     {
         base.Start();
+        OriginalLocation = transform.position;
     }
 
     public override void Update()
@@ -18,7 +20,7 @@ public class MB_NPCBehavior_Inky : MB_NPCBehavior
 
         if (InkyAppearanceTimeRemaining < 0)
         {
-            CurrentColor.a = 0;
+            transform.position = OriginalLocation;
         }
 
         SpriteRend.color = CurrentColor;

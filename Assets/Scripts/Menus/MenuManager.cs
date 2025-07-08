@@ -6,7 +6,7 @@ public class MenuManager : MonoBehaviour
     public static string MenuSceneName = "PB_MainMenu";
     public static string CreditsSceneName = "PB_Credits";
     public static string BakerySceneName = "PB_Bakery";
-    public static string BreakroomSceneName = "KO_NarrativeGym";
+    public static string BreakroomSceneName = "PB_Breakroom";
     public static void LoadMainMenuScene()
     {
         SceneManager.LoadScene(MenuSceneName);
