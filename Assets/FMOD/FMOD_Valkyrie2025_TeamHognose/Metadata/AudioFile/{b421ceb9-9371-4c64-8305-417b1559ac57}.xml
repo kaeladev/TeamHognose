@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{daa841c7-4356-4ca1-9bd1-2b430555b725}">
+	<object class="AudioFile" id="{b421ceb9-9371-4c64-8305-417b1559ac57}">
 		<property name="assetPath">
-			<value>DLG_Tortilla/DLG_Tortilla_Roar.wav</value>
+			<value>DLG_Tortilla_Roar.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
