@@ -55,6 +55,8 @@ public class StorySceneManager : MonoBehaviour
     public TextAsset[]          WorkDayInkScenes;
     public TextAsset[]          FinalScenes_Average;
     public TextAsset[]          FinalScenes_Good;
+    public Image[]              FinalScenesBG_Average;
+    public Image[]              FinalScenesBG_Good;
     public string               FMODDialogueEventPaths = "event:/DLG/DLG_";
 
     // UI Stuff.....
@@ -80,6 +82,7 @@ public class StorySceneManager : MonoBehaviour
     private Canvas              UICanvas = null;
     private Canvas              PortraitCanvas = null;
     private Canvas              BGCanvas = null;
+    private Image               OriginalBGImage;
 
     // Persistent Data between scenes, for calculating ending
     private byte                PursuedCharacters = 0;
@@ -142,6 +145,9 @@ public class StorySceneManager : MonoBehaviour
                 BGCanvas = i;
             }
         }
+
+        // TODO: Get actual image to swap?? Or maybe just add more image child components and tag to turn on off
+        OriginalBGImage = BGCanvas.GetComponentInChildren<Image>(true);
 
         ResetForNewGame();
         ProgressToNewDay();

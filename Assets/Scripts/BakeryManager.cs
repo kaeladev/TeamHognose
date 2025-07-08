@@ -7,6 +7,8 @@ public class BakeryManager : MonoBehaviour
 {
     public static BakeryManager CurrentBakeryInstance;
 
+    public Texture2D HoverCursorTexture = null;
+
     [HideInInspector]
     public float StoredIngredients = 1;
 
@@ -29,7 +31,9 @@ public class BakeryManager : MonoBehaviour
             {
                 if (NPC.tag == WorkStation.tag)
                 {
-                    WorkStation.NPC = (MB_NPCBehavior_Work)NPC;
+                    MB_NPCBehavior_Work Worker = (MB_NPCBehavior_Work)NPC;
+                    WorkStation.NPC = Worker;
+                    Worker.WorkStation = WorkStation;
                 }
             }
         }
@@ -50,6 +54,16 @@ public class BakeryManager : MonoBehaviour
 
         StoredIngredients--;
         return 1;
+    }
+
+    protected void OnMouseEnter()
+    {
+        Cursor.SetCursor(HoverCursorTexture, Vector2.zero, CursorMode.Auto);
+    }
+
+    protected void OnMouseExit()
+    {
+        Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
     }
 
     void OnMouseOver()  // Add collision to an exit door; for skipping work/speedrunning story

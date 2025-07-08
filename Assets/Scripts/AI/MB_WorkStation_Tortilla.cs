@@ -9,7 +9,7 @@ public class MB_WorkStation_Tortilla : MB_WorkStation
     private int CustomersServedToday = 0;
     private float TimeUntilNextCustomer;
 
-    protected override bool CanWork()
+    public override bool CanWork()
     {
         return base.CanWork() && IsCustomerQueued();
     }
