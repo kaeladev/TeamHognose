@@ -2,9 +2,9 @@ Holy molly, is the week over already?
 
 * Time to head to the break room...
  -> finalday
-* Reflect
+* [Reflect]
 I can't believe this is over.
-Even if I didn't learn about baking, I still learned from my new friends.
+Even if I didn't learn about baking, I still learnt from my new friends.
 They taught me about friendship and plushie culture.
 What a great internship experience!
 -> finalday
@@ -17,7 +17,7 @@ MAXIMUM CRYING!!!! #soup
 A very strange day indeed... #tort
 Well hello! First and foremost, I want to thank you for your time and energy. #inky
 You really brought a lot of life to the Plûsh Brûlée bakery. #inky
-ROCKSTAR BABYYY!!!! #soups
+ROCKSTAR BABYYY!!!! #soup
 I suggest we have a big round of applause for our intern!! #inky
 [Everybody applauds the best they can, even though some lack the limbs to do so] #all
 HIP HIP HIP!!! #squill
@@ -32,12 +32,12 @@ CLOSING SPEECH!! CLOSING SPEECH!!! #all
 [Everybody gives you another round of applause] #all
 Now, now. There is a tradition to celebrate the ends of internships. #inky
 Right!!! #all
-Oh yes, right.
-I want to challenge you to rock paper scissors.
+Oh yes, right. #tort
+I want to challenge you to rock paper scissors. #tort
 Do you accept?
-* Yes!
+* [Yes!]
 -> rps
-* Hit me with your best shot!
+* [Hit me with your best shot!]
 -> rps
 
 == rps== 

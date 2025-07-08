@@ -1,7 +1,7 @@
 What do you want to watch then? #mommy
 Maybe a Ghibli movie? or another Rehearsal episode? #mummy
 Sure... #mommy
-Or maybe we could a documentary?#mummy
+Or maybe we could watch a documentary?#mummy
 Good idea!! What kind? #mommy
 So there's this one I like about European medieval history... #mummy
 But there's also this one about the Big Bang and Earth's history... #mummy
