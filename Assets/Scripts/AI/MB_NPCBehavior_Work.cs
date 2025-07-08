@@ -15,6 +15,8 @@ public class MB_NPCBehavior_Work : MB_NPCBehavior
 
     public override void Update()
     {
+        base.Update();
+
         if (TimeToIdle > 0)
         {
             TimeToIdle -= Time.deltaTime;

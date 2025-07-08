@@ -5,10 +5,13 @@ using UnityEngine.Events;
 [RequireComponent(typeof(StudioEventEmitter))]
 abstract public class MB_NPCBehavior : MonoBehaviour
 {
+    public Animator HeartAnimController;
+
     protected Animator AnimController;
     protected SpriteRenderer SpriteRend;
     protected StudioEventEmitter ReactionSoundMaker;
     protected bool IsPlayerHovering = false;
+    protected float HeartEmotingTime = 0;
 
     [HideInInspector]
     public UnityEvent<Vector2, int> ProductionComplete;
@@ -22,10 +25,14 @@ abstract public class MB_NPCBehavior : MonoBehaviour
 
     public virtual void Update()
     {
+        UpdateHeartEmote();
     }
 
     protected virtual void PetNPC()
     {
+        SpriteRenderer Heart = HeartAnimController.gameObject.GetComponent<SpriteRenderer>();
+        Heart.color = Color.white;
+        HeartEmotingTime = 1.0f;
     }
 
     public virtual int GetDrawLayer()
@@ -79,4 +86,26 @@ abstract public class MB_NPCBehavior : MonoBehaviour
 
         MenuManager.UpdateCursor(GetCustomCursor());
       }
+
+    void UpdateHeartEmote()
+    {
+        if (!HeartAnimController)
+        {
+            return;
+        }
+
+        if (IsPlayerHovering && Input.GetMouseButton(0))
+        {
+            HeartEmotingTime = 1; // Reset heart emote time
+        }
+        else if (HeartEmotingTime > 0)
+        {
+            HeartEmotingTime -= Time.deltaTime;
+        }
+        else
+        {
+            SpriteRenderer Heart = HeartAnimController.gameObject.GetComponent<SpriteRenderer>();
+            Heart.color = Color.clear;
+        }
+    }
 }
