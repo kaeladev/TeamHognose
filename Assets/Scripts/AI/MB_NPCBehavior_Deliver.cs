@@ -42,7 +42,10 @@ public class MB_NPCBehavior_Deliver : MB_NPCBehavior
         {
             // Deliverer is just idling
             WaitInStoreTime -= Time.deltaTime;
-            AnimController.SetBool("IsIdling", WaitInStoreTime > 0);
+            if (AnimController.runtimeAnimatorController)
+            {
+                AnimController.SetBool("IsIdling", WaitInStoreTime > 0);
+            }
         }
         else if (HasReachedPathingGoal())
         {
@@ -80,11 +83,14 @@ public class MB_NPCBehavior_Deliver : MB_NPCBehavior
                 SwappedXTransform.x *= -1;
                 SpriteRend.transform.localScale = SwappedXTransform;
             }
-            gameObject.transform.position += (Vector3)(NormalizedDirection * GetMovementSpeed() * Time.deltaTime);
+            gameObject.transform.position += (NormalizedDirection * GetMovementSpeed() * Time.deltaTime);
         }
 
-        AnimController.SetBool("IsIdling", IsIdling);
-        AnimController.SetBool("UseWalkingSpeed", HasDelivery);
+        if (AnimController.runtimeAnimatorController)
+        {
+            AnimController.SetBool("IsIdling", IsIdling);
+            AnimController.SetBool("UseWalkingSpeed", HasDelivery);
+        }
     }
 
     bool HasReachedPathingGoal()
@@ -110,7 +116,7 @@ public class MB_NPCBehavior_Deliver : MB_NPCBehavior
 
     void DropOffDelivery()
     {
-        ProductionComplete.Invoke(CurrentPathingGoal);
+        ProductionComplete.Invoke(CurrentPathingGoal, GetDrawLayer() + 1);
         BakeryManager.CurrentBakeryInstance.StoredIngredients++;
         HasDelivery = false;
         CurrentPathingGoal = StoreDoorLocation;

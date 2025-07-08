@@ -14,15 +14,10 @@ abstract public class MB_WorkStation : MonoBehaviour
 
     public virtual void Update()
     {
-        if (ProductionPercentage >= 1)
-        {
-            // TODO: Production doesnt auto finish for all workstations; 
-            // ex: if soup cant take more dough
-            NPC.ProductionComplete.Invoke(gameObject.transform.position);
-        }
+        UpdateProduction();
     }
 
-    public bool IsMakingProgress()
+    public virtual bool IsMakingProgress()
     {
         return CanWork() && NPC.IsWorking;
     }

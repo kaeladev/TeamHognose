@@ -1,13 +1,16 @@
+using TMPro;
 using UnityEngine;
 
 public class MB_WorkStation_Tortilla : MB_WorkStation
 {
+    public float TimeToServeCusomter = 3.0f;
     public int CustomersPerDay = 3;
     public Vector2 TimeRangeBetweenCustomerEntry;
 
     private int CustomersSeenToday = 0;
     private int CustomersServedToday = 0;
     private float TimeUntilNextCustomer;
+    private float TimeUntilCurrentCustomerServed;
 
     public override bool CanWork()
     {
@@ -16,6 +19,8 @@ public class MB_WorkStation_Tortilla : MB_WorkStation
 
     void Start()
     {
+        TimeUntilCurrentCustomerServed = TimeToServeCusomter;
+
         if (TimeRangeBetweenCustomerEntry == Vector2.zero)
         {
             TimeRangeBetweenCustomerEntry = new Vector2(5, 10);
@@ -27,6 +32,24 @@ public class MB_WorkStation_Tortilla : MB_WorkStation
 
     public override void Update()
     {
+        base.Update();
+    }
+
+    protected override void UpdateProduction()
+    {
+        // TODO: Can Tortilla only fill orders if there has been a recent batch finished by Lil Soup???
+        if (IsMakingProgress())
+        {
+            TimeUntilCurrentCustomerServed -= Time.deltaTime;
+
+            if (TimeUntilCurrentCustomerServed < 0)
+            {
+                TimeUntilCurrentCustomerServed = TimeToServeCusomter;
+                CustomersServedToday++;
+                Debug.Log("Customer #" + CustomersServedToday + " Served!");
+            }
+        }
+
         if (CustomersSeenToday < CustomersPerDay)
         {
             TimeUntilNextCustomer -= Time.deltaTime;
@@ -40,40 +63,19 @@ public class MB_WorkStation_Tortilla : MB_WorkStation
                     RandomizeTimeForNextCustomerEntry();
                     Debug.Log("Next Customer Arriving in " + TimeUntilNextCustomer.ToString() + " Seconds");
                 }
-                // Spawn/show another customer in Tortilla's queue line
+                // TODO: Spawn/show another customer in Tortilla's queue line
             }
         }
 
         if (CustomersServedToday == CustomersPerDay)
         {
+            if (StorySceneManager.PersistentStoryInstance)
+            {
+                StorySceneManager.PersistentStoryInstance.MarkCompletedBakeryShift();
+            }
             MenuManager.LoadBreakroomScene();
         }
 
-        UpdateWorkStationStatuses();
-    }
-
-    void UpdateWorkStationStatuses()
-    {
-        /*
-         * Pseudocode babyyyy
-         * So squilliam can only work if ingredients are in mixer bowl
-         * while squilliam is working and work station is not active,
-         * squilliam is querying if dependency is met;
-         * then the work station can active if grabbing able to grab 1 ingredient
-         * activating squilliam station = -1 ingredient
-         * Ingredients last for 10 seconds then is depleted
-         * 
-         * Lil Soup can only work if can grab dough from mixer bowl
-         * the swap just happens at 50%, its just a visual swap and anim swap
-         */
-        // if ()
-        // { 
-        // }
-
-    }
-
-    protected override void UpdateProduction()
-    {
         DisplayStationCompletion();
     }
 
@@ -87,11 +89,17 @@ public class MB_WorkStation_Tortilla : MB_WorkStation
         return CustomersSeenToday > CustomersServedToday;
     }
 
+    public int GetAmountOfCustomersInQueue()
+    {
+        return CustomersSeenToday - CustomersServedToday;
+    }
+
     public override void DisplayStationCompletion()
     {
-        if (NPC.IsWorking)
+        TextMeshProUGUI ChalkboardText = GetComponentInChildren<TextMeshProUGUI>();
+        if (ChalkboardText)
         {
-            Debug.Log("Tortilla Station Completion: " + ProductionPercentage.ToString());
+            ChalkboardText.SetText(CustomersServedToday + " / " + CustomersPerDay + "\nDaily Orders\nFulfilled");
         }
     }
 }

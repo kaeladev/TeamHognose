@@ -8,7 +8,6 @@ public class MB_WorkStation_LilSoup : MB_WorkStation
 
     protected override void UpdateProduction()
     {
-        base.Update();
         DisplayStationCompletion();
     }
 

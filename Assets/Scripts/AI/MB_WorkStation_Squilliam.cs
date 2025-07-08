@@ -17,21 +17,6 @@ public class MB_WorkStation_Squilliam : MB_WorkStation
         base.Update();
 
         TryGetIngredientsIfRequired();
-
-        if (CanWork())
-        {
-            float ProductionThisFrame = (ProductionRate / 100.0f) * Time.deltaTime;
-            RawIngredients -= ProductionThisFrame;
-            ProductionPercentage += ProductionThisFrame;
-            ProductionPercentage = Mathf.Min(ProductionPercentage, 1.0f);
-        }
-
-        if (ProductionPercentage >= 1)
-        {
-            NPC.ProductionComplete.Invoke(gameObject.transform.position);
-        }
-
-        DisplayStationCompletion();
     }
 
     void TryGetIngredientsIfRequired()
@@ -41,16 +26,24 @@ public class MB_WorkStation_Squilliam : MB_WorkStation
             return;
         }
 
+        Debug.Log("Squilliam Station: Refilling Ingredients");
+
         int IngredientsGrabbed = BakeryManager.CurrentBakeryInstance.GrabIngredients();
         RawIngredients = 0.5f * IngredientsGrabbed;
+
+        // Show Inky tentacles moving ingredients to bowl
+        NPC.ProductionComplete.Invoke(gameObject.transform.position, NPC.GetDrawLayer() + 4);
     }
 
     protected override void UpdateProduction()
     {
-        float ProductionThisFrame = (ProductionRate / 100.0f) * Time.deltaTime;
-        RawIngredients -= ProductionThisFrame;
-        ProductionPercentage += ProductionThisFrame;
-        ProductionPercentage = Mathf.Min(ProductionPercentage, 1.0f);
+        if (IsMakingProgress())
+        {
+            float ProductionThisFrame = (ProductionRate / 100.0f) * Time.deltaTime;
+            RawIngredients -= ProductionThisFrame;
+            ProductionPercentage += ProductionThisFrame;
+            ProductionPercentage = Mathf.Min(ProductionPercentage, 1.0f);
+        }
     }
 
     public override bool CanWork()

@@ -39,6 +39,14 @@ public class BakeryManager : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        if (StorySceneManager.PersistentStoryInstance)
+        {
+            StorySceneManager.PersistentStoryInstance.TickBakeryTime();
+        }
+    }
+
     public int GrabIngredients()
     {
         if (StoredIngredients == 0)
@@ -71,7 +79,6 @@ public class BakeryManager : MonoBehaviour
         // TODO: Add confirmation display first
         if (Input.GetMouseButtonDown(0))
         {
-            OnMouseExit();
             MenuManager.LoadBreakroomScene();
         }
     }
