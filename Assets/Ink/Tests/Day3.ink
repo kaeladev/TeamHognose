@@ -354,12 +354,12 @@ i'm happy to work with you too #squill
 and maybe we could hang outside of work too #squill
 Sure, maybe! But I have so much work to do. #inky
 * You're always hard at work. Don't you think you deserve a pause?
--> clients
+-> pause
 
 * I try being hard at work too, but it's tiring... Sometimes I don't have the energy.
 -> tired
 
-== clients ==
+== pause ==
 
 A proper shop requires a solid team and good products to sell. #inky #score #good
 It's not only about the clients, it's also about the culture. #inky
@@ -373,7 +373,7 @@ A place we can call our own, for us. #inky
 well said bestie!!! #squill
 i hope i can be part of that community too #squill
 i want to do something that matters. #squill
-i also think pauses are important!! #squill
+but i also think pauses are important!! #squill
 so inky, if you want a coffee break, come see me alright? #squill
 That's nice, thank you Squilliam. #inky
 Though I'm more into cocoa, we could share coffee breaks occasionally. #inky

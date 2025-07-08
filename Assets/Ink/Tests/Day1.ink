@@ -8,7 +8,7 @@ Phewww, what a day... Time to pack my stuff and go!
 
     == look ==
     We finally finished cleaning the store. It still smells like hot cinnamon buns in here... Reminds me of my mom's. 
-    I'm lucky I landed this internship! But I should be going now. Time to pack my stuff and go.
+    I'm lucky I landed this internship! But I should be going now. Time to pack my stuff and go. 
         -> breakroom
     == breakroom ==
     
