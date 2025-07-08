@@ -71,6 +71,7 @@ public class BakeryManager : MonoBehaviour
         // TODO: Add confirmation display first
         if (Input.GetMouseButtonDown(0))
         {
+            OnMouseExit();
             MenuManager.LoadBreakroomScene();
         }
     }

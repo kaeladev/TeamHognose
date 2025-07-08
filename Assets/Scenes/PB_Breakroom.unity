@@ -2917,6 +2917,28 @@ MonoBehaviour:
   - {fileID: 4900000, guid: c5aec732a6e76fb4aa1908bc2c05a683, type: 3}
   - {fileID: 4900000, guid: 140c26dc1bea4e94ba49dad9b8e9efcf, type: 3}
   - {fileID: 4900000, guid: 0c698d3ec81e5d94096f90600e69c235, type: 3}
+  FinalScenesBG_Average:
+  - {fileID: 21300000, guid: 4871cf45e1306834ab60e51e6fba79a4, type: 3}
+  - {fileID: 21300000, guid: 24e76f492359dda4ca79fbb13f727fc1, type: 3}
+  - {fileID: 21300000, guid: cd8b869cda8ccbb419f71d26d069d2b1, type: 3}
+  - {fileID: 21300000, guid: 66e6257826f4e3045b268c8acfeb0933, type: 3}
+  FinalScenesBG_Good:
+  - {fileID: 21300000, guid: c0e682e03029d2949bdbd8457abcf5d4, type: 3}
+  - {fileID: 21300000, guid: 24e76f492359dda4ca79fbb13f727fc1, type: 3}
+  - {fileID: 21300000, guid: cd8b869cda8ccbb419f71d26d069d2b1, type: 3}
+  - {fileID: 21300000, guid: 407bd325927131c4ea0eda8f28f471fa, type: 3}
+  - {fileID: 21300000, guid: 9050121abcd77044eb6d4d8199821ea8, type: 3}
+  FinalAudios_Average:
+  - event:/MUSIC/MUS_BreakRoom
+  - event:/MUSIC/MUS_Squilliam_Ending
+  - event:/MUSIC/MUS_Lil' Soup_Ending
+  - event:/MUSIC/MUS_Tortilla_AverageEnding
+  FinalAudios_Good:
+  - event:/MUSIC/MUS_Void_Ending
+  - event:/MUSIC/MUS_Squilliam_Ending
+  - event:/MUSIC/MUS_Lil' Soup_Ending
+  - event:/MUSIC/MUS_Tortilla_GoodEnding
+  - event:/MUSIC/MUS_Yuzu_Ending
   FMODDialogueEventPaths: event:/DLG/DLG_
   NameText: {fileID: 9736267}
   DialogueText: {fileID: 547553645}

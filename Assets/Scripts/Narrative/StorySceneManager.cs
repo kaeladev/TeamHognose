@@ -1,4 +1,5 @@
 using FMOD.Studio;
+using FMODUnity;
 using Ink.Runtime;
 using System.Collections.Generic;
 using TMPro;
@@ -55,8 +56,10 @@ public class StorySceneManager : MonoBehaviour
     public TextAsset[]          WorkDayInkScenes;
     public TextAsset[]          FinalScenes_Average;
     public TextAsset[]          FinalScenes_Good;
-    public Image[]              FinalScenesBG_Average;
-    public Image[]              FinalScenesBG_Good;
+    public Sprite[]             FinalScenesBG_Average;
+    public Sprite[]             FinalScenesBG_Good;
+    public string[]             FinalAudios_Average;
+    public string[]             FinalAudios_Good;
     public string               FMODDialogueEventPaths = "event:/DLG/DLG_";
 
     // UI Stuff.....
@@ -82,7 +85,7 @@ public class StorySceneManager : MonoBehaviour
     private Canvas              UICanvas = null;
     private Canvas              PortraitCanvas = null;
     private Canvas              BGCanvas = null;
-    private Image               OriginalBGImage;
+    private Sprite              OriginalBGImage;
 
     // Persistent Data between scenes, for calculating ending
     private byte                PursuedCharacters = 0;
@@ -105,6 +108,7 @@ public class StorySceneManager : MonoBehaviour
     private string              CurrentStoryText;
     private List<string>        CurrentStoryTags;
     private EventInstance       DialogueInstance;
+    private EventInstance       EndAudioInstance;
 
     void Awake()
     {
@@ -146,8 +150,7 @@ public class StorySceneManager : MonoBehaviour
             }
         }
 
-        // TODO: Get actual image to swap?? Or maybe just add more image child components and tag to turn on off
-        OriginalBGImage = BGCanvas.GetComponentInChildren<Image>(true);
+        OriginalBGImage = BGCanvas.GetComponentInChildren<Image>(true).sprite;
 
         ResetForNewGame();
         ProgressToNewDay();
@@ -183,6 +186,7 @@ public class StorySceneManager : MonoBehaviour
             }
             else if (IsWeekend())
             {
+                StopEndingAudio();
                 DeactivateExistingUI();
                 SetAllCanvasActive(false);
                 MenuManager.LoadCreditsScene();
@@ -223,7 +227,7 @@ public class StorySceneManager : MonoBehaviour
         DisplayStoryText(); // Display the text on screen!
     }
 
-    void UpdateCharactersInScene() // This happens after the first choice in each scene, besides end
+    void UpdateCharactersInScene() // This happens after the first choice in each scene, besides intro and end
     {
         byte CharactersFromPreviousScene = CharactersInCurrentScene;
         CharactersInCurrentScene = BuildCharacterListFromCurrentStory();
@@ -378,11 +382,14 @@ public class StorySceneManager : MonoBehaviour
 
     void CalculateAndLoadFinalScene()
     {
+        string EndingAudioPath;
         if (TimeYuzuPetted >= YuzuPetTimeForSecretEnding && TimesYuzuFedTreat == GetAmountOfBranchingStoryDays())
         {
             // Secret Yuzu Ending always takes highest prio
             Debug.Log("ENDING: SECRET");
             CurrentInkScript = FinalScenes_Good[4];
+            EndingAudioPath = FinalAudios_Good[4];
+            BGCanvas.GetComponentInChildren<Image>(true).sprite = FinalScenesBG_Good[4];
         }
         else if (PursuedCharacters != 0)
         {
@@ -399,12 +406,16 @@ public class StorySceneManager : MonoBehaviour
                 // Max score reached for pursued character == Good Ending! Yay!
                 Debug.Log("ENDING: GOOD " + PursuedCharacterName);
                 CurrentInkScript = FinalScenes_Good[PursuedCharacterIndex];
+                EndingAudioPath = FinalAudios_Good[PursuedCharacterIndex];
+                BGCanvas.GetComponentInChildren<Image>(true).sprite = FinalScenesBG_Good[PursuedCharacterIndex];
             }
             else
             {
                 // Average Ending for pursued character
                 Debug.Log("ENDING: AVERAGE " + PursuedCharacterName);
                 CurrentInkScript = FinalScenes_Average[PursuedCharacterIndex];
+                EndingAudioPath = FinalAudios_Average[PursuedCharacterIndex];
+                BGCanvas.GetComponentInChildren<Image>(true).sprite = FinalScenesBG_Average[PursuedCharacterIndex];
             }
         }
         else
@@ -412,7 +423,12 @@ public class StorySceneManager : MonoBehaviour
             // No specific character was pursued; default to Average Ending for Inky
             Debug.Log("ENDING: DEFAULT");
             CurrentInkScript = FinalScenes_Average[0];
+            EndingAudioPath = FinalAudios_Average[0];
+            BGCanvas.GetComponentInChildren<Image>(true).sprite = FinalScenesBG_Average[0];
         }
+
+        Camera.main.GetComponent<StudioEventEmitter>().Stop();
+        PlayEndingAudio(EndingAudioPath);
     }
 
     // ----------------------------------------- UTILITY -------------------------
@@ -587,6 +603,9 @@ public class StorySceneManager : MonoBehaviour
     {
         Debug.Log("StorySceneManager Resetting for New Game");
 
+        StopEndingAudio();
+        BGCanvas.GetComponentInChildren<Image>(true).sprite = OriginalBGImage;
+
         CurrentDay = -1;
         CurrentStoryTags = new List<string>();
     }
@@ -683,7 +702,7 @@ public class StorySceneManager : MonoBehaviour
                 {
                     i.color = GreyedOut; // Characters involved but not speaking are greyed out
                 }
-                else if (IsIntroductionDay() || (CurrentDay >= 2 && CurrentDay < 5))
+                else if (IsNotWorkDay() || (CurrentDay >= 2 && CurrentDay < 5))
                 {
                     i.color = Invisible;    // Characters not involved leave the room these days
                 }
@@ -861,7 +880,7 @@ public class StorySceneManager : MonoBehaviour
 
     void StopDialogueSound()
     {
-        DialogueInstance.stop(STOP_MODE.ALLOWFADEOUT);
+        DialogueInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
         DialogueInstance.release();
     }
 
@@ -883,5 +902,18 @@ public class StorySceneManager : MonoBehaviour
 
         instance.start();
         instance.release();
+    }
+
+    void PlayEndingAudio(string PathToEndingAudio)
+    {
+        EndAudioInstance = FMODUnity.RuntimeManager.CreateInstance(PathToEndingAudio);
+
+        EndAudioInstance.start();
+    }
+
+    void StopEndingAudio()
+    {
+        EndAudioInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        EndAudioInstance.release();
     }
 }
