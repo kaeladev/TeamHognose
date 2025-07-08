@@ -1,7 +1,7 @@
 #inky #yuzu
 Hello, and welcome to the Plûsh Brûlée!  #inky #yuzu #hello
 My name is Inky. A pleasure to make your acquaintance! #inky
-We don't have too much time to chat; the bakery opens in 5 minutes. #inky
+We don't have too much time to chat; the bakery opens in 5 minutes. #inky 
 But we are excited to welcome you to the team! #inky #happy
 There is a lot for you to help with around here. #inky
 You see, working is very hard for plushies. #inky #sassy
