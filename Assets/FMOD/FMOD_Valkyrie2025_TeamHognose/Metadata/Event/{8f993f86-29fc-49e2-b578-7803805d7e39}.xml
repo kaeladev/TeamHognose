@@ -43,7 +43,6 @@
 	<object class="MasterTrack" id="{bb7ea0c4-2087-4d47-a8c3-76ed7cd6e573}">
 		<relationship name="modules">
 			<destination>{ebc4468f-8a03-472f-9e8b-2e4d4deb67cf}</destination>
-			<destination>{3c87264a-fd87-4a4b-bcf5-226cadae3582}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{601b5e72-51f7-458a-8ea3-79bb5db9295c}</destination>
@@ -70,7 +69,6 @@
 	<object class="ParameterProxy" id="{436f5dd3-0fcd-4de1-b9d1-5627c2ca7d9a}">
 		<relationship name="modules">
 			<destination>{ebc4468f-8a03-472f-9e8b-2e4d4deb67cf}</destination>
-			<destination>{3c87264a-fd87-4a4b-bcf5-226cadae3582}</destination>
 		</relationship>
 		<relationship name="preset">
 			<destination>{ecc1ec6b-ae26-4817-8f05-dd4e815874be}</destination>
@@ -93,20 +91,6 @@
 		</property>
 		<relationship name="audioFile">
 			<destination>{cf91b03f-e3d3-4a78-85a9-13fc4fd3a556}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{3c87264a-fd87-4a4b-bcf5-226cadae3582}">
-		<property name="isCutoff">
-			<value>true</value>
-		</property>
-		<property name="start">
-			<value>13</value>
-		</property>
-		<property name="volume">
-			<value>-1.5</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{daa841c7-4356-4ca1-9bd1-2b430555b725}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{9347bc6c-a798-49c2-8b01-15d8db26d09b}">

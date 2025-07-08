@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{2ef7dc2e-2114-4a29-b6a2-0f4427b58b67}">
+	<object class="AudioFile" id="{50f70c62-63bd-4fa3-8f78-e332eb6daf33}">
 		<property name="assetPath">
-			<value>DLG_Inky/DLG_Inky_Dialogue_03.wav</value>
+			<value>DLG_Inky_Dialogue_03.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
