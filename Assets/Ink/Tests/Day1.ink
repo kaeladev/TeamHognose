@@ -101,7 +101,7 @@ Phewww, what a day... Time to pack my stuff and go!
       == ending == 
       
    Alright folks, I guess that's all for tonight. If everyone is done, we can head home! #inky #bye
-   Woof! #yuzu
+   Woof! #yuzu #bye
 {dubious: also before you leave, my apologies for earlier... i guess i got some zoomies from meeting someone new! please forgive me and be my friend!! #squill #sad} 
 {cute: Also, you seem like a very sweet person. Kind-hearted and gentle. That's nice. I'm glad you're here.  #tort #happy} 
 {not dubious and not cute: Oh, and by the way, I like the serious vibes you bring to the table. Very focused, very demure. #inky #bye} 
