@@ -311,8 +311,11 @@ public class StorySceneManager : MonoBehaviour
         {
             switch (Tag.ToLower())
             {
+                case "hello":
+                    EmotionFound = EmotionFlags.hello;
+                    break;
                 case "happy":
-                    EmotionFound = EmotionFlags.dialogue;
+                    EmotionFound = EmotionFlags.happy;
                     break;
                 case "sad":
                     EmotionFound = EmotionFlags.sad;
