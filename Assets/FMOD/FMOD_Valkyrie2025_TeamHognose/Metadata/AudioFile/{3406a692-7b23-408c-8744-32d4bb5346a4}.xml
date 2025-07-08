@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{22a74348-3459-476c-8f77-7f82c6ab4d3c}">
+	<object class="AudioFile" id="{3406a692-7b23-408c-8744-32d4bb5346a4}">
 		<property name="assetPath">
-			<value>DLG_Yuzu/DLG_Yuzu_Reaction_03.wav</value>
+			<value>UI/DLG_Yuzu_Reaction_03.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
