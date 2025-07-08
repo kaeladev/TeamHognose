@@ -24,7 +24,7 @@ How do you feel about savory options? #tort
 Woof! #yuzu
 Discussing opinions is what friends do. What do you want to talk about? #tort
 (This is a good bonding opportunity... What should I ask ?)
-BUDDY LET'S CHAT!!!!
+BUDDY LET'S CHAT!!!! #soup
 * What music are you into?
 -> Music
 * What is your astrological sign?
@@ -52,7 +52,7 @@ WHAT DO YOU THINK ABOUT THE LATEST TURNSTILE ALBUM??? #soup
  EARLY DAWN AFTER PARTY OST-TYPE SHxT!!! #soup
  Woof! #yuzu
  MAD RESPECT FOR FINDING NEW AUDIENCES!! #soup
- CINNAMON ROLLS FROM SCANDINAVIA TO Y'ALL, EVEN THE FRENCH LIKE IT!!! SOFT-POWER-FULLNESS IS THE BEST!!!
+ CINNAMON ROLLS FROM SCANDINAVIA TO Y'ALL, EVEN THE FRENCH LIKE IT!!! SOFT-POWER-FULLNESS IS THE BEST!!! #soup
 ... #tort
 Never enough! #tort
 [Grunts] #tort
