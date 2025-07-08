@@ -52,6 +52,7 @@ public class StorySceneManager : MonoBehaviour
 
     // Public Data to set up pre-known start-of-day scenes
     public float                YuzuPetTimeForSecretEnding = 10.0f;
+    public float                MaxBakeryTimeForSpeedRunEnding = 100.0f;
     public TextAsset            GameIntroInkScene;
     public TextAsset[]          WorkDayInkScenes;
     public TextAsset[]          FinalScenes_Average;
@@ -94,9 +95,11 @@ public class StorySceneManager : MonoBehaviour
     private int                 GoodScoreOptionsSelected = 0;
     private int                 TimesYuzuFedTreat = 0;
     private float               TimeYuzuPetted = 0;
+    private float               BakeryShiftsCompleted = 0;
+    private float               TimeSpentInBakery = 0;
     private Color               Visible = Color.white;
     private Color               GreyedOut = Color.gray;
-    private Color               Invisible = new Color(255, 255, 255, 0);
+    private Color               Invisible = new Color(255, 255, 255, 0);      
 
     // Current Scene Data, to be loaded at runtime per day
     private bool                HasFirstChoiceOccurred = false;
@@ -372,12 +375,14 @@ public class StorySceneManager : MonoBehaviour
             CurrentStoryText += "\n\nPress anywhere to enjoy the weekend!";
         }
         
-        Debug.Log("Story Stats after Day " + CurrentDay.ToString()
+        Debug.Log("Story Stats after Day " + CurrentDay
                     + "\n\t Potential Pursued Characters: " + GetNamesForPotentíalPursuedCharacters()
-                    + "\n\t Total Score Options Discovered: " + ScoreAffectingOptionsDiscovered.ToString()
-                    + "\n\t Total Good Score Options Chosen: " + GoodScoreOptionsSelected.ToString()
-                    + "\n\t Yuzu Fed Treats: " + TimesYuzuFedTreat.ToString() + " Times"
-                    + "\n\t Yuzu Petted For : " + TimeYuzuPetted.ToString() + "/" + YuzuPetTimeForSecretEnding.ToString() + " Seconds");
+                    + "\n\t Total Score Options Discovered: " + ScoreAffectingOptionsDiscovered
+                    + "\n\t Total Good Score Options Chosen: " + GoodScoreOptionsSelected
+                    + "\n\t Yuzu Fed Treats: " + TimesYuzuFedTreat + " Times"
+                    + "\n\t Yuzu Petted For : " + TimeYuzuPetted + "/" + YuzuPetTimeForSecretEnding + " Required Seconds"
+                    + "\n\t Time Spent in Bakery: " + TimeSpentInBakery + "/" + MaxBakeryTimeForSpeedRunEnding + " Permitted Seconds"
+                    + "\n\t Completed Bakery Shifts: " + BakeryShiftsCompleted + " Times");
     }
 
     void CalculateAndLoadFinalScene()
@@ -386,10 +391,17 @@ public class StorySceneManager : MonoBehaviour
         if (TimeYuzuPetted >= YuzuPetTimeForSecretEnding && TimesYuzuFedTreat == GetAmountOfBranchingStoryDays())
         {
             // Secret Yuzu Ending always takes highest prio
-            Debug.Log("ENDING: SECRET");
+            Debug.Log("ENDING: SECRET YUZU");
             CurrentInkScript = FinalScenes_Good[4];
             EndingAudioPath = FinalAudios_Good[4];
             BGCanvas.GetComponentInChildren<Image>(true).sprite = FinalScenesBG_Good[4];
+        }
+        else if (BakeryShiftsCompleted == GetAmountOfWorkDays() && TimeSpentInBakery <= MaxBakeryTimeForSpeedRunEnding)
+        {
+            Debug.Log("ENDING: VOID INKY");
+            CurrentInkScript = FinalScenes_Good[0];
+            EndingAudioPath = FinalAudios_Good[0];
+            BGCanvas.GetComponentInChildren<Image>(true).sprite = FinalScenesBG_Good[0];
         }
         else if (PursuedCharacters != 0)
         {
@@ -397,14 +409,14 @@ public class StorySceneManager : MonoBehaviour
             int PursuedCharacterIndex = GetIndexForCharacterFlag((CharacterFlags)PursuedCharacters);
             if (PursuedCharacterIndex == -1)
             {
-                Debug.Log("No appropriate ending found for pursued character");
+                Debug.Log("No appropriate ending found...");
                 return;
             }
 
-            if (GoodScoreOptionsSelected > 0 && GoodScoreOptionsSelected == ScoreAffectingOptionsDiscovered)
+            if (PursuedCharacterName != "Inky" && GoodScoreOptionsSelected > 0 && GoodScoreOptionsSelected == ScoreAffectingOptionsDiscovered)
             {
                 // Max score reached for pursued character == Good Ending! Yay!
-                Debug.Log("ENDING: GOOD " + PursuedCharacterName);
+                Debug.Log("ENDING: GOOD " + PursuedCharacterName.ToUpper());
                 CurrentInkScript = FinalScenes_Good[PursuedCharacterIndex];
                 EndingAudioPath = FinalAudios_Good[PursuedCharacterIndex];
                 BGCanvas.GetComponentInChildren<Image>(true).sprite = FinalScenesBG_Good[PursuedCharacterIndex];
@@ -412,7 +424,7 @@ public class StorySceneManager : MonoBehaviour
             else
             {
                 // Average Ending for pursued character
-                Debug.Log("ENDING: AVERAGE " + PursuedCharacterName);
+                Debug.Log("ENDING: AVERAGE " + PursuedCharacterName.ToUpper());
                 CurrentInkScript = FinalScenes_Average[PursuedCharacterIndex];
                 EndingAudioPath = FinalAudios_Average[PursuedCharacterIndex];
                 BGCanvas.GetComponentInChildren<Image>(true).sprite = FinalScenesBG_Average[PursuedCharacterIndex];
@@ -536,6 +548,11 @@ public class StorySceneManager : MonoBehaviour
         return WorkDayInkScenes.Length - 2;
     }
 
+    int GetAmountOfWorkDays()
+    {
+        return WorkDayInkScenes.Length;
+    }
+
     bool IsIntroductionDay()
     {
         return CurrentDay == 0;
@@ -566,11 +583,22 @@ public class StorySceneManager : MonoBehaviour
         TimeYuzuPetted += Time.deltaTime;
     }
 
+    public void TickBakeryTime()
+    {
+        TimeSpentInBakery += Time.deltaTime;
+    }
+
+    public void MarkCompletedBakeryShift()
+    {
+        BakeryShiftsCompleted++;
+        Debug.Log("Bakery Shift " + PersistentStoryInstance.CurrentDay + " Completed!");
+    }
+
     public void ProgressToNewDay()
     {
         CurrentDay++;
         ResetForNewDay();
-        Debug.Log("StorySceneManager: Starting Day " + PersistentStoryInstance.CurrentDay.ToString());
+        Debug.Log("StorySceneManager: Starting Day " + PersistentStoryInstance.CurrentDay);
     }
 
     public void ResetForNewDay()

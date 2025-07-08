@@ -11,7 +11,7 @@ abstract public class MB_NPCBehavior : MonoBehaviour
     protected bool IsPlayerHovering = false;
 
     [HideInInspector]
-    public UnityEvent<Vector2> ProductionComplete;
+    public UnityEvent<Vector2, int> ProductionComplete;
 
     public virtual void Start()
     {
@@ -22,11 +22,26 @@ abstract public class MB_NPCBehavior : MonoBehaviour
 
     public virtual void Update()
     {
-
     }
 
     protected virtual void PetNPC()
     {
+    }
+
+    public virtual int GetDrawLayer()
+    {
+        if (SpriteRend)
+        {
+            return SpriteRend.sortingOrder;
+        }
+
+        SpriteRenderer ChildSpriteRend = GetComponent<SpriteRenderer>();
+        if (ChildSpriteRend)
+        {
+            return ChildSpriteRend.sortingOrder;
+        }
+
+        return 0;
     }
 
     protected virtual void PlayReaction()

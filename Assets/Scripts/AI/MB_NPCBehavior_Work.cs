@@ -22,12 +22,12 @@ public class MB_NPCBehavior_Work : MB_NPCBehavior
         else if (IsWorking)
         {
             IsWorking = false;
-            AnimController.SetBool("IsWorking", IsWorking);
         }
 
-        AnimController.SetBool("IsWorking", WorkStation.IsMakingProgress());
-
-        // TODO: AnimController.SetFloat("WorkCompletion", WorkStation.GetWorkCompletionPercentage());
+        if (AnimController.runtimeAnimatorController)
+        {
+            AnimController.SetBool("IsWorking", WorkStation.IsMakingProgress());
+        }
     }
 
     protected override void OnMouseOver()
@@ -38,11 +38,6 @@ public class MB_NPCBehavior_Work : MB_NPCBehavior
         {
             IsWorking = true;
             TimeToIdle = 5.0f;
-        }
-
-        if (Input.GetMouseButtonDown(0))
-        {
-            AnimController.SetBool("IsWorking", IsWorking);
         }
     }
     protected override Texture2D GetCustomCursor()

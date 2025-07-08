@@ -24,12 +24,14 @@ public class MenuManager : MonoBehaviour
 
     public static void LoadBreakroomScene(bool RestartGame = false)
     {
-        SceneManager.LoadScene(BreakroomSceneName);
+        Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
 
         if (RestartGame && StorySceneManager.PersistentStoryInstance)
         {
             StorySceneManager.PersistentStoryInstance.ResetForNewGame();
         }
+
+        SceneManager.LoadScene(BreakroomSceneName);
     }
 
     public static void QuitGame()
