@@ -239,7 +239,7 @@ could you do that for me? pretty please??? i'm literally begging right now lmaoo
 [Her eyes have never looked so round and wet]
 * Squilliam, you are enough. It's not about convincing, it's about your good heart.
 ->heart
-* Squilliam, you are beautiful. Stop worrying. Everyone will come to your party.
+* Squilliam, you are so cute. Stop worrying. Everyone will come to your party.
 -> prep
 
 == heart ==
