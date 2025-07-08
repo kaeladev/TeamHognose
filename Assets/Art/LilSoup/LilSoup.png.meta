@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f9d16e81c8c0bea439bf196f980ea1d5
+guid: 85d559c88d23d894597c14b6d3d7c05f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4573514537795334995
-    second: Yuzu_0
+      213: 1121861523732548891
+    second: LilSoup_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Yuzu_0
+      name: LilSoup_0
       rect:
         serializedVersion: 2
-        x: 110
-        y: 248
-        width: 1853
-        height: 1516
+        x: 195
+        y: 397
+        width: 1694
+        height: 1382
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 35330689d33687f30800000000000000
-      internalID: 4573514537795334995
+      spriteID: b1dc149ac17a19f00800000000000000
+      internalID: 1121861523732548891
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Yuzu_0: 4573514537795334995
+      LilSoup_0: 1121861523732548891
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
