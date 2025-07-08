@@ -17,6 +17,8 @@ public class MB_NPCBehavior_Inky : MB_NPCBehavior
 
     public override void Update()
     {
+        base.Update();
+
         InkyAppearanceTimeRemaining -= Time.deltaTime;
 
         if (InkyAppearanceTimeRemaining < 0)

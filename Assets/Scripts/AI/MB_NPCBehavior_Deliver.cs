@@ -36,6 +36,8 @@ public class MB_NPCBehavior_Deliver : MB_NPCBehavior
 
     public override void Update()
     {
+        base.Update();
+
         bool IsIdling = WaitInStoreTime > 0;
 
         if (IsIdling)
@@ -84,12 +86,6 @@ public class MB_NPCBehavior_Deliver : MB_NPCBehavior
                 SpriteRend.transform.localScale = SwappedXTransform;
             }
             gameObject.transform.position += (NormalizedDirection * GetMovementSpeed() * Time.deltaTime);
-        }
-
-        if (AnimController.runtimeAnimatorController)
-        {
-            AnimController.SetBool("IsIdling", IsIdling);
-            AnimController.SetBool("UseWalkingSpeed", HasDelivery);
         }
     }
 
@@ -143,7 +139,7 @@ public class MB_NPCBehavior_Deliver : MB_NPCBehavior
 
     protected override void PetNPC()
     {
-        // Play reaction anim or VFX
+        base.PetNPC();
 
         if (!StorySceneManager.PersistentStoryInstance)
         {
