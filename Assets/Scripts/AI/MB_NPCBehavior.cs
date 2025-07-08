@@ -62,7 +62,7 @@ abstract public class MB_NPCBehavior : MonoBehaviour
     protected virtual void OnMouseExit()
     {
         IsPlayerHovering = false;
-        Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
+        MenuManager.UpdateCursor(null);
     }
 
     protected virtual void OnMouseOver()
@@ -77,6 +77,6 @@ abstract public class MB_NPCBehavior : MonoBehaviour
             PetNPC();
         }
 
-        Cursor.SetCursor(GetCustomCursor(), Vector2.zero, CursorMode.Auto);
-    }
+        MenuManager.UpdateCursor(GetCustomCursor());
+      }
 }

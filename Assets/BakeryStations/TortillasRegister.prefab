@@ -149,7 +149,7 @@ GameObject:
   - component: {fileID: 2538946860524321760}
   - component: {fileID: 940445920483282750}
   m_Layer: 0
-  m_Name: Canvas
+  m_Name: Chalkboard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -344,3 +344,4 @@ MonoBehaviour:
   TimeToServeCusomter: 3
   CustomersPerDay: 3
   TimeRangeBetweenCustomerEntry: {x: 0, y: 0}
+  DoorToControl: {fileID: 0}

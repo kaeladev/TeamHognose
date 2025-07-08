@@ -1,0 +1,6981 @@
+fileFormatVersion: 2
+guid: 096ce0684d9450544acf6f835b3e72f4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2178477917594224008
+    second: BakingArea_Layer7_BreakRoom_0
+  - first:
+      213: -7954618795161632355
+    second: BakingArea_Layer7_BreakRoom_1
+  - first:
+      213: 3459225995029560308
+    second: BakingArea_Layer7_BreakRoom_2
+  - first:
+      213: -709884169729261352
+    second: BakingArea_Layer7_BreakRoom_3
+  - first:
+      213: 905040286976460827
+    second: BakingArea_Layer7_BreakRoom_4
+  - first:
+      213: -3122122801667372292
+    second: BakingArea_Layer7_BreakRoom_5
+  - first:
+      213: -5293656195002389897
+    second: BakingArea_Layer7_BreakRoom_6
+  - first:
+      213: 8252374593491272672
+    second: BakingArea_Layer7_BreakRoom_7
+  - first:
+      213: -4280573138260279271
+    second: BakingArea_Layer7_BreakRoom_8
+  - first:
+      213: -2332968390364580178
+    second: BakingArea_Layer7_BreakRoom_9
+  - first:
+      213: -6297803008140637041
+    second: BakingArea_Layer7_BreakRoom_10
+  - first:
+      213: -3588263683766836755
+    second: BakingArea_Layer7_BreakRoom_11
+  - first:
+      213: 5485754452839922899
+    second: BakingArea_Layer7_BreakRoom_12
+  - first:
+      213: 1978478338760073104
+    second: BakingArea_Layer7_BreakRoom_13
+  - first:
+      213: 498988193255231183
+    second: BakingArea_Layer7_BreakRoom_14
+  - first:
+      213: 1232927629519004753
+    second: BakingArea_Layer7_BreakRoom_15
+  - first:
+      213: -7128714000505693361
+    second: BakingArea_Layer7_BreakRoom_16
+  - first:
+      213: -1702487175191645469
+    second: BakingArea_Layer7_BreakRoom_17
+  - first:
+      213: -8320747555082083704
+    second: BakingArea_Layer7_BreakRoom_18
+  - first:
+      213: -9186063825331085083
+    second: BakingArea_Layer7_BreakRoom_19
+  - first:
+      213: -4291317535828624473
+    second: BakingArea_Layer7_BreakRoom_20
+  - first:
+      213: 3517650888607827764
+    second: BakingArea_Layer7_BreakRoom_21
+  - first:
+      213: -4163697918349863532
+    second: BakingArea_Layer7_BreakRoom_22
+  - first:
+      213: 5253111261917369524
+    second: BakingArea_Layer7_BreakRoom_23
+  - first:
+      213: 8948354198382374306
+    second: BakingArea_Layer7_BreakRoom_24
+  - first:
+      213: 7307116930661823455
+    second: BakingArea_Layer7_BreakRoom_25
+  - first:
+      213: 7501540126138935078
+    second: BakingArea_Layer7_BreakRoom_26
+  - first:
+      213: -1152930044962634960
+    second: BakingArea_Layer7_BreakRoom_27
+  - first:
+      213: -6086830500771220618
+    second: BakingArea_Layer7_BreakRoom_28
+  - first:
+      213: -5854213197275066734
+    second: BakingArea_Layer7_BreakRoom_29
+  - first:
+      213: 7071082257656999940
+    second: BakingArea_Layer7_BreakRoom_30
+  - first:
+      213: -8003284885722798461
+    second: BakingArea_Layer7_BreakRoom_31
+  - first:
+      213: -984887734928326636
+    second: BakingArea_Layer7_BreakRoom_32
+  - first:
+      213: 9085339596880038963
+    second: BakingArea_Layer7_BreakRoom_33
+  - first:
+      213: -2273735958360845096
+    second: BakingArea_Layer7_BreakRoom_34
+  - first:
+      213: -1755749518795866620
+    second: BakingArea_Layer7_BreakRoom_35
+  - first:
+      213: 8576401400815841289
+    second: BakingArea_Layer7_BreakRoom_36
+  - first:
+      213: -4668622413973760722
+    second: BakingArea_Layer7_BreakRoom_37
+  - first:
+      213: 4682407582982146810
+    second: BakingArea_Layer7_BreakRoom_38
+  - first:
+      213: 8529993520194454144
+    second: BakingArea_Layer7_BreakRoom_39
+  - first:
+      213: 4218977883745298335
+    second: BakingArea_Layer7_BreakRoom_40
+  - first:
+      213: -4884678751257562378
+    second: BakingArea_Layer7_BreakRoom_41
+  - first:
+      213: 8415421580940056446
+    second: BakingArea_Layer7_BreakRoom_42
+  - first:
+      213: 6161177514215598625
+    second: BakingArea_Layer7_BreakRoom_43
+  - first:
+      213: 3938326643021370169
+    second: BakingArea_Layer7_BreakRoom_44
+  - first:
+      213: 1247152754261305070
+    second: BakingArea_Layer7_BreakRoom_45
+  - first:
+      213: 997547368947983979
+    second: BakingArea_Layer7_BreakRoom_46
+  - first:
+      213: -1193543095987978010
+    second: BakingArea_Layer7_BreakRoom_47
+  - first:
+      213: 5010615370093853969
+    second: BakingArea_Layer7_BreakRoom_48
+  - first:
+      213: -5557106818555590719
+    second: BakingArea_Layer7_BreakRoom_49
+  - first:
+      213: 8930804070601363169
+    second: BakingArea_Layer7_BreakRoom_50
+  - first:
+      213: 8037325319278736747
+    second: BakingArea_Layer7_BreakRoom_51
+  - first:
+      213: -4993759574384471619
+    second: BakingArea_Layer7_BreakRoom_52
+  - first:
+      213: -7614442032287934994
+    second: BakingArea_Layer7_BreakRoom_53
+  - first:
+      213: 6806842246809302832
+    second: BakingArea_Layer7_BreakRoom_54
+  - first:
+      213: -931645758372737576
+    second: BakingArea_Layer7_BreakRoom_55
+  - first:
+      213: 505313166860317758
+    second: BakingArea_Layer7_BreakRoom_56
+  - first:
+      213: -2953365873680255629
+    second: BakingArea_Layer7_BreakRoom_57
+  - first:
+      213: -6325276696723714585
+    second: BakingArea_Layer7_BreakRoom_58
+  - first:
+      213: 4542619578974894622
+    second: BakingArea_Layer7_BreakRoom_59
+  - first:
+      213: -9065241748876976134
+    second: BakingArea_Layer7_BreakRoom_60
+  - first:
+      213: 4786194174952211793
+    second: BakingArea_Layer7_BreakRoom_61
+  - first:
+      213: 8434136387710829899
+    second: BakingArea_Layer7_BreakRoom_62
+  - first:
+      213: -4016159702310587225
+    second: BakingArea_Layer7_BreakRoom_63
+  - first:
+      213: 6949336448308110747
+    second: BakingArea_Layer7_BreakRoom_64
+  - first:
+      213: 8254491631683767954
+    second: BakingArea_Layer7_BreakRoom_65
+  - first:
+      213: 2570666801188785824
+    second: BakingArea_Layer7_BreakRoom_66
+  - first:
+      213: -3829197678127009207
+    second: BakingArea_Layer7_BreakRoom_67
+  - first:
+      213: 6625015598010712061
+    second: BakingArea_Layer7_BreakRoom_68
+  - first:
+      213: 7489116776758686964
+    second: BakingArea_Layer7_BreakRoom_69
+  - first:
+      213: -7403644052002270136
+    second: BakingArea_Layer7_BreakRoom_70
+  - first:
+      213: -3709271663856518113
+    second: BakingArea_Layer7_BreakRoom_71
+  - first:
+      213: 2516366225234182556
+    second: BakingArea_Layer7_BreakRoom_72
+  - first:
+      213: 1677707575672902653
+    second: BakingArea_Layer7_BreakRoom_73
+  - first:
+      213: -6564783896835623480
+    second: BakingArea_Layer7_BreakRoom_74
+  - first:
+      213: -8485254382450602748
+    second: BakingArea_Layer7_BreakRoom_75
+  - first:
+      213: -5205828313581474887
+    second: BakingArea_Layer7_BreakRoom_76
+  - first:
+      213: -7150952882789183757
+    second: BakingArea_Layer7_BreakRoom_77
+  - first:
+      213: -1017614201178517934
+    second: BakingArea_Layer7_BreakRoom_78
+  - first:
+      213: 7599272182682629252
+    second: BakingArea_Layer7_BreakRoom_79
+  - first:
+      213: -1968347083258169932
+    second: BakingArea_Layer7_BreakRoom_80
+  - first:
+      213: -8761870360914232317
+    second: BakingArea_Layer7_BreakRoom_81
+  - first:
+      213: 2956844678387379870
+    second: BakingArea_Layer7_BreakRoom_82
+  - first:
+      213: 2042016824509315703
+    second: BakingArea_Layer7_BreakRoom_83
+  - first:
+      213: -2699027946663275908
+    second: BakingArea_Layer7_BreakRoom_84
+  - first:
+      213: -7407717330784293106
+    second: BakingArea_Layer7_BreakRoom_85
+  - first:
+      213: 642764615736525267
+    second: BakingArea_Layer7_BreakRoom_86
+  - first:
+      213: 9123265019033929725
+    second: BakingArea_Layer7_BreakRoom_87
+  - first:
+      213: -5780514345223257731
+    second: BakingArea_Layer7_BreakRoom_88
+  - first:
+      213: 7213063053217331911
+    second: BakingArea_Layer7_BreakRoom_89
+  - first:
+      213: -5988418674042551998
+    second: BakingArea_Layer7_BreakRoom_90
+  - first:
+      213: -4202086851594688818
+    second: BakingArea_Layer7_BreakRoom_91
+  - first:
+      213: 5293775700711595172
+    second: BakingArea_Layer7_BreakRoom_92
+  - first:
+      213: -5911634058152999681
+    second: BakingArea_Layer7_BreakRoom_93
+  - first:
+      213: -5352064874887806139
+    second: BakingArea_Layer7_BreakRoom_94
+  - first:
+      213: 8315800332851524132
+    second: BakingArea_Layer7_BreakRoom_95
+  - first:
+      213: -4315863669801169771
+    second: BakingArea_Layer7_BreakRoom_96
+  - first:
+      213: 1070195744701837589
+    second: BakingArea_Layer7_BreakRoom_97
+  - first:
+      213: -9214614132965532375
+    second: BakingArea_Layer7_BreakRoom_98
+  - first:
+      213: 5925893958521003592
+    second: BakingArea_Layer7_BreakRoom_99
+  - first:
+      213: -4373977943515684923
+    second: BakingArea_Layer7_BreakRoom_100
+  - first:
+      213: 6877625949950135981
+    second: BakingArea_Layer7_BreakRoom_101
+  - first:
+      213: 8027727037943932724
+    second: BakingArea_Layer7_BreakRoom_102
+  - first:
+      213: -3021912615819686703
+    second: BakingArea_Layer7_BreakRoom_103
+  - first:
+      213: -5129607506868202673
+    second: BakingArea_Layer7_BreakRoom_104
+  - first:
+      213: -4474932359860375666
+    second: BakingArea_Layer7_BreakRoom_105
+  - first:
+      213: -1323820970125100689
+    second: BakingArea_Layer7_BreakRoom_106
+  - first:
+      213: -5528802566726298359
+    second: BakingArea_Layer7_BreakRoom_107
+  - first:
+      213: -5556403160310283087
+    second: BakingArea_Layer7_BreakRoom_108
+  - first:
+      213: 2707203256204007513
+    second: BakingArea_Layer7_BreakRoom_109
+  - first:
+      213: 6994814450515903436
+    second: BakingArea_Layer7_BreakRoom_110
+  - first:
+      213: -7615758488779980350
+    second: BakingArea_Layer7_BreakRoom_111
+  - first:
+      213: 5042210498830148184
+    second: BakingArea_Layer7_BreakRoom_112
+  - first:
+      213: -1215595361897615192
+    second: BakingArea_Layer7_BreakRoom_113
+  - first:
+      213: -7973432219224158772
+    second: BakingArea_Layer7_BreakRoom_114
+  - first:
+      213: 4373801808115964600
+    second: BakingArea_Layer7_BreakRoom_115
+  - first:
+      213: -3900503873474721737
+    second: BakingArea_Layer7_BreakRoom_116
+  - first:
+      213: 4344586954993948135
+    second: BakingArea_Layer7_BreakRoom_117
+  - first:
+      213: 111518705067818515
+    second: BakingArea_Layer7_BreakRoom_118
+  - first:
+      213: -8298088373601972436
+    second: BakingArea_Layer7_BreakRoom_119
+  - first:
+      213: -1627484194811706573
+    second: BakingArea_Layer7_BreakRoom_120
+  - first:
+      213: 7943640204727881197
+    second: BakingArea_Layer7_BreakRoom_121
+  - first:
+      213: -4044129362153366828
+    second: BakingArea_Layer7_BreakRoom_122
+  - first:
+      213: -323572118588792470
+    second: BakingArea_Layer7_BreakRoom_123
+  - first:
+      213: -3864539557595484600
+    second: BakingArea_Layer7_BreakRoom_124
+  - first:
+      213: -8108351072288988794
+    second: BakingArea_Layer7_BreakRoom_125
+  - first:
+      213: 4135835690601209398
+    second: BakingArea_Layer7_BreakRoom_126
+  - first:
+      213: -3977785491554098269
+    second: BakingArea_Layer7_BreakRoom_127
+  - first:
+      213: -8220250995659377937
+    second: BakingArea_Layer7_BreakRoom_128
+  - first:
+      213: 5764063968666931262
+    second: BakingArea_Layer7_BreakRoom_129
+  - first:
+      213: -6124572309933224446
+    second: BakingArea_Layer7_BreakRoom_130
+  - first:
+      213: 7141225641110610668
+    second: BakingArea_Layer7_BreakRoom_131
+  - first:
+      213: 4029530227907588618
+    second: BakingArea_Layer7_BreakRoom_132
+  - first:
+      213: -7539258918678338650
+    second: BakingArea_Layer7_BreakRoom_133
+  - first:
+      213: 6861035669922702547
+    second: BakingArea_Layer7_BreakRoom_134
+  - first:
+      213: -5187356888591826618
+    second: BakingArea_Layer7_BreakRoom_135
+  - first:
+      213: 7841859304947256459
+    second: BakingArea_Layer7_BreakRoom_136
+  - first:
+      213: 4399962454327692276
+    second: BakingArea_Layer7_BreakRoom_137
+  - first:
+      213: 8578858268112886211
+    second: BakingArea_Layer7_BreakRoom_138
+  - first:
+      213: 3201714353506795214
+    second: BakingArea_Layer7_BreakRoom_139
+  - first:
+      213: -8195722763015668175
+    second: BakingArea_Layer7_BreakRoom_140
+  - first:
+      213: -5540478610257526204
+    second: BakingArea_Layer7_BreakRoom_141
+  - first:
+      213: 9025989780730808419
+    second: BakingArea_Layer7_BreakRoom_142
+  - first:
+      213: -748487121088525235
+    second: BakingArea_Layer7_BreakRoom_143
+  - first:
+      213: 2272054522494840714
+    second: BakingArea_Layer7_BreakRoom_144
+  - first:
+      213: 1119185959635768271
+    second: BakingArea_Layer7_BreakRoom_145
+  - first:
+      213: 5667154329956762753
+    second: BakingArea_Layer7_BreakRoom_146
+  - first:
+      213: 4781317759764151382
+    second: BakingArea_Layer7_BreakRoom_147
+  - first:
+      213: -6600753465569196667
+    second: BakingArea_Layer7_BreakRoom_148
+  - first:
+      213: 976007911901480885
+    second: BakingArea_Layer7_BreakRoom_149
+  - first:
+      213: -8500427203816945643
+    second: BakingArea_Layer7_BreakRoom_150
+  - first:
+      213: -4440362581314148236
+    second: BakingArea_Layer7_BreakRoom_151
+  - first:
+      213: 2202821558714972947
+    second: BakingArea_Layer7_BreakRoom_152
+  - first:
+      213: 2497430139175440257
+    second: BakingArea_Layer7_BreakRoom_153
+  - first:
+      213: -3674149420897266279
+    second: BakingArea_Layer7_BreakRoom_154
+  - first:
+      213: -2127385727990608291
+    second: BakingArea_Layer7_BreakRoom_155
+  - first:
+      213: -4441914976673594452
+    second: BakingArea_Layer7_BreakRoom_156
+  - first:
+      213: -597642529455613590
+    second: BakingArea_Layer7_BreakRoom_157
+  - first:
+      213: 8788767466607061302
+    second: BakingArea_Layer7_BreakRoom_158
+  - first:
+      213: -7200450750574066783
+    second: BakingArea_Layer7_BreakRoom_159
+  - first:
+      213: 7550887731484068318
+    second: BakingArea_Layer7_BreakRoom_160
+  - first:
+      213: 754786015629664128
+    second: BakingArea_Layer7_BreakRoom_161
+  - first:
+      213: 4697684603966544921
+    second: BakingArea_Layer7_BreakRoom_162
+  - first:
+      213: -2181191945909389307
+    second: BakingArea_Layer7_BreakRoom_163
+  - first:
+      213: -4907312636894644671
+    second: BakingArea_Layer7_BreakRoom_164
+  - first:
+      213: -4129657827251522992
+    second: BakingArea_Layer7_BreakRoom_165
+  - first:
+      213: 1613870991765003402
+    second: BakingArea_Layer7_BreakRoom_166
+  - first:
+      213: 6171651197307206639
+    second: BakingArea_Layer7_BreakRoom_167
+  - first:
+      213: 4421087769748405009
+    second: BakingArea_Layer7_BreakRoom_168
+  - first:
+      213: -6953365768396936733
+    second: BakingArea_Layer7_BreakRoom_169
+  - first:
+      213: 5787206110795122610
+    second: BakingArea_Layer7_BreakRoom_170
+  - first:
+      213: -5053479082801295148
+    second: BakingArea_Layer7_BreakRoom_171
+  - first:
+      213: -5070448716257093382
+    second: BakingArea_Layer7_BreakRoom_172
+  - first:
+      213: 4309208709290468998
+    second: BakingArea_Layer7_BreakRoom_173
+  - first:
+      213: -2455598730348670999
+    second: BakingArea_Layer7_BreakRoom_174
+  - first:
+      213: -3903755351386997706
+    second: BakingArea_Layer7_BreakRoom_175
+  - first:
+      213: 4516556626205682260
+    second: BakingArea_Layer7_BreakRoom_176
+  - first:
+      213: -2852630094169100908
+    second: BakingArea_Layer7_BreakRoom_177
+  - first:
+      213: -3566062114423458038
+    second: BakingArea_Layer7_BreakRoom_178
+  - first:
+      213: -3409011376661039705
+    second: BakingArea_Layer7_BreakRoom_179
+  - first:
+      213: -5144315468649523684
+    second: BakingArea_Layer7_BreakRoom_180
+  - first:
+      213: 2146109106570157296
+    second: BakingArea_Layer7_BreakRoom_181
+  - first:
+      213: -6764470496214774346
+    second: BakingArea_Layer7_BreakRoom_182
+  - first:
+      213: -3371292041047700472
+    second: BakingArea_Layer7_BreakRoom_183
+  - first:
+      213: 7330574491230867380
+    second: BakingArea_Layer7_BreakRoom_184
+  - first:
+      213: 2899965074662500381
+    second: BakingArea_Layer7_BreakRoom_185
+  - first:
+      213: -6942483263108960614
+    second: BakingArea_Layer7_BreakRoom_186
+  - first:
+      213: 6488718287658528216
+    second: BakingArea_Layer7_BreakRoom_187
+  - first:
+      213: 4127126739956853286
+    second: BakingArea_Layer7_BreakRoom_188
+  - first:
+      213: 7065104489966848898
+    second: BakingArea_Layer7_BreakRoom_189
+  - first:
+      213: 5549307481096028451
+    second: BakingArea_Layer7_BreakRoom_190
+  - first:
+      213: 5874658831652810334
+    second: BakingArea_Layer7_BreakRoom_191
+  - first:
+      213: -3218657511292217950
+    second: BakingArea_Layer7_BreakRoom_192
+  - first:
+      213: -5187908344769147390
+    second: BakingArea_Layer7_BreakRoom_193
+  - first:
+      213: -3111572404815376723
+    second: BakingArea_Layer7_BreakRoom_194
+  - first:
+      213: 7314611457308708754
+    second: BakingArea_Layer7_BreakRoom_195
+  - first:
+      213: 2705647384821590250
+    second: BakingArea_Layer7_BreakRoom_196
+  - first:
+      213: 3403993237899125674
+    second: BakingArea_Layer7_BreakRoom_197
+  - first:
+      213: -7278870711922406466
+    second: BakingArea_Layer7_BreakRoom_198
+  - first:
+      213: 4542292900678665166
+    second: BakingArea_Layer7_BreakRoom_199
+  - first:
+      213: 3261744418284038193
+    second: BakingArea_Layer7_BreakRoom_200
+  - first:
+      213: -8008213922814517040
+    second: BakingArea_Layer7_BreakRoom_201
+  - first:
+      213: 8575204863124724874
+    second: BakingArea_Layer7_BreakRoom_202
+  - first:
+      213: 6909243974692073503
+    second: BakingArea_Layer7_BreakRoom_203
+  - first:
+      213: -7581967164191948995
+    second: BakingArea_Layer7_BreakRoom_204
+  - first:
+      213: -549695885624179089
+    second: BakingArea_Layer7_BreakRoom_205
+  - first:
+      213: 2129453551176236299
+    second: BakingArea_Layer7_BreakRoom_206
+  - first:
+      213: -1054285084318520505
+    second: BakingArea_Layer7_BreakRoom_207
+  - first:
+      213: 8585122986236437787
+    second: BakingArea_Layer7_BreakRoom_208
+  - first:
+      213: 4216706544048944249
+    second: BakingArea_Layer7_BreakRoom_209
+  - first:
+      213: -2536151114074777988
+    second: BakingArea_Layer7_BreakRoom_210
+  - first:
+      213: 61628350531811698
+    second: BakingArea_Layer7_BreakRoom_211
+  - first:
+      213: -1958226917129634609
+    second: BakingArea_Layer7_BreakRoom_212
+  - first:
+      213: -4416389511650880081
+    second: BakingArea_Layer7_BreakRoom_213
+  - first:
+      213: 820709110663493681
+    second: BakingArea_Layer7_BreakRoom_214
+  - first:
+      213: 244548667859322784
+    second: BakingArea_Layer7_BreakRoom_215
+  - first:
+      213: 2692450115418802205
+    second: BakingArea_Layer7_BreakRoom_216
+  - first:
+      213: -6604019860822356313
+    second: BakingArea_Layer7_BreakRoom_217
+  - first:
+      213: 4819171837273389092
+    second: BakingArea_Layer7_BreakRoom_218
+  - first:
+      213: 987194453191131598
+    second: BakingArea_Layer7_BreakRoom_219
+  - first:
+      213: -8266491290789580501
+    second: BakingArea_Layer7_BreakRoom_220
+  - first:
+      213: -4681220751556299724
+    second: BakingArea_Layer7_BreakRoom_221
+  - first:
+      213: 8606289749233315951
+    second: BakingArea_Layer7_BreakRoom_222
+  - first:
+      213: -753913174293557809
+    second: BakingArea_Layer7_BreakRoom_223
+  - first:
+      213: 8364473679622997276
+    second: BakingArea_Layer7_BreakRoom_224
+  - first:
+      213: 1493206971762243756
+    second: BakingArea_Layer7_BreakRoom_225
+  - first:
+      213: -485009533759890930
+    second: BakingArea_Layer7_BreakRoom_226
+  - first:
+      213: -2818722143417767108
+    second: BakingArea_Layer7_BreakRoom_227
+  - first:
+      213: -2920041738252099085
+    second: BakingArea_Layer7_BreakRoom_228
+  - first:
+      213: -1921213587934142763
+    second: BakingArea_Layer7_BreakRoom_229
+  - first:
+      213: 2982357951558679662
+    second: BakingArea_Layer7_BreakRoom_230
+  - first:
+      213: 5334329074547438812
+    second: BakingArea_Layer7_BreakRoom_231
+  - first:
+      213: -278056596831488508
+    second: BakingArea_Layer7_BreakRoom_232
+  - first:
+      213: -6568523880107452040
+    second: BakingArea_Layer7_BreakRoom_233
+  - first:
+      213: -4980337392352719986
+    second: BakingArea_Layer7_BreakRoom_234
+  - first:
+      213: -2008511576264141232
+    second: BakingArea_Layer7_BreakRoom_235
+  - first:
+      213: 4959839082870289141
+    second: BakingArea_Layer7_BreakRoom_236
+  - first:
+      213: -2175778580511352473
+    second: BakingArea_Layer7_BreakRoom_237
+  - first:
+      213: 5995523257318482187
+    second: BakingArea_Layer7_BreakRoom_238
+  - first:
+      213: -6351988098984772245
+    second: BakingArea_Layer7_BreakRoom_239
+  - first:
+      213: -2817111785271400575
+    second: BakingArea_Layer7_BreakRoom_240
+  - first:
+      213: 6492979154985943266
+    second: BakingArea_Layer7_BreakRoom_241
+  - first:
+      213: -5975388637201703161
+    second: BakingArea_Layer7_BreakRoom_242
+  - first:
+      213: -2617464586920431185
+    second: BakingArea_Layer7_BreakRoom_243
+  - first:
+      213: 2985794731964417525
+    second: BakingArea_Layer7_BreakRoom_244
+  - first:
+      213: -8180806972182583564
+    second: BakingArea_Layer7_BreakRoom_245
+  - first:
+      213: -3049625087501534757
+    second: BakingArea_Layer7_BreakRoom_246
+  - first:
+      213: -8541207446015173459
+    second: BakingArea_Layer7_BreakRoom_247
+  - first:
+      213: -8419185075879950960
+    second: BakingArea_Layer7_BreakRoom_248
+  - first:
+      213: 3266708558824731977
+    second: BakingArea_Layer7_BreakRoom_249
+  - first:
+      213: 2047434218480938012
+    second: BakingArea_Layer7_BreakRoom_250
+  - first:
+      213: 5749476789906849474
+    second: BakingArea_Layer7_BreakRoom_251
+  - first:
+      213: 4743160718104256844
+    second: BakingArea_Layer7_BreakRoom_252
+  - first:
+      213: 812127734925552106
+    second: BakingArea_Layer7_BreakRoom_253
+  - first:
+      213: 7151693357137683578
+    second: BakingArea_Layer7_BreakRoom_254
+  - first:
+      213: 6990794001269201422
+    second: BakingArea_Layer7_BreakRoom_255
+  - first:
+      213: 3120090536438636166
+    second: BakingArea_Layer7_BreakRoom_256
+  - first:
+      213: 8227004887878224988
+    second: BakingArea_Layer7_BreakRoom_257
+  - first:
+      213: 5805422466367167708
+    second: BakingArea_Layer7_BreakRoom_258
+  - first:
+      213: -5737490175204556768
+    second: BakingArea_Layer7_BreakRoom_259
+  - first:
+      213: 474568271358336726
+    second: BakingArea_Layer7_BreakRoom_260
+  - first:
+      213: -7442282793572155613
+    second: BakingArea_Layer7_BreakRoom_261
+  - first:
+      213: -3045407436242502078
+    second: BakingArea_Layer7_BreakRoom_262
+  - first:
+      213: 5062556252591242174
+    second: BakingArea_Layer7_BreakRoom_263
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_0
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 2217
+        width: 203
+        height: 791
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8858c3dbf128b3e10800000000000000
+      internalID: 2178477917594224008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_1
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 2779
+        width: 364
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91ceb6e9548b9190800000000000000
+      internalID: -7954618795161632355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_2
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 2695
+        width: 365
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fbb887f6b3a10030800000000000000
+      internalID: 3459225995029560308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_3
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 2887
+        width: 54
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d04d97db1cf526f0800000000000000
+      internalID: -709884169729261352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_4
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 2278
+        width: 111
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1846ac88595f8c00800000000000000
+      internalID: 905040286976460827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_5
+      rect:
+        serializedVersion: 2
+        x: 2117
+        y: 2699
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfa08758addfba4d0800000000000000
+      internalID: -3122122801667372292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_6
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 2691
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77a26d5dcb72986b0800000000000000
+      internalID: -5293656195002389897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_7
+      rect:
+        serializedVersion: 2
+        x: 2125
+        y: 2703
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e3818648f2568270800000000000000
+      internalID: 8252374593491272672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_8
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 2720
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 910cae209695894c0800000000000000
+      internalID: -4280573138260279271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_9
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 2696
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6ba1c0c91af9fd0800000000000000
+      internalID: -2332968390364580178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_10
+      rect:
+        serializedVersion: 2
+        x: 2144
+        y: 2689
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c04620885b998a0800000000000000
+      internalID: -6297803008140637041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_11
+      rect:
+        serializedVersion: 2
+        x: 2149
+        y: 2723
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de1a4a8e03de33ec0800000000000000
+      internalID: -3588263683766836755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_12
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 2719
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dc7a8e2c90512c40800000000000000
+      internalID: 5485754452839922899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_13
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 2693
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f59911197f47b10800000000000000
+      internalID: 1978478338760073104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_14
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 2718
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce87163e13cce600800000000000000
+      internalID: 498988193255231183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_15
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 2718
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154ae3f852d3c1110800000000000000
+      internalID: 1232927629519004753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_16
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 2717
+        width: 30
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b1186d268b11d90800000000000000
+      internalID: -7128714000505693361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_17
+      rect:
+        serializedVersion: 2
+        x: 2224
+        y: 2720
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e23b003fec8f58e0800000000000000
+      internalID: -1702487175191645469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_18
+      rect:
+        serializedVersion: 2
+        x: 2229
+        y: 2718
+        width: 35
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 882e1a11f24c68c80800000000000000
+      internalID: -8320747555082083704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_19
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 2718
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e02317ee9b848080800000000000000
+      internalID: -9186063825331085083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_20
+      rect:
+        serializedVersion: 2
+        x: 2292
+        y: 2717
+        width: 29
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7abb782007d2274c0800000000000000
+      internalID: -4291317535828624473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_21
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 2718
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4378e4b88d431d030800000000000000
+      internalID: 3517650888607827764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_22
+      rect:
+        serializedVersion: 2
+        x: 2343
+        y: 2719
+        width: 121
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49519b0bdc29736c0800000000000000
+      internalID: -4163697918349863532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_23
+      rect:
+        serializedVersion: 2
+        x: 2463
+        y: 2718
+        width: 179
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b4503c4cdcc6e840800000000000000
+      internalID: 5253111261917369524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_24
+      rect:
+        serializedVersion: 2
+        x: 2630
+        y: 2687
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ade4f6abb0fe2c70800000000000000
+      internalID: 8948354198382374306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_25
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 2699
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd337583228186560800000000000000
+      internalID: 7307116930661823455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_26
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 2691
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 627a9d6fff2da1860800000000000000
+      internalID: 7501540126138935078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_27
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 2684
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 033802b8b38ffffe0800000000000000
+      internalID: -1152930044962634960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_28
+      rect:
+        serializedVersion: 2
+        x: 2666
+        y: 2698
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 673b481b8eb378ba0800000000000000
+      internalID: -6086830500771220618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_29
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 2652
+        width: 11
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e04013d18a1cea0800000000000000
+      internalID: -5854213197275066734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_30
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 2683
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 400763169d7812260800000000000000
+      internalID: 7071082257656999940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_31
+      rect:
+        serializedVersion: 2
+        x: 2158
+        y: 2684
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3866d36bcce9ee090800000000000000
+      internalID: -8003284885722798461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_32
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2674
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41045ffb2d9f452f0800000000000000
+      internalID: -984887734928326636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_33
+      rect:
+        serializedVersion: 2
+        x: 2621
+        y: 2678
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c43d72a3c951e70800000000000000
+      internalID: 9085339596880038963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_34
+      rect:
+        serializedVersion: 2
+        x: 2626
+        y: 2675
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d49ed051311270e0800000000000000
+      internalID: -2273735958360845096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_35
+      rect:
+        serializedVersion: 2
+        x: 2663
+        y: 2672
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40efb917d1352a7e0800000000000000
+      internalID: -1755749518795866620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_36
+      rect:
+        serializedVersion: 2
+        x: 2168
+        y: 2657
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9007ac262af750770800000000000000
+      internalID: 8576401400815841289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_37
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 2654
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25daa066a8b53fb0800000000000000
+      internalID: -4668622413973760722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_38
+      rect:
+        serializedVersion: 2
+        x: 2183
+        y: 2667
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa0f3563e04bf040800000000000000
+      internalID: 4682407582982146810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_39
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 2658
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 082039ba9ef906670800000000000000
+      internalID: 8529993520194454144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_40
+      rect:
+        serializedVersion: 2
+        x: 2236
+        y: 2657
+        width: 46
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f972edb3802dc8a30800000000000000
+      internalID: 4218977883745298335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_41
+      rect:
+        serializedVersion: 2
+        x: 2281
+        y: 2658
+        width: 29
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f2f46d4e82263cb0800000000000000
+      internalID: -4884678751257562378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_42
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 2663
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e77961f475599c470800000000000000
+      internalID: 8415421580940056446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_43
+      rect:
+        serializedVersion: 2
+        x: 2312
+        y: 2658
+        width: 44
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12ae1fc4e46e08550800000000000000
+      internalID: 6161177514215598625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_44
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 2662
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 933deb6373fb7a630800000000000000
+      internalID: 3938326643021370169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_45
+      rect:
+        serializedVersion: 2
+        x: 2355
+        y: 2651
+        width: 52
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee6256282d6ce4110800000000000000
+      internalID: 1247152754261305070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_46
+      rect:
+        serializedVersion: 2
+        x: 2355
+        y: 2658
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6625ccfb0008dd00800000000000000
+      internalID: 997547368947983979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_47
+      rect:
+        serializedVersion: 2
+        x: 2387
+        y: 2658
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e0448bb0eeaf6fe0800000000000000
+      internalID: -1193543095987978010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_48
+      rect:
+        serializedVersion: 2
+        x: 2405
+        y: 2659
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d7e88b128498540800000000000000
+      internalID: 5010615370093853969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_49
+      rect:
+        serializedVersion: 2
+        x: 2413
+        y: 2659
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c7c7159ac031e2b0800000000000000
+      internalID: -5557106818555590719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_50
+      rect:
+        serializedVersion: 2
+        x: 2421
+        y: 2659
+        width: 48
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ee8eca1cf690fb70800000000000000
+      internalID: 8930804070601363169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_51
+      rect:
+        serializedVersion: 2
+        x: 2469
+        y: 2659
+        width: 37
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b65bcd75bc05a8f60800000000000000
+      internalID: 8037325319278736747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_52
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2664
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db19b1b002a92bab0800000000000000
+      internalID: -4993759574384471619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_53
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 2658
+        width: 41
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee59cae8051145690800000000000000
+      internalID: -7614442032287934994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_54
+      rect:
+        serializedVersion: 2
+        x: 2546
+        y: 2658
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 037b03395f2c67e50800000000000000
+      internalID: 6806842246809302832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_55
+      rect:
+        serializedVersion: 2
+        x: 2567
+        y: 2658
+        width: 34
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dd81bb6e112213f0800000000000000
+      internalID: -931645758372737576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_56
+      rect:
+        serializedVersion: 2
+        x: 2590
+        y: 2592
+        width: 32
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e347903e5ab330700800000000000000
+      internalID: 505313166860317758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_57
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 2658
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 375f68fa2698307d0800000000000000
+      internalID: -2953365873680255629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_58
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 2648
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed0ab96b5a1838a0800000000000000
+      internalID: -6325276696723714585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_59
+      rect:
+        serializedVersion: 2
+        x: 2119
+        y: 2575
+        width: 11
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a78827070aa0f30800000000000000
+      internalID: 4542619578974894622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_60
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 2637
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff952bb8aac13280800000000000000
+      internalID: -9065241748876976134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_61
+      rect:
+        serializedVersion: 2
+        x: 2125
+        y: 2644
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15502186e3afb6240800000000000000
+      internalID: 4786194174952211793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_62
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 2584
+        width: 9
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4543b0db521c0570800000000000000
+      internalID: 8434136387710829899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_63
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 2563
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a4f98e770cb348c0800000000000000
+      internalID: -4016159702310587225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_64
+      rect:
+        serializedVersion: 2
+        x: 2294
+        y: 2577
+        width: 42
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b95641a3ea0017060800000000000000
+      internalID: 6949336448308110747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_65
+      rect:
+        serializedVersion: 2
+        x: 2335
+        y: 2587
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e02f3a768dd8270800000000000000
+      internalID: 8254491631683767954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_66
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 2592
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae4fb0f5d7dca320800000000000000
+      internalID: 2570666801188785824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_67
+      rect:
+        serializedVersion: 2
+        x: 2376
+        y: 2596
+        width: 42
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9423d7ceff4fbdac0800000000000000
+      internalID: -3829197678127009207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_68
+      rect:
+        serializedVersion: 2
+        x: 2414
+        y: 2601
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dffb9d6e598c0fb50800000000000000
+      internalID: 6625015598010712061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_69
+      rect:
+        serializedVersion: 2
+        x: 2419
+        y: 2599
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f4be188700bee760800000000000000
+      internalID: 7489116776758686964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_70
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 2577
+        width: 110
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84498fcf5f8f04990800000000000000
+      internalID: -7403644052002270136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_71
+      rect:
+        serializedVersion: 2
+        x: 2548
+        y: 2542
+        width: 52
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1cf8640315068cc0800000000000000
+      internalID: -3709271663856518113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_72
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 2543
+        width: 13
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c91cfd3efbdebe220800000000000000
+      internalID: 2516366225234182556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_73
+      rect:
+        serializedVersion: 2
+        x: 2615
+        y: 2591
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df317f4b62a684710800000000000000
+      internalID: 1677707575672902653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_74
+      rect:
+        serializedVersion: 2
+        x: 2663
+        y: 2591
+        width: 12
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c578e9d3d335e4a0800000000000000
+      internalID: -6564783896835623480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_75
+      rect:
+        serializedVersion: 2
+        x: 2663
+        y: 2576
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d843198125e3a80800000000000000
+      internalID: -8485254382450602748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_76
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 2508
+        width: 12
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb2e4ffabe21c7b0800000000000000
+      internalID: -5205828313581474887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_77
+      rect:
+        serializedVersion: 2
+        x: 2119
+        y: 2550
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe8bcf8d36b2cc90800000000000000
+      internalID: -7150952882789183757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_78
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 2542
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e8c5c8645b0e1f0800000000000000
+      internalID: -1017614201178517934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_79
+      rect:
+        serializedVersion: 2
+        x: 2209
+        y: 2528
+        width: 87
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4843e4899c9067960800000000000000
+      internalID: 7599272182682629252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_80
+      rect:
+        serializedVersion: 2
+        x: 2325
+        y: 2536
+        width: 57
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b578bba1c60fa4e0800000000000000
+      internalID: -1968347083258169932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_81
+      rect:
+        serializedVersion: 2
+        x: 2380
+        y: 2547
+        width: 39
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30cfea14455976680800000000000000
+      internalID: -8761870360914232317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_82
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 2544
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9ea847a192d80920800000000000000
+      internalID: 2956844678387379870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_83
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 2545
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77abf3a9b73b65c10800000000000000
+      internalID: 2042016824509315703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_84
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 2541
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c729840f1602b8ad0800000000000000
+      internalID: -2699027946663275908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_85
+      rect:
+        serializedVersion: 2
+        x: 2474
+        y: 2536
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0fe81ed550823990800000000000000
+      internalID: -7407717330784293106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_86
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 2572
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d18a23330f8be800800000000000000
+      internalID: 642764615736525267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_87
+      rect:
+        serializedVersion: 2
+        x: 2663
+        y: 2482
+        width: 13
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df7c34b92395c9e70800000000000000
+      internalID: 9123265019033929725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_88
+      rect:
+        serializedVersion: 2
+        x: 2181
+        y: 2523
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d710be954dc77cfa0800000000000000
+      internalID: -5780514345223257731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_89
+      rect:
+        serializedVersion: 2
+        x: 2297
+        y: 2484
+        width: 21
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca738561a2f91460800000000000000
+      internalID: 7213063053217331911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_90
+      rect:
+        serializedVersion: 2
+        x: 2314
+        y: 2528
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 241c067a1fcd4eca0800000000000000
+      internalID: -5988418674042551998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_91
+      rect:
+        serializedVersion: 2
+        x: 2376
+        y: 2539
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6eb57a5403fa5c0800000000000000
+      internalID: -4202086851594688818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_92
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 2536
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac5281c3f4477940800000000000000
+      internalID: 5293775700711595172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_93
+      rect:
+        serializedVersion: 2
+        x: 2489
+        y: 2525
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff480b13528a5fda0800000000000000
+      internalID: -5911634058152999681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_94
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 2540
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 543877d4a55a9b5b0800000000000000
+      internalID: -5352064874887806139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_95
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 2525
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 422b0bef758a76370800000000000000
+      internalID: 8315800332851524132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_96
+      rect:
+        serializedVersion: 2
+        x: 2604
+        y: 2496
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ccc76dbd8fa14c0800000000000000
+      internalID: -4315863669801169771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_97
+      rect:
+        serializedVersion: 2
+        x: 2202
+        y: 2526
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51176131c591ade00800000000000000
+      internalID: 1070195744701837589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_98
+      rect:
+        serializedVersion: 2
+        x: 2279
+        y: 2514
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d9b46644d1f1080800000000000000
+      internalID: -9214614132965532375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_99
+      rect:
+        serializedVersion: 2
+        x: 2293
+        y: 2526
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e174698210d3250800000000000000
+      internalID: 5925893958521003592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_100
+      rect:
+        serializedVersion: 2
+        x: 2359
+        y: 2520
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cf9a551c328c43c0800000000000000
+      internalID: -4373977943515684923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_101
+      rect:
+        serializedVersion: 2
+        x: 2440
+        y: 2530
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae49ccbc5c327f50800000000000000
+      internalID: 6877625949950135981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_102
+      rect:
+        serializedVersion: 2
+        x: 2446
+        y: 2519
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43762725537386f60800000000000000
+      internalID: 8027727037943932724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_103
+      rect:
+        serializedVersion: 2
+        x: 2524
+        y: 2520
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dccbc79c720016d0800000000000000
+      internalID: -3021912615819686703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_104
+      rect:
+        serializedVersion: 2
+        x: 2123
+        y: 2516
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4391fb7629ffc8b0800000000000000
+      internalID: -5129607506868202673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_105
+      rect:
+        serializedVersion: 2
+        x: 2181
+        y: 2512
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f2f985ab8d5e1c0800000000000000
+      internalID: -4474932359860375666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_106
+      rect:
+        serializedVersion: 2
+        x: 2196
+        y: 2518
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f69fa7177d7d0ade0800000000000000
+      internalID: -1323820970125100689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_107
+      rect:
+        serializedVersion: 2
+        x: 2267
+        y: 2511
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 905d201cb5fb543b0800000000000000
+      internalID: -5528802566726298359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_108
+      rect:
+        serializedVersion: 2
+        x: 2354
+        y: 2515
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b409d8c3c0b3e2b0800000000000000
+      internalID: -5556403160310283087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_109
+      rect:
+        serializedVersion: 2
+        x: 2458
+        y: 2483
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95812d4a40be19520800000000000000
+      internalID: 2707203256204007513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_110
+      rect:
+        serializedVersion: 2
+        x: 2536
+        y: 2497
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc305c0cea2921160800000000000000
+      internalID: 6994814450515903436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_111
+      rect:
+        serializedVersion: 2
+        x: 2117
+        y: 2466
+        width: 11
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c18a1521046f4690800000000000000
+      internalID: -7615758488779980350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_112
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 2494
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8522481ebb789f540800000000000000
+      internalID: 5042210498830148184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_113
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 2492
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a0fa777576512fe0800000000000000
+      internalID: -1215595361897615192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_114
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 2504
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd4d7444ada85190800000000000000
+      internalID: -7973432219224158772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_115
+      rect:
+        serializedVersion: 2
+        x: 2269
+        y: 2506
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba96b2329dd2bc30800000000000000
+      internalID: 4373801808115964600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_116
+      rect:
+        serializedVersion: 2
+        x: 2326
+        y: 2471
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73801809460aed9c0800000000000000
+      internalID: -3900503873474721737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_117
+      rect:
+        serializedVersion: 2
+        x: 2343
+        y: 2501
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e5d53421d21b4c30800000000000000
+      internalID: 4344586954993948135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_118
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 2505
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ef061eba13c8100800000000000000
+      internalID: 111518705067818515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_119
+      rect:
+        serializedVersion: 2
+        x: 2623
+        y: 2440
+        width: 38
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2fc7a0e69447dc80800000000000000
+      internalID: -8298088373601972436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_120
+      rect:
+        serializedVersion: 2
+        x: 2161
+        y: 2484
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3338fa26fb30a69e0800000000000000
+      internalID: -1627484194811706573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_121
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 2493
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ded0152ddaa7d3e60800000000000000
+      internalID: 7943640204727881197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_122
+      rect:
+        serializedVersion: 2
+        x: 2235
+        y: 2486
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da1f1795cd50e7c0800000000000000
+      internalID: -4044129362153366828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_123
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 2482
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a616b4c5fd0728bf0800000000000000
+      internalID: -323572118588792470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_124
+      rect:
+        serializedVersion: 2
+        x: 2566
+        y: 2477
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e63116fb56e5ac0800000000000000
+      internalID: -3864539557595484600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_125
+      rect:
+        serializedVersion: 2
+        x: 2570
+        y: 2492
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 681ae0ed8a9597f80800000000000000
+      internalID: -8108351072288988794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_126
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 2468
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63edaa3e5a0756930800000000000000
+      internalID: 4135835690601209398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_127
+      rect:
+        serializedVersion: 2
+        x: 2216
+        y: 2461
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a3273fab211cc8c0800000000000000
+      internalID: -3977785491554098269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_128
+      rect:
+        serializedVersion: 2
+        x: 2225
+        y: 2475
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe2fb2fa54dcbed80800000000000000
+      internalID: -8220250995659377937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_129
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 2439
+        width: 80
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e305503e3a11eff40800000000000000
+      internalID: 5764063968666931262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_130
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 2476
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e8c39fee5210ba0800000000000000
+      internalID: -6124572309933224446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_131
+      rect:
+        serializedVersion: 2
+        x: 2503
+        y: 2471
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce22f4f72eaba1360800000000000000
+      internalID: 7141225641110610668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_132
+      rect:
+        serializedVersion: 2
+        x: 2583
+        y: 2462
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0271269464cbe730800000000000000
+      internalID: 4029530227907588618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_133
+      rect:
+        serializedVersion: 2
+        x: 2633
+        y: 2472
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a36b7a45fb2f5790800000000000000
+      internalID: -7539258918678338650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_134
+      rect:
+        serializedVersion: 2
+        x: 2636
+        y: 2477
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d4e609279b473f50800000000000000
+      internalID: 6861035669922702547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_135
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 2443
+        width: 14
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6410f44c46ec208b0800000000000000
+      internalID: -5187356888591826618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_136
+      rect:
+        serializedVersion: 2
+        x: 2117
+        y: 2456
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c09f96d71e3dc60800000000000000
+      internalID: 7841859304947256459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_137
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 2452
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb024b4a8ecf0d30800000000000000
+      internalID: 4399962454327692276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_138
+      rect:
+        serializedVersion: 2
+        x: 2141
+        y: 2453
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c99a41642a3e0770800000000000000
+      internalID: 8578858268112886211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_139
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 2464
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eceba09bd36ce6c20800000000000000
+      internalID: 3201714353506795214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_140
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 2448
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e3ed0e191f24e80800000000000000
+      internalID: -8195722763015668175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_141
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 2441
+        width: 59
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44243f50f044c13b0800000000000000
+      internalID: -5540478610257526204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_142
+      rect:
+        serializedVersion: 2
+        x: 2597
+        y: 2434
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36804c242e1c24d70800000000000000
+      internalID: 9025989780730808419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_143
+      rect:
+        serializedVersion: 2
+        x: 2298
+        y: 2453
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4c4094dde6dc95f0800000000000000
+      internalID: -748487121088525235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_144
+      rect:
+        serializedVersion: 2
+        x: 2641
+        y: 2456
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8fef93ec85f78f10800000000000000
+      internalID: 2272054522494840714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_145
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 2438
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc3d1b953b5288f00800000000000000
+      internalID: 1119185959635768271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_146
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 2385
+        width: 15
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 184c36456d6c5ae40800000000000000
+      internalID: 5667154329956762753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_147
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 2420
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c32058b27aa5240800000000000000
+      internalID: 4781317759764151382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_148
+      rect:
+        serializedVersion: 2
+        x: 2196
+        y: 2429
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 585c1d202b96564a0800000000000000
+      internalID: -6600753465569196667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_149
+      rect:
+        serializedVersion: 2
+        x: 2267
+        y: 2396
+        width: 14
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b7cbd6560a7b8d00800000000000000
+      internalID: 976007911901480885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_150
+      rect:
+        serializedVersion: 2
+        x: 2285
+        y: 2434
+        width: 221
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5188c6dce7a680a80800000000000000
+      internalID: -8500427203816945643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_151
+      rect:
+        serializedVersion: 2
+        x: 2288
+        y: 2439
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47865d222c9a062c0800000000000000
+      internalID: -4440362581314148236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_152
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 2436
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b37ce598ef19e10800000000000000
+      internalID: 2202821558714972947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_153
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 2436
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18f08e8ca77a8a220800000000000000
+      internalID: 2497430139175440257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_154
+      rect:
+        serializedVersion: 2
+        x: 2373
+        y: 2436
+        width: 48
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99516b3719cc20dc0800000000000000
+      internalID: -3674149420897266279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_155
+      rect:
+        serializedVersion: 2
+        x: 2419
+        y: 2436
+        width: 66
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e42e6a3f10a72e0800000000000000
+      internalID: -2127385727990608291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_156
+      rect:
+        serializedVersion: 2
+        x: 2488
+        y: 2437
+        width: 54
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca302ececd52b52c0800000000000000
+      internalID: -4441914976673594452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_157
+      rect:
+        serializedVersion: 2
+        x: 2541
+        y: 2434
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a69d121394fb4b7f0800000000000000
+      internalID: -597642529455613590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_158
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 2427
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 639af9c2279f7f970800000000000000
+      internalID: 8788767466607061302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_159
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 2435
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a38655213cd21c90800000000000000
+      internalID: -7200450750574066783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_160
+      rect:
+        serializedVersion: 2
+        x: 2655
+        y: 2376
+        width: 19
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed986fda2642ac860800000000000000
+      internalID: 7550887731484068318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_161
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 2432
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08fd907d1e9897a00800000000000000
+      internalID: 754786015629664128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_162
+      rect:
+        serializedVersion: 2
+        x: 2124
+        y: 2424
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c5f360247813140800000000000000
+      internalID: 4697684603966544921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_163
+      rect:
+        serializedVersion: 2
+        x: 2188
+        y: 2417
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 508b02d4b79dab1e0800000000000000
+      internalID: -2181191945909389307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_164
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 2429
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146fb142829b5ebb0800000000000000
+      internalID: -4907312636894644671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_165
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 2422
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052f2c2061280b6c0800000000000000
+      internalID: -4129657827251522992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_166
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 2405
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8cd579cd1f956610800000000000000
+      internalID: 1613870991765003402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_167
+      rect:
+        serializedVersion: 2
+        x: 2558
+        y: 2408
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb3c1da01c16a550800000000000000
+      internalID: 6171651197307206639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_168
+      rect:
+        serializedVersion: 2
+        x: 2559
+        y: 2418
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b7da417ebda5d30800000000000000
+      internalID: 4421087769748405009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_169
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 2395
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e9e6559caea08f90800000000000000
+      internalID: -6953365768396936733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_170
+      rect:
+        serializedVersion: 2
+        x: 2126
+        y: 2411
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b7c9ebbb49405050800000000000000
+      internalID: 5787206110795122610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_171
+      rect:
+        serializedVersion: 2
+        x: 2115
+        y: 2257
+        width: 15
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d013c57c8f6ed9b0800000000000000
+      internalID: -5053479082801295148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_172
+      rect:
+        serializedVersion: 2
+        x: 2115
+        y: 2367
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af819a7c1c522a9b0800000000000000
+      internalID: -5070448716257093382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_173
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 2367
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686274c6d726dcb30800000000000000
+      internalID: 4309208709290468998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_174
+      rect:
+        serializedVersion: 2
+        x: 2266
+        y: 2365
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9efcaae07f5fbedd0800000000000000
+      internalID: -2455598730348670999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_175
+      rect:
+        serializedVersion: 2
+        x: 2527
+        y: 2358
+        width: 30
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63c3c8ed03313d9c0800000000000000
+      internalID: -3903755351386997706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_176
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 2362
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a2de062580eae30800000000000000
+      internalID: 4516556626205682260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_177
+      rect:
+        serializedVersion: 2
+        x: 2558
+        y: 2380
+        width: 9
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49d26711b0c6968d0800000000000000
+      internalID: -2852630094169100908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_178
+      rect:
+        serializedVersion: 2
+        x: 2621
+        y: 2381
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a07bfc6966dc28ec0800000000000000
+      internalID: -3566062114423458038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_179
+      rect:
+        serializedVersion: 2
+        x: 2623
+        y: 2352
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a57ad2f632c0b0d0800000000000000
+      internalID: -3409011376661039705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_180
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 2362
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1619964658bb98b0800000000000000
+      internalID: -5144315468649523684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_181
+      rect:
+        serializedVersion: 2
+        x: 2668
+        y: 2359
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc5852acd288cd10800000000000000
+      internalID: 2146109106570157296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_182
+      rect:
+        serializedVersion: 2
+        x: 2167
+        y: 2351
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd02836ce5cf12a0800000000000000
+      internalID: -6764470496214774346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_183
+      rect:
+        serializedVersion: 2
+        x: 2267
+        y: 2356
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c004320c3c631d0800000000000000
+      internalID: -3371292041047700472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_184
+      rect:
+        serializedVersion: 2
+        x: 2275
+        y: 2353
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bf0b5529ae6bb560800000000000000
+      internalID: 7330574491230867380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_185
+      rect:
+        serializedVersion: 2
+        x: 2292
+        y: 2312
+        width: 245
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d182c48eedebe3820800000000000000
+      internalID: 2899965074662500381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_186
+      rect:
+        serializedVersion: 2
+        x: 2302
+        y: 2352
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9eab4b414857af90800000000000000
+      internalID: -6942483263108960614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_187
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 2352
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dda77767ee8c0a50800000000000000
+      internalID: 6488718287658528216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_188
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 2353
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62ae42e47ef764930800000000000000
+      internalID: 4127126739956853286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_189
+      rect:
+        serializedVersion: 2
+        x: 2625
+        y: 2322
+        width: 8
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28bcd71e91b4c0260800000000000000
+      internalID: 7065104489966848898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_190
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 2333
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3218528a0c9130d40800000000000000
+      internalID: 5549307481096028451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_191
+      rect:
+        serializedVersion: 2
+        x: 2667
+        y: 2351
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ee645051bf68150800000000000000
+      internalID: 5874658831652810334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_192
+      rect:
+        serializedVersion: 2
+        x: 2165
+        y: 2330
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a5d8c1fb080553d0800000000000000
+      internalID: -3218657511292217950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_193
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 2311
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e00ced8d8d008b0800000000000000
+      internalID: -5187908344769147390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_194
+      rect:
+        serializedVersion: 2
+        x: 2653
+        y: 2268
+        width: 24
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae4216326971d4d0800000000000000
+      internalID: -3111572404815376723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_195
+      rect:
+        serializedVersion: 2
+        x: 2167
+        y: 2305
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f43eead58b28560800000000000000
+      internalID: 7314611457308708754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_196
+      rect:
+        serializedVersion: 2
+        x: 2214
+        y: 2290
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae861cb16f36c8520800000000000000
+      internalID: 2705647384821590250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_197
+      rect:
+        serializedVersion: 2
+        x: 2609
+        y: 2292
+        width: 37
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa32fc290d96d3f20800000000000000
+      internalID: 3403993237899125674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_198
+      rect:
+        serializedVersion: 2
+        x: 2625
+        y: 2310
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebbced117a14cfa90800000000000000
+      internalID: -7278870711922406466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_199
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 2293
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec30bbab357790f30800000000000000
+      internalID: 4542292900678665166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_200
+      rect:
+        serializedVersion: 2
+        x: 2154
+        y: 2289
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 138eee7544b044d20800000000000000
+      internalID: 3261744418284038193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_201
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 2298
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0ad45dddb1dd090800000000000000
+      internalID: -8008213922814517040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_202
+      rect:
+        serializedVersion: 2
+        x: 2185
+        y: 2290
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c50ceb36f310770800000000000000
+      internalID: 8575204863124724874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_203
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 2291
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f10770ac9c092ef50800000000000000
+      internalID: 6909243974692073503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_204
+      rect:
+        serializedVersion: 2
+        x: 2281
+        y: 2290
+        width: 114
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3fb9aff80177c690800000000000000
+      internalID: -7581967164191948995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_205
+      rect:
+        serializedVersion: 2
+        x: 2392
+        y: 2290
+        width: 26
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6680e221861f58f0800000000000000
+      internalID: -549695885624179089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_206
+      rect:
+        serializedVersion: 2
+        x: 2417
+        y: 2290
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0dbd83f8b65d8d10800000000000000
+      internalID: 2129453551176236299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_207
+      rect:
+        serializedVersion: 2
+        x: 2426
+        y: 2290
+        width: 42
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ba3393d4d6e51f0800000000000000
+      internalID: -1054285084318520505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_208
+      rect:
+        serializedVersion: 2
+        x: 2467
+        y: 2290
+        width: 29
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b15e9abbedb742770800000000000000
+      internalID: 8585122986236437787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_209
+      rect:
+        serializedVersion: 2
+        x: 2497
+        y: 2290
+        width: 29
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9743a10c240c48a30800000000000000
+      internalID: 4216706544048944249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_210
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 2291
+        width: 49
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c769cd4bff7cdccd0800000000000000
+      internalID: -2536151114074777988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_211
+      rect:
+        serializedVersion: 2
+        x: 2566
+        y: 2292
+        width: 48
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279ba8588a2fad000800000000000000
+      internalID: 61628350531811698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_212
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 2292
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc31e67efaf2d4e0800000000000000
+      internalID: -1958226917129634609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_213
+      rect:
+        serializedVersion: 2
+        x: 2116
+        y: 2216
+        width: 29
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa5d9406325d5b2c0800000000000000
+      internalID: -4416389511650880081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_214
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 2271
+        width: 37
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 138360d769eb36b00800000000000000
+      internalID: 820709110663493681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_215
+      rect:
+        serializedVersion: 2
+        x: 2146
+        y: 2254
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a7cc0eb7bfc46300800000000000000
+      internalID: 244548667859322784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_216
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 2268
+        width: 36
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d184ff06d118d5520800000000000000
+      internalID: 2692450115418802205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_217
+      rect:
+        serializedVersion: 2
+        x: 2190
+        y: 2236
+        width: 62
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ae0f0a1deec954a0800000000000000
+      internalID: -6604019860822356313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_218
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 2272
+        width: 80
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4283f30c04321e240800000000000000
+      internalID: 4819171837273389092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_219
+      rect:
+        serializedVersion: 2
+        x: 2299
+        y: 2273
+        width: 31
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec181b2ff1833bd00800000000000000
+      internalID: 987194453191131598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_220
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 2274
+        width: 44
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2170a108f5874d80800000000000000
+      internalID: -8266491290789580501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_221
+      rect:
+        serializedVersion: 2
+        x: 2377
+        y: 2274
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 434bc445786f80fb0800000000000000
+      internalID: -4681220751556299724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_222
+      rect:
+        serializedVersion: 2
+        x: 2381
+        y: 2240
+        width: 109
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f603329cdeeaf6770800000000000000
+      internalID: 8606289749233315951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_223
+      rect:
+        serializedVersion: 2
+        x: 2390
+        y: 2274
+        width: 36
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcdcebe56ff8985f0800000000000000
+      internalID: -753913174293557809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_224
+      rect:
+        serializedVersion: 2
+        x: 2478
+        y: 2274
+        width: 69
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c158807ae74941470800000000000000
+      internalID: 8364473679622997276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_225
+      rect:
+        serializedVersion: 2
+        x: 2545
+        y: 2276
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca8760854dfe8b410800000000000000
+      internalID: 1493206971762243756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_226
+      rect:
+        serializedVersion: 2
+        x: 2563
+        y: 2275
+        width: 31
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a50931666e449f0800000000000000
+      internalID: -485009533759890930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_227
+      rect:
+        serializedVersion: 2
+        x: 2593
+        y: 2275
+        width: 36
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3b6e011523e1e8d0800000000000000
+      internalID: -2818722143417767108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_228
+      rect:
+        serializedVersion: 2
+        x: 2628
+        y: 2274
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f16b26928de977d0800000000000000
+      internalID: -2920041738252099085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_229
+      rect:
+        serializedVersion: 2
+        x: 2635
+        y: 2263
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de1889bb6a7655e0800000000000000
+      internalID: -1921213587934142763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_230
+      rect:
+        serializedVersion: 2
+        x: 2660
+        y: 2281
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c77b771c6736920800000000000000
+      internalID: 2982357951558679662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_231
+      rect:
+        serializedVersion: 2
+        x: 2667
+        y: 2262
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd43073e708570a40800000000000000
+      internalID: 5334329074547438812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_232
+      rect:
+        serializedVersion: 2
+        x: 2157
+        y: 2230
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 406b7669ff4242cf0800000000000000
+      internalID: -278056596831488508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_233
+      rect:
+        serializedVersion: 2
+        x: 2177
+        y: 2235
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8795683255ae7d4a0800000000000000
+      internalID: -6568523880107452040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_234
+      rect:
+        serializedVersion: 2
+        x: 2251
+        y: 2238
+        width: 37
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b8833578942eab0800000000000000
+      internalID: -4980337392352719986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_235
+      rect:
+        serializedVersion: 2
+        x: 2284
+        y: 2239
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0561489ec555024e0800000000000000
+      internalID: -2008511576264141232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_236
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 2240
+        width: 77
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f235951e53e4d440800000000000000
+      internalID: 4959839082870289141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_237
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 2241
+        width: 37
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76997b6a8e41ec1e0800000000000000
+      internalID: -2175778580511352473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_238
+      rect:
+        serializedVersion: 2
+        x: 2522
+        y: 2240
+        width: 42
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b01af0b03a0643350800000000000000
+      internalID: 5995523257318482187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_239
+      rect:
+        serializedVersion: 2
+        x: 2563
+        y: 2239
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6df08e6a7439d7a0800000000000000
+      internalID: -6351988098984772245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_240
+      rect:
+        serializedVersion: 2
+        x: 2587
+        y: 2240
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 187e45ac1cb97e8d0800000000000000
+      internalID: -2817111785271400575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_241
+      rect:
+        serializedVersion: 2
+        x: 2598
+        y: 2241
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e004f2e322bb1a50800000000000000
+      internalID: 6492979154985943266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_242
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 2183
+        width: 10
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70fdfa481b7231da0800000000000000
+      internalID: -5975388637201703161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_243
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 2242
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa1717c73d5ecabd0800000000000000
+      internalID: -2617464586920431185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_244
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 2201
+        width: 13
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f5c8f24d7caf6920800000000000000
+      internalID: 2985794731964417525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_245
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 2234
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f6a40f076fe77e80800000000000000
+      internalID: -8180806972182583564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_246
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 5354
+        height: 2194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9f959f32e8da5d0800000000000000
+      internalID: -3049625087501534757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_247
+      rect:
+        serializedVersion: 2
+        x: 2117
+        y: 2209
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac1853c419877980800000000000000
+      internalID: -8541207446015173459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_248
+      rect:
+        serializedVersion: 2
+        x: 2117
+        y: 2199
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095c7edb7cb092b80800000000000000
+      internalID: -8419185075879950960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_249
+      rect:
+        serializedVersion: 2
+        x: 2117
+        y: 2182
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 945f971602ea55d20800000000000000
+      internalID: 3266708558824731977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_250
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 2147
+        width: 7
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c298de292f96c10800000000000000
+      internalID: 2047434218480938012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_251
+      rect:
+        serializedVersion: 2
+        x: 2169
+        y: 2191
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ce30caadae3acf40800000000000000
+      internalID: 5749476789906849474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_252
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 2183
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41e033fa8713d140800000000000000
+      internalID: 4743160718104256844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_253
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 2182
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae9ea704fd1454b00800000000000000
+      internalID: 812127734925552106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_254
+      rect:
+        serializedVersion: 2
+        x: 2117
+        y: 2157
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7466be873bef3360800000000000000
+      internalID: 7151693357137683578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_255
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 2164
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a1597fa1a440160800000000000000
+      internalID: 6990794001269201422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_256
+      rect:
+        serializedVersion: 2
+        x: 2117
+        y: 2136
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e9b7bdfc9cc4b20800000000000000
+      internalID: 3120090536438636166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_257
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 2136
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c42636b513c2270800000000000000
+      internalID: 8227004887878224988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_258
+      rect:
+        serializedVersion: 2
+        x: 2661
+        y: 2140
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc13e689f0019050800000000000000
+      internalID: 5805422466367167708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_259
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 2131
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02083ac85175060b0800000000000000
+      internalID: -5737490175204556768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_260
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 2124
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de1cf31451069600800000000000000
+      internalID: 474568271358336726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_261
+      rect:
+        serializedVersion: 2
+        x: 2613
+        y: 2102
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32f312bea33b7b890800000000000000
+      internalID: -7442282793572155613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_262
+      rect:
+        serializedVersion: 2
+        x: 2661
+        y: 2120
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ebe6e621a8cb5d0800000000000000
+      internalID: -3045407436242502078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BakingArea_Layer7_BreakRoom_263
+      rect:
+        serializedVersion: 2
+        x: 2117
+        y: 2097
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb3223d610d14640800000000000000
+      internalID: 5062556252591242174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BakingArea_Layer7_BreakRoom_0: 2178477917594224008
+      BakingArea_Layer7_BreakRoom_1: -7954618795161632355
+      BakingArea_Layer7_BreakRoom_10: -6297803008140637041
+      BakingArea_Layer7_BreakRoom_100: -4373977943515684923
+      BakingArea_Layer7_BreakRoom_101: 6877625949950135981
+      BakingArea_Layer7_BreakRoom_102: 8027727037943932724
+      BakingArea_Layer7_BreakRoom_103: -3021912615819686703
+      BakingArea_Layer7_BreakRoom_104: -5129607506868202673
+      BakingArea_Layer7_BreakRoom_105: -4474932359860375666
+      BakingArea_Layer7_BreakRoom_106: -1323820970125100689
+      BakingArea_Layer7_BreakRoom_107: -5528802566726298359
+      BakingArea_Layer7_BreakRoom_108: -5556403160310283087
+      BakingArea_Layer7_BreakRoom_109: 2707203256204007513
+      BakingArea_Layer7_BreakRoom_11: -3588263683766836755
+      BakingArea_Layer7_BreakRoom_110: 6994814450515903436
+      BakingArea_Layer7_BreakRoom_111: -7615758488779980350
+      BakingArea_Layer7_BreakRoom_112: 5042210498830148184
+      BakingArea_Layer7_BreakRoom_113: -1215595361897615192
+      BakingArea_Layer7_BreakRoom_114: -7973432219224158772
+      BakingArea_Layer7_BreakRoom_115: 4373801808115964600
+      BakingArea_Layer7_BreakRoom_116: -3900503873474721737
+      BakingArea_Layer7_BreakRoom_117: 4344586954993948135
+      BakingArea_Layer7_BreakRoom_118: 111518705067818515
+      BakingArea_Layer7_BreakRoom_119: -8298088373601972436
+      BakingArea_Layer7_BreakRoom_12: 5485754452839922899
+      BakingArea_Layer7_BreakRoom_120: -1627484194811706573
+      BakingArea_Layer7_BreakRoom_121: 7943640204727881197
+      BakingArea_Layer7_BreakRoom_122: -4044129362153366828
+      BakingArea_Layer7_BreakRoom_123: -323572118588792470
+      BakingArea_Layer7_BreakRoom_124: -3864539557595484600
+      BakingArea_Layer7_BreakRoom_125: -8108351072288988794
+      BakingArea_Layer7_BreakRoom_126: 4135835690601209398
+      BakingArea_Layer7_BreakRoom_127: -3977785491554098269
+      BakingArea_Layer7_BreakRoom_128: -8220250995659377937
+      BakingArea_Layer7_BreakRoom_129: 5764063968666931262
+      BakingArea_Layer7_BreakRoom_13: 1978478338760073104
+      BakingArea_Layer7_BreakRoom_130: -6124572309933224446
+      BakingArea_Layer7_BreakRoom_131: 7141225641110610668
+      BakingArea_Layer7_BreakRoom_132: 4029530227907588618
+      BakingArea_Layer7_BreakRoom_133: -7539258918678338650
+      BakingArea_Layer7_BreakRoom_134: 6861035669922702547
+      BakingArea_Layer7_BreakRoom_135: -5187356888591826618
+      BakingArea_Layer7_BreakRoom_136: 7841859304947256459
+      BakingArea_Layer7_BreakRoom_137: 4399962454327692276
+      BakingArea_Layer7_BreakRoom_138: 8578858268112886211
+      BakingArea_Layer7_BreakRoom_139: 3201714353506795214
+      BakingArea_Layer7_BreakRoom_14: 498988193255231183
+      BakingArea_Layer7_BreakRoom_140: -8195722763015668175
+      BakingArea_Layer7_BreakRoom_141: -5540478610257526204
+      BakingArea_Layer7_BreakRoom_142: 9025989780730808419
+      BakingArea_Layer7_BreakRoom_143: -748487121088525235
+      BakingArea_Layer7_BreakRoom_144: 2272054522494840714
+      BakingArea_Layer7_BreakRoom_145: 1119185959635768271
+      BakingArea_Layer7_BreakRoom_146: 5667154329956762753
+      BakingArea_Layer7_BreakRoom_147: 4781317759764151382
+      BakingArea_Layer7_BreakRoom_148: -6600753465569196667
+      BakingArea_Layer7_BreakRoom_149: 976007911901480885
+      BakingArea_Layer7_BreakRoom_15: 1232927629519004753
+      BakingArea_Layer7_BreakRoom_150: -8500427203816945643
+      BakingArea_Layer7_BreakRoom_151: -4440362581314148236
+      BakingArea_Layer7_BreakRoom_152: 2202821558714972947
+      BakingArea_Layer7_BreakRoom_153: 2497430139175440257
+      BakingArea_Layer7_BreakRoom_154: -3674149420897266279
+      BakingArea_Layer7_BreakRoom_155: -2127385727990608291
+      BakingArea_Layer7_BreakRoom_156: -4441914976673594452
+      BakingArea_Layer7_BreakRoom_157: -597642529455613590
+      BakingArea_Layer7_BreakRoom_158: 8788767466607061302
+      BakingArea_Layer7_BreakRoom_159: -7200450750574066783
+      BakingArea_Layer7_BreakRoom_16: -7128714000505693361
+      BakingArea_Layer7_BreakRoom_160: 7550887731484068318
+      BakingArea_Layer7_BreakRoom_161: 754786015629664128
+      BakingArea_Layer7_BreakRoom_162: 4697684603966544921
+      BakingArea_Layer7_BreakRoom_163: -2181191945909389307
+      BakingArea_Layer7_BreakRoom_164: -4907312636894644671
+      BakingArea_Layer7_BreakRoom_165: -4129657827251522992
+      BakingArea_Layer7_BreakRoom_166: 1613870991765003402
+      BakingArea_Layer7_BreakRoom_167: 6171651197307206639
+      BakingArea_Layer7_BreakRoom_168: 4421087769748405009
+      BakingArea_Layer7_BreakRoom_169: -6953365768396936733
+      BakingArea_Layer7_BreakRoom_17: -1702487175191645469
+      BakingArea_Layer7_BreakRoom_170: 5787206110795122610
+      BakingArea_Layer7_BreakRoom_171: -5053479082801295148
+      BakingArea_Layer7_BreakRoom_172: -5070448716257093382
+      BakingArea_Layer7_BreakRoom_173: 4309208709290468998
+      BakingArea_Layer7_BreakRoom_174: -2455598730348670999
+      BakingArea_Layer7_BreakRoom_175: -3903755351386997706
+      BakingArea_Layer7_BreakRoom_176: 4516556626205682260
+      BakingArea_Layer7_BreakRoom_177: -2852630094169100908
+      BakingArea_Layer7_BreakRoom_178: -3566062114423458038
+      BakingArea_Layer7_BreakRoom_179: -3409011376661039705
+      BakingArea_Layer7_BreakRoom_18: -8320747555082083704
+      BakingArea_Layer7_BreakRoom_180: -5144315468649523684
+      BakingArea_Layer7_BreakRoom_181: 2146109106570157296
+      BakingArea_Layer7_BreakRoom_182: -6764470496214774346
+      BakingArea_Layer7_BreakRoom_183: -3371292041047700472
+      BakingArea_Layer7_BreakRoom_184: 7330574491230867380
+      BakingArea_Layer7_BreakRoom_185: 2899965074662500381
+      BakingArea_Layer7_BreakRoom_186: -6942483263108960614
+      BakingArea_Layer7_BreakRoom_187: 6488718287658528216
+      BakingArea_Layer7_BreakRoom_188: 4127126739956853286
+      BakingArea_Layer7_BreakRoom_189: 7065104489966848898
+      BakingArea_Layer7_BreakRoom_19: -9186063825331085083
+      BakingArea_Layer7_BreakRoom_190: 5549307481096028451
+      BakingArea_Layer7_BreakRoom_191: 5874658831652810334
+      BakingArea_Layer7_BreakRoom_192: -3218657511292217950
+      BakingArea_Layer7_BreakRoom_193: -5187908344769147390
+      BakingArea_Layer7_BreakRoom_194: -3111572404815376723
+      BakingArea_Layer7_BreakRoom_195: 7314611457308708754
+      BakingArea_Layer7_BreakRoom_196: 2705647384821590250
+      BakingArea_Layer7_BreakRoom_197: 3403993237899125674
+      BakingArea_Layer7_BreakRoom_198: -7278870711922406466
+      BakingArea_Layer7_BreakRoom_199: 4542292900678665166
+      BakingArea_Layer7_BreakRoom_2: 3459225995029560308
+      BakingArea_Layer7_BreakRoom_20: -4291317535828624473
+      BakingArea_Layer7_BreakRoom_200: 3261744418284038193
+      BakingArea_Layer7_BreakRoom_201: -8008213922814517040
+      BakingArea_Layer7_BreakRoom_202: 8575204863124724874
+      BakingArea_Layer7_BreakRoom_203: 6909243974692073503
+      BakingArea_Layer7_BreakRoom_204: -7581967164191948995
+      BakingArea_Layer7_BreakRoom_205: -549695885624179089
+      BakingArea_Layer7_BreakRoom_206: 2129453551176236299
+      BakingArea_Layer7_BreakRoom_207: -1054285084318520505
+      BakingArea_Layer7_BreakRoom_208: 8585122986236437787
+      BakingArea_Layer7_BreakRoom_209: 4216706544048944249
+      BakingArea_Layer7_BreakRoom_21: 3517650888607827764
+      BakingArea_Layer7_BreakRoom_210: -2536151114074777988
+      BakingArea_Layer7_BreakRoom_211: 61628350531811698
+      BakingArea_Layer7_BreakRoom_212: -1958226917129634609
+      BakingArea_Layer7_BreakRoom_213: -4416389511650880081
+      BakingArea_Layer7_BreakRoom_214: 820709110663493681
+      BakingArea_Layer7_BreakRoom_215: 244548667859322784
+      BakingArea_Layer7_BreakRoom_216: 2692450115418802205
+      BakingArea_Layer7_BreakRoom_217: -6604019860822356313
+      BakingArea_Layer7_BreakRoom_218: 4819171837273389092
+      BakingArea_Layer7_BreakRoom_219: 987194453191131598
+      BakingArea_Layer7_BreakRoom_22: -4163697918349863532
+      BakingArea_Layer7_BreakRoom_220: -8266491290789580501
+      BakingArea_Layer7_BreakRoom_221: -4681220751556299724
+      BakingArea_Layer7_BreakRoom_222: 8606289749233315951
+      BakingArea_Layer7_BreakRoom_223: -753913174293557809
+      BakingArea_Layer7_BreakRoom_224: 8364473679622997276
+      BakingArea_Layer7_BreakRoom_225: 1493206971762243756
+      BakingArea_Layer7_BreakRoom_226: -485009533759890930
+      BakingArea_Layer7_BreakRoom_227: -2818722143417767108
+      BakingArea_Layer7_BreakRoom_228: -2920041738252099085
+      BakingArea_Layer7_BreakRoom_229: -1921213587934142763
+      BakingArea_Layer7_BreakRoom_23: 5253111261917369524
+      BakingArea_Layer7_BreakRoom_230: 2982357951558679662
+      BakingArea_Layer7_BreakRoom_231: 5334329074547438812
+      BakingArea_Layer7_BreakRoom_232: -278056596831488508
+      BakingArea_Layer7_BreakRoom_233: -6568523880107452040
+      BakingArea_Layer7_BreakRoom_234: -4980337392352719986
+      BakingArea_Layer7_BreakRoom_235: -2008511576264141232
+      BakingArea_Layer7_BreakRoom_236: 4959839082870289141
+      BakingArea_Layer7_BreakRoom_237: -2175778580511352473
+      BakingArea_Layer7_BreakRoom_238: 5995523257318482187
+      BakingArea_Layer7_BreakRoom_239: -6351988098984772245
+      BakingArea_Layer7_BreakRoom_24: 8948354198382374306
+      BakingArea_Layer7_BreakRoom_240: -2817111785271400575
+      BakingArea_Layer7_BreakRoom_241: 6492979154985943266
+      BakingArea_Layer7_BreakRoom_242: -5975388637201703161
+      BakingArea_Layer7_BreakRoom_243: -2617464586920431185
+      BakingArea_Layer7_BreakRoom_244: 2985794731964417525
+      BakingArea_Layer7_BreakRoom_245: -8180806972182583564
+      BakingArea_Layer7_BreakRoom_246: -3049625087501534757
+      BakingArea_Layer7_BreakRoom_247: -8541207446015173459
+      BakingArea_Layer7_BreakRoom_248: -8419185075879950960
+      BakingArea_Layer7_BreakRoom_249: 3266708558824731977
+      BakingArea_Layer7_BreakRoom_25: 7307116930661823455
+      BakingArea_Layer7_BreakRoom_250: 2047434218480938012
+      BakingArea_Layer7_BreakRoom_251: 5749476789906849474
+      BakingArea_Layer7_BreakRoom_252: 4743160718104256844
+      BakingArea_Layer7_BreakRoom_253: 812127734925552106
+      BakingArea_Layer7_BreakRoom_254: 7151693357137683578
+      BakingArea_Layer7_BreakRoom_255: 6990794001269201422
+      BakingArea_Layer7_BreakRoom_256: 3120090536438636166
+      BakingArea_Layer7_BreakRoom_257: 8227004887878224988
+      BakingArea_Layer7_BreakRoom_258: 5805422466367167708
+      BakingArea_Layer7_BreakRoom_259: -5737490175204556768
+      BakingArea_Layer7_BreakRoom_26: 7501540126138935078
+      BakingArea_Layer7_BreakRoom_260: 474568271358336726
+      BakingArea_Layer7_BreakRoom_261: -7442282793572155613
+      BakingArea_Layer7_BreakRoom_262: -3045407436242502078
+      BakingArea_Layer7_BreakRoom_263: 5062556252591242174
+      BakingArea_Layer7_BreakRoom_27: -1152930044962634960
+      BakingArea_Layer7_BreakRoom_28: -6086830500771220618
+      BakingArea_Layer7_BreakRoom_29: -5854213197275066734
+      BakingArea_Layer7_BreakRoom_3: -709884169729261352
+      BakingArea_Layer7_BreakRoom_30: 7071082257656999940
+      BakingArea_Layer7_BreakRoom_31: -8003284885722798461
+      BakingArea_Layer7_BreakRoom_32: -984887734928326636
+      BakingArea_Layer7_BreakRoom_33: 9085339596880038963
+      BakingArea_Layer7_BreakRoom_34: -2273735958360845096
+      BakingArea_Layer7_BreakRoom_35: -1755749518795866620
+      BakingArea_Layer7_BreakRoom_36: 8576401400815841289
+      BakingArea_Layer7_BreakRoom_37: -4668622413973760722
+      BakingArea_Layer7_BreakRoom_38: 4682407582982146810
+      BakingArea_Layer7_BreakRoom_39: 8529993520194454144
+      BakingArea_Layer7_BreakRoom_4: 905040286976460827
+      BakingArea_Layer7_BreakRoom_40: 4218977883745298335
+      BakingArea_Layer7_BreakRoom_41: -4884678751257562378
+      BakingArea_Layer7_BreakRoom_42: 8415421580940056446
+      BakingArea_Layer7_BreakRoom_43: 6161177514215598625
+      BakingArea_Layer7_BreakRoom_44: 3938326643021370169
+      BakingArea_Layer7_BreakRoom_45: 1247152754261305070
+      BakingArea_Layer7_BreakRoom_46: 997547368947983979
+      BakingArea_Layer7_BreakRoom_47: -1193543095987978010
+      BakingArea_Layer7_BreakRoom_48: 5010615370093853969
+      BakingArea_Layer7_BreakRoom_49: -5557106818555590719
+      BakingArea_Layer7_BreakRoom_5: -3122122801667372292
+      BakingArea_Layer7_BreakRoom_50: 8930804070601363169
+      BakingArea_Layer7_BreakRoom_51: 8037325319278736747
+      BakingArea_Layer7_BreakRoom_52: -4993759574384471619
+      BakingArea_Layer7_BreakRoom_53: -7614442032287934994
+      BakingArea_Layer7_BreakRoom_54: 6806842246809302832
+      BakingArea_Layer7_BreakRoom_55: -931645758372737576
+      BakingArea_Layer7_BreakRoom_56: 505313166860317758
+      BakingArea_Layer7_BreakRoom_57: -2953365873680255629
+      BakingArea_Layer7_BreakRoom_58: -6325276696723714585
+      BakingArea_Layer7_BreakRoom_59: 4542619578974894622
+      BakingArea_Layer7_BreakRoom_6: -5293656195002389897
+      BakingArea_Layer7_BreakRoom_60: -9065241748876976134
+      BakingArea_Layer7_BreakRoom_61: 4786194174952211793
+      BakingArea_Layer7_BreakRoom_62: 8434136387710829899
+      BakingArea_Layer7_BreakRoom_63: -4016159702310587225
+      BakingArea_Layer7_BreakRoom_64: 6949336448308110747
+      BakingArea_Layer7_BreakRoom_65: 8254491631683767954
+      BakingArea_Layer7_BreakRoom_66: 2570666801188785824
+      BakingArea_Layer7_BreakRoom_67: -3829197678127009207
+      BakingArea_Layer7_BreakRoom_68: 6625015598010712061
+      BakingArea_Layer7_BreakRoom_69: 7489116776758686964
+      BakingArea_Layer7_BreakRoom_7: 8252374593491272672
+      BakingArea_Layer7_BreakRoom_70: -7403644052002270136
+      BakingArea_Layer7_BreakRoom_71: -3709271663856518113
+      BakingArea_Layer7_BreakRoom_72: 2516366225234182556
+      BakingArea_Layer7_BreakRoom_73: 1677707575672902653
+      BakingArea_Layer7_BreakRoom_74: -6564783896835623480
+      BakingArea_Layer7_BreakRoom_75: -8485254382450602748
+      BakingArea_Layer7_BreakRoom_76: -5205828313581474887
+      BakingArea_Layer7_BreakRoom_77: -7150952882789183757
+      BakingArea_Layer7_BreakRoom_78: -1017614201178517934
+      BakingArea_Layer7_BreakRoom_79: 7599272182682629252
+      BakingArea_Layer7_BreakRoom_8: -4280573138260279271
+      BakingArea_Layer7_BreakRoom_80: -1968347083258169932
+      BakingArea_Layer7_BreakRoom_81: -8761870360914232317
+      BakingArea_Layer7_BreakRoom_82: 2956844678387379870
+      BakingArea_Layer7_BreakRoom_83: 2042016824509315703
+      BakingArea_Layer7_BreakRoom_84: -2699027946663275908
+      BakingArea_Layer7_BreakRoom_85: -7407717330784293106
+      BakingArea_Layer7_BreakRoom_86: 642764615736525267
+      BakingArea_Layer7_BreakRoom_87: 9123265019033929725
+      BakingArea_Layer7_BreakRoom_88: -5780514345223257731
+      BakingArea_Layer7_BreakRoom_89: 7213063053217331911
+      BakingArea_Layer7_BreakRoom_9: -2332968390364580178
+      BakingArea_Layer7_BreakRoom_90: -5988418674042551998
+      BakingArea_Layer7_BreakRoom_91: -4202086851594688818
+      BakingArea_Layer7_BreakRoom_92: 5293775700711595172
+      BakingArea_Layer7_BreakRoom_93: -5911634058152999681
+      BakingArea_Layer7_BreakRoom_94: -5352064874887806139
+      BakingArea_Layer7_BreakRoom_95: 8315800332851524132
+      BakingArea_Layer7_BreakRoom_96: -4315863669801169771
+      BakingArea_Layer7_BreakRoom_97: 1070195744701837589
+      BakingArea_Layer7_BreakRoom_98: -9214614132965532375
+      BakingArea_Layer7_BreakRoom_99: 5925893958521003592
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

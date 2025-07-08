@@ -6,6 +6,7 @@ public class MainMenu : MonoBehaviour
     public Button PlayButton;
     public Button CreditsButton;
     public Button QuitButton;
+
     void Start()
     {
        PlayButton.onClick.AddListener(delegate {

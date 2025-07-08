@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -12,6 +13,8 @@ public class BakeryManager : MonoBehaviour
     [HideInInspector]
     public float StoredIngredients = 1;
 
+    private Canvas SceneTransitionCanvas;
+    private string PromptedLoadScene;
     private MB_WorkStation[] WorkStations;
     private MB_NPCBehavior[] WorkingNPCs;
     public MB_NPCBehavior_Inky Inky;
@@ -22,6 +25,9 @@ public class BakeryManager : MonoBehaviour
 
         WorkStations = GetComponentsInChildren<MB_WorkStation>();
         WorkingNPCs = GetComponentsInChildren<MB_NPCBehavior>();
+
+        SceneTransitionCanvas = Camera.main.GetComponentInChildren<Canvas>(true);
+        SceneTransitionCanvas.gameObject.SetActive(false);
 
         foreach (MB_NPCBehavior NPC in WorkingNPCs)
         {
@@ -45,6 +51,11 @@ public class BakeryManager : MonoBehaviour
         {
             StorySceneManager.PersistentStoryInstance.TickBakeryTime();
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            PromptMenuScene();
+        }
     }
 
     public int GrabIngredients()
@@ -66,20 +77,62 @@ public class BakeryManager : MonoBehaviour
 
     protected void OnMouseEnter()
     {
-        Cursor.SetCursor(HoverCursorTexture, Vector2.zero, CursorMode.Auto);
+        MenuManager.UpdateCursor(HoverCursorTexture);
     }
 
     protected void OnMouseExit()
     {
-        Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
+        MenuManager.UpdateCursor(null);
     }
 
     void OnMouseOver()  // Add collision to an exit door; for skipping work/speedrunning story
     {
-        // TODO: Add confirmation display first
         if (Input.GetMouseButtonDown(0))
         {
-            MenuManager.LoadBreakroomScene();
+            foreach (MB_WorkStation WorkStation in WorkStations)
+            {
+                if (WorkStation.gameObject.tag == "Tortilla")
+                {
+                    MB_WorkStation_Tortilla TortillaStation = (MB_WorkStation_Tortilla)WorkStation;
+                    if (TortillaStation.IsShiftComplete)
+                    {
+                        MenuManager.LoadBreakroomScene();
+                        return;
+                    }
+                }
+            }
+            PromptBreakroomScene();
         }
+    }
+
+    public void ConfirmSceneTransition()
+    {
+        MenuManager.LoadSceneByName(PromptedLoadScene);
+        MenuManager.ResumeGame();
+    }
+
+    public void CancelSceneTransition()
+    {
+        SceneTransitionCanvas.gameObject.SetActive(false);
+        PromptedLoadScene = "";
+        MenuManager.ResumeGame();
+    }
+
+    void PromptMenuScene()
+    {
+        PromptedLoadScene = MenuManager.MenuSceneName;
+        SceneTransitionCanvas.gameObject.SetActive(true);
+        MenuManager.PauseGame();
+        TextMeshProUGUI PromptText = SceneTransitionCanvas.GetComponentInChildren<TextMeshProUGUI>();
+        PromptText.text = "Go to Main Menu?\n...the game will end...";
+    }
+
+    void PromptBreakroomScene()
+    {
+        PromptedLoadScene = MenuManager.BreakroomSceneName;
+        SceneTransitionCanvas.gameObject.SetActive(true);
+        MenuManager.PauseGame();
+        TextMeshProUGUI PromptText = SceneTransitionCanvas.GetComponentInChildren<TextMeshProUGUI>();
+        PromptText.text = "Go to Breakroom?\n...the day will end...";
     }
 }

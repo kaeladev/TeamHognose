@@ -161,7 +161,7 @@ public class StorySceneManager : MonoBehaviour
 
     void Update()
     {
-        if (SceneManager.GetActiveScene().name != MenuManager.BreakroomSceneName)
+        if (MenuManager.IsGamePaused() || SceneManager.GetActiveScene().name != MenuManager.BreakroomSceneName)
         {
             return;
         }
@@ -189,15 +189,12 @@ public class StorySceneManager : MonoBehaviour
             }
             else if (IsWeekend())
             {
-                StopEndingAudio();
-                DeactivateExistingUI();
-                SetAllCanvasActive(false);
+                CleanUpScene();
                 MenuManager.LoadCreditsScene();
             }
             else
             {
-                DeactivateExistingUI();
-                SetAllCanvasActive(false);
+                CleanUpScene();
                 MenuManager.LoadBakeryScene();
             }
         }
@@ -818,6 +815,12 @@ public class StorySceneManager : MonoBehaviour
 
     // ----------------------------------------- UI GENERAL -------------------------
 
+    public void CleanUpScene()
+    {
+        StopEndingAudio();
+        DeactivateExistingUI();
+        SetAllCanvasActive(false);
+    }
     void SetAllCanvasActive(bool ShouldBeActive)
     {
         BGCanvas.gameObject.SetActive(ShouldBeActive);
