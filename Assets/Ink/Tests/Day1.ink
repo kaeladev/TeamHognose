@@ -62,7 +62,7 @@ Phewww, what a day... Time to pack my stuff and go!
     
     * Dedication matters more than the results. -> dedication
     * The true bakery is the friends we made along the way. -> friends
-    * The lion doesn't concern himself with respecting deadlines or safety measures. -> lion
+    * The lion doesn't concern himself with the respect of deadlines. -> lion
     
     == dedication ==
     
