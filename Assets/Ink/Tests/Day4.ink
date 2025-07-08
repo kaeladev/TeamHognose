@@ -112,10 +112,10 @@ That makes sense though? #tort
 Why would you sleep and dream and we would not? #tort
 HUMANS BE GATEKEEPING DREAMING LMAO #soup
 SOLITARY SOLO-SLEEPER-STAR!!! #soup
-* What do you usually dream about?
--> whatdream
 * I feel like you plushies already have a dream life.
 -> dreamlife
+* What do you usually dream about?
+-> whatdream
 
 == whatdream ==
  #soup #tort
