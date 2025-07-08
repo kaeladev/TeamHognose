@@ -56,7 +56,7 @@ Phewww, what a day... Time to pack my stuff and go!
     == breakroom2==
 
     Right, anyway, it's very nice to have you here to help us with our bakery business. #inky
-    ... Sometimes we struggle a little I must admit... #tort
+    ... Sometimes we struggle a little I must admit... #tort #happy
     UNDERPERFORMING!!! LOWERMAXINGGGG!!!! #soup #tired
     but we put a lot of heart into it and that's what people like about our shop! am I right? #squill #question
     

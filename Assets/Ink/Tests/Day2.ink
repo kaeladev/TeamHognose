@@ -86,11 +86,11 @@ Some 60 millions years ago... #tort
 I guess Cancer is similar to me, big shell kinda thingy. #tort #happy
 TEAM SCORPIO WHAT'S GOOD??? #soup #sassy
 GOOD FACES BAD REPUTATIONS!! #soup #angry
-CHOP-CHOPPING #soup #angry
+CHOP-CHOPPING #soup
 NO SECRETS NOR DARK INNER LIFE THOUGH #soup
-I DON'T FOLLOW BOOKS, PURPOSEFULLINGLY!!!! #soup #happy
+I DON'T FOLLOW BOOKS, PURPOSEFULLINGLY!!!! #soup
 Woof! #Yuzu #sad
-Oh you're an Aries Yuzu? Nice... #tort #happy
+Oh you're an Aries, Yuzu? Nice... #tort #happy
 What is that sign of yours? #tort #sassy
 * [Tell them your astrological sign]
 -> MyAstro
@@ -137,11 +137,11 @@ Come on SOUP, our hearts so little and still you fill it with hatred... #tort
 
 LEZZZGO PARTY TIME WITH THE POTOS!!! #soup
 THROWING BILLS BY THE WINDOWS!!! #soup
-KEEPING SOME FOR THE FAMILY!!! #soup #sassy
-SHARING IS CARING <3 #soup
+KEEPING SOME FOR THE FAMILY!!! #soup
+SHARING IS CARING <3 #soup #sassy
 Woof! #Yuzu #happy
-FLUFFIFORNIA SNACKING HELL YEAH!!! #soup #sassy
-T-DAWG WHAT YOU THINK?? #soup
+FLUFFIFORNIA SNACKING HELL YEAH!!! #soup #hello
+T-DAWG WHAT YOU THINK?? #soup #question
 ... #tort
 ... #tort
 ...... #tort
@@ -185,7 +185,7 @@ I mean... #tort
 ... #tort
 ... No, I'm not even sure what I meant... #tort #sassy
 True friends find it in their heart to speak their truth kindly. Thank you. #tort #happy
-FRIENDS 4 EVER!!! #soup #relieved
+FRIENDS 4 EVER!!! #soup #happy
 [Friendly] Woof! #yuzu #happy
 ->Group2
 
@@ -196,7 +196,7 @@ IT WAS NICE CHATTING WITH YOU PAL! #soup
 See you tomorrow... Right? #tort
 We need help... #tort
 Working is hard... #tort #happy
-LET'S UNWORK Y'ALL! #soup #sassy
+LET'S UNWORK Y'ALL! #soup #bye
 Alright then, see ya!
 ->ending
 
@@ -224,7 +224,7 @@ some clients are so mean. like, someone literally said i look like a blooper fro
 
 == sorry ==
 
-[Squilliam burst into tears in such a strong way, you don't even dare to pat her shoulder. Instead you just look at her with an embarassed smile:] #squill #score #good #tired
+[Squilliam burst into tears in such a strong way, you don't even dare to pat her shoulder. Instead you just look at her with an embarassed smile.] #squill #score #good #tired
 ahahaaahaha, so sorry bestie #squill
 some emotions you just gotta get out right ;o) ? #squill #sassy
 [Squilliam blows her nose in a very loud way) #squill #sleeping
@@ -363,9 +363,10 @@ You know this is much cozier than actual labour right? #inky #sassy
 You must be proud of your shop!
 Ah ah, unfortunately it's not my shop. #inky #sad
 What do you mean? Aren't you the boss around here??
-Alas no, I'm just a normal worker. #inky #angry
-We have a CEO. We don't see him much though. #inky
-Kind of evil in my opinion but... I mean... CEO life must be hard right..? #inky #question
+Alas no, I'm just a normal worker. #inky
+We have a CEO. We don't see him much though. #inky  #angry
+Kind of evil in my opinion #inky  #angry
+But... I mean... CEO life must be hard right..? #inky #question
 You think so?
 I mean, we are the ones working all day, tentacles in the batter, trying to keep cash flowing in... #inky
 But there must be some difficulty in being a CEO... right? #inky #question
