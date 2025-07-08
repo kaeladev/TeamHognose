@@ -17,7 +17,7 @@ Phewww, what a day... Time to pack my stuff and go!
     Hello, apologies for the loud greeting indeed. We all want to express our excitement for your week of internship. #inky #sad
     As a reminder, my name is Inky. #inky #hello
     mine's Squilliam!! i am THRILLED to finally meet you!!! i hope we'll become best besties very soon!!!! #squill #happy
-    ....
+    .... #tort
     .... #tort
     Hiya, i'm Tortilla. #tort
     [grunts] #tort #sassy
