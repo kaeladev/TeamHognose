@@ -35,7 +35,7 @@ Join The Void. #inky
 Fill it with great recipes. #inky
 Teach The Void the baking knowledge of those who bake. #inky
 Feed The Void. #inky
-* I respect the call of The Void.0
+* I respect the call of The Void.
 * Sure, I will feed The Void.
 * Excuse me, but has none of the plushies ever tried going to the basement before...??
 - All hail The Void. #inky
