@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{22a74348-3459-476c-8f77-7f82c6ab4d3c}">
+	<object class="AudioFile" id="{ffa9abd9-2f73-463f-a38f-27d49c79bb30}">
 		<property name="assetPath">
 			<value>DLG_Yuzu/DLG_Yuzu_Reaction_03.wav</value>
 		</property>

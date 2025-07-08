@@ -100,7 +100,7 @@
 			<value>true</value>
 		</property>
 		<property name="start">
-			<value>7</value>
+			<value>13</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{daa841c7-4356-4ca1-9bd1-2b430555b725}</destination>
