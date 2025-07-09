@@ -36,7 +36,8 @@ enum EmotionFlags : int
     relief = 10,
     surprise = 11,
     sleeping = 12,
-    dialogue = 13
+    dialogue = 13,
+    soupsong = 14
 }
 
 /*
@@ -359,6 +360,8 @@ public class StorySceneManager : MonoBehaviour
                 case "sleeping":
                     EmotionFound = EmotionFlags.sleeping;
                     break;
+                case "soupsong":
+                    return -1;
                 default:
                     // If any other tags found, stick with existing tag
                     break;
@@ -915,6 +918,14 @@ public class StorySceneManager : MonoBehaviour
             string CharacterDialogueEventPath = FMODDialogueEventPaths + FirstSpeakingCharacterName;
 
             DialogueInstance = FMODUnity.RuntimeManager.CreateInstance(CharacterDialogueEventPath);
+
+            int Emotion = FindEmotionValueInTags();
+            if (Emotion < 0)
+            {
+                PlaySpecialSoupSong();
+                return;
+            }
+
             DialogueInstance.setParameterByName("Emotion", FindEmotionValueInTags());
             DialogueInstance.start();
         }
@@ -944,6 +955,11 @@ public class StorySceneManager : MonoBehaviour
 
         instance.start();
         instance.release();
+    }
+
+    void PlaySpecialSoupSong()
+    {
+        FMODUnity.RuntimeManager.PlayOneShot(FinalAudios_Good[5], gameObject.transform.position);
     }
 
     void PlayEndingAudio(string PathToEndingAudio)
