@@ -5684,11 +5684,11 @@ PrefabInstance:
       objectReference: {fileID: 2800000, guid: 71afed09404198d43bdad22bcf3e44a4, type: 3}
     - target: {fileID: 2516643560556866972, guid: bd8e8e2ab06b2c14cac66560914391c6, type: 3}
       propertyPath: InkyGrabScale.x
-      value: 2.5
+      value: 2.2
       objectReference: {fileID: 0}
     - target: {fileID: 2516643560556866972, guid: bd8e8e2ab06b2c14cac66560914391c6, type: 3}
       propertyPath: InkyGrabScale.y
-      value: 2.5
+      value: 2.2
       objectReference: {fileID: 0}
     - target: {fileID: 2516643560556866972, guid: bd8e8e2ab06b2c14cac66560914391c6, type: 3}
       propertyPath: HoverCursorTexture
@@ -5700,7 +5700,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2516643560556866972, guid: bd8e8e2ab06b2c14cac66560914391c6, type: 3}
       propertyPath: InkyGrabPosition.y
-      value: 2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 2516643560556866972, guid: bd8e8e2ab06b2c14cac66560914391c6, type: 3}
       propertyPath: HeartAnimController
