@@ -1,6 +1,6 @@
 Another day at the bakery is coming to an end. 
 It's already the middle of the week, and so much has already happened... 
-I'm looking forward a nice weekend hopefully! Time to pack my stuff and head home.
+I'm looking forward to a nice weekend! Time to pack my stuff and head home.
 
 * You see LIL'SOUP deep in a book. #soup
 -> soup1
@@ -41,13 +41,12 @@ anyway i go here and eat all the bread #soup
 very delicious #soup
 so i look for a job in a bakery #soup
 but no one wants a shark right #soup
-and some bakery went like 'oh sure shark teeth helpful!!' #soup
-so i go there and apply and got the job #soup
-and now im here #soup
+but this bakery went like 'oh sure shark teeth helpful!!' #soup
+so i apply and got the job and now im here #soup
 having fun making buns though no baguette #soup
 but still great with many friends and i love my time here!!! #soup
-chopping all the cookies, never swallow them #soup
-i get i'm just this good at working #soup
+chomping all the cookie dough shapes, never swallowing them #soup
+i guess i'm just that good at working B) #soup
 good soup #soup
 HARDCORE WORKER!! #soup #sassy
 MASSIVE MARXIST BETRAYAL!! #soup #angry
@@ -73,7 +72,7 @@ Woah, I guess that's quite a lot! What a life you have.
 HELL YEAH, GOOD SOUP!! #soup #sassy
 * That was good soup (lore) indeed, thanks a lot!
 -> thankssoup
-* So um, what are you doing tonight?
+* Anyways, what are you doing tonight?
 -> tonightsoup
 
 ==thankssoup==
@@ -100,8 +99,8 @@ i'm surprised you are interested in LIL'SOUP #soup #relieved
 usually i talk super fast #soup
 WORLD CLASS YAPPER #soup #sassy
 because it's not super interesting right #soup
-so the faster I go, the faster it's over for the people #soup
-so they don't listen too long #soup
+so the faster I go, the faster it's over for people #soup
+so they don't have to listen very long #soup
 GOOD GUY LIL'SOUP!!! #soup
 MINDFUL CHATTERBOX!!! #soup #sassy
 * I like listening to you. You have a lot of energy and that is very precious.
@@ -160,7 +159,7 @@ Life and what's in it. Also my mommies. #tort #happy
 
 == mommies ==
 
-Ohhh thank you I love them! :3 #score #good #tort
+Ohhh thank you! I love them! :3 #score #good #tort
 We do tons of things together.  #tort
 We water plants. #tort
 Cuddle and watch movies. #tort
@@ -207,7 +206,7 @@ And some millions years after that, I found my mommies. #tort
 They're my family. #tort
 In my heart, they always were by my side. #tort
 We were lost in time, not space. #tort
-I have many a friends and families over the geological course of Earth and that makes me very lucky. #tort
+I have had many a friends and families over my centuries on Earth and that makes me very lucky. #tort
 And happy. #tort #happy
 And very talented at playing rock paper scissors. #tort
 Do you want to play with me? #tort
@@ -287,7 +286,7 @@ Alright, then we don't play. #score #tort
 It's okay, I understand. #tort
 Luck is a very special gift. #tort
 Sometimes we don't want to use it too much, because we're afraid we'll waste it. #tort
-But worry not my friend, fate wipes the slate clean every time. #tort
+But worry not, my friend, fate wipes the slate clean every time. #tort
 I wish we could have played, I hope some other time and place, we will. #tort
 And if it is meant to be, we will. #tort
 I'm gonna go back home now. #tort #sassy
@@ -311,7 +310,7 @@ Inventory is an annoying chore, but it's important.
 Wise observation for an intern. You will do well in the bakery business. #inky
 i always like to help with inventory business, tough work makes besties closer!! #squill
 * I mean, working together is a great place to start bonding with someone. -> bakeryfriends
-* I believe true friendships are built outside from work. -> truefriendships
+* I believe true friendships are built outside of work. -> truefriendships
 
 == bakeryfriends ==
 
@@ -323,9 +322,9 @@ work is only bearable if we have friends to share with!! #squill
 good news, bad days, awkward social interactions!! #squill
 Don't you share all that with friends outside from work? #inky
 sure, i have a lot!!! like my roomates for instance!! #squill #happy
-i have so many of friends, i have many ways to blow off some steam!! #squill #sassy
-but... it's just that... they're not there you know... #squill #sad
-it's not the same to share with besties from afar! #squill
+i have so many of friends! i have many ways to blow off steam emotionally!! #squill #sassy
+but... it's just that... they can't understand my work life, you know... #squill #sad
+it's not the same as sharing with besties who just get it! #squill
 
 -> group2
 
@@ -334,13 +333,13 @@ it's not the same to share with besties from afar! #squill
 oh you think so? #squill #score #good
 interesting point of view bestie!! #squill #sassy
 i always try my best for people to like me at work #squill
-i want to go to the water machine and for others to be like 'omg yes time for a break!!!' #squill #sassy
+i want to go to the water cooler and for others to join me like 'omg yes time for a break!!!' #squill #sassy
 i want them to be happy to see me when i arrive at work #squill
-not only workmate but also... #squill
+not only coworker but also... #squill
 heartmate #squill #sad
 that's my biggest dream #squill
-is it something doable outside from work...? #squill #tired
-i'm not sure anyone would want to see me outside of work #squill
+is it possible to form such bonds outside of work...? #squill #tired
+i'm not sure anyone here would want to hang out with me... #squill
 at least someone has to, right? hahahah ;o) #squill #sassy
 i come here, i work, i come home #squill
 do i even do things aside from working? #squill #question
@@ -382,7 +381,7 @@ i want to do something that matters. #squill
 but i also think pauses are important!! #squill
 so inky, if you want a coffee break, come see me alright? #squill #question
 That's nice, thank you Squilliam. #inky
-Though I'm more into cocoa, we could share coffee breaks occasionally. #inky
+Though I'm more into cocoa, but I would be down for coffee breaks occasionally. #inky
 Speaking of break... #inky
 I think it's time for us to leave. #inky #bye
 It was a lovely discussion but I need my alone time to relax. #inky
@@ -398,7 +397,7 @@ Take care, you two!
 == tired ==
 
 don't burn yourself out bestie #squill #score
-there's work and there's friends #squill
+there's work, and there's friends #squill
 some people have fun on the weekend to be better rested for the coming week #squill 
 i work during the week in order to have fun on the weekend #squill
 carpe diem is the motto!!! #squill

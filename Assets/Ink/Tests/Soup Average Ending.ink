@@ -9,7 +9,7 @@ thank you for joining us #soup #relief
 * It's my pleasure!
 * I love meatballs too!
 - IT'S THE BEST TO SHARE WITH FRIENDS. #soup
-I HAVEN'T COME TO SWEDEN YET BUT I WISH I WILL SOMEDAY!!! #soup
+I HAVEN'T COME TO SWEDEN YET BUT I HOPE I WILL SOMEDAY!!! #soup
 PLANEMODE BRRR!!! #soup
 FAMILY SO BIG #soup
 I DONT KNOW 99% OF THEM!!!! #soup #sad
@@ -18,9 +18,9 @@ I HOPE I SEE bigsoup AGAIN SOON #soup
 MISS bigsoup #soup #sad
 SINCE THE BAD DREAM... #soup
 PRAYING FOR bigsoup TO BE BACK SOON!!! #soup #sassy
-I wish you to see your big brother very soon.
+I hope you see your big brother very soon.
 * May you see bigsoup soon.
-* I wish I could meet bigsoup someday!
+* I wish I could meet bigsoup!
 -bigsoup IS THE NICEST. #soup
 BUT IN THE MEANTIME I HAVE YOU #soup
 Woof! #yuzu #happy

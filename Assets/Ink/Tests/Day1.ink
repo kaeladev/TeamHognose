@@ -39,7 +39,7 @@ Phewww, what a day... Time to pack my stuff and go!
     Come on Squill, not cool. There's already a lot to unpack here. Also, you're scaring the intern. #inky #angry
     We need their help... or else we will never serve our delicious snacks. #inky #sad
     I don't think I've seen anyone get upset about waiting. 
-    Customers just love seeing you wiggling around to bake some snacks. It's very cute to watch.
+    Customers just love seeing you wiggling around and baking treats. It's very cute to watch.
     -> breakroom2
     
     == cute==
@@ -90,14 +90,14 @@ Phewww, what a day... Time to pack my stuff and go!
     ... #tort
     INSPIRATIONAL!!! #soup #sassy
     You don't really look like a lion... #tort #sad
-    In fact you do have to feel concerned about respecting deadlines and safety measures. Or else, you can't really work here... #inky #angry
+    You do, in fact, need to respect deadlines and safety measures. Or else, you can't really work here... #inky #angry
     No worries, I was just joking. I will respect deadlines and follow procedure. Is there an safety booklet I should study? How often do we practice fire drills here?
     FIRE?? WHERE??? I SMELL NOTHING!!! #squill #surprise
     like, how can you drill a fire? the intern is sooo confusing #squill #relief
     I have never heard of this... 'fire drill'... I will look into this matter in the future. #inky #relief
     Huh, maybe I should be a little worried about the safety measures after all...
-    By the way Inky, you're litteraly sitting on the cooktop at the moment...
-    Nevermind. #inky #answer
+    By the way Inky, you're literally sitting on the stove...
+    Nevermind that! #inky #answer
          -> ending
          
       == ending == 
