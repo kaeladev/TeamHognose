@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: cd8b869cda8ccbb419f71d26d069d2b1
+guid: 0697b9148018e5644bd7280cbb6b6caa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4320519252432387824
-    second: Soup Endings_0
+      213: -5106821993351509738
+    second: Soup Good ending_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Soup Endings_0
+      name: Soup Good ending_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0fef7767e5195fb30800000000000000
-      internalID: 4320519252432387824
+      spriteID: 6198123447ce029b0800000000000000
+      internalID: -5106821993351509738
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Soup Endings_0: 4320519252432387824
+      Soup Good ending_0: -5106821993351509738
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
