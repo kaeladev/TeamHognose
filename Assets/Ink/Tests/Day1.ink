@@ -26,7 +26,7 @@ Phewww, what a day... Time to pack my stuff and go!
     HELL YEAH, AND THAT'S MY HOMIE, BEST GIRL YUZU!! #soup #happy
     Woof ;) #yuzu
     
-    * What a warm welcome, nice to meet you too! I can't wait to get to know you better.
+    * What a warm welcome, I can't wait to discuss with you all!
     -> breakroom2
     * Uhhh, nice to meet y'all, I guess...?
     -> dubious
