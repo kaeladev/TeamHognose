@@ -20,18 +20,27 @@ public class MB_NPCBehavior_Deliver : MB_NPCBehavior
     public Texture2D HoverCursorTexture = null;
     public Texture2D InteractCursorTexture = null;
 
+    public SpriteRenderer MouthObject;
+    public Sprite EnteringObject;
+    public Sprite ExitingObject;
+
     private bool HasDelivery = true;
     private bool IsInStore = false;
     private float WaitInStoreTime = 0.0f;
     private Vector2 CurrentPathingGoal;
-    private int RenderLayerOutsideStore;
+    private int[] RenderLayersOutsideStore;
 
     public override void Start()
     {
         base.Start();
-        RenderLayerOutsideStore = SpriteRend.sortingOrder;
         gameObject.transform.position = DeliveryPickupLocation;
-        PickUpDelivery();
+
+        SpriteRenderer[] BodySprites = GetComponentsInChildren<SpriteRenderer>();
+        RenderLayersOutsideStore = new int[BodySprites.Length];
+        for (int i = 0; i < RenderLayersOutsideStore.Length; i++)
+        {
+            RenderLayersOutsideStore[i] = BodySprites[i].sortingOrder;
+        }
     }
 
     public override void Update()
@@ -50,38 +59,38 @@ public class MB_NPCBehavior_Deliver : MB_NPCBehavior
         }
         else if (HasReachedPathingGoal())
         {
-            if (HasDelivery && !IsInStore)
+            if (!HasDelivery && !IsInStore)
             {
                 if (BakeryManager.CurrentBakeryInstance && BakeryManager.CurrentBakeryInstance.StoredIngredients == 3)
                 {
                     // Yuzu will chill offscreen until she needs to deliver again
                     return;
                 }
-                EnterStore();
+                PickUpDelivery();
             }
-            else if (HasDelivery && IsInStore)
+            else if (HasDelivery && !IsInStore)
             {
-                DropOffDelivery();
+                EnterStore();
             }
             else if (!HasDelivery && IsInStore)
             {
                 ExitStore();
             }
-            else if (!HasDelivery && !IsInStore)
+            else if (HasDelivery && IsInStore)
             {
-                PickUpDelivery();
+                DropOffDelivery();
             }
         }
         else
         {
-            Vector3 SwappedXTransform = SpriteRend.transform.localScale;
+            Vector3 SwappedXTransform = gameObject.transform.localScale;
             Vector3 NormalizedDirection = GetNormalizedDirectionTowardsPathingGoal();
             
-            if ((Vector3.Dot(NormalizedDirection, new Vector3(1, 0, 0)) > 0 && SpriteRend.transform.localScale.x > 0)
-                || (Vector3.Dot(NormalizedDirection, new Vector3(1, 0, 0)) < 0 && SpriteRend.transform.localScale.x < 0))
+            if ((Vector3.Dot(NormalizedDirection, new Vector3(1, 0, 0)) > 0 && gameObject.transform.localScale.x > 0)
+                || (Vector3.Dot(NormalizedDirection, new Vector3(1, 0, 0)) < 0 && gameObject.transform.localScale.x < 0))
             {
                 SwappedXTransform.x *= -1;
-                SpriteRend.transform.localScale = SwappedXTransform;
+                gameObject.transform.localScale = SwappedXTransform;
             }
             gameObject.transform.position += (NormalizedDirection * GetMovementSpeed() * Time.deltaTime);
         }
@@ -106,6 +115,7 @@ public class MB_NPCBehavior_Deliver : MB_NPCBehavior
     {
         HasDelivery = true;
         CurrentPathingGoal = StoreDoorLocation;
+        MouthObject.sprite = EnteringObject;
     }
 
     void DropOffDelivery()
@@ -114,7 +124,8 @@ public class MB_NPCBehavior_Deliver : MB_NPCBehavior
         BakeryManager.CurrentBakeryInstance.StoredIngredients++;
         HasDelivery = false;
         CurrentPathingGoal = StoreDoorLocation;
-        WaitInStoreTime = 3.0f;
+        WaitInStoreTime = 5.0f;
+        MouthObject.sprite = ExitingObject;
     }
 
     void EnterStore()
@@ -123,7 +134,7 @@ public class MB_NPCBehavior_Deliver : MB_NPCBehavior
         DoorToUse.OpenDoor();
         CurrentPathingGoal = DeliveryDropoffLocation;
         IsInStore = true;
-        SpriteRend.sortingOrder = RenderLayerOutsideStore + 4;
+        UpdateDrawLayers();
     }
 
     void ExitStore()
@@ -131,7 +142,7 @@ public class MB_NPCBehavior_Deliver : MB_NPCBehavior
         DoorToUse.RingBell();
         CurrentPathingGoal = DeliveryPickupLocation;
         IsInStore = false;
-        SpriteRend.sortingOrder = RenderLayerOutsideStore;
+        UpdateDrawLayers();
     }
 
     protected override void PetNPC()
@@ -144,6 +155,11 @@ public class MB_NPCBehavior_Deliver : MB_NPCBehavior
             return;
         }
         StorySceneManager.PersistentStoryInstance.PetYuzu();
+    }
+
+    public override int GetDrawLayer()
+    {
+        return 11;
     }
 
     protected override void OnMouseOver()
@@ -165,5 +181,19 @@ public class MB_NPCBehavior_Deliver : MB_NPCBehavior
         }
 
         return Input.GetMouseButton(0) ? InteractCursorTexture : HoverCursorTexture;
+    }
+
+    private void UpdateDrawLayers()
+    {
+        SpriteRenderer[] BodySprites = GetComponentsInChildren<SpriteRenderer>();
+        for (int i = 0; i < BodySprites.Length; i++)
+        {
+            int LayerForSprite = RenderLayersOutsideStore[i];
+            if (IsInStore)
+            {
+                LayerForSprite += 6;
+            }
+            BodySprites[i].sortingOrder = LayerForSprite;
+        }
     }
 }
