@@ -1,5 +1,5 @@
 #inky
-Hey buddy everything is good?
+Hey buddy, is everything okay?
 I tried to come as fast as possible after your call!!
 W-what the hell is going on here???
 Yes... Worry not my friend. #inky #answer
@@ -41,7 +41,7 @@ Feed The Void. #inky #angry
 * Sure, I will feed The Void.
 * Excuse me, but has none of the plushies ever tried going to the basement before...??
 - All hail The Void. #inky #angry
-The might Void. #inky #angry
+The mighty Void. #inky #angry
 All and one and everything different. #inky
 FEED THE VOID!!! #inky #angry
 FEEL THE VOID!!! #inky #angry

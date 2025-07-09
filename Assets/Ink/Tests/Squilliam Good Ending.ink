@@ -15,15 +15,15 @@ so, anyway, we were about to do this hula hoop contest, you're in? #squill
 * I'm happy everybody came!
 - hell yeah bestie!! #squill
 friendship is magic, right? ;o) #squill
-thank you so much for your words bestie #squill
+thank you so much for your kind words bestie #squill
 they made me brave enough to invite friends #squill
 without your help i guess i'd simply hang around by myself #squill #sad
 which is very good too!!! #squill
-but how can anybody besty me if i am not even my own bestie... #squill #sassy
+how can anybody bestie me if i am not even my own bestie... #squill #sassy
 life lesson learnt ;o) #squill #answer
 thank you for your wisdom, i'll remember it in times of social anxiety #squill
-* You're your best bestie and I think that's the best thing there is.
-* Best Bestie deserves best besties that will love her for the bestie she is.
+* You're your best bestie and I think that's beautiful.
+* Best Bestie deserves other best besties that will love her for the bestie she is.
 - right... bestie? ;o) #squill
 anyway, thank you so much. #squill
 also there's this hot shrimp over there... ABBY's her name right... #squill

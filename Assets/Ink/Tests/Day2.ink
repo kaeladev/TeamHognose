@@ -1,4 +1,4 @@
-Another day went by at the bakery. I need to clean my hands and grab my stuff. The soap is vanilla scented. I might be turning into a cinnamon roll... 
+Another day went by at the bakery. I need to wash my hands and grab my stuff. The soap is vanilla scented. I might be turning into a cinnamon roll... 
 Anyway, my coworkers are hanging out in the breakroom. Who should I talk to?
 
 * LIL'SOUP, Tortilla and Yuzu are chatting together #soup #tort #yuzu
@@ -12,8 +12,8 @@ Anyway, my coworkers are hanging out in the breakroom. Who should I talk to?
 Hello hello!! #soup #tort #hello
 Woof! #yuzu #hello
 What's up? #tort #happy
-Not much, I heard you chatting from the other side of the room. All good?
-Yes, we were discussing new options for our menu. I think savory options could be an interesting addition. #tort
+Not much! I heard you chatting from the other side of the room. All good?
+Yes, we're discussing ideas for a new menu. I think savory options could be an interesting addition. #tort
 MAXIMUM GLUCOSE LEVELS LADS!!! #soup #sassy
 Woof! #yuzu #happy
 How do you feel about savory options? #tort
@@ -41,7 +41,7 @@ GANG CALLED SOUP!! #soup #angry
 HxC LIFE!!! #soup #angry
 [grunts] #tort #sassy
 WHAT DO YOU THINK ABOUT THE LATEST TURNSTILE ALBUM??? #soup #question
-* I like them! I wish I discovered them earlier.
+* I like them! I wish I discovered them sooner.
 ->turnstilelove
 * They were better before, when they used to do real hardcore...
 ->turnstilehatred
@@ -68,7 +68,7 @@ GATEKEEPER BEHAVIOR!!! #soup #angry
 BANDS CHANGE WHY DON'T YOU??? #soup #surprise
 SKILL ISSUE!!! #soup #angry
 Is 'real hardcore' real or is it a fond memory of yours? #tort
-Artistic nostalgia is both a memory and realness at the same time. #tort
+Artistic nostalgia is both a memory and a reality at the same time. #tort
 [Wisely] Woof! #yuzu #bye
 WELL SAID BUDDY! #soup #sassy
 ->Group2
@@ -76,7 +76,7 @@ WELL SAID BUDDY! #soup #sassy
 == curious ==
 
 They are a popular punk hardcore band at the moment. #tort #score #good
-They are softening up a bit, so if you aren't familiar with hardcore, you might like it. #tort #happy
+They are softening up a bit, so if you aren't familiar with hardcore, they could be a good gateway band. #tort #happy
 HELL YEAH, CURIOSITY!!! OPENING UP TO NEW THINGS!!! #soup #surprise
 OPEN-MINDED-MAXEDNESS!!!!! #soup #sassy
 Woof! #yuzu #happy
@@ -154,7 +154,7 @@ Jurassic Park 2 #tort #happy
 -> Movie
 * A... theme park?
 -> ThemePark
-* ... What does that even mean?
+* ... That already exists, though. 
 -> HardTruth
 
 == Movie ==
@@ -174,7 +174,7 @@ Woooof ! #yuzu #sassy
 Hey... #tort #score #good
 ... #tort
 ... #tort
-I had no clue what I meant but this is a good idea... #tort #happy
+I had no clue what I meant but, you know what, this is a good idea... #tort #happy
 HELL YEAH ROLLER COASTER TYCOONS GANG!! #soup #sassy
 Woof !! #yuzu #sassy
 -> Group2
@@ -186,7 +186,7 @@ I mean... #tort
 ... #tort
 ... #tort
 ... No, I'm not even sure what I meant... #tort #sassy
-True friends find it in their heart to speak their truth kindly. Thank you. #tort #happy
+True friends find it in their heart to speak their truth kindly. Thank you for pointing that out. #tort #happy
 FRIENDS 4 EVER!!! #soup #happy
 [Friendly] Woof! #yuzu #happy
 ->Group2
@@ -219,14 +219,14 @@ so, so, so the day was long, i was drenched in sweat, and my feet hurt, and also
 some clients are so mean. like, someone literally said i look like a blooper from mario!!! #squill #sad
 * It sounds like you have a lot on your plate, I am very sorry.
 -> sorry
-* What did you answer to them?
+* What did you say to them?
 -> answer
 * Bestie, I'm sorry, but you DO kinda look like a Blooper from Mario...
 -> blooper
 
 == sorry ==
 
-[Squilliam burst into tears in such a strong way, you don't even dare to pat her shoulder. Instead you just look at her with an embarassed smile.] #squill #score #good #tired
+[Squilliam bursts into tears so intensely that you feel uncomfortable. You give her an awkward smile.] #squill #score #good #tired
 ahahaaahaha, so sorry bestie #squill
 some emotions you just gotta get out right ;o) ? #squill #sassy
 [Squilliam blows her nose in a very loud way) #squill #sleeping
@@ -234,20 +234,20 @@ some emotions you just gotta get out right ;o) ? #squill #sassy
 
 == answer ==
 
-ahaha RIGHT bestie it's obviously about what I answer and not about what THEY say to me #squill #score #angry
+oh, sure, so you care more about what I said and not that they were being rude, got it...  #squill #score #angry
 [Squilliam blows her nose very loudly] #squill
 thanks for the victim blaming!!!! #squill #sassy
 ... #squill
-aaaaahahah just kidding bestie don't look at me like that i love you #squill #sad
+aaaaahahah just kidding bestie! don't look at me like that! i still love you!!! #squill #sad
 -> Squilliam2
 
 == blooper ==
 
-ahahha... #squill #score
+oh... ahahha... #squill #score
 hahahahahahah... #squill 
 but sexier right? ;o) #squill #sassy
 ahahah #squill
-no worries bestie, i guess it's true... #squill #surprise
+no worries bestie, i guess it's true after all... #squill #surprise
 [Squilliam smiles weakly at you while sobbing heavily] #squill #tired
 
 -> Squilliam2
@@ -257,7 +257,7 @@ no worries bestie, i guess it's true... #squill #surprise
 okay phew, i need to breathe and to focus on what i see to ground myself in my own surroundings or something. #squill
 please sing me something to help me catch my breath, or i will die!!!! #squill #angry
 
-* I'm sorry to be so blunt, but this is getting kind of toxic.
+* I'm sorry to be so blunt, but that's kind of toxic to say.
 -> toxic
 * y-you wanna guess the color of my ;) underwear
 -> charlixcx
@@ -324,7 +324,7 @@ this goes there... #inky #answer
 whatever that means uh... #inky #sad
 Uh, hello? Inky?
 WAHH!! #inky #angry
-Sorry I got scared, I was very focused in my paperwork. How is it going? #inky
+Sorry, you scared me! I was very focused on my paperwork. How is it going? #inky
 Better than you it appears, I'm not too good with paperwork...
 Heh, me neither, but we have to do what we have to do to comply with the local laws. #inky
 We do what we must... To keep this beautiful bakery operating. #inky #relieved
@@ -353,11 +353,11 @@ And I like the slimy texture of the dough... Feels kind of nice under the tentac
 -> inky2
 
 == realbakery ==
-I mean, I get you. #inky
+I mean, I get that. #inky
 Being a plushie scratcher sounds like a nice job though. #inky
 Many people would enjoy working in such a position. #inky
 Where the air smells like vanilla and the most we ask is to wake up plushies... #inky #sleeping
-Have you ever actually worked or..? #inky
+Have you ever worked a real job or..? #inky
 You know this is much cozier than actual labour right? #inky #sassy
 -> inky2
 
@@ -367,17 +367,17 @@ Ah ah, unfortunately it's not my shop. #inky #sad
 What do you mean? Aren't you the boss around here??
 Alas no, I'm just a normal worker. #inky
 We have a CEO. We don't see him much though. #inky  #angry
-Kind of evil in my opinion #inky  #angry
+He's kind of evil, in my opinion #inky  #angry
 But... I mean... CEO life must be hard right..? #inky #question
 You think so?
-I mean, we are the ones working all day, tentacles in the batter, trying to keep cash flowing in... #inky
-But there must be some difficulty in being a CEO... right? #inky #question
+I mean, *we* are the ones working all day, tentacles in the batter, trying to keep cash flowing in... #inky
+But there must be some challenges in being a CEO... right? #inky #question
 ... #inky
 Right?? #inky
-Anyway, haha. I could be promoted to manager someday, who knows? #inky #sassy
+Anyway, haha. I could be promoted someday, who knows? #inky #sassy
 At least there's that. #inky 
-If I work hard, comply, put a lot of effort in it and keep smiling... #inky
-I guess I could become at least a store manager or something. #inky
+If I work hard, comply, put a lot of effort in, and keep smiling... #inky
+I might at least become store manager. #inky
 That would be nice. I would add new items on the menu. Change the decoration a bit. #inky #relieved
 I wish you the best in pursuing your dream career.
 That's very nice of you. If I become manager, I might promote you to happiness-and-store-running co-lead, haha. #inky

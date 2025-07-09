@@ -1,7 +1,7 @@
 #squill #inky #soup #yuzu #tort
 ...
 omg why are we here #squill #question
-no worries bestie, it's only saturday 8 am ;p #squill  #sassy
+no worries bestie, it's only saturday at 8 am ;p #squill  #sassy
 right??? #squill #hello
 HELLO EVERYONE! #inky #hello
 Hi! #all
@@ -12,8 +12,8 @@ Let me read it to you: #inky
 (That's me !) #inky  #sassy
 I was looking at some Plûsh Brûlée data. #inky
 You appear to have exceeded your KPIs with consistency. #inky
-You developped your management skills in a team facing difficulties with productivity. #inky
-Your working-to-rest ratio highlights your ambitions and interests for the job. #inky
+You developed your management skills in a team facing difficulties with productivity. #inky
+Your working-to-rest ratio highlights your ambitions and interest in the job. #inky
 Your OKRs were reached with success. #inky
 Your soft and hard skills are praised. #inky
 This is why I, #inky #relief
@@ -21,8 +21,8 @@ The Plûsh Brûlée Lead CEO, #inky #angry
 promote you to a new position as: #inky 
 BAKERY SENIOR MANAGER - PLÛSH BRÛLÉE PROJECT LEAD #inky #angry
 
-I hope you will like it. #inky 
-I am sure you will do a good job and contribute to the success of the Plûsh Brûlée Bakery. #inky 
+I hope you enjoy your new role. #inky 
+I am sure you will do a good job and continue contributing to the success of the Plûsh Brûlée Bakery. #inky 
 
 In a world where no one wants to work anymore #inky
 (I wonder WHY but ANYWAY) #inky
@@ -39,7 +39,7 @@ Mignon Boulangerie Group" #inky
 is it like, a good news? #squill #question
 YES IT IS!! #inky #happy
 OMG CONGRATS!!!! #all
-With great powers come some responsabilities... Congratulations Inky! #tort #sassy
+With great powers come great responsibilities... Congratulations Inky! #tort #sassy
 HELL YEAH MERITOCRACY LEZZZGO!!! #soup  #sassy
 UNGLASS THE CEILING BUD!!!! #soup #happy
 Woof woof!! #yuzu
