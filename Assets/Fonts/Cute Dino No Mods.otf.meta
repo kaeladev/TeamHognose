@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 63736a4ff70172b4dad8811119e7d63f
+guid: f18211a0273cd764f91040f8586b1c80
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - More Sugar
+  - Cute Dino
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
