@@ -4,8 +4,8 @@ running a little late right? ;o) #squill #question
 * I had an emergency I'm very sorry!!
 - no worries bestie!! #squill
 see, everyone is already there! #squill
-Oh hello, nice to see you!! #inky
-OH HEY BUDDY YOU'RE HERE!!!!!!! #soup
+Oh hello, nice to see you!! #inky #hello
+OH HEY BUDDY YOU'RE HERE!!!!!!! #soup #sassy
 Woof! #yuzu #hello
 ... #tort
 ... #tort
@@ -39,4 +39,4 @@ YES!!! #all
 let's have a toast then!! #squill
 to friends!! and friendships!! #squill #happy
 Woof !! #yuzu #happy
-cheeeeeers!!! #all
+CHEEEEEEERS!!! #all
