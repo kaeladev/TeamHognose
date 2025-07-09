@@ -12,7 +12,7 @@ you know i live next door right? #big #answer
 YES BUT I LOVE YOU SO MUCH #soup #happy
 i love you too lil'soup, dearly #big #relief
 i'm always by your side #big #happy
-you call and i come, i'll always be there for you #big #happy
+you call and i come, i'll always be there for you #big
 so what have you been up to lately? #big #hello
 WORKING AT THE BAKERY!!! #soup
 SUPER NICE INTERN JOINED US FOR THE WEEK!!! #soup
@@ -25,9 +25,9 @@ i'm very happy too lil'soup! #big #happy
 it makes me feel like home... #big #answer
 though sweden was never our home in the first place right? #big #relief
 SWEDEN ISN'T OUR HOME!? #soup #question
-well then, I guess it depends #big #relief
+well then, I guess it depends #big
 is it where we come from? probably #big #relief
-is it who we are? a little at least, I think #big #relief
+is it who we are? a little at least, I think #big
 but is this where we grew and became who we are... #big #relief
 we moved and then grew you know #big #relief
 and the way we grew was shaped by where we are #big #relief
@@ -56,5 +56,6 @@ and you have gotten better in english too. #big #relief
 THANK YOU bigsoup... #soup #happy
 I REALLY LIKE TALKING TO YOU. #soup #relief
 i really like talking to you to little one. #big #happy
-i love you very much. #big #relief
-i love you too bigsoup. #soup #soupsong
+i love you very much. #big
+i love you too bigsoup. #soup 
+[SOUPMAXXING] #soup #big #soupsong
