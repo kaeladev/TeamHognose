@@ -11,10 +11,7 @@ public class BakeryManager : MonoBehaviour
     public Texture2D HoverCursorTexture = null;
 
     [HideInInspector]
-    public float StoredIngredients = 1;
-
-    [HideInInspector]
-    public float BakedGoodsMade = 1;
+    public int StoredIngredients = 1;
 
     private Canvas SceneTransitionCanvas;
     private string PromptedLoadScene;

@@ -48,9 +48,9 @@ public class MB_WorkStation_LilSoup : MB_WorkStation
         }
     }
 
-    public override bool IsMakingProgress()
+    public override bool CanWork()
     {
-        return base.IsMakingProgress() && HasDoughToRoll;
+        return base.CanWork() && HasDoughToRoll;
     }
 
     public override void DisplayStationCompletion()

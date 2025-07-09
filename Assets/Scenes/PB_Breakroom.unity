@@ -1091,7 +1091,6 @@ GameObject:
   m_Component:
   - component: {fileID: 271138790}
   - component: {fileID: 271138794}
-  - component: {fileID: 271138792}
   - component: {fileID: 271138791}
   m_Layer: 5
   m_Name: UICanvas
@@ -1139,19 +1138,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &271138792
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 271138789}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ce0d8573e1b2ff42af74cb80f3e5ece, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 27
 --- !u!223 &271138794
 Canvas:
   m_ObjectHideFlags: 0
@@ -2465,7 +2451,6 @@ GameObject:
   m_Component:
   - component: {fileID: 754256175}
   - component: {fileID: 754256178}
-  - component: {fileID: 754256177}
   - component: {fileID: 754256176}
   m_Layer: 5
   m_Name: PortraitCanvas
@@ -2515,19 +2500,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &754256177
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 754256174}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ce0d8573e1b2ff42af74cb80f3e5ece, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 27
 --- !u!223 &754256178
 Canvas:
   m_ObjectHideFlags: 0
