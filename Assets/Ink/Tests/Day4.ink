@@ -199,7 +199,7 @@ but i'm a bit scared... #squill #sad
 what if this is sending major AWKWARD vibes ;o)? #squill #sassy
 what if nobody wants to come?? #squill #question
 am i being weird right now?? #squill #angry
-* Sure, I guess it is stressful. But what's the worst that could happen?
+* Sure, it must be stressful. But what's the worst that could happen?
 -> worst
 * I think it's great that you're taking initiative!
 -> initiative
