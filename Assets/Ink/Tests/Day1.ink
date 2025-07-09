@@ -56,7 +56,7 @@ Phewww, what a day... Time to pack my stuff and go!
     == breakroom2==
 
     Right, anyway, it's very nice to have you here to help us with our bakery business. #inky
-    ... Sometimes we struggle a little I must admit... #tort #happy
+    ... Sometimes we struggle a little I must admit... #tort #sad
     UNDERPERFORMING!!! LOWERMAXINGGGG!!!! #soup #tired
     but we put a lot of heart into it and that's what people like about our shop! am I right? #squill #question
     
@@ -67,7 +67,7 @@ Phewww, what a day... Time to pack my stuff and go!
     == dedication ==
     
     eight-five bestie!!! #squill #happy
-    uhhh... Wait, what ? #tort #happy
+    uhhh... Wait, what ? #tort #sad
     COMMITMENT BABYYY!! #soup #sassy
     Sure, sure, dedication, hard-work, organization, communication skills... #inky
     ... clean hands, tentacle moisturizer, and a million bucks makes the dream work... #inky #sleeping
@@ -89,13 +89,15 @@ Phewww, what a day... Time to pack my stuff and go!
 
     ... #tort
     INSPIRATIONAL!!! #soup #sassy
-    You don't really look like a lion... #tort #happy
+    You don't really look like a lion... #tort #sad
     In fact you do have to feel concerned about respecting deadlines and safety measures. Or else, you can't really work here... #inky #angry
     No worries, I was just joking. I will respect deadlines and follow procedure. Is there an safety booklet I should study? How often do we practice fire drills here?
     FIRE?? WHERE??? I SMELL NOTHING!!! #squill #surprise
     like, how can you drill a fire? the intern is sooo confusing #squill #relief
     I have never heard of this... 'fire drill'... I will look into this matter in the future. #inky #relief
-    Huh, maybe I should be a little worried about the safety measures after all.
+    Huh, maybe I should be a little worried about the safety measures after all...
+    By the way Inky, you're litteraly sitting on the cooktop at the moment...
+    Nevermind. #inky #answer
          -> ending
          
       == ending == 
