@@ -306,7 +306,7 @@ Inventory is an annoying chore, but it's important.
 Wise observation for an intern. You will do well in the bakery business. #inky
 i always like to help with inventory business, tough work makes besties closer!! #squill
 * I mean, working together is a great place to start bonding with someone. -> bakeryfriends
-* Work makes besties closer, but I believe true friendships are built outside from work. -> truefriendships
+* I believe true friendships are built outside from work. -> truefriendships
 
 == bakeryfriends ==
 
@@ -357,7 +357,7 @@ Sure, maybe! But I have so much work to do. #inky #tired
 * You're always hard at work. Don't you think you deserve a pause?
 -> pause
 
-* I try being hard at work too, but it's tiring... Sometimes I don't have the energy.
+* I try hard at work too. It's exhausting but we have to.
 -> tired
 
 == pause ==
