@@ -19,6 +19,11 @@ abstract public class MB_WorkStation : MonoBehaviour
         UpdateProduction();
     }
 
+    public virtual bool IsWaitingToWork()
+    {
+        return !CanWork() && NPC.IsWorking;
+    }
+
     public virtual bool IsMakingProgress()
     {
         return CanWork() && NPC.IsWorking;

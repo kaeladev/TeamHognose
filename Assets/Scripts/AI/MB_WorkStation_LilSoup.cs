@@ -4,11 +4,13 @@ public class MB_WorkStation_LilSoup : MB_WorkStation
 {
     private SpriteRenderer SpriteRend;
     public Sprite[] DoughSprites;
-    bool HasDoughToRoll = true;
+    bool HasDoughToRoll;
 
     public void Start()
     {
         SpriteRend = GetComponent<SpriteRenderer>();
+        HasDoughToRoll = true;
+        ProductionPercentage = .1f;
     }
 
     public override void Update()
@@ -21,6 +23,7 @@ public class MB_WorkStation_LilSoup : MB_WorkStation
             if (BakeryManager.CurrentBakeryInstance.GrabDoughBall())
             {
                 HasDoughToRoll = true;
+                Debug.Log("Lil Soup Station Beginning!");
             }
         }
 
@@ -29,6 +32,7 @@ public class MB_WorkStation_LilSoup : MB_WorkStation
             NPC.ProductionComplete.Invoke(InkyGrabPosition, 20);
             ProductionPercentage = 0;
             HasDoughToRoll = false;
+            Debug.Log("Lil Soup Station Complete!");
         }
 
         DisplayStationCompletion();
@@ -44,6 +48,11 @@ public class MB_WorkStation_LilSoup : MB_WorkStation
         }
     }
 
+    public override bool IsMakingProgress()
+    {
+        return base.IsMakingProgress() && HasDoughToRoll;
+    }
+
     public override void DisplayStationCompletion()
     {
         if (IsMakingProgress())
@@ -54,6 +63,7 @@ public class MB_WorkStation_LilSoup : MB_WorkStation
         if (!HasDoughToRoll)
         {
             SpriteRend.sprite = null;
+            Debug.Log("Lil Soup Station: No Dough, Boss!");
             return;
         }
 
