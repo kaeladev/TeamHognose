@@ -3929,7 +3929,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HoverCursorTexture: {fileID: 2800000, guid: fb0c32d5c608a5644a21d92d42f5ea8a, type: 3}
   StoredIngredients: 1
-  BakedGoodsMade: 1
   Inky: {fileID: 901430468}
 --- !u!61 &1687089002
 BoxCollider2D:
@@ -6887,7 +6886,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8630618299949146105, guid: a6cf2b82133b6344780fe944b062ac42, type: 3}
       propertyPath: m_SortingOrder
-      value: 23
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 9191776055404456829, guid: a6cf2b82133b6344780fe944b062ac42, type: 3}
       propertyPath: m_SortingOrder
