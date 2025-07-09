@@ -1,14 +1,14 @@
 #tort #soup # yuzu
 FOUR MARGARITAS PLEASE!!!! #soup #sassy
 HOLA SI!!!! #soup #hello
-Woof! #yuzu #alerted
+Woof! #yuzu #hello
 Tacos is my favourite food. #tort
 I am happy to share some with my best friends. #tort
 Thanks for coming with us. #tort #sad
 * I am very happy to join you for tacos!
-* It's nice seeing you in a relaxed atmosphere after working so hard at the bakery.
+* It's nice seeing you in a relaxed atmosphere for once.
 - AMIGOSMAXXING LEZZZGO!! #soup #sassy
-Woof! #yuzu #sassy
+Woof! #yuzu #happy
 I like that tacos crunch and so does the lettuce. #tort
 I like my life a little crunchy. #tort
 It is usually very soft. #tort #happy
@@ -34,4 +34,4 @@ EXPANDING FEELINGS!!! #soup
 HEARTMAXXING!!! #soup #happy
 i'm grateful thank you for coming #soup #bye
 Woof! #yuzu #bye
-And now... let's eat those savory options! #tort #sassy
+And now... onto those savory options... #tort #sassy

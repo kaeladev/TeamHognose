@@ -191,6 +191,11 @@ You mean, lesbian dinosaurs? #tort
 Of course they exist. #tort
 Why wouldn't they? #tort
 Why not after all...? #tort
+... #tort
+... #tort
+nice #tort #happy
+[grunts] #tort sassy
+Anyway... #tort
 -> tort2
 
 == tort2==
