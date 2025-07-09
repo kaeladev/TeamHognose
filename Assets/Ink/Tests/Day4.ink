@@ -10,13 +10,13 @@ It's almost the end of the week. I wonder what I'll do this week-end... Anyway, 
 == Duo == 
 #tort #soup
 
-I understand Soup. I couldn't get away from it either. #tort
+I understand, Soup. I couldn't get away from it either. #tort
 RIGHT?? SUPER SCARY MOMENT!!! PEAK HEART-RACING!!! #soup #alerted
-It sticked to me today. #tort
+It bothered me all day today. #tort
 What's wrong buddies? What happened? 
 MASSIVE NIGHTMARES AT NIGHT!!  #soup #hello
 CRAZY SCARY #soup #angry
-We had nightmares and woke up quite scared. #tort
+We both had nightmares and woke up quite scared. #tort
 * What did you dream about Lil'Soup?
 -> lilsoup
 * What did you dream about Tortilla?
@@ -62,8 +62,8 @@ And Tortilla makes a mistake. #tort
 I pull the wrong lever. #tort
 And all of a sudden... #tort
 Everything is crumbling. #tort
-It's like the oven is extremely hot. #tort
-Workers faces starts melting. #tort
+The oven gets extremely hot. #tort
+Workers faces start melting. #tort
 Eyes out of the socket. #tort
 Weird right? #tort
 It was just a dream, luckily. #tort #sassy
@@ -88,7 +88,7 @@ BRAIN WENT FULL TRAUMA MODE!!! #soup #sad
 INCREASE PAIN!!! #soup #angry
 It's a pity we have to dream about scary things. #tort
 I wish dreams were always pleasant. #tort
-I wish I could go to sleep and sleep like a baby every time. #tort #happy
+I wish I could sleep like a baby every night. #tort #happy
 But where there is sleep, there is uncertainty. #tort
 As waking up can vary in difficulty. #tort
 LAY IN BED FOR HOURS AND CRY!!!! #soup #sad
@@ -104,8 +104,8 @@ They just happen. #tort
 And we witness. #tort
 Some of them disappear as the day goes on. #tort
 Drawings in the sand washed away by the sea. #tort
-Some others stick. #tort
-Are they less real than reality? #tort #happy
+Some others stick in your brain, unshakeable. #tort
+Are they any less real than reality? #tort #happy
 They are still something I experience. #tort
 A piece of me, more abstract than others. #tort
 DREAMS ARE ME-THINGIES!! #soup
@@ -117,7 +117,7 @@ SHOW ME SOMETHING NICE BRAIN I BEG YOU!!! #soup #sad
 
 == group3 ==
 #soup #tort
-Sometimes I have a tough time going to bed you, I feel you. #tort
+Sometimes I have a tough time going to bed, so, I feel you. #tort
 It's funny because I didn't know plushies could dream...
 That makes sense though? #tort #happy
 Why would you sleep and dream and we would not? #tort
@@ -189,17 +189,17 @@ oh hiiii bestie!!! #squill #hello
 nice to see you!!! #squill #happy
 so yeah. i'm preparing. #squill
 for some BIG BIG stuff. #squill #answer
-okay so, let's pop the question: i want to organize a party this weekend. #squill #surprise
+okay fine, let's pop the question: i want to organize a party this weekend. #squill #surprise
 Oh cool, a party? To celebrate something?
 friendship!!! #squill #sassy
 and the bakery. #squill
 it's just so nice being here. #squill
-i really want people to come have fun with me. #squill
-but i'm a bit scared... #squill #sad
-what if this is sending major AWKWARD vibes ;o)? #squill #sassy
+i really want everyone to come have fun with me. #squill
+but i'm a bit scared to invite them... #squill #sad
+what if I serve major AWKWARD vibes ;o)? #squill #sassy
 what if nobody wants to come?? #squill #question
-am i being weird right now?? #squill #angry
-* Sure, it must be stressful. But what's the worst that could happen?
+am i being weird right now??! #squill #angry
+* Sure, it's a little stressful. But, what's the worst that could happen?
 -> worst
 * I think it's great that you're taking initiative!
 -> initiative
@@ -214,7 +214,7 @@ having to walk back to the break room on monday? #squill #question
 be like "oh hey, nice, what were you plans for this weekend?" #squill #hello
 knowing that they had something better to do than my party? #squill #question
 my reputation ruined forever? #squill #question
-as everyone acknowledged my lack of social skills?? #squill #question
+as everyone acknowledges my lack of social skills?? #squill #question
 and furthermore the genuine disinterest people feel in my company??? #squill #question
 ahhahaha, come on bestie, you're so funny ;o) #squill #sassy
 
@@ -224,13 +224,13 @@ ahhahaha, come on bestie, you're so funny ;o) #squill #sassy
 ahahahaaa, right? ;o) #score #good #squill
 stanning an independent bestie! #squill  #happy
 able to do anything she wants!! #squill #relief
-thank you you're sweet. #squill
+thank you, you're sweet and supportive. #squill
 i usually feel like bonding with others is so difficult... #squill #sad
-there is something about it that feels very artificial, right? #squill #question
-oh hey, how are you doing, what are you up to, blah blah blah #squill #sleeping
-but friendship takes time #squill
+there is something about the process that can feel very artificial, you know? #squill #question
+oh hey, how are you doing, what are you up to, blah blah small talk blah blah blah #squill #sleeping
+but friendship takes time to develop #squill
 and efforts #squill #tired
-it's not something you can force #squill
+it's not something you can force or rush #squill
 so hopefully the time and effort i put in organizing a party will convince others to love me right?? #squill #question
 Grasp the nettle Bestie!! uh, Squilliam!! I'm sure you've got this!
 
@@ -242,7 +242,7 @@ no but bestie, hear me out. #squill
 self-pep-talks are super important. #squill #sassy
 but for this once i feel like i need the support of a super strong and independent bestie like you. #squill
 could you do that for me? pretty please??? i'm literally begging right now lmaooo #squill #question
-[Squilliam looks at you with a pityful grim]
+[Squilliam looks at you with teary eyes and a pitiful grin]
 [Her eyes have never looked so round and wet] #squill #sad
 * Squilliam, you are enough. Your good faith is all that matters.
 ->heart
@@ -283,8 +283,8 @@ and perhaps that will be enough #squill
 perhaps not #squill #sad
 hahahhhaha right? ;o) #squill  #sassy
 i guess that's how life goes after all #squill
-thank you for being a bestie by my side. #squill #relief
-i'll give some more thought to the party program and i'll come back tomorrow to invite you all. #squill
+thank you for being a great bestie, always on my side. #squill #relief
+i'll give some more thought to the party planning and i'll come back tomorrow to invite you all. #squill
 see ya bestie!! #squill #bye
 Have a nice evening Squilliam!
 -> ending
@@ -298,8 +298,8 @@ I see things. So many things. All happening at once. Like in a perfect circle. #
 I see the moon hidden by purple clouds. #inky
 I see the sun as its own entity, pursuing an endless race against a clock ticking at every seconds that passes. #inky
 I see the essence of matter. #inky #angry
-I feel the purpose of solidity, the roughness of air, and the fresh crisp of leaves I'd be walking on if I had feet. #inky
-I see chaos as the one true thing reuniting us, for only the tumult can both hold and release what it takes for life to occur... #inky #answer
+I feel the purpose of solidity, the roughness of air, and the fresh crispness of leaves I'd be walking on if I had feet. #inky
+I see chaos as the one true thing uniting us all , for only the tumult can both hold and release what it takes for life to occur... #inky #answer
 For the world to be, and for all its beings to be at the same time. #inky
 * Okay, I'd say that's quite... intense.
 -> intense
@@ -354,7 +354,7 @@ Ah, I'm rambling. I guess I'm a little homesick. #inky #sad
 You can miss your home. #inky
 Or miss a place that felt like home. #inky
 Or even miss a place where you felt like a complete stranger. #inky
-As long as there was life... #inky #tired
+As long as there is life... #inky #tired
 There are emotions to be felt. #inky
 And places to be missed. #inky #sad
 I am happy we can relate on this subject, as beings from different worlds merging into one. #inky #happy
