@@ -39,7 +39,7 @@ public class MB_NPCBehavior_Inky : MB_NPCBehavior
             PlayReaction();
         }
 
-        InkyAppearanceTimeRemaining = 1.2f;
+        InkyAppearanceTimeRemaining = 3.0f;
 
         Portal.gameObject.SetActive(true);
         Tentacles.gameObject.SetActive(true);

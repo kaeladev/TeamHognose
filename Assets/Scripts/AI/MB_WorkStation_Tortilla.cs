@@ -96,7 +96,8 @@ public class MB_WorkStation_Tortilla : MB_WorkStation
             if (!DoggieBag.gameObject.activeSelf)
             {
                 DoggieBag.gameObject.SetActive(true);
-                NPC.ProductionComplete.Invoke(NPC.InkyGrabPosition, 16, NPC.InkyGrabScale);
+                NPC.ProductionComplete.Invoke(NPC.InkyGrabPosition, 17
+                    , NPC.InkyGrabScale);
                 FMODUnity.RuntimeManager.PlayOneShot(GrabBagAudioPath, gameObject.transform.position);
             }
         }
