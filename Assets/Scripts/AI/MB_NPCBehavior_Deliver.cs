@@ -10,6 +10,7 @@ public class MB_NPCBehavior_Deliver : MB_NPCBehavior
     public float WalkingSpeed = 2.0f;
     public float RunningSpeed = 5.0f;
     public float AcceptableDistanceToPathingGoal = 10.0f;
+    public string GrabBagAudioPath;
 
     public Vector2 DeliveryPickupLocation;
     public Vector2 StoreDoorLocation;
@@ -121,7 +122,10 @@ public class MB_NPCBehavior_Deliver : MB_NPCBehavior
     void DropOffDelivery()
     {
         ProductionComplete.Invoke(InkyGrabPosition, GetDrawLayer(), InkyGrabScale);
+        FMODUnity.RuntimeManager.PlayOneShot(GrabBagAudioPath, CurrentPathingGoal);
+
         BakeryManager.CurrentBakeryInstance.StoredIngredients++;
+
         HasDelivery = false;
         CurrentPathingGoal = StoreDoorLocation;
         WaitInStoreTime = 5.0f;
@@ -131,6 +135,7 @@ public class MB_NPCBehavior_Deliver : MB_NPCBehavior
     void EnterStore()
     {
         FMODUnity.RuntimeManager.PlayOneShot(ArrivalSoundPath, CurrentPathingGoal);
+        
         DoorToUse.OpenDoor();
         CurrentPathingGoal = DeliveryDropoffLocation;
         IsInStore = true;
@@ -191,7 +196,7 @@ public class MB_NPCBehavior_Deliver : MB_NPCBehavior
             int LayerForSprite = RenderLayersOutsideStore[i];
             if (IsInStore)
             {
-                LayerForSprite += 6;
+                LayerForSprite += 7;
             }
             BodySprites[i].sortingOrder = LayerForSprite;
         }

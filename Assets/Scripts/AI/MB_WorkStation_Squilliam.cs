@@ -4,7 +4,6 @@ public class MB_WorkStation_Squilliam : MB_WorkStation
 {
     private SpriteRenderer SpriteRend;
     public Sprite[] MixingBowlSprites;
-    public string SoundEffectPath;
 
     protected float RawIngredients = 0.0f;
 

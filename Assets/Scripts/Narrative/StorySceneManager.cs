@@ -270,6 +270,15 @@ public class StorySceneManager : MonoBehaviour
                 case "yuzu":
                     BuiltByte = (byte)(BuiltByte | (byte)CharacterFlags.Yuzu);
                     break;
+                case "big":
+                    BuiltByte = (byte)(BuiltByte | (byte)CharacterFlags.Big);
+                    break;
+                case "mommy":
+                    BuiltByte = (byte)(BuiltByte | (byte)CharacterFlags.Mommy);
+                    break;
+                case "mummy":
+                    BuiltByte = (byte)(BuiltByte | (byte)CharacterFlags.Mummy);
+                    break;
                 case "all":
                     BuiltByte = (byte)CharacterFlags.All;
                     break;

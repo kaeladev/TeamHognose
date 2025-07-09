@@ -1,3 +1,4 @@
+using FMOD.Studio;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -12,9 +13,31 @@ abstract public class MB_WorkStation : MonoBehaviour
     [HideInInspector]
     public MB_NPCBehavior_Work NPC;
 
+    public string StationProgressAudioPath;
+    private EventInstance SFXInstance;
+    private bool IsSoundOn = false;
+
     public virtual void Update()
     {
         UpdateProduction();
+
+        if (StationProgressAudioPath.Length == 0)
+        {
+            return;
+        }
+
+        if (!IsSoundOn && IsMakingProgress())
+        {
+            SFXInstance = FMODUnity.RuntimeManager.CreateInstance(StationProgressAudioPath);
+            SFXInstance.start();
+            IsSoundOn = true;
+        }
+        else if (IsSoundOn && !IsMakingProgress())
+        {
+            SFXInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+            SFXInstance.release();
+            IsSoundOn = false;
+        }
     }
 
     public virtual bool IsWaitingToWork()

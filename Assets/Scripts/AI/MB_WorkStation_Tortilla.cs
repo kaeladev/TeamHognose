@@ -9,6 +9,9 @@ public class MB_WorkStation_Tortilla : MB_WorkStation
     public int CustomersPerDay = 3;
     public Vector2 TimeRangeBetweenCustomerEntry;
     public Door DoorToControl;
+    public SpriteRenderer DoggieBag;
+    public string GrabBagAudioPath;
+    public string GiveBagAudioPath;
 
     private GameObject CustomerQueue;
     private Canvas Chalkboard;
@@ -30,6 +33,8 @@ public class MB_WorkStation_Tortilla : MB_WorkStation
 
     void Start()
     {
+        DoggieBag.gameObject.SetActive(false);
+
         TimeUntilCurrentCustomerServed = TimeToServeCusomter;
 
         if (TimeRangeBetweenCustomerEntry == Vector2.zero)
@@ -87,6 +92,13 @@ public class MB_WorkStation_Tortilla : MB_WorkStation
         if (IsMakingProgress())
         {
             CustomerEmoteString = "!";
+
+            if (!DoggieBag.gameObject.activeSelf)
+            {
+                DoggieBag.gameObject.SetActive(true);
+                NPC.ProductionComplete.Invoke(NPC.InkyGrabPosition, 16, NPC.InkyGrabScale);
+                FMODUnity.RuntimeManager.PlayOneShot(GrabBagAudioPath, gameObject.transform.position);
+            }
         }
         else if (FirstCustomerEmoteTicker < 1)
         {
@@ -115,8 +127,8 @@ public class MB_WorkStation_Tortilla : MB_WorkStation
                 TimeUntilCurrentCustomerServed = TimeToServeCusomter;
                 CustomersServedToday++;
                 DoorToControl.RingBell();
-
-                NPC.ProductionComplete.Invoke(NPC.InkyGrabPosition, 16, NPC.InkyGrabScale);
+                DoggieBag.gameObject.SetActive(false);
+                FMODUnity.RuntimeManager.PlayOneShot(GiveBagAudioPath, gameObject.transform.position);
 
                 Debug.Log("Customer #" + CustomersServedToday + " Served!");
             }
