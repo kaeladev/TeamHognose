@@ -35,7 +35,7 @@ and i get shipped to france with bigsoup #soup
 he's my big brother and i love him #soup
 so we move to france anyway, on n'a pas vraiment eu le choix de toutes manières #soup
 english is a little awkward but it's okay #soup
-i learnt on the internet right?
+i learnt on the internet right? #soup #question
 MR WORLDWIDE!!! #soup
 anyway i go here and eat all the bread #soup
 very delicious #soup
@@ -101,12 +101,12 @@ usually i talk super fast #soup
 WORLD CLASS YAPPER #soup #sassy
 because it's not super interesting right #soup
 so the faster I go, the faster it's over for the people #soup
-so they don't listen to long #soup
+so they don't listen too long #soup
 GOOD GUY LIL'SOUP!!! #soup
 MINDFUL CHATTERBOX!!! #soup #sassy
-* Hey LIL'SOUP. I like listening to you. You have a lot of energy and that is very precious.
-* You have many interesting things to share to the world. I'm looking forward to hearing more.
-* Hear me out, some people will love it and others won't. And to be quite frank: f*ck them!
+* I like listening to you. You have a lot of energy and that is very precious.
+* You're very interesting and I'm looking forward to hearing more.
+* Some people will love it and others won't. And to be honest: f*ck them!
 - oh thank you.... #soup
 BIG THANKS!!! #soup #relieved
 MAD THANKS FOR MY NEW FRIEND!!! #soup #happy
@@ -114,7 +114,7 @@ LET THOSE WHO WILL VIBE VIBE AND THOSE WHO WON'T VIBEN'T #soup #sassy
 i want to tell you all about my life and know about yours #soup
 thank you for chatting with me #soup
 TIME TO BOUNCE THOUGH #soup
-SEE YA LATER ALLIGATOR!! #soup #bye
+FAIS DE BEAUX REVES LEVERPASTEJ!! #soup #bye
 * Bye-bye LIL'SOUP!!
 
 -> ending
@@ -129,7 +129,7 @@ SOUPYING! #soup
 LIKE THERE'S NO TOMORROW #soup
 AND ESPECIALLY NOT A WORKING DAY LIKE THURSDAY FOR INSTANCE!!!! #soup
 I HOPE YOU HAVE FUN TONIGHT TOO!! #soup #sassy
-SEE YA LATER ALLIGATOR! #soup #bye
+FAIS DE BEAUX REVES LEVERPASTEJ!! #soup #bye
 
 -> ending
 

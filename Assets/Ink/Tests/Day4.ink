@@ -129,7 +129,7 @@ GOOD FOR YOU SOLITARY SOLO-SLEEPER-STAR!!! #soup
 -> whatdream
 
 == whatdream ==
-dreams... #score #good #tort
+dreams... #score #good #tort #soup
 I DREAM OF SOUP #soup #hello
 SOUP ADVENTURES #soup
 THOUSANDS OF SOUPS ALL AROUND THE WORLD #soup
@@ -159,7 +159,7 @@ Ahaha how cute, see you tomorrow guys! Sleep tight!
 -> ending
 
 == dreamlife ==
-sure #score 
+sure #score #soup #tort
 WORK ALL DAY #soup
 BAKERY WORK #soup
 SUPER WARM AND TIRING #soup
