@@ -17,9 +17,13 @@ abstract public class MB_WorkStation : MonoBehaviour
     private EventInstance SFXInstance;
     private bool IsSoundOn = false;
 
+    public Canvas DialogueCanvas;
+
     public virtual void Update()
     {
         UpdateProduction();
+
+        DialogueCanvas.gameObject.SetActive(IsWaitingToWork());
 
         if (StationProgressAudioPath.Length == 0)
         {
@@ -72,5 +76,13 @@ abstract public class MB_WorkStation : MonoBehaviour
             return true;
         }
         return false; 
+    }
+    private void OnDestroy()
+    {
+        if (IsSoundOn)
+        {
+            SFXInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+            SFXInstance.release();
+        }
     }
 }

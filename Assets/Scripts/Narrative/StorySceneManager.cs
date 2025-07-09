@@ -887,7 +887,6 @@ public class StorySceneManager : MonoBehaviour
                     case CharacterFlags.Squill:
                         return FontForSquilliam;
                     case CharacterFlags.Soup:
-                    case CharacterFlags.Big:
                         return FontForSoup;
                     case CharacterFlags.Tort:
                         return FontForTortilla;
