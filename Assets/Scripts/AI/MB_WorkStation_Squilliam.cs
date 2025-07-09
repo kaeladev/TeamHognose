@@ -47,8 +47,10 @@ public class MB_WorkStation_Squilliam : MB_WorkStation
         int IngredientsGrabbed = BakeryManager.CurrentBakeryInstance.GrabIngredients();
         RawIngredients = 0.5f * IngredientsGrabbed;
 
-        // Show Inky tentacles moving ingredients to bowl
-        NPC.ProductionComplete.Invoke(gameObject.transform.position, NPC.GetDrawLayer() + 4);
+        if (NPC)
+        {
+            NPC.ProductionComplete.Invoke(NPC.InkyGrabPosition, 30, NPC.InkyGrabScale);
+        }
     }
 
     protected override void UpdateProduction()

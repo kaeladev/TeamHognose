@@ -29,7 +29,7 @@ public class MB_WorkStation_LilSoup : MB_WorkStation
 
         if (ProductionPercentage >= 1)
         {
-            NPC.ProductionComplete.Invoke(InkyGrabPosition, 20);
+            NPC.ProductionComplete.Invoke(NPC.InkyGrabPosition, 30, NPC.InkyGrabScale);
             ProductionPercentage = 0;
             HasDoughToRoll = false;
             Debug.Log("Lil Soup Station Complete!");

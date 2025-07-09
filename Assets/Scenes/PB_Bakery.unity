@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 126263164}
   - component: {fileID: 126263165}
   m_Layer: 0
-  m_Name: BakingArea_Layer12
+  m_Name: BakingArea_Layer17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -199,7 +199,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 12
+  m_SortingOrder: 17
   m_Sprite: {fileID: 21300000, guid: 096ce0684d9450544acf6f835b3e72f4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1234,7 +1234,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 15
+  m_SortingOrder: 20
   m_Sprite: {fileID: 21300000, guid: 3359740abab3ac44facf558896af75e3, type: 3}
   m_Color: {r: 0.9622642, g: 0.9622642, b: 0.9622642, a: 1}
   m_FlipX: 0
@@ -1321,7 +1321,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 15
+  m_SortingOrder: 20
   m_Sprite: {fileID: 21300000, guid: 3359740abab3ac44facf558896af75e3, type: 3}
   m_Color: {r: 0.9622642, g: 0.9622642, b: 0.9622642, a: 1}
   m_FlipX: 0
@@ -1408,7 +1408,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 14
+  m_SortingOrder: 19
   m_Sprite: {fileID: 21300000, guid: b3cf26f8d82763649bd430d11af392b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1733,9 +1733,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HeartAnimController: {fileID: 0}
+  InkyGrabPosition: {x: 0, y: 0, z: 0}
+  InkyGrabScale: {x: 0, y: 0}
   ProductionComplete:
     m_PersistentCalls:
       m_Calls: []
+  Portal: {fileID: 1195736684}
 --- !u!114 &901430469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1751,11 +1754,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -890461871
+      Data2: 1251965652
+      Data3: -1962103919
+      Data4: 27980516
+    Path: event:/DLG/DLG_Inky_Reaction
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0
@@ -1765,8 +1768,8 @@ MonoBehaviour:
   NonRigidbodyVelocity: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: -1
-  OverrideMaxDistance: -1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!212 &901430470
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1810,7 +1813,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 8
   m_Sprite: {fileID: -8935091816293491894, guid: f7eee7b30bcee0346b71b757eeedadfe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1834,7 +1837,9 @@ Transform:
   m_LocalPosition: {x: -7.7, y: 1.08, z: 0}
   m_LocalScale: {x: 0.072, y: 0.072, z: 0.072}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1635009758}
+  - {fileID: 1195736685}
   m_Father: {fileID: 1687088999}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &923408170 stripped
@@ -2103,6 +2108,93 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1195736683
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1195736685}
+  - component: {fileID: 1195736684}
+  m_Layer: 0
+  m_Name: VoidPortal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!212 &1195736684
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195736683}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 7
+  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1195736685
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195736683}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -5.8, z: 0}
+  m_LocalScale: {x: 20, y: 5, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 901430471}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1248452577
 GameObject:
   m_ObjectHideFlags: 0
@@ -2647,7 +2739,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 15
+  m_SortingOrder: 20
   m_Sprite: {fileID: 21300000, guid: 19be9becad6edab4e9a72ac8e238ea47, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3044,7 +3136,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 15
+  m_SortingOrder: 20
   m_Sprite: {fileID: 21300000, guid: ca69005f40251f84a9410da6a7dfd192, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3056,6 +3148,116 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1635009757
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1635009758}
+  - component: {fileID: 1635009760}
+  - component: {fileID: 1635009759}
+  m_Layer: 0
+  m_Name: Tentacle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1635009758
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635009757}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 74.9, y: -2.4, z: 0.67845386}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 901430471}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1635009759
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635009757}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 8
+  m_Sprite: {fileID: 21300000, guid: b8739fd9e8569f54cb41510d8f10dcdf, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 38.399998, y: 38.399998}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!95 &1635009760
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635009757}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e2e71a8effbb3ca4b80d53f9de70f0dd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1687088998
 GameObject:
   m_ObjectHideFlags: 0
@@ -3653,7 +3855,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 13
+  m_SortingOrder: 18
   m_Sprite: {fileID: 21300000, guid: b3cf26f8d82763649bd430d11af392b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3941,7 +4143,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3050116552962692802, guid: 61a58bf7412649a488ff8f63fc83aef9, type: 3}
       propertyPath: m_SortingOrder
-      value: 17
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 3050116552962692802, guid: 61a58bf7412649a488ff8f63fc83aef9, type: 3}
       propertyPath: m_SortingLayerID
@@ -4322,7 +4524,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 510372823676823357, guid: 6bca85f5ffab1ad4d9568dd164211a4b, type: 3}
       propertyPath: m_SortingOrder
-      value: 15
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 719595134370382332, guid: 6bca85f5ffab1ad4d9568dd164211a4b, type: 3}
       propertyPath: EventReference.Path
@@ -4354,7 +4556,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 789155880295579654, guid: 6bca85f5ffab1ad4d9568dd164211a4b, type: 3}
       propertyPath: m_SortingOrder
-      value: 14
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 1150813475860118933, guid: 6bca85f5ffab1ad4d9568dd164211a4b, type: 3}
       propertyPath: m_Controller
@@ -4366,32 +4568,44 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1179204426320473783, guid: 6bca85f5ffab1ad4d9568dd164211a4b, type: 3}
       propertyPath: m_SortingOrder
-      value: 16
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 1194133485440104374, guid: 6bca85f5ffab1ad4d9568dd164211a4b, type: 3}
       propertyPath: m_SortingOrder
-      value: 16
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 1348286109605607205, guid: 6bca85f5ffab1ad4d9568dd164211a4b, type: 3}
       propertyPath: m_SortingOrder
-      value: 14
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 3576455630370875899, guid: 6bca85f5ffab1ad4d9568dd164211a4b, type: 3}
       propertyPath: m_SortingOrder
-      value: 14
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 3719105505452042279, guid: 6bca85f5ffab1ad4d9568dd164211a4b, type: 3}
       propertyPath: m_SortingOrder
-      value: 14
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 4364178328494847228, guid: 6bca85f5ffab1ad4d9568dd164211a4b, type: 3}
       propertyPath: CursorTexture
       value: 
       objectReference: {fileID: 2800000, guid: 71afed09404198d43bdad22bcf3e44a4, type: 3}
     - target: {fileID: 4364178328494847228, guid: 6bca85f5ffab1ad4d9568dd164211a4b, type: 3}
+      propertyPath: InkyGrabScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4364178328494847228, guid: 6bca85f5ffab1ad4d9568dd164211a4b, type: 3}
+      propertyPath: InkyGrabScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4364178328494847228, guid: 6bca85f5ffab1ad4d9568dd164211a4b, type: 3}
       propertyPath: HoverCursorTexture
       value: 
       objectReference: {fileID: 2800000, guid: fb0c32d5c608a5644a21d92d42f5ea8a, type: 3}
+    - target: {fileID: 4364178328494847228, guid: 6bca85f5ffab1ad4d9568dd164211a4b, type: 3}
+      propertyPath: InkyGrabPosition.x
+      value: -5
+      objectReference: {fileID: 0}
     - target: {fileID: 4364178328494847228, guid: 6bca85f5ffab1ad4d9568dd164211a4b, type: 3}
       propertyPath: HeartAnimController
       value: 
@@ -4410,11 +4624,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4609317635682768362, guid: 6bca85f5ffab1ad4d9568dd164211a4b, type: 3}
       propertyPath: m_SortingOrder
-      value: 14
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 5409559389208787732, guid: 6bca85f5ffab1ad4d9568dd164211a4b, type: 3}
       propertyPath: m_SortingOrder
-      value: 14
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 5800797421317161542, guid: 6bca85f5ffab1ad4d9568dd164211a4b, type: 3}
       propertyPath: m_SortingOrder
@@ -4470,7 +4684,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8610378942532212164, guid: 6bca85f5ffab1ad4d9568dd164211a4b, type: 3}
       propertyPath: m_SortingOrder
-      value: 14
+      value: 19
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8086684761272692250, guid: 6bca85f5ffab1ad4d9568dd164211a4b, type: 3}
@@ -4631,9 +4845,25 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2800000, guid: 71afed09404198d43bdad22bcf3e44a4, type: 3}
     - target: {fileID: 2516643560556866972, guid: bd8e8e2ab06b2c14cac66560914391c6, type: 3}
+      propertyPath: InkyGrabScale.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516643560556866972, guid: bd8e8e2ab06b2c14cac66560914391c6, type: 3}
+      propertyPath: InkyGrabScale.y
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516643560556866972, guid: bd8e8e2ab06b2c14cac66560914391c6, type: 3}
       propertyPath: HoverCursorTexture
       value: 
       objectReference: {fileID: 2800000, guid: fb0c32d5c608a5644a21d92d42f5ea8a, type: 3}
+    - target: {fileID: 2516643560556866972, guid: bd8e8e2ab06b2c14cac66560914391c6, type: 3}
+      propertyPath: InkyGrabPosition.x
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516643560556866972, guid: bd8e8e2ab06b2c14cac66560914391c6, type: 3}
+      propertyPath: InkyGrabPosition.y
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2516643560556866972, guid: bd8e8e2ab06b2c14cac66560914391c6, type: 3}
       propertyPath: HeartAnimController
       value: 
@@ -4897,7 +5127,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6859116500299673901, guid: 7ec3d839f743b6940a0c53140690dcac, type: 3}
       propertyPath: m_SortingOrder
-      value: 13
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 6859116500299673901, guid: 7ec3d839f743b6940a0c53140690dcac, type: 3}
       propertyPath: m_SortingLayerID
@@ -4994,11 +5224,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3417562508039790463, guid: 2abb164efe6c01a4abf6aaba2037b15b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.45
+      value: -11
       objectReference: {fileID: 0}
     - target: {fileID: 3417562508039790463, guid: 2abb164efe6c01a4abf6aaba2037b15b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.57
+      value: 2.2
       objectReference: {fileID: 0}
     - target: {fileID: 3417562508039790463, guid: 2abb164efe6c01a4abf6aaba2037b15b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5173,9 +5403,29 @@ PrefabInstance:
       value: event:/SFX/SFX_Yuzu_Leaving
       objectReference: {fileID: 0}
     - target: {fileID: 6597091529950585418, guid: 2abb164efe6c01a4abf6aaba2037b15b, type: 3}
+      propertyPath: InkyGrabScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597091529950585418, guid: 2abb164efe6c01a4abf6aaba2037b15b, type: 3}
+      propertyPath: InkyGrabScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597091529950585418, guid: 2abb164efe6c01a4abf6aaba2037b15b, type: 3}
       propertyPath: HoverCursorTexture
       value: 
       objectReference: {fileID: 2800000, guid: fb0c32d5c608a5644a21d92d42f5ea8a, type: 3}
+    - target: {fileID: 6597091529950585418, guid: 2abb164efe6c01a4abf6aaba2037b15b, type: 3}
+      propertyPath: InkyGrabPosition.x
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597091529950585418, guid: 2abb164efe6c01a4abf6aaba2037b15b, type: 3}
+      propertyPath: InkyGrabPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6597091529950585418, guid: 2abb164efe6c01a4abf6aaba2037b15b, type: 3}
+      propertyPath: InkyGrabPosition.z
+      value: 0.67845386
+      objectReference: {fileID: 0}
     - target: {fileID: 6597091529950585418, guid: 2abb164efe6c01a4abf6aaba2037b15b, type: 3}
       propertyPath: HeartAnimController
       value: 
@@ -5289,11 +5539,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 918266380883304216, guid: a6cf2b82133b6344780fe944b062ac42, type: 3}
       propertyPath: m_SortingOrder
-      value: 20
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 1249228757710663811, guid: a6cf2b82133b6344780fe944b062ac42, type: 3}
       propertyPath: m_SortingOrder
-      value: 21
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 1524616060199282760, guid: a6cf2b82133b6344780fe944b062ac42, type: 3}
       propertyPath: m_Size.x
@@ -5337,36 +5587,48 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4539433126351249797, guid: a6cf2b82133b6344780fe944b062ac42, type: 3}
       propertyPath: m_SortingOrder
-      value: 18
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 4548456881153306404, guid: a6cf2b82133b6344780fe944b062ac42, type: 3}
       propertyPath: m_SortingOrder
-      value: 18
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 4657408159460809643, guid: a6cf2b82133b6344780fe944b062ac42, type: 3}
       propertyPath: m_SortingOrder
-      value: 18
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 5129617672760234978, guid: a6cf2b82133b6344780fe944b062ac42, type: 3}
       propertyPath: m_SortingOrder
-      value: 24
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 5302913729475399005, guid: a6cf2b82133b6344780fe944b062ac42, type: 3}
       propertyPath: m_SortingOrder
-      value: 23
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 5370656406563725062, guid: a6cf2b82133b6344780fe944b062ac42, type: 3}
       propertyPath: m_SortingOrder
-      value: 17
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 6449585513343300270, guid: a6cf2b82133b6344780fe944b062ac42, type: 3}
       propertyPath: CursorTexture
       value: 
       objectReference: {fileID: 2800000, guid: 71afed09404198d43bdad22bcf3e44a4, type: 3}
     - target: {fileID: 6449585513343300270, guid: a6cf2b82133b6344780fe944b062ac42, type: 3}
+      propertyPath: InkyGrabScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6449585513343300270, guid: a6cf2b82133b6344780fe944b062ac42, type: 3}
+      propertyPath: InkyGrabScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6449585513343300270, guid: a6cf2b82133b6344780fe944b062ac42, type: 3}
       propertyPath: HoverCursorTexture
       value: 
       objectReference: {fileID: 2800000, guid: fb0c32d5c608a5644a21d92d42f5ea8a, type: 3}
+    - target: {fileID: 6449585513343300270, guid: a6cf2b82133b6344780fe944b062ac42, type: 3}
+      propertyPath: InkyGrabPosition.x
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6449585513343300270, guid: a6cf2b82133b6344780fe944b062ac42, type: 3}
       propertyPath: HeartAnimController
       value: 
@@ -5465,15 +5727,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8308879030995736783, guid: a6cf2b82133b6344780fe944b062ac42, type: 3}
       propertyPath: m_SortingOrder
-      value: 21
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 8630618299949146105, guid: a6cf2b82133b6344780fe944b062ac42, type: 3}
       propertyPath: m_SortingOrder
-      value: 18
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 9191776055404456829, guid: a6cf2b82133b6344780fe944b062ac42, type: 3}
       propertyPath: m_SortingOrder
-      value: 21
+      value: 26
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

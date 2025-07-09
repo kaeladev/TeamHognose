@@ -13,8 +13,11 @@ abstract public class MB_NPCBehavior : MonoBehaviour
     protected bool IsPlayerHovering = false;
     protected float HeartEmotingTime = 0;
 
+    public Vector3 InkyGrabPosition;
+    public Vector2 InkyGrabScale;
+
     [HideInInspector]
-    public UnityEvent<Vector2, int> ProductionComplete;
+    public UnityEvent<Vector2, int, Vector2> ProductionComplete;
 
     public virtual void Start()
     {

@@ -3,8 +3,6 @@ using UnityEngine.Events;
 
 abstract public class MB_WorkStation : MonoBehaviour
 {
-    public Vector3 InkyGrabPosition;
-
     // What % of production is completed per second when in use?
     public float ProductionRate = 1.0f;
 

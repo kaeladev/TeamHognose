@@ -120,7 +120,7 @@ public class MB_NPCBehavior_Deliver : MB_NPCBehavior
 
     void DropOffDelivery()
     {
-        ProductionComplete.Invoke(CurrentPathingGoal, GetDrawLayer() + 1);
+        ProductionComplete.Invoke(InkyGrabPosition, GetDrawLayer(), InkyGrabScale);
         BakeryManager.CurrentBakeryInstance.StoredIngredients++;
         HasDelivery = false;
         CurrentPathingGoal = StoreDoorLocation;
@@ -159,7 +159,7 @@ public class MB_NPCBehavior_Deliver : MB_NPCBehavior
 
     public override int GetDrawLayer()
     {
-        return 11;
+        return 16;
     }
 
     protected override void OnMouseOver()

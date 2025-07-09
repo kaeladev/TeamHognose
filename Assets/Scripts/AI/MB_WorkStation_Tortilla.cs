@@ -106,7 +106,6 @@ public class MB_WorkStation_Tortilla : MB_WorkStation
 
     protected override void UpdateProduction()
     {
-        // TODO: Can Tortilla only fill orders if there has been a recent batch finished by Lil Soup???
         if (IsMakingProgress())
         {
             TimeUntilCurrentCustomerServed -= Time.deltaTime;
@@ -116,6 +115,8 @@ public class MB_WorkStation_Tortilla : MB_WorkStation
                 TimeUntilCurrentCustomerServed = TimeToServeCusomter;
                 CustomersServedToday++;
                 DoorToControl.RingBell();
+
+                NPC.ProductionComplete.Invoke(NPC.InkyGrabPosition, 16, NPC.InkyGrabScale);
 
                 Debug.Log("Customer #" + CustomersServedToday + " Served!");
             }
