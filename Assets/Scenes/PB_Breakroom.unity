@@ -3553,6 +3553,7 @@ MonoBehaviour:
   - event:/MUSIC/MUS_Lil' Soup_Ending
   - event:/MUSIC/MUS_Tortilla_GoodEnding
   - event:/MUSIC/MUS_Yuzu_Ending
+  - event:/DLG/DLG_SoupSong
   FMODDialogueEventPaths: event:/DLG/DLG_
   NameText: {fileID: 9736267}
   DialogueText: {fileID: 547553645}

@@ -31,6 +31,10 @@ public class MB_NPCBehavior_Deliver : MB_NPCBehavior
     private Vector2 CurrentPathingGoal;
     private int[] RenderLayersOutsideStore;
 
+    public GameObject Flour1;
+    public GameObject Flower2;
+    public GameObject Floor3;
+
     public override void Start()
     {
         base.Start();
@@ -47,6 +51,10 @@ public class MB_NPCBehavior_Deliver : MB_NPCBehavior
     public override void Update()
     {
         base.Update();
+
+        Flour1.SetActive(BakeryManager.CurrentBakeryInstance.StoredIngredients > 0);
+        Flower2.SetActive(BakeryManager.CurrentBakeryInstance.StoredIngredients > 1);
+        Floor3.SetActive(BakeryManager.CurrentBakeryInstance.StoredIngredients > 2);
 
         bool IsIdling = WaitInStoreTime > 0;
 
