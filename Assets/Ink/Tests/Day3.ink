@@ -12,15 +12,15 @@ I'm looking forward a nice weekend hopefully! Time to pack my stuff and head hom
 == soup1 ==
 
 Hello LIL'SOUP, is that a good book?
-HELL YEAH HELLO!! READING SOME SKILLMAXXING THING!! #soup
+HELL YEAH HELLO!! READING SOME SKILLMAXXING THING!! #soup #hello
 What's that, "Swedish 101"? Are you going to Sweden?
-NO... BUT I WISH I COULD!! #soup
+NO... BUT I WISH I COULD!! #soup #answer
 Why is that?
-LONG STORY BUDDY, ARE YOU INTO SOUPLORE? #soup
+LONG STORY BUDDY, ARE YOU INTO SOUPLORE? #soup #question
 * I guess I can be!
 -> lore
 * Uh... How long can that be? 
-- I CAN DO LONG OR SHORT!!! STORY TELLING!! NARRATIVE DESIGN! #soup
+- I CAN DO LONG OR SHORT!!! STORY TELLING!! NARRATIVE DESIGN! #soup #sassy
 * Okay tell me some Soup lore!
 -> lore
 * The short version please!
@@ -49,8 +49,8 @@ but still great with many friends and i love my time here!!! #soup
 chopping all the cookies, never swallow them #soup
 i get i'm just this good at working #soup
 good soup #soup
-HARDCORE WORKER!! #soup
-MASSIVE MARXISM BETRAYAL!! #soup
+HARDCORE WORKER!! #soup #sassy
+MASSIVE MARXIST BETRAYAL!! #soup #angry
 -> soup2
 
 == shortlore== 
@@ -70,7 +70,7 @@ SPEEDRUN SOUPLORE ANYPERCENT!!! #soup
 == soup2 ==
 
 Woah, I guess that's quite a lot! What a life you have. 
-HELL YEAH, GOOD SOUP!! #soup
+HELL YEAH, GOOD SOUP!! #soup #sassy
 * That was good soup (lore) indeed, thanks a lot!
 -> thankssoup
 * So um, what are you doing tonight?
@@ -85,10 +85,10 @@ HELL YEAH, GOOD SOUP!! #soup
 NO WORRIES!!!! #soup #score
 I CAN MAXXLORE IN MINNTIME #soup
 SO YOU DON'T LOSE TOO MUCH TIME LISTENING TO LILSOUP #soup
-WORLD CLASS YAPPER RIGHT??? #soup
+WORLD CLASS YAPPER RIGHT??? #soup #sassy
 SEE YOU TOMORROW FRIEND!! #soup
-THANKS FOR CHATTING!!! #soup
-NIGHT NIGHT SLEEP TIGHT! #soup
+THANKS FOR CHATTING!!! #soup #happy
+NIGHT NIGHT SLEEP TIGHT! #soup #bye
 
 -> ending
 
@@ -96,25 +96,25 @@ NIGHT NIGHT SLEEP TIGHT! #soup
 
 thank you, I really liked talking to you #soup #score #good
 I'm surprised you stopped um, capslocking?
-i'm surprised you are interested in LIL'SOUP #soup 
+i'm surprised you are interested in LIL'SOUP #soup #relieved
 usually i talk super fast #soup
-WORLD CLASS YAPPER #soup
+WORLD CLASS YAPPER #soup #sassy
 because it's not super interesting right #soup
 so the faster I go, the faster it's over for the people #soup
 so they don't listen to long #soup
 GOOD GUY LIL'SOUP!!! #soup
-MINDFUL CHATTERBOX!!! #soup
+MINDFUL CHATTERBOX!!! #soup #sassy
 * Hey LIL'SOUP. I like listening to you. You have a lot of energy and that is very precious.
 * You have many interesting things to share to the world. I'm looking forward to hearing more.
 * Hear me out, some people will love it and others won't. And to be quite frank: f*ck them!
 - oh thank you.... #soup
-BIG THANKS!!! #soup
-MAD THANKS FOR MY NEW FRIEND!!! #soup
-LET THOSE WHO WILL VIBE VIBE AND THOSE WHO WON'T VIBEN'T #soup
+BIG THANKS!!! #soup #relieved
+MAD THANKS FOR MY NEW FRIEND!!! #soup #happy
+LET THOSE WHO WILL VIBE VIBE AND THOSE WHO WON'T VIBEN'T #soup #sassy
 i want to tell you all about my life and know about yours #soup
 thank you for chatting with me #soup
 TIME TO BOUNCE THOUGH #soup
-SEE YA LATER ALLIGATOR!! #soup
+SEE YA LATER ALLIGATOR!! #soup #bye
 * Bye-bye LIL'SOUP!!
 
 -> ending
@@ -122,14 +122,14 @@ SEE YA LATER ALLIGATOR!! #soup
 == tonightsoup ==
 
 OH YEAH SORRY #soup #score
-MAXIMUM DIGRESSION!!! #soup
-ANYWAY TONIGHT IS SOUP COZY NIGHT #soup
+MAXIMUM DIGRESSION!!! #soup 
+ANYWAY TONIGHT IS SOUP COZY NIGHT #soup #tired
 BLANKET, LITTLE SNACKS AND DOOMSCROLLING SOCIAL NETWORKS!! #soup
 SOUPYING! #soup
 LIKE THERE'S NO TOMORROW #soup
-AND ESPECIALLY NOT A ZORKING DAY LIKE THURSDAY FOR INSTANCE!!!! #soup
-I HOPE YOU HAVE FUN TONIGHT TOO!! #soup
-SEE YA LATER ALLIGATOR! #soup
+AND ESPECIALLY NOT A WORKING DAY LIKE THURSDAY FOR INSTANCE!!!! #soup
+I HOPE YOU HAVE FUN TONIGHT TOO!! #soup #sassy
+SEE YA LATER ALLIGATOR! #soup #bye
 
 -> ending
 
@@ -139,18 +139,18 @@ SEE YA LATER ALLIGATOR! #soup
 ... #tort
 Hello Tortilla!
 ... #tort
-[Grunts]
+[Grunts] #tort #sassy
 It's nice to see you. Doing good?
 ... #tort
 Ah, yes. #tort
-I am reflecting. #tort
+I am reflecting. #tort #happy
 Nice...
 Yes, sure is... #tort
 ...
-[Grunts] #tort
+[Grunts] #tort #sassy
 Anyway, there is a lot to think about. #tort
 And what is it you think about?
-Life and what's in it. Also my mommies. #tort
+Life and what's in it. Also my mommies. #tort #happy
 * Mommies? How cute of you to have mommies!
 -> mommies
 * What do you mean by mommies plural?
@@ -168,14 +168,14 @@ We play rock paper scissors. #tort
 I win all the time, I'm very good at rock paper scissors. #tort
 And very lucky. #tort
 At rock paper scissors, and at life in general. #tort
-I live a happy life. #tort
+I live a happy life. #tort #happy
 
 -> tort2
 
 == whatmommies ==
 
 I mean I have two mommies. #score #tort
-Both take really good care of me. #tort
+Both take really good care of me. #tort #happy
 I love them equally. #tort
 They pet me, feed me. #tort
 Together we watch movies. #tort
@@ -197,13 +197,13 @@ Why not after all...? #tort
 
 Some big rock came and then everything disappeared. #tort
 Still I rise. #tort
-I survived. #tort
+I survived. #tort #happy
 And some millions years after that, I found my mommies. #tort
 They're my family. #tort
 In my heart, they always were by my side. #tort
 We were lost in time, not space. #tort
 I have many a friends and families over the geological course of Earth and that makes me very lucky. #tort
-And happy. #tort
+And happy. #tort #happy
 And very talented at playing rock paper scissors. #tort
 Do you want to play with me? #tort
 * Sure, let's play rock paper scissors together.
@@ -221,7 +221,7 @@ Like dinosaurs. #tort
 But rock hates paper... #tort
 Never understood why... #tort
 But maybe all I needed was paper at the time... #tort
-Anyway, do you want to play now? #tort
+Anyway, do you want to play now? #tort #happy
 
 * Alright, let's play!
 -> rockpaperscissors
@@ -247,19 +247,19 @@ Okay so, close your eyes and make a choice. #tort
 and Tortilla chose {result}.
 {
     - choice == "Rock" && result == Scissor:
-        Oh, well played, you beat me! Very lucky! #tort
+        Oh, well played, you beat me! Very lucky! #tort #happy
     - choice == "Rock" && result == Paper:
-        Oopsie I'm sorry, I guess I won this time! #tort
+        Oopsie I'm sorry, I guess I won this time! #tort #sassy
     - choice == "Scissor" && result == Rock:
-        Oopsie I'm sorry, I guess I won this time! #tort
+        Oopsie I'm sorry, I guess I won this time! #tort #sassy
     - choice == "Scissor" && result == Paper:
-        Oh, well played, you beat me! Very lucky! #tort
+        Oh, well played, you beat me! Very lucky! #tort #happy
     - choice == "Paper" && result == Rock:
-        Oh, well played, you beat me! Very lucky! #tort
+        Oh, well played, you beat me! Very lucky! #tort #happy
     - choice == "Paper" && result == Scissor:
-        Oopsie I'm sorry, I guess I won this time! #tort
+        Oopsie I'm sorry, I guess I won this time! #tort c
     - else:
-        Hihi, I guess we both got lucky then hehe. We both lost... Or we both won! #tort
+        Hihi, I guess we both got lucky then hehe. We both lost... Or we both won! #tort #sassy
 }
 
 You're a good rock paper scissors player for sure. #score #good #tort
@@ -272,7 +272,7 @@ You are kind. And you too are lucky. #tort
 Our fate lie in the stars. #tort
 It's about the place and about the time. #tort 
 And I'm sure someday, somewhere, you will figure it all out. #tort
-Take good care my friend! #tort
+Take good care my friend! #tort #sassy
 I appreciate it Tortilla, thank you so much. Have a nice evening.
 -> ending
 
@@ -285,7 +285,7 @@ Sometimes we don't want to use it too much, because we're afraid we'll waste it.
 But worry not my friend, fate wipes the slate clean every time. #tort
 I wish we could have played, I hope some other time and place, we will. #tort
 And if it is meant to be, we will. #tort
-I'm gonna go back home now. #tort
+I'm gonna go back home now. #tort #sassy
 Enjoy your evening! #tort
 * Thanks a lot Tortilla, goodbye!
 
@@ -293,16 +293,16 @@ Enjoy your evening! #tort
 
 == group1 ==
 
-Sugar? #inky
-check!! #squill
-Soap? #inky
-check!!! #squill
-Cinnamon? #inky
-check!!!! #squill
+Sugar? #inky #hello
+check!! #squill #answer
+Soap? #inky #hello
+check!!! #squill #surprise
+Cinnamon? #inky #hello
+check!!!! #squill #sassy
 Flower...? Flour? #inky
-omg yes check!!!! yes bestie we have all this!!!!! chill out!! #squill
+omg yes check!!!! yes bestie we have all this!!!!! chill out!! #squill #angry
 Inventory is an annoying chore, but it's important.
-- damn right bestie!! #squill
+- damn right bestie!! #squill #sassy
 Wise observation for an intern. You will do well in the bakery business. #inky
 i always like to help with inventory business, tough work makes besties closer!! #squill
 * I mean, working together is a great place to start bonding with someone. -> bakeryfriends
@@ -312,13 +312,14 @@ i always like to help with inventory business, tough work makes besties closer!!
 
 Work is for work, first and foremost. #inky #score
 Befriending coworkers can happen, but is it really out of shared interests? #inky
-Would you have befriended this person if you met them at some party? #inky
-i... i'd love to befriend you inky!! #squill
-work is only bearable if we have friends to share with!! #squill
+Would you have befriended this person if you met them at some party? #inky #tired
+i... i'd love to befriend you inky!! #squill #happy
+work is only bearable if we have friends to share with!! #squill 
 good news, bad days, awkward social interactions!! #squill
 Don't you share all that with friends outside from work? #inky
-sure, i have a lot!!! like my roomates for instance!! i have so many of them, i have many ways to blow off some steam!! #squill
-but... it's just that... they're not there you know... #squill
+sure, i have a lot!!! like my roomates for instance!! #squill #happy
+i have so many of friends, i have many ways to blow off some steam!! #squill #sassy
+but... it's just that... they're not there you know... #squill #sad
 it's not the same to share with besties from afar! #squill
 
 -> group2
@@ -326,33 +327,33 @@ it's not the same to share with besties from afar! #squill
 == truefriendships ==
 
 oh you think so? #squill #score #good
-interesting point of view bestie!! #squill
+interesting point of view bestie!! #squill #sassy
 i always try my best for people to like me at work #squill
-i want to go to the water machine and for others to be like 'omg yes time for a break!!!' #squill
+i want to go to the water machine and for others to be like 'omg yes time for a break!!!' #squill #sassy
 i want them to be happy to see me when i arrive at work #squill
 not only workmate but also... #squill
-heartmate #squill
+heartmate #squill #sad
 that's my biggest dream #squill
-is it something doable outside from work...? #squill
+is it something doable outside from work...? #squill #tired
 i'm not sure anyone would want to see me outside of work #squill
-at least someone has to, right? hahahah ;o) #squill
+at least someone has to, right? hahahah ;o) #squill #sassy
 i come here, i work, i come home #squill
-do i even do things aside from working? #squill 
-lol, crazy, right bestie?? #squill
+do i even do things aside from working? #squill #question
+lol, crazy, right bestie?? #squill #surprise
 -> group2
 
 == group2 ==
 
 A tough subject, friendships... #inky
-Finding your people is difficult. #inky
-Sometimes you just meet someone and it's an evidence. #inky
+Finding your people is difficult. #inky #sad
+Sometimes you just meet someone and it's an evidence. #inky #happy
 Some other times, sharing the same joys or burdens bring people closer. #inky
 So I understand what you mean Squill. #inky
 And I'm quite happy to have you as a coworker. #inky
-omg thxxxx bestie!!! #squill
+omg thxxxx bestie!!! #squill #sassy
 i'm happy to work with you too #squill
-and maybe we could hang outside of work too #squill
-Sure, maybe! But I have so much work to do. #inky
+and maybe we could hang outside of work too #squill #question
+Sure, maybe! But I have so much work to do. #inky #tired
 * You're always hard at work. Don't you think you deserve a pause?
 -> pause
 
@@ -362,29 +363,29 @@ Sure, maybe! But I have so much work to do. #inky
 == pause ==
 
 A proper shop requires a solid team and good products to sell. #inky #score #good
-It's not only about the clients, it's also about the culture. #inky
-Bringing people together, sharing things they love. #inky
+It's not only about the clients, it's also about the culture. #inky 
+Bringing people together, sharing things they love. #inky #happy
 This is what I aspire to and why I work so hard. #inky
-I want to add something to the community. #inky
+I want to add something to the community. #inky #tired
 And by doing so, contribute directly to its shaping. #inky
-The bakery becomes its own community, as a sub-part of a bigger network. #inky
-A place where peace, snacks, and kindness will prevail. #inky
-A place we can call our own, for us. #inky
-well said bestie!!! #squill
+The bakery becomes its own community, as a sub-part of a bigger network. #inky #relieved
+A place where peace, snacks, and kindness will prevail. #inky #happy
+A place we can call our own, for us. #inky #relieved
+well said bestie!!! #squill #sassy
 i hope i can be part of that community too #squill
 i want to do something that matters. #squill
 but i also think pauses are important!! #squill
-so inky, if you want a coffee break, come see me alright? #squill
+so inky, if you want a coffee break, come see me alright? #squill #question
 That's nice, thank you Squilliam. #inky
 Though I'm more into cocoa, we could share coffee breaks occasionally. #inky
 Speaking of break... #inky
-I think it's time for us to leave. #inky
+I think it's time for us to leave. #inky #bye
 It was a lovely discussion but I need my alone time to relax. #inky
-And my beauty sleep also. #inky
+And my beauty sleep also. #inky #sassy
 sure thing bestie!! #squill
 it was a nice bestie talk, i love you two!! #squill
 can't wait to see you tomorrow at the bakery!!! #squill
-buh-byeeee #squill
+buh-byeeee #squill #bye
 Take care, you two!
 
 -> ending
