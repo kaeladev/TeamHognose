@@ -11,12 +11,12 @@ public class MB_NPCBehavior_Deliver : MB_NPCBehavior
     public float RunningSpeed = 5.0f;
     public float AcceptableDistanceToPathingGoal = 10.0f;
 
-    public Vector2 DeliveryPickupLocation; // Should be offscreen/not visible
+    public Vector2 DeliveryPickupLocation;
     public Vector2 StoreDoorLocation;
     public Vector2 DeliveryDropoffLocation;
 
+    public Door DoorToUse;
     public string ArrivalSoundPath = "event:/SFX/SFX_Yuzu_Arrival_01";
-    public string LeaveSoundPath = "event:/SFX/SFX_Yuzu_Leaving";
     public Texture2D HoverCursorTexture = null;
     public Texture2D InteractCursorTexture = null;
 
@@ -42,7 +42,6 @@ public class MB_NPCBehavior_Deliver : MB_NPCBehavior
 
         if (IsIdling)
         {
-            // Deliverer is just idling
             WaitInStoreTime -= Time.deltaTime;
             if (AnimController.runtimeAnimatorController)
             {
@@ -78,7 +77,6 @@ public class MB_NPCBehavior_Deliver : MB_NPCBehavior
             Vector3 SwappedXTransform = SpriteRend.transform.localScale;
             Vector3 NormalizedDirection = GetNormalizedDirectionTowardsPathingGoal();
             
-            // Moving also may mean swapping sprite directions
             if ((Vector3.Dot(NormalizedDirection, new Vector3(1, 0, 0)) > 0 && SpriteRend.transform.localScale.x > 0)
                 || (Vector3.Dot(NormalizedDirection, new Vector3(1, 0, 0)) < 0 && SpriteRend.transform.localScale.x < 0))
             {
@@ -121,8 +119,8 @@ public class MB_NPCBehavior_Deliver : MB_NPCBehavior
 
     void EnterStore()
     {
-        // Play door opening anim
         FMODUnity.RuntimeManager.PlayOneShot(ArrivalSoundPath, CurrentPathingGoal);
+        DoorToUse.OpenDoor();
         CurrentPathingGoal = DeliveryDropoffLocation;
         IsInStore = true;
         SpriteRend.sortingOrder = RenderLayerOutsideStore + 4;
@@ -130,8 +128,7 @@ public class MB_NPCBehavior_Deliver : MB_NPCBehavior
 
     void ExitStore()
     {
-        // Play door opening anim
-        FMODUnity.RuntimeManager.PlayOneShot(LeaveSoundPath, CurrentPathingGoal);
+        DoorToUse.RingBell();
         CurrentPathingGoal = DeliveryPickupLocation;
         IsInStore = false;
         SpriteRend.sortingOrder = RenderLayerOutsideStore;

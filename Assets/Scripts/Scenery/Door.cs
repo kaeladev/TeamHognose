@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class Door : MonoBehaviour
 {
+    public string DoorBellAudioPath = "event:/SFX/SFX_Yuzu_Leaving";
     public Sprite ClosedDoorSign;
     public float TimeDoorSwingsOpen = 2.5f;
     private float TimeToCloseDoor = 0;
@@ -12,11 +13,9 @@ public class Door : MonoBehaviour
     {
         SpriteRend = GetComponent<SpriteRenderer>();
     }
-
-
     void Update()
     {
-        if (TimeToCloseDoor > 0) 
+        if (TimeToCloseDoor > 0)
         {
             TimeToCloseDoor -= Time.deltaTime;
             if (TimeToCloseDoor < 0)
@@ -32,12 +31,18 @@ public class Door : MonoBehaviour
 
     public void OpenDoor()
     {
-        SpriteRend.color = Color.black;
+        // TODO: Play door opening anim
         TimeToCloseDoor = TimeDoorSwingsOpen;
     }
 
     public void CloseDoor()
     {
-        SpriteRend.color = Color.white;
+        
+    }
+
+    public void RingBell()
+    {
+        OpenDoor();
+        FMODUnity.RuntimeManager.PlayOneShot(DoorBellAudioPath, gameObject.transform.position);
     }
 }
