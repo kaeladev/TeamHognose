@@ -259,7 +259,7 @@ please sing me something to help me catch my breath, or i will die!!!! #squill #
 -> toxic
 * y-you wanna guess the color of my ;) underwear
 -> charlixcx
-* i gotta feeling... that tonight's gonna be a good night, that tonight's gonna be a good night, that tonight's gonna be a good good nighttt...
+* i gotta feeling... that tonight's gonna be a good night...
 -> bep
 
 == toxic ==
