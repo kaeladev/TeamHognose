@@ -171,7 +171,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c3787c969f708d40a2cc90d25f92f81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HeartAnimController: {fileID: 0}
+  ProductionComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  HoverCursorTexture: {fileID: 0}
+  InteractCursorTexture: {fileID: 0}
   IsWorking: 0
+  WorkStation: {fileID: 0}
 --- !u!114 &3695802671906556992
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,0 +1,1261 @@
+fileFormatVersion: 2
+guid: 4951769a4cc7bf14faaab7c7dddcb193
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2660799828755032955
+    second: LilSoup_Station_5_0
+  - first:
+      213: -4614146189653006971
+    second: LilSoup_Station_5_1
+  - first:
+      213: -8351868300860759623
+    second: LilSoup_Station_5_2
+  - first:
+      213: 935551087566150493
+    second: LilSoup_Station_5_3
+  - first:
+      213: 2166564307706683177
+    second: LilSoup_Station_5_4
+  - first:
+      213: 1335127225897300669
+    second: LilSoup_Station_5_5
+  - first:
+      213: 6375066901906283439
+    second: LilSoup_Station_5_6
+  - first:
+      213: 8532342921209844312
+    second: LilSoup_Station_5_7
+  - first:
+      213: -7883541828456079578
+    second: LilSoup_Station_5_8
+  - first:
+      213: 3073626389862329976
+    second: LilSoup_Station_5_9
+  - first:
+      213: 2836203543940141677
+    second: LilSoup_Station_5_10
+  - first:
+      213: -2595895372280118167
+    second: LilSoup_Station_5_11
+  - first:
+      213: 6920247979046927094
+    second: LilSoup_Station_5_12
+  - first:
+      213: 3107394943108712928
+    second: LilSoup_Station_5_13
+  - first:
+      213: -8395183670726980623
+    second: LilSoup_Station_5_14
+  - first:
+      213: -7694385636144947025
+    second: LilSoup_Station_5_15
+  - first:
+      213: 1836177897428793117
+    second: LilSoup_Station_5_16
+  - first:
+      213: -6526647820014371012
+    second: LilSoup_Station_5_17
+  - first:
+      213: -5157606805440547237
+    second: LilSoup_Station_5_18
+  - first:
+      213: 4699764571461795580
+    second: LilSoup_Station_5_19
+  - first:
+      213: 6351337043983515469
+    second: LilSoup_Station_5_20
+  - first:
+      213: 5371961044568745390
+    second: LilSoup_Station_5_21
+  - first:
+      213: -4449326825474163385
+    second: LilSoup_Station_5_22
+  - first:
+      213: -6841645200271871826
+    second: LilSoup_Station_5_23
+  - first:
+      213: -7323215040156856746
+    second: LilSoup_Station_5_24
+  - first:
+      213: -5628660095531774629
+    second: LilSoup_Station_5_25
+  - first:
+      213: 793647157046630192
+    second: LilSoup_Station_5_26
+  - first:
+      213: -1393644624265942348
+    second: LilSoup_Station_5_27
+  - first:
+      213: -4067055336504302534
+    second: LilSoup_Station_5_28
+  - first:
+      213: 5866784540719877902
+    second: LilSoup_Station_5_29
+  - first:
+      213: -4839623138648007915
+    second: LilSoup_Station_5_30
+  - first:
+      213: -3577683019898507070
+    second: LilSoup_Station_5_31
+  - first:
+      213: 9176085336188945465
+    second: LilSoup_Station_5_32
+  - first:
+      213: 806411338882653886
+    second: LilSoup_Station_5_33
+  - first:
+      213: 1224546929463530146
+    second: LilSoup_Station_5_34
+  - first:
+      213: -6473726194535739236
+    second: LilSoup_Station_5_35
+  - first:
+      213: -3596472474480500668
+    second: LilSoup_Station_5_36
+  - first:
+      213: -3616554194580196870
+    second: LilSoup_Station_5_37
+  - first:
+      213: -4081528032732763683
+    second: LilSoup_Station_5_38
+  - first:
+      213: -2587628613584610755
+    second: LilSoup_Station_5_39
+  - first:
+      213: -6645483446796351391
+    second: LilSoup_Station_5_40
+  - first:
+      213: 9069961728516645142
+    second: LilSoup_Station_5_41
+  - first:
+      213: -1075073303585346074
+    second: LilSoup_Station_5_42
+  - first:
+      213: -2596220840394824972
+    second: LilSoup_Station_5_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LilSoup_Station_5_0
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1020
+        width: 182
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 584d2ac37a0f21bd0800000000000000
+      internalID: -2660799828755032955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_1
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1035
+        width: 29
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 585a200cc7247ffb0800000000000000
+      internalID: -4614146189653006971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_2
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 1036
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1695cc704381c80800000000000000
+      internalID: -8351868300860759623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_3
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 1037
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b5c93e1cebbfc00800000000000000
+      internalID: 935551087566150493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_4
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1039
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f95e742ce211e10800000000000000
+      internalID: 2166564307706683177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_5
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 1038
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db2bf8d5323578210800000000000000
+      internalID: 1335127225897300669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_6
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1041
+        width: 38
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fab597b1299c87850800000000000000
+      internalID: 6375066901906283439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_7
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 1038
+        width: 33
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85218883ea8f86670800000000000000
+      internalID: 8532342921209844312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_8
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 1040
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62f11fec978089290800000000000000
+      internalID: -7883541828456079578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_9
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 1038
+        width: 38
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87ea204bae6b7aa20800000000000000
+      internalID: 3073626389862329976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_10
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 1038
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d62914ba8183c5720800000000000000
+      internalID: 2836203543940141677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_11
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1036
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 964c92d99e689fbd0800000000000000
+      internalID: -2595895372280118167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_12
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1034
+        width: 41
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6faf4b43fd8a90060800000000000000
+      internalID: 6920247979046927094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_13
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 1021
+        width: 168
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e907d0bc3faf1b20800000000000000
+      internalID: 3107394943108712928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_14
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 1015
+        width: 38
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb882a5ee05e7b80800000000000000
+      internalID: -8395183670726980623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_15
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 1020
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa066b0d70d083590800000000000000
+      internalID: -7694385636144947025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_16
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1021
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17baa8b11a6b7910800000000000000
+      internalID: 1836177897428793117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_17
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 1017
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f37f92360bc65a0800000000000000
+      internalID: -6526647820014371012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_18
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 1013
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b563496cfef7c68b0800000000000000
+      internalID: -5157606805440547237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_19
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 779
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe32f13afae83140800000000000000
+      internalID: 4699764571461795580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_20
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 284
+        width: 645
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4fba63046b742850800000000000000
+      internalID: 6351337043983515469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_21
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 770
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea5a1c0bb1a0d8a40800000000000000
+      internalID: 5371961044568745390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_22
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 790
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74dfef563d0d042c0800000000000000
+      internalID: -4449326825474163385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_23
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 810
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea0f98e50f79d01a0800000000000000
+      internalID: -6841645200271871826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_24
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 820
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65e07a598b6be5a90800000000000000
+      internalID: -7323215040156856746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_25
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 833
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d896c077bf2e1b0800000000000000
+      internalID: -5628660095531774629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_26
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 842
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03753c862e9930b00800000000000000
+      internalID: 793647157046630192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_27
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 855
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4baee7b1997c8ace0800000000000000
+      internalID: -1393644624265942348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_28
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 884
+        width: 49
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a34edc938baee87c0800000000000000
+      internalID: -4067055336504302534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_29
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 911
+        width: 49
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f8c5bc4710b6150800000000000000
+      internalID: 5866784540719877902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_30
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 937
+        width: 37
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51bdf16956436dcb0800000000000000
+      internalID: -4839623138648007915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_31
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 945
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c0b000bf34895ec0800000000000000
+      internalID: -3577683019898507070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_32
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 953
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 934863c0ff0085f70800000000000000
+      internalID: 9176085336188945465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_33
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 956
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe92f417d2f03b00800000000000000
+      internalID: 806411338882653886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_34
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 963
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a21875c1f67ef010800000000000000
+      internalID: 1224546929463530146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_35
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 970
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c905e894354b826a0800000000000000
+      internalID: -6473726194535739236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_36
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 976
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 440ae12e653c61ec0800000000000000
+      internalID: -3596472474480500668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_37
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 978
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af139111f1b6fcdc0800000000000000
+      internalID: -3616554194580196870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_38
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 984
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd92a2c01ef7b57c0800000000000000
+      internalID: -4081528032732763683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_39
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 992
+        width: 83
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a17ac5c75e61cd0800000000000000
+      internalID: -2587628613584610755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_40
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 1002
+        width: 49
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16807f0b30086c3a0800000000000000
+      internalID: -6645483446796351391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_41
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 1009
+        width: 34
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6116f9a232afedd70800000000000000
+      internalID: 9069961728516645142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_42
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 396
+        width: 426
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed2a40c6829411f0800000000000000
+      internalID: -1075073303585346074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LilSoup_Station_5_43
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 936
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f2ecc9a6ee58fbd0800000000000000
+      internalID: -2596220840394824972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LilSoup_Station_5_0: -2660799828755032955
+      LilSoup_Station_5_1: -4614146189653006971
+      LilSoup_Station_5_10: 2836203543940141677
+      LilSoup_Station_5_11: -2595895372280118167
+      LilSoup_Station_5_12: 6920247979046927094
+      LilSoup_Station_5_13: 3107394943108712928
+      LilSoup_Station_5_14: -8395183670726980623
+      LilSoup_Station_5_15: -7694385636144947025
+      LilSoup_Station_5_16: 1836177897428793117
+      LilSoup_Station_5_17: -6526647820014371012
+      LilSoup_Station_5_18: -5157606805440547237
+      LilSoup_Station_5_19: 4699764571461795580
+      LilSoup_Station_5_2: -8351868300860759623
+      LilSoup_Station_5_20: 6351337043983515469
+      LilSoup_Station_5_21: 5371961044568745390
+      LilSoup_Station_5_22: -4449326825474163385
+      LilSoup_Station_5_23: -6841645200271871826
+      LilSoup_Station_5_24: -7323215040156856746
+      LilSoup_Station_5_25: -5628660095531774629
+      LilSoup_Station_5_26: 793647157046630192
+      LilSoup_Station_5_27: -1393644624265942348
+      LilSoup_Station_5_28: -4067055336504302534
+      LilSoup_Station_5_29: 5866784540719877902
+      LilSoup_Station_5_3: 935551087566150493
+      LilSoup_Station_5_30: -4839623138648007915
+      LilSoup_Station_5_31: -3577683019898507070
+      LilSoup_Station_5_32: 9176085336188945465
+      LilSoup_Station_5_33: 806411338882653886
+      LilSoup_Station_5_34: 1224546929463530146
+      LilSoup_Station_5_35: -6473726194535739236
+      LilSoup_Station_5_36: -3596472474480500668
+      LilSoup_Station_5_37: -3616554194580196870
+      LilSoup_Station_5_38: -4081528032732763683
+      LilSoup_Station_5_39: -2587628613584610755
+      LilSoup_Station_5_4: 2166564307706683177
+      LilSoup_Station_5_40: -6645483446796351391
+      LilSoup_Station_5_41: 9069961728516645142
+      LilSoup_Station_5_42: -1075073303585346074
+      LilSoup_Station_5_43: -2596220840394824972
+      LilSoup_Station_5_5: 1335127225897300669
+      LilSoup_Station_5_6: 6375066901906283439
+      LilSoup_Station_5_7: 8532342921209844312
+      LilSoup_Station_5_8: -7883541828456079578
+      LilSoup_Station_5_9: 3073626389862329976
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

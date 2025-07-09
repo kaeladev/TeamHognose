@@ -42,7 +42,7 @@ abstract public class MB_NPCBehavior : MonoBehaviour
             return SpriteRend.sortingOrder;
         }
 
-        SpriteRenderer ChildSpriteRend = GetComponent<SpriteRenderer>();
+        SpriteRenderer ChildSpriteRend = GetComponentInChildren<SpriteRenderer>();
         if (ChildSpriteRend)
         {
             return ChildSpriteRend.sortingOrder;

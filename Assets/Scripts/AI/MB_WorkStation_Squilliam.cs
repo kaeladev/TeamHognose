@@ -2,21 +2,37 @@ using UnityEngine;
 
 public class MB_WorkStation_Squilliam : MB_WorkStation
 {
+    private SpriteRenderer SpriteRend;
+    public Sprite[] MixingBowlSprites;
+    public string SoundEffectPath;
+
     protected float RawIngredients = 0.0f;
 
-    public override void DisplayStationCompletion()
+    public void Start()
     {
-        if (IsMakingProgress())
-        {
-            Debug.Log("Squilliam Station Completion: " + ProductionPercentage.ToString());
-        }
+        SpriteRend = GetComponent<SpriteRenderer>();
     }
 
     public override void Update()
     {
         base.Update();
 
+        DisplayStationCompletion();
+
         TryGetIngredientsIfRequired();
+    }
+
+    public override void DisplayStationCompletion()
+    {
+        if (IsMakingProgress())
+        {
+            Debug.Log("Squilliam Station Completion: " + ProductionPercentage.ToString());
+
+            SpriteRend.sprite = MixingBowlSprites[1];
+            return;
+        }
+
+        SpriteRend.sprite = MixingBowlSprites[0];
     }
 
     void TryGetIngredientsIfRequired()

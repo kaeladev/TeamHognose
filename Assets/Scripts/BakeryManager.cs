@@ -13,6 +13,9 @@ public class BakeryManager : MonoBehaviour
     [HideInInspector]
     public float StoredIngredients = 1;
 
+    [HideInInspector]
+    public float BakedGoodsMade = 1;
+
     private Canvas SceneTransitionCanvas;
     private string PromptedLoadScene;
     private MB_WorkStation[] WorkStations;
@@ -56,6 +59,18 @@ public class BakeryManager : MonoBehaviour
         {
             PromptMenuScene();
         }
+    }
+
+    public bool GrabDoughBall()
+    {
+        foreach (MB_WorkStation WorkStation in WorkStations)
+        {
+            if (WorkStation.tag == "Squilliam")
+            {
+                return WorkStation.TakeAmount(0.5f);
+            }
+        }
+        return false;
     }
 
     public int GrabIngredients()

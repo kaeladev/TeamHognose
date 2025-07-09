@@ -28,7 +28,9 @@ public class MB_NPCBehavior_Work : MB_NPCBehavior
 
         if (AnimController.runtimeAnimatorController)
         {
-            AnimController.SetBool("IsWorking", WorkStation.IsMakingProgress());
+            AnimController.SetBool("IsWorking", IsWorking);
+            AnimController.SetBool("IsProgressing", WorkStation.IsMakingProgress());
+            AnimController.SetFloat("WorkPercentage", WorkStation.GetWorkCompletionPercentage());
         }
     }
 

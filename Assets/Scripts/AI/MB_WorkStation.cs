@@ -3,6 +3,8 @@ using UnityEngine.Events;
 
 abstract public class MB_WorkStation : MonoBehaviour
 {
+    public Vector3 InkyGrabPosition;
+
     // What % of production is completed per second when in use?
     public float ProductionRate = 1.0f;
 
@@ -35,4 +37,14 @@ abstract public class MB_WorkStation : MonoBehaviour
     public float GetWorkCompletionPercentage() { return ProductionPercentage; }
 
     public bool HasAmount(float Amount) { return ProductionPercentage >= Amount; }
+
+    public bool TakeAmount(float Amount)
+    {
+        if (HasAmount(Amount))
+        {
+            ProductionPercentage -= Amount;
+            return true;
+        }
+        return false; 
+    }
 }

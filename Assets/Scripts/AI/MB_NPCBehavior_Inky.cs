@@ -3,10 +3,10 @@ using UnityEngine;
 // For Inky only :3 All hail The Void
 public class MB_NPCBehavior_Inky : MB_NPCBehavior
 {
-    // TODO: TEMP - replace with tentacles and actual anims
     private float InkyAppearanceTimeRemaining = 0;
     private Vector3 OriginalLocation;
     private int OriginalDrawLayer;
+    private Animator Tentacles;
 
     public override void Start()
     {
@@ -27,13 +27,12 @@ public class MB_NPCBehavior_Inky : MB_NPCBehavior
         }
     }
 
-    // TODO: For now just have Inky pop up in the location
     public void OnInkyFetch(Vector2 FetchLocation, int DrawLayer)
     {
         PlayReaction();
         InkyAppearanceTimeRemaining = 2.0f;
 
-        // TODO: Make Inky look like theyre actually fetching from location
+        //Tentacles.gameObject.transform.position = FetchLocation;
         gameObject.transform.position = FetchLocation;
         SpriteRend.sortingOrder = DrawLayer;
     }

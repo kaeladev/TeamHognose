@@ -1,0 +1,1209 @@
+fileFormatVersion: 2
+guid: f8056ba1b957e07448604f9015151189
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4781055179096585822
+    second: EntryDoor_Open_Layer4_0
+  - first:
+      213: 8005372526251587710
+    second: EntryDoor_Open_Layer4_1
+  - first:
+      213: -8040560528553131757
+    second: EntryDoor_Open_Layer4_2
+  - first:
+      213: -881799094861040223
+    second: EntryDoor_Open_Layer4_3
+  - first:
+      213: 7491692327114801718
+    second: EntryDoor_Open_Layer4_4
+  - first:
+      213: -4444767942678072185
+    second: EntryDoor_Open_Layer4_5
+  - first:
+      213: 8988675410594979801
+    second: EntryDoor_Open_Layer4_6
+  - first:
+      213: 1500392270390184837
+    second: EntryDoor_Open_Layer4_7
+  - first:
+      213: -5129284320843781678
+    second: EntryDoor_Open_Layer4_8
+  - first:
+      213: 1409427369520837668
+    second: EntryDoor_Open_Layer4_9
+  - first:
+      213: -2643278316332116763
+    second: EntryDoor_Open_Layer4_10
+  - first:
+      213: 6252457783147147763
+    second: EntryDoor_Open_Layer4_11
+  - first:
+      213: 7915529013576800224
+    second: EntryDoor_Open_Layer4_12
+  - first:
+      213: 9194566151910581176
+    second: EntryDoor_Open_Layer4_13
+  - first:
+      213: -4325830878702815020
+    second: EntryDoor_Open_Layer4_14
+  - first:
+      213: 5783308008308802894
+    second: EntryDoor_Open_Layer4_15
+  - first:
+      213: 4394160291720960349
+    second: EntryDoor_Open_Layer4_16
+  - first:
+      213: 450419508896806022
+    second: EntryDoor_Open_Layer4_17
+  - first:
+      213: 2793625710872832333
+    second: EntryDoor_Open_Layer4_18
+  - first:
+      213: 4698024924914647993
+    second: EntryDoor_Open_Layer4_19
+  - first:
+      213: 7975685306556522367
+    second: EntryDoor_Open_Layer4_20
+  - first:
+      213: 671335589419017182
+    second: EntryDoor_Open_Layer4_21
+  - first:
+      213: 6693732962539568466
+    second: EntryDoor_Open_Layer4_22
+  - first:
+      213: 627884984387869076
+    second: EntryDoor_Open_Layer4_23
+  - first:
+      213: 4586230306506407894
+    second: EntryDoor_Open_Layer4_24
+  - first:
+      213: -2242143051269666725
+    second: EntryDoor_Open_Layer4_25
+  - first:
+      213: 7055030557780274594
+    second: EntryDoor_Open_Layer4_26
+  - first:
+      213: 5996062147802163696
+    second: EntryDoor_Open_Layer4_27
+  - first:
+      213: 7476262901861628486
+    second: EntryDoor_Open_Layer4_28
+  - first:
+      213: 9127183169558629945
+    second: EntryDoor_Open_Layer4_29
+  - first:
+      213: 6084019857194909210
+    second: EntryDoor_Open_Layer4_30
+  - first:
+      213: -6441188610024787005
+    second: EntryDoor_Open_Layer4_31
+  - first:
+      213: 7181364057292238724
+    second: EntryDoor_Open_Layer4_32
+  - first:
+      213: 4089633782914326128
+    second: EntryDoor_Open_Layer4_33
+  - first:
+      213: -4568739919536453575
+    second: EntryDoor_Open_Layer4_34
+  - first:
+      213: 3282627414762494025
+    second: EntryDoor_Open_Layer4_35
+  - first:
+      213: 4196529586595752975
+    second: EntryDoor_Open_Layer4_36
+  - first:
+      213: 5267451971725485435
+    second: EntryDoor_Open_Layer4_37
+  - first:
+      213: -5447635269898895164
+    second: EntryDoor_Open_Layer4_38
+  - first:
+      213: 3212380180571676947
+    second: EntryDoor_Open_Layer4_39
+  - first:
+      213: 4655603236921328370
+    second: EntryDoor_Open_Layer4_40
+  - first:
+      213: -963376063301889043
+    second: EntryDoor_Open_Layer4_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_0
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1020
+        width: 182
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e56f791ba58b95240800000000000000
+      internalID: 4781055179096585822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_1
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1035
+        width: 29
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e78b5e9f5ebc81f60800000000000000
+      internalID: 8005372526251587710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_2
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 1036
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 311409cccc03a6090800000000000000
+      internalID: -8040560528553131757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_3
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 1037
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a5fb8b256833c3f0800000000000000
+      internalID: -881799094861040223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_4
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1039
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63282349a76d7f760800000000000000
+      internalID: 7491692327114801718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_5
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 1038
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78431a30b130152c0800000000000000
+      internalID: -4444767942678072185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_6
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1041
+        width: 38
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df5dc179a03ebc70800000000000000
+      internalID: 8988675410594979801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_7
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 1038
+        width: 33
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b495c02d672d410800000000000000
+      internalID: 1500392270390184837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_8
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 1040
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d92028161f11d8b0800000000000000
+      internalID: -5129284320843781678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_9
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 1038
+        width: 38
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 424b001a9ba4f8310800000000000000
+      internalID: 1409427369520837668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_10
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 1038
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e418804060315bd0800000000000000
+      internalID: -2643278316332116763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_11
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1036
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1bc911a3135c650800000000000000
+      internalID: 6252457783147147763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_12
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1034
+        width: 41
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e71b8713bb99dd60800000000000000
+      internalID: 7915529013576800224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_13
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 1021
+        width: 168
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b3e5744339a99f70800000000000000
+      internalID: 9194566151910581176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_14
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 1015
+        width: 38
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8b08c2cbf87f3c0800000000000000
+      internalID: -4325830878702815020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_15
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 1020
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e450be50eff624050800000000000000
+      internalID: 5783308008308802894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_16
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1021
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d59972a01813bfc30800000000000000
+      internalID: 4394160291720960349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_17
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 1017
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68433bb2826304600800000000000000
+      internalID: 450419508896806022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_18
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 1013
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4929f368c3f4c620800000000000000
+      internalID: 2793625710872832333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_19
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 937
+        width: 37
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3087b27ccb23140800000000000000
+      internalID: 4698024924914647993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_20
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 945
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f9a9187835fae60800000000000000
+      internalID: 7975685306556522367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_21
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 953
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed3e5646920115900800000000000000
+      internalID: 671335589419017182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_22
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 956
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d7e7d1aaae4ec50800000000000000
+      internalID: 6693732962539568466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_23
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 963
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4999d3e0112b6b800800000000000000
+      internalID: 627884984387869076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_24
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 970
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dff1753a2095af30800000000000000
+      internalID: 4586230306506407894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_25
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 976
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b58067536ce42e0e0800000000000000
+      internalID: -2242143051269666725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_26
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 978
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ade404c9e088e160800000000000000
+      internalID: 7055030557780274594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_27
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 984
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f9e9e241ca463350800000000000000
+      internalID: 5996062147802163696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_28
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 992
+        width: 83
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ab4e09f7501c760800000000000000
+      internalID: 7476262901861628486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_29
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 1002
+        width: 49
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93e477d1cb44aae70800000000000000
+      internalID: 9127183169558629945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_30
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 1009
+        width: 34
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e768a53d7ce6450800000000000000
+      internalID: 6084019857194909210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_31
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 941
+        width: 298
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c33e28061d4c96a0800000000000000
+      internalID: -6441188610024787005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_32
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 936
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f69a5cf8459a360800000000000000
+      internalID: 7181364057292238724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_33
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 884
+        width: 49
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e9b0cf14c41c830800000000000000
+      internalID: 4089633782914326128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_34
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 911
+        width: 49
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93802e8df339890c0800000000000000
+      internalID: -4568739919536453575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_35
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 842
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94890eadd3c3e8d20800000000000000
+      internalID: 3282627414762494025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_36
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 855
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ce472cc611d3a30800000000000000
+      internalID: 4196529586595752975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_37
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 820
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75e02ef8afb91940800000000000000
+      internalID: 5267451971725485435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_38
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 833
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c089c7b59c1664b0800000000000000
+      internalID: -5447635269898895164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_39
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 798
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 311ea7a11caa49c20800000000000000
+      internalID: 3212380180571676947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_40
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 810
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2cadf3a760c9040800000000000000
+      internalID: 4655603236921328370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EntryDoor_Open_Layer4_41
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 277
+        width: 1217
+        height: 522
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de3d6c9139661a2f0800000000000000
+      internalID: -963376063301889043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      EntryDoor_Open_Layer4_0: 4781055179096585822
+      EntryDoor_Open_Layer4_1: 8005372526251587710
+      EntryDoor_Open_Layer4_10: -2643278316332116763
+      EntryDoor_Open_Layer4_11: 6252457783147147763
+      EntryDoor_Open_Layer4_12: 7915529013576800224
+      EntryDoor_Open_Layer4_13: 9194566151910581176
+      EntryDoor_Open_Layer4_14: -4325830878702815020
+      EntryDoor_Open_Layer4_15: 5783308008308802894
+      EntryDoor_Open_Layer4_16: 4394160291720960349
+      EntryDoor_Open_Layer4_17: 450419508896806022
+      EntryDoor_Open_Layer4_18: 2793625710872832333
+      EntryDoor_Open_Layer4_19: 4698024924914647993
+      EntryDoor_Open_Layer4_2: -8040560528553131757
+      EntryDoor_Open_Layer4_20: 7975685306556522367
+      EntryDoor_Open_Layer4_21: 671335589419017182
+      EntryDoor_Open_Layer4_22: 6693732962539568466
+      EntryDoor_Open_Layer4_23: 627884984387869076
+      EntryDoor_Open_Layer4_24: 4586230306506407894
+      EntryDoor_Open_Layer4_25: -2242143051269666725
+      EntryDoor_Open_Layer4_26: 7055030557780274594
+      EntryDoor_Open_Layer4_27: 5996062147802163696
+      EntryDoor_Open_Layer4_28: 7476262901861628486
+      EntryDoor_Open_Layer4_29: 9127183169558629945
+      EntryDoor_Open_Layer4_3: -881799094861040223
+      EntryDoor_Open_Layer4_30: 6084019857194909210
+      EntryDoor_Open_Layer4_31: -6441188610024787005
+      EntryDoor_Open_Layer4_32: 7181364057292238724
+      EntryDoor_Open_Layer4_33: 4089633782914326128
+      EntryDoor_Open_Layer4_34: -4568739919536453575
+      EntryDoor_Open_Layer4_35: 3282627414762494025
+      EntryDoor_Open_Layer4_36: 4196529586595752975
+      EntryDoor_Open_Layer4_37: 5267451971725485435
+      EntryDoor_Open_Layer4_38: -5447635269898895164
+      EntryDoor_Open_Layer4_39: 3212380180571676947
+      EntryDoor_Open_Layer4_4: 7491692327114801718
+      EntryDoor_Open_Layer4_40: 4655603236921328370
+      EntryDoor_Open_Layer4_41: -963376063301889043
+      EntryDoor_Open_Layer4_5: -4444767942678072185
+      EntryDoor_Open_Layer4_6: 8988675410594979801
+      EntryDoor_Open_Layer4_7: 1500392270390184837
+      EntryDoor_Open_Layer4_8: -5129284320843781678
+      EntryDoor_Open_Layer4_9: 1409427369520837668
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4861530798793053175}
   - component: {fileID: 6597091529950585418}
   - component: {fileID: 6340149417076161710}
+  - component: {fileID: 6543507217075083118}
   m_Layer: 0
   m_Name: Yuzu
   m_TagString: Untagged
@@ -79,12 +80,12 @@ SpriteRenderer:
   m_SortingLayerID: -1248129367
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: -4321812545132679078, guid: ee98bd657136dc046b467ec15618eebc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f9d16e81c8c0bea439bf196f980ea1d5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.7294118}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 20.48, y: 20.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -100,7 +101,7 @@ Animator:
   m_GameObject: {fileID: 7908797984820268756}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 81bb2b1fad457314d9c4f6ea6fd1579d, type: 2}
+  m_Controller: {fileID: 9100000, guid: 509dea7b62b05da41bef5ae7b338218b, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -124,12 +125,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04e72b54a983767448481dfe4c3580fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HeartAnimController: {fileID: 0}
+  ProductionComplete:
+    m_PersistentCalls:
+      m_Calls: []
   WalkingSpeed: 2
   RunningSpeed: 5
   AcceptableDistanceToPathingGoal: 1
   DeliveryPickupLocation: {x: 11, y: 3}
   StoreDoorLocation: {x: -9, y: 3}
   DeliveryDropoffLocation: {x: -7, y: 1}
+  DoorToUse: {fileID: 0}
+  ArrivalSoundPath: event:/SFX/SFX_Yuzu_Arrival_01
+  HoverCursorTexture: {fileID: 0}
+  InteractCursorTexture: {fileID: 0}
 --- !u!61 &6340149417076161710
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -168,11 +177,42 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.95, y: 4.07}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 20.48, y: 20.48}
+    newSize: {x: 20.48, y: 20.48}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   m_Size: {x: 3.95, y: 4.07}
   m_EdgeRadius: 0
+--- !u!114 &6543507217075083118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7908797984820268756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: -1
+  OverrideMaxDistance: -1
