@@ -203,7 +203,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 55.9
+  m_fontSize: 52.3
   m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2683,7 +2683,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 85d559c88d23d894597c14b6d3d7c05f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b4a73dd0bbdd6c84e894b4eb773ad845, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3564,7 +3564,7 @@ MonoBehaviour:
   OptionText_3_ChoiceB: {fileID: 477570902}
   OptionText_3_ChoiceC: {fileID: 581952259}
   FontForInky: {fileID: 11400000, guid: 43502abf3ae10474aa563bc1107746b3, type: 2}
-  FontForSquilliam: {fileID: 11400000, guid: 0fd5f8ade00f71d499519977c219297b, type: 2}
+  FontForSquilliam: {fileID: 11400000, guid: 68c1e6e701cdcb745a275416f8a1024c, type: 2}
   FontForSoup: {fileID: 11400000, guid: 267ff0c43f129c64ea9add7ad07de9a7, type: 2}
   FontForTortilla: {fileID: 11400000, guid: 9fff420a09237f14f8c6c5b43ce79e02, type: 2}
   FontForYuzu: {fileID: 11400000, guid: 571b65265c168824f9ddac10538e1ef1, type: 2}
