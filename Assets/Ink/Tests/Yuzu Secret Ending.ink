@@ -1,11 +1,11 @@
 #yuzu
-Woof!!! #yuzu
+Woof!!! #yuzu #hello
 Woof. #yuzu
-Woof... #yuzu
+Woof... #yuzu #alerted
 * Oh, it's nice to see you Yuzu!
 * Hellooo Yuzu, it's a surprise to see you there!
 - Woof! #yuzu
-Woof... #yuzu
+Woof... #yuzu #angry
 Hello buddy. #yuzu
 * ???
 * You can speak english now???
@@ -37,6 +37,6 @@ I eat them all. #yuzu
 All the snacks are mine now. #yuzu
 Hehehehehe! #yuzu
 So thank you for feeding me right? #yuzu
-You can hang at my villa anytime!! #yuzu
-Come chill whenever you want, VIP-FRIEND!! #yuzu
-And once again, thank you for your cooperation! #yuzu
+You can hang at my villa anytime!! #yuzu #happy
+Come chill whenever you want, VIP-FRIEND!! #yuzu #sassy
+And once again, thank you for your cooperation! #yuzu #bye

@@ -1,25 +1,25 @@
 #squill #inky #soup #yuzu #tort
 ...
-omg why are we here #squill
-no worries bestie, it's only saturday 8 am ;p #squill
-right??? #squill
-HELLO EVERYONE! #inky
+omg why are we here #squill #question
+no worries bestie, it's only saturday 8 am ;p #squill  #sassy
+right??? #squill #hello
+HELLO EVERYONE! #inky #hello
 Hi! #all
-I HAVE SOME IMPORTANT NEWS TO SHARE TODAY. #inky
-I received a letter in my mailbox. #inky
+I HAVE SOME IMPORTANT NEWS TO SHARE TODAY. #inky #angry
+I received a letter in my mailbox. #inky #alerted
 Let me read it to you: #inky
-"Dear Inky, #inky
-(That's me !) #inky
+"Dear Inky, #inky #hello
+(That's me !) #inky  #sassy
 I was looking at some Plûsh Brûlée data. #inky
 You appear to have exceeded your KPIs with consistency. #inky
 You developped your management skills in a team facing difficulties with productivity. #inky
 Your working-to-rest ratio highlights your ambitions and interests for the job. #inky
 Your OKRs were reached with success. #inky
 Your soft and hard skills are praised. #inky
-This is why I, #inky
-The Plûsh Brûlée Lead CEO, #inky 
+This is why I, #inky #relief
+The Plûsh Brûlée Lead CEO, #inky #angry
 promote you to a new position as: #inky 
-BAKERY SENIOR MANAGER - PLÛSH BRÛLÉE PROJECT LEAD #inky
+BAKERY SENIOR MANAGER - PLÛSH BRÛLÉE PROJECT LEAD #inky #angry
 
 I hope you will like it. #inky 
 I am sure you will do a good job and contribute to the success of the Plûsh Brûlée Bakery. #inky 
@@ -36,10 +36,11 @@ Lead CEO, Plûsh Brûlée Bakery, #inky
 Mignon Boulangerie Group" #inky
 
 ... #all
-is it like, a good news? #squill
-YES IT IS!! #inky
+is it like, a good news? #squill #question
+YES IT IS!! #inky #happy
 OMG CONGRATS!!!! #all
-With great powers come some responsabilities... Congratulations Inky! #tort
-HELL YEAH MERITOCRACY LEZZZGO!!! #soup
-UNGLASS THE CEILING BUD!!!! #soup
+With great powers come some responsabilities... Congratulations Inky! #tort #sassy
+HELL YEAH MERITOCRACY LEZZZGO!!! #soup  #sassy
+UNGLASS THE CEILING BUD!!!! #soup #happy
 Woof woof!! #yuzu
+Let's have a cocoa toast... For the bright future of The Plûsh Brûlée! #inky  #sassy

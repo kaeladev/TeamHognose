@@ -129,7 +129,7 @@ GOOD FOR YOU SOLITARY SOLO-SLEEPER-STAR!!! #soup
 -> whatdream
 
 == whatdream ==
-dreams... #score #good #tort
+dreams... #score #good #tort #soup
 I DREAM OF SOUP #soup #hello
 SOUP ADVENTURES #soup
 THOUSANDS OF SOUPS ALL AROUND THE WORLD #soup
@@ -159,7 +159,7 @@ Ahaha how cute, see you tomorrow guys! Sleep tight!
 -> ending
 
 == dreamlife ==
-sure #score 
+sure #score #soup #tort
 WORK ALL DAY #soup
 BAKERY WORK #soup
 SUPER WARM AND TIRING #soup
@@ -199,9 +199,9 @@ but i'm a bit scared... #squill #sad
 what if this is sending major AWKWARD vibes ;o)? #squill #sassy
 what if nobody wants to come?? #squill #question
 am i being weird right now?? #squill #angry
-* Sure, I guess it is stressful. But what's the worst that could happen?
+* Sure, it must be stressful. But what's the worst that could happen?
 -> worst
-* I understand your worries, but it's great that you're taking initiative!
+* I think it's great that you're taking initiative!
 -> initiative
 
 == worst ==
@@ -244,9 +244,9 @@ but for this once i feel like i need the support of a super strong and independe
 could you do that for me? pretty please??? i'm literally begging right now lmaooo #squill #question
 [Squilliam looks at you with a pityful grim]
 [Her eyes have never looked so round and wet] #squill #sad
-* Squilliam, you are enough. It's not about convincing, it's about your good heart.
+* Squilliam, you are enough. Your good faith is all that matters.
 ->heart
-* Squilliam, you are so cute. Stop worrying. Everyone will come to your party.
+* Squilliam, you are so cute. Stop worrying. Everyone will come.
 -> prep
 
 == heart ==
@@ -345,7 +345,7 @@ It's nothing and everything at the same time. #inky
 Everythingness. And nowhereness. #inky
 It's where I come from. #inky
 Ah, I'm rambling. I guess I'm a little homesick. #inky #sad
-* Even though I come from a normal place and not The Void, homesickness is a feeling I can relate to.
+* Homesickness is a feeling I can relate to.
 -> homesick
 * The Void sounds cool!
 -> coolvoid
