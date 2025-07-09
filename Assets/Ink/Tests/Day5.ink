@@ -26,7 +26,7 @@ WELL PLAYED BUDDY!!! #soup #hello
 A CLOSING SPEECH NOW!!! #soup #angry
 CLOSING SPEECH!! CLOSING SPEECH!!! #all
 * I had the best time at the bakery. Thank you so much for welcoming me!
-* I'm very glad for all the plushies I met here. You will remain in my heart forever.
+* You will remain in my heart forever.
 * My week of internship may be over, but I promise to visit!
 - WOO-HOOOO!!!! #all
 [Everybody gives you another round of applause] #all

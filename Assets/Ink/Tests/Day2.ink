@@ -36,10 +36,12 @@ BUDDY LET'S CHAT!!!! #soup #happy
 Music... #tort
 [grunts] #tort #sassy
 I like it! #tort
-PUNK HARDCORE!!! GANG CALLED SPEED, ONLY 01 SOUP!! HxC!!! #soup #angry
+PUNK HARDCORE!!! #soup #angry
+GANG CALLED SOUP!! #soup #angry
+HxC LIFE!!! #soup #angry
 [grunts] #tort #sassy
 WHAT DO YOU THINK ABOUT THE LATEST TURNSTILE ALBUM??? #soup #question
-* I like it! They play massive shows now, look surreal. I wished I discovered them earlier.
+* I like them! I wish I discovered them earlier.
 ->turnstilelove
 * They were better before, when they used to do real hardcore...
 ->turnstilehatred
@@ -67,7 +69,7 @@ BANDS CHANGE WHY DON'T YOU??? #soup #surprise
 SKILL ISSUE!!! #soup #angry
 Is 'real hardcore' real or is it a fond memory of yours? #tort
 Artistic nostalgia is both a memory and realness at the same time. #tort
-[Wisely] Woof! #yuzu #question
+[Wisely] Woof! #yuzu #bye
 WELL SAID BUDDY! #soup #sassy
 ->Group2
 
@@ -76,7 +78,7 @@ WELL SAID BUDDY! #soup #sassy
 They are a popular punk hardcore band at the moment. #tort #score #good
 They are softening up a bit, so if you aren't familiar with hardcore, you might like it. #tort #happy
 HELL YEAH, CURIOSITY!!! OPENING UP TO NEW THINGS!!! #soup #surprise
-OPEN-MAXEDNESS!!!!! #soup #sassy
+OPEN-MINDED-MAXEDNESS!!!!! #soup #sassy
 Woof! #yuzu #happy
  ->Group2
  
@@ -96,7 +98,7 @@ What is that sign of yours? #tort #sassy
 -> MyAstro
 * I don't know my sign
 -> IdkAstro
-* Don't you think astrology gives the same advice to everyone? That's not really believable...
+* Don't you think astrology kinda gives the same advice to everyone?
 -> NoAstro
 
 == MyAstro ==
@@ -125,7 +127,7 @@ My problems are the same as yours. My joys are the same as yours. My fears are t
 It's a comforting feeling. #tort #happy
 It's the same reason why I can be friends with LIL'SOUP and Yuzu. #tort
 We are different and we are the same at the same time. It's relieving. #tort #sassy
-Woof! #yuzu #question
+Woof! #yuzu #bye
 YOU'RE SO UNIQUE NOBODY FEELS THE SAME YOU DO? PITY! #soup #sad
 TEAM HUMANITY, TEAM GROUP, GO SAMENESS!!! #soup #happy
 INDIVIDUALITY-HATER!! #soup #sassy
