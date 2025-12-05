@@ -418,7 +418,7 @@ public class StorySceneManager : MonoBehaviour
                 return;
             }
             
-            if (PursuedCharacterName != "Inky" && GoodScoreOptionsSelected > 0 && GoodScoreOptionsSelected == ScoreAffectingOptionsDiscovered)
+            if (PursuedCharacterName != "INKY" && GoodScoreOptionsSelected > 0 && GoodScoreOptionsSelected == ScoreAffectingOptionsDiscovered)
             {
                 // Max score reached for pursued character == Good Ending! Yay!
                 Debug.Log("ENDING: GOOD " + PursuedCharacterName.ToUpper());
@@ -426,7 +426,7 @@ public class StorySceneManager : MonoBehaviour
                 EndingAudioPath = FinalAudios_Good[PursuedCharacterIndex];
                 BGCanvas.GetComponentInChildren<Image>(true).sprite = FinalScenesBG_Good[PursuedCharacterIndex];
             }
-            else if (PursuedCharacterName == "Inky" && BakeryShiftsCompleted == GetAmountOfWorkDays() && TimeSpentInBakery <= MaxBakeryTimeForSpeedRunEnding)
+            else if (PursuedCharacterName == "INKY" && BakeryShiftsCompleted == GetAmountOfWorkDays() && TimeSpentInBakery <= MaxBakeryTimeForSpeedRunEnding)
             {
                 Debug.Log("ENDING: VOID INKY");
                 CurrentInkScript = FinalScenes_Good[0];

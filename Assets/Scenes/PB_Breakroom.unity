@@ -3484,7 +3484,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   YuzuPetTimeForSecretEnding: 20
-  MaxBakeryTimeForSpeedRunEnding: 75
+  MaxBakeryTimeForSpeedRunEnding: 180
   GameIntroInkScene: {fileID: 4900000, guid: ff8dfe54b94ee7f4eac114e0f97901e0, type: 3}
   WorkDayInkScenes:
   - {fileID: 4900000, guid: 65b60bb0e8cec344085233ddc275a7e1, type: 3}
