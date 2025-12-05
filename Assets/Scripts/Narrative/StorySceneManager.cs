@@ -52,8 +52,8 @@ public class StorySceneManager : MonoBehaviour
     public static StorySceneManager PersistentStoryInstance;
 
     // Public Data to set up pre-known start-of-day scenes
-    public float                YuzuPetTimeForSecretEnding = 10.0f;
-    public float                MaxBakeryTimeForSpeedRunEnding = 100.0f;
+    public float                YuzuPetTimeForSecretEnding = 20.0f;
+    public float                MaxBakeryTimeForSpeedRunEnding = 75.0f;
     public TextAsset            GameIntroInkScene;
     public TextAsset[]          WorkDayInkScenes;
     public TextAsset[]          FinalScenes_Average;
@@ -408,13 +408,6 @@ public class StorySceneManager : MonoBehaviour
             EndingAudioPath = FinalAudios_Good[4];
             BGCanvas.GetComponentInChildren<Image>(true).sprite = FinalScenesBG_Good[4];
         }
-        else if (BakeryShiftsCompleted == GetAmountOfWorkDays() && TimeSpentInBakery <= MaxBakeryTimeForSpeedRunEnding)
-        {
-            Debug.Log("ENDING: VOID INKY");
-            CurrentInkScript = FinalScenes_Good[0];
-            EndingAudioPath = FinalAudios_Good[0];
-            BGCanvas.GetComponentInChildren<Image>(true).sprite = FinalScenesBG_Good[0];
-        }
         else if (PursuedCharacters != 0)
         {
             string PursuedCharacterName = GetNameForCharacterFlag((CharacterFlags)PursuedCharacters).ToUpper();
@@ -424,7 +417,7 @@ public class StorySceneManager : MonoBehaviour
                 Debug.Log("No appropriate ending found...");
                 return;
             }
-
+            
             if (PursuedCharacterName != "Inky" && GoodScoreOptionsSelected > 0 && GoodScoreOptionsSelected == ScoreAffectingOptionsDiscovered)
             {
                 // Max score reached for pursued character == Good Ending! Yay!
@@ -432,6 +425,13 @@ public class StorySceneManager : MonoBehaviour
                 CurrentInkScript = FinalScenes_Good[PursuedCharacterIndex];
                 EndingAudioPath = FinalAudios_Good[PursuedCharacterIndex];
                 BGCanvas.GetComponentInChildren<Image>(true).sprite = FinalScenesBG_Good[PursuedCharacterIndex];
+            }
+            else if (PursuedCharacterName == "Inky" && BakeryShiftsCompleted == GetAmountOfWorkDays() && TimeSpentInBakery <= MaxBakeryTimeForSpeedRunEnding)
+            {
+                Debug.Log("ENDING: VOID INKY");
+                CurrentInkScript = FinalScenes_Good[0];
+                EndingAudioPath = FinalAudios_Good[0];
+                BGCanvas.GetComponentInChildren<Image>(true).sprite = FinalScenesBG_Good[0];
             }
             else
             {
@@ -646,6 +646,12 @@ public class StorySceneManager : MonoBehaviour
         StopEndingAudio();
         BGCanvas.GetComponentInChildren<Image>(true).sprite = OriginalBGImage;
 
+        ScoreAffectingOptionsDiscovered = 0;
+        GoodScoreOptionsSelected = 0;
+        TimeYuzuPetted = 0.0f;
+        TimesYuzuFedTreat = 0;
+        BakeryShiftsCompleted = 0;
+        TimeSpentInBakery = 0.0f;
         CurrentDay = -1;
         CurrentStoryTags = new List<string>();
     }

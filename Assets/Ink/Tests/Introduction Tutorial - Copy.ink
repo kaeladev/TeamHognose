@@ -14,6 +14,5 @@ Miss Yuzu brings us fresh ingredients and delivers our products directly to cust
 Woof! #yuzu #hello
 When you see her, be sure to say hello. You can pet her too; she loves it! #inky #alerted
 Woof! #yuzu #happy
-Anyway, it's opening time! We will talk more later. #inky
-When you need a break from bakery life, the green door leads back to the break room!
+Anyway, it's opening time! We will talk more later in the break room. #inky
 I hope you enjoy your week of internship! #inky #bye

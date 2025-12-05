@@ -1,4 +1,4 @@
-It's almost the end of the week. I wonder what I'll do this week-end... Anyway, as usual, it's time to pack and go!
+It's almost the end of the week. I wonder what I'll do this week-end... Anyway, it's time to pack and go!
 
 * LilSoup and Tortilla are talking by the water dispenser #tort #soup
 -> Duo 

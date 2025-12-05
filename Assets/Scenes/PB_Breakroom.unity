@@ -486,7 +486,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1700, y: -680}
+  m_AnchoredPosition: {x: 1671, y: -680}
   m_SizeDelta: {x: 282.03552, y: 417.5712}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &100594590
@@ -1662,7 +1662,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: -2.900673, z: 0, w: -14.503288}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2623,16 +2623,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 777380106}
-  m_LocalRotation: {x: -0, y: -0, z: 0.5177471, w: -0.8555337}
+  m_LocalRotation: {x: -0.023042046, y: 0.028522596, z: 0.39735237, w: -0.9169333}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 754256175}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -62.362}
+  m_LocalEulerAnglesHint: {x: 1.122, y: -4.05, z: -46.899}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1398, y: -565}
+  m_AnchoredPosition: {x: 1380, y: -536}
   m_SizeDelta: {x: 532.48, y: 532.48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &777380108
@@ -3483,8 +3483,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 509c682fcae755e45a18c48ca5806d24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  YuzuPetTimeForSecretEnding: 15
-  MaxBakeryTimeForSpeedRunEnding: 300
+  YuzuPetTimeForSecretEnding: 20
+  MaxBakeryTimeForSpeedRunEnding: 75
   GameIntroInkScene: {fileID: 4900000, guid: ff8dfe54b94ee7f4eac114e0f97901e0, type: 3}
   WorkDayInkScenes:
   - {fileID: 4900000, guid: 65b60bb0e8cec344085233ddc275a7e1, type: 3}

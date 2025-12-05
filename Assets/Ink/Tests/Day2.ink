@@ -331,7 +331,7 @@ We do what we must... To keep this beautiful bakery operating. #inky #relieved
 Do you like working here so far? #inky
 * I like working at the bakery. ->bakerylove
 * This work is quite... different... from what I expected... ->bakeryplush
-* My dream is to become a baker. I need to find a job in a more realistic bakery. ->realbakery
+* My dream is to become a baker. I need to find a job in a real bakery. ->realbakery
 
 == bakerylove ==
 Nice, nice. #inky 

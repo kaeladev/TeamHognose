@@ -39,7 +39,7 @@ Teach The Void the baking knowledge of those who bake. #inky #angry
 Feed The Void. #inky #angry
 * I respect the call of The Void.
 * Sure, I will feed The Void.
-* Excuse me, but has none of the plushies ever tried going to the basement before...??
+* Wait, none of the plushies ever tried going to the basement before...??
 - All hail The Void. #inky #angry
 The mighty Void. #inky #angry
 All and one and everything different. #inky

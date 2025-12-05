@@ -6085,11 +6085,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5002307958913156152, guid: f61e83c534b7af04f86bbefc459024a5, type: 3}
       propertyPath: TimeRangeBetweenCustomerEntry.x
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5002307958913156152, guid: f61e83c534b7af04f86bbefc459024a5, type: 3}
       propertyPath: TimeRangeBetweenCustomerEntry.y
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5932623109122798580, guid: f61e83c534b7af04f86bbefc459024a5, type: 3}
       propertyPath: m_Name
